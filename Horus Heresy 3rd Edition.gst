@@ -52,7 +52,7 @@
         <characteristicType name="Traits" id="6a9a-2af3-00c4-d134"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Ranged Weapon" id="c591-09ed-3e6f-eb2b" hidden="false" sortIndex="2">
+    <profileType name="Ranged Weapon" id="c591-09ed-3e6f-eb2b" hidden="false" sortIndex="3">
       <characteristicTypes>
         <characteristicType name="R" id="cdb0-8654-6840-1037"/>
         <characteristicType name="FP" id="5037-1f27-1790-e355"/>
@@ -63,7 +63,7 @@
         <characteristicType name="Traits" id="1247-79d2-6cc1-8a03"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Melee Weapon" id="3587-6dcd-005c-c263" hidden="false" sortIndex="3">
+    <profileType name="Melee Weapon" id="3587-6dcd-005c-c263" hidden="false" sortIndex="4">
       <characteristicTypes>
         <characteristicType name="IM" id="6eec-4093-f946-1014"/>
         <characteristicType name="AM" id="03d0-6094-84f0-e27e"/>
@@ -72,6 +72,22 @@
         <characteristicType name="D" id="6a9d-4feb-065a-33e7"/>
         <characteristicType name="Special Rules" id="ebe0-7b28-b40c-694e"/>
         <characteristicType name="Traits" id="76e3-c188-bc65-3467"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Reaction" id="c14c-ecfd-ea65-58c9" hidden="false" sortIndex="7">
+      <characteristicTypes>
+        <characteristicType name="Description" id="5d02-0e54-0f6a-0f0b"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Vehicle" id="2a80-eec8-a736-2fe3" hidden="false" sortIndex="2"/>
+    <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="5">
+      <characteristicTypes>
+        <characteristicType name="Description" id="8e7d-a0ae-fd85-983c"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Warlord Trait" id="958f-cc14-b252-7179" hidden="false" sortIndex="6">
+      <characteristicTypes>
+        <characteristicType name="Description" id="8086-8fe7-1456-e180"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
