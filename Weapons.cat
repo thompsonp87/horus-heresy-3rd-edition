@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="a22d-4dd0-c59d-57d3" name="Weapons" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="true" id="a22d-4dd0-c59d-57d3" name="Weapons" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="2942-f783-d627-33c5">
+      <profiles>
+        <profile name="Bolt Pistol" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="8942-0add-2a97-19f2">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Saturnine Disruption Fist" hidden="false" id="487c-7be9-48db-e02a">
+      <profiles>
+        <profile name="Saturnine Disruption Fist" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="ac11-12db-d413-2ae4">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-2</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">-</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
