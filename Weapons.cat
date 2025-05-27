@@ -31,5 +31,100 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Pistol" hidden="false" id="32d1-2c70-882f-9467">
+      <profiles>
+        <profile name="Disintegrator Pistol" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="e478-ec04-af68-0b20">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Rifle" hidden="false" id="4273-9b82-0a75-92bb">
+      <profiles>
+        <profile name="Disintegrator Rifle" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7c5f-8070-e491-8712">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Disintegrator" hidden="false" id="5359-13c1-29ff-9d3c">
+      <profiles>
+        <profile name="Heavy Disintegrator" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="8bba-189e-4806-f7e1">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Blaster" hidden="false" id="0c29-e0e1-525b-4182">
+      <profiles>
+        <profile name="Disintegrator Blaster" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="ea21-5ecd-cf06-b9ea">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="d3f9-b9e6-3ea5-cc8e">
+      <profiles>
+        <profile name="Bolter" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1ec7-f2ae-0123-5766">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="659f-d52e-1515-2912">
+      <profiles>
+        <profile name="Plasma Pistol" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d37a-cbef-57b7-ce14">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
+    <selectionEntryGroup name="Minor Combi-Weapon" id="eef0-db97-3210-e593" hidden="false"/>
+    <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false"/>
+  </sharedSelectionEntryGroups>
 </catalogue>
