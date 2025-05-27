@@ -48,6 +48,8 @@
         <characteristicType name="IN" id="29c5-925d-5b1d-1e77"/>
         <characteristicType name="SAV" id="03bd-4ecb-351d-143b"/>
         <characteristicType name="INV" id="a951-a772-7ce0-0b64"/>
+        <characteristicType name="Special Rules" id="2cda-2fb9-4239-cbcb"/>
+        <characteristicType name="Traits" id="6a9a-2af3-00c4-d134"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Ranged Weapon" id="c591-09ed-3e6f-eb2b" hidden="false" sortIndex="2">
