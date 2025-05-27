@@ -30,4 +30,47 @@
   <costTypes>
     <costType name="Points" id="9893-c379-920b-8982" defaultCostLimit="-1"/>
   </costTypes>
+  <profileTypes>
+    <profileType name="Unit" id="a76f-8e23-8c3e-166d" hidden="false" sortIndex="1">
+      <characteristicTypes>
+        <characteristicType name="Unit Type" id="50fc-9241-d4a2-045b"/>
+        <characteristicType name="M" id="a106-a779-d272-5e93"/>
+        <characteristicType name="WS" id="253c-d694-4695-c89e"/>
+        <characteristicType name="BS" id="0cd5-b269-e3bc-028b"/>
+        <characteristicType name="S" id="498f-dce1-59fd-d8d7"/>
+        <characteristicType name="T" id="3120-8275-e537-ecd2"/>
+        <characteristicType name="W" id="f5cc-79a3-d302-cc1d"/>
+        <characteristicType name="I" id="af9d-7db8-dc95-71c1"/>
+        <characteristicType name="A" id="024e-bdb1-7982-25a0"/>
+        <characteristicType name="LD" id="02ad-ebe6-86e7-9fd6"/>
+        <characteristicType name="CL" id="9cd1-0e7c-2cd6-5f2f"/>
+        <characteristicType name="WP" id="f714-1726-37d3-44df"/>
+        <characteristicType name="IN" id="29c5-925d-5b1d-1e77"/>
+        <characteristicType name="SAV" id="03bd-4ecb-351d-143b"/>
+        <characteristicType name="INV" id="a951-a772-7ce0-0b64"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Ranged Weapon" id="c591-09ed-3e6f-eb2b" hidden="false" sortIndex="2">
+      <characteristicTypes>
+        <characteristicType name="R" id="cdb0-8654-6840-1037"/>
+        <characteristicType name="FP" id="5037-1f27-1790-e355"/>
+        <characteristicType name="RS" id="b9da-ee13-79f9-fa63"/>
+        <characteristicType name="AP" id="7a23-0248-2b94-5951"/>
+        <characteristicType name="D" id="88c3-1ca5-7dc1-f291"/>
+        <characteristicType name="Special Rules" id="5aad-137a-8ee2-63fd"/>
+        <characteristicType name="Traits" id="1247-79d2-6cc1-8a03"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Melee Weapon" id="3587-6dcd-005c-c263" hidden="false" sortIndex="3">
+      <characteristicTypes>
+        <characteristicType name="IM" id="6eec-4093-f946-1014"/>
+        <characteristicType name="AM" id="03d0-6094-84f0-e27e"/>
+        <characteristicType name="SM" id="4505-de6f-d4ae-6280"/>
+        <characteristicType name="AP" id="a014-126b-3b7b-27e8"/>
+        <characteristicType name="D" id="6a9d-4feb-065a-33e7"/>
+        <characteristicType name="Special Rules" id="ebe0-7b28-b40c-694e"/>
+        <characteristicType name="Traits" id="76e3-c188-bc65-3467"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
 </gameSystem>
