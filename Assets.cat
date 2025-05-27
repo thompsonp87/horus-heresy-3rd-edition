@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="5334-5605-242c-d75e" name="Assets" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Forward Ammunition Drop" hidden="false" id="7c64-4927-263b-d803">
+      <profiles>
+        <profile name="Forward Ammunition Drop" typeId="7ae0-de68-04c6-8d8f" typeName="Asset" hidden="false" id="736d-8b12-034f-b741">
+          <characteristics>
+            <characteristic typeId="3dcf-9034-fc2d-cd56" name="Setup"/>
+            <characteristic typeId="e965-60bc-cd79-63e7" name="Effect"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="9893-c379-920b-8982" value="0"/>
+        <cost name="Asset Points" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Points" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Strategic Cogitator Array" hidden="false" id="f397-7bc2-a0c5-b230"/>
+    <selectionEntry type="upgrade" import="true" name="Graviton Snares" hidden="false" id="add0-a31f-9c64-db1f"/>
+  </sharedSelectionEntries>
+</catalogue>
