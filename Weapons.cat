@@ -121,6 +121,111 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Bombard" hidden="false" id="9734-6aa8-f0fe-1930">
+      <profiles>
+        <profile name="Plasma Bombard" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="eb89-a498-0824-0d29">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Concussion Hammer" hidden="false" id="5245-80e4-d107-3847">
+      <profiles>
+        <profile name="Concussion Hammer" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="74f9-de9d-8866-1483">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014"/>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e"/>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280"/>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8"/>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7"/>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e"/>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Saturnine War Axe" hidden="false" id="2c38-5c75-ae96-1391">
+      <profiles>
+        <profile name="Saturnine War Axe" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="0ef2-782e-37a7-6d5b">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014"/>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e"/>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280"/>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8"/>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7"/>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e"/>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Blaster" hidden="false" id="3787-3dca-b6c9-f9e3">
+      <profiles>
+        <profile name="Plasma Blaster" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d47c-d15b-2d77-6114">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Plasma Bombard" hidden="false" id="ae1d-6f32-be87-b3c0">
+      <profiles>
+        <profile name="Heavy Plasma Bombard" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6313-e65b-a8d2-0db6">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disintegrator Cannon" hidden="false" id="4da0-ea75-bac1-5951">
+      <profiles>
+        <profile name="Disintegrator Cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="c692-7874-45a0-2088">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Photonic Incinerator" hidden="false" id="51f6-0820-9443-77e0">
+      <profiles>
+        <profile name="Photonic Incinerator" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7005-02dd-acc9-7584">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
