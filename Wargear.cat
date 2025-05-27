@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="fcc7-4319-bb04-2c25" name="Wargear" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Strato-vox" hidden="false" id="e3dd-d327-3f0b-265f"/>
+    <selectionEntry type="upgrade" import="true" name="Frag grenades" hidden="false" id="60e4-ca33-2e68-9afc"/>
+    <selectionEntry type="upgrade" import="true" name="Krak grenades" hidden="false" id="0c9b-a32b-87e2-fc3e"/>
+    <selectionEntry type="upgrade" import="true" name="Thermal Diffraction Field" hidden="false" id="ae43-8418-ecb1-ef6e"/>
+  </sharedSelectionEntries>
+</catalogue>
