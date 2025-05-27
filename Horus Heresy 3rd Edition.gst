@@ -2,9 +2,10 @@
 <gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6">
   <categoryEntries>
     <categoryEntry name="Default Category" id="default-category"/>
+    <categoryEntry name="Prime Force Organisation Slot" id="b851-cf09-9ce4-4dbe" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="Default Force" hidden="false" id="default-force">
+    <forceEntry name="Force Organisation Chart" hidden="false" id="default-force">
       <categoryLinks>
         <categoryLink name="Default Category" hidden="false" id="default-force-category-link" targetId="default-category"/>
       </categoryLinks>
@@ -28,7 +29,9 @@
     <publication name="Horus Heresy - Talons of the Emperor 3rd Edition" id="09c6-1c1d-03a7-9556" hidden="false" shortName="TE 3.0" publisher="Horus Heresy - Talons of the Emperor 3rd Edition"/>
   </publications>
   <costTypes>
-    <costType name="Points" id="9893-c379-920b-8982" defaultCostLimit="-1"/>
+    <costType name="Point(s)" id="9893-c379-920b-8982" defaultCostLimit="-1"/>
+    <costType name="Asset Point(s)" id="57e3-1031-7d4d-5ae3" defaultCostLimit="-1"/>
+    <costType name="Reaction Point(s)" id="c9ba-097e-c47f-ecc2" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
     <profileType name="Unit" id="a76f-8e23-8c3e-166d" hidden="false" sortIndex="1">
@@ -52,7 +55,7 @@
         <characteristicType name="Traits" id="6a9a-2af3-00c4-d134"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Ranged Weapon" id="c591-09ed-3e6f-eb2b" hidden="false" sortIndex="3">
+    <profileType name="Ranged Weapon" id="c591-09ed-3e6f-eb2b" hidden="false" sortIndex="4">
       <characteristicTypes>
         <characteristicType name="R" id="cdb0-8654-6840-1037"/>
         <characteristicType name="FP" id="5037-1f27-1790-e355"/>
@@ -63,7 +66,7 @@
         <characteristicType name="Traits" id="1247-79d2-6cc1-8a03"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Melee Weapon" id="3587-6dcd-005c-c263" hidden="false" sortIndex="4">
+    <profileType name="Melee Weapon" id="3587-6dcd-005c-c263" hidden="false" sortIndex="5">
       <characteristicTypes>
         <characteristicType name="IM" id="6eec-4093-f946-1014"/>
         <characteristicType name="AM" id="03d0-6094-84f0-e27e"/>
@@ -74,21 +77,36 @@
         <characteristicType name="Traits" id="76e3-c188-bc65-3467"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Reaction" id="c14c-ecfd-ea65-58c9" hidden="false" sortIndex="7">
+    <profileType name="Reaction" id="c14c-ecfd-ea65-58c9" hidden="false" sortIndex="8">
       <characteristicTypes>
         <characteristicType name="Description" id="5d02-0e54-0f6a-0f0b"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Vehicle" id="2a80-eec8-a736-2fe3" hidden="false" sortIndex="2"/>
-    <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="5">
+    <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="6">
       <characteristicTypes>
         <characteristicType name="Description" id="8e7d-a0ae-fd85-983c"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Warlord Trait" id="958f-cc14-b252-7179" hidden="false" sortIndex="6">
+    <profileType name="Warlord Trait" id="958f-cc14-b252-7179" hidden="false" sortIndex="7">
       <characteristicTypes>
         <characteristicType name="Description" id="8086-8fe7-1456-e180"/>
       </characteristicTypes>
     </profileType>
+    <profileType name="Asset" id="7ae0-de68-04c6-8d8f" hidden="false" sortIndex="3">
+      <characteristicTypes>
+        <characteristicType name="Setup" id="3dcf-9034-fc2d-cd56"/>
+        <characteristicType name="Effect" id="e965-60bc-cd79-63e7"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Prime Advantage" id="189b-7a78-a767-e624" hidden="false"/>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule name="Pinned" id="d518-ea26-a708-e6a1" hidden="false"/>
+    <rule name="Suppressed" id="da54-4383-2b80-2987" hidden="false"/>
+    <rule name="Stunned" id="a4d9-6b9e-822f-d40b" hidden="false"/>
+    <rule name="Routed" id="3fc1-3428-792e-2703" hidden="false"/>
+  </sharedRules>
 </gameSystem>
