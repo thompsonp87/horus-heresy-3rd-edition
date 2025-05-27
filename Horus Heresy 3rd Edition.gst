@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6">
   <categoryEntries>
     <categoryEntry name="Default Category" id="default-category"/>
   </categoryEntries>
