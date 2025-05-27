@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="612a-c68d-06d5-39be" name="Special Rules" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="true" id="106b-693b-99f2-00c3" name="Special Rules" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule name="Interdiction Cadres" id="a752-1dc3-403e-9336" hidden="false"/>
+    <rule name="Concealed Positions" id="3595-4991-0833-7b8b" hidden="false"/>
+    <rule name="Expendable (X)" id="c4d4-e053-9564-540b" hidden="false"/>
+    <rule name="Shred (X)" id="d01e-f96b-b5c1-8fb1" hidden="false"/>
+    <rule name="Battlefield Coordinators" id="35dd-79de-75f5-f2c8" hidden="false"/>
+    <rule name="Support Unit (X)" id="313f-7ed6-3833-e97c" hidden="false"/>
+    <rule name="Breaching (X)" id="b094-0b64-eb57-aed6" hidden="false"/>
+    <rule name="Heavy (X)" id="bc30-3b33-2683-01a2" hidden="false"/>
+    <rule name="Ordnance (X)" id="b6b3-909a-b78a-3dbf" hidden="false"/>
+    <rule name="Blast (X)" id="8687-05f8-7034-412c" hidden="false"/>
+    <rule name="Template" id="7df2-9e88-3285-cf6a" hidden="false"/>
+    <rule name="Deep Strike" id="0553-d06b-52b9-34db" hidden="false"/>
+  </sharedRules>
+</catalogue>
