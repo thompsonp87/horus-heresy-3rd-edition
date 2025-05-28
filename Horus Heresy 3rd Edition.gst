@@ -3,6 +3,7 @@
   <categoryEntries>
     <categoryEntry name="Default Category" id="default-category"/>
     <categoryEntry name="Prime Force Organisation Slot" id="b851-cf09-9ce4-4dbe" hidden="false"/>
+    <categoryEntry name="Asset" id="056e-e6a1-26fa-68db" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Force Organisation Chart" hidden="false" id="default-force">
@@ -86,7 +87,8 @@
     <profileType name="Vehicle" id="2a80-eec8-a736-2fe3" hidden="false" sortIndex="2"/>
     <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="6">
       <characteristicTypes>
-        <characteristicType name="Description" id="8e7d-a0ae-fd85-983c"/>
+        <characteristicType name="Summary" id="8e7d-a0ae-fd85-983c"/>
+        <characteristicType name="Description" id="9944-2f6d-d61b-03b5"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Warlord Trait" id="958f-cc14-b252-7179" hidden="false" sortIndex="7">
@@ -96,8 +98,9 @@
     </profileType>
     <profileType name="Asset" id="7ae0-de68-04c6-8d8f" hidden="false" sortIndex="3">
       <characteristicTypes>
-        <characteristicType name="Setup" id="3dcf-9034-fc2d-cd56"/>
-        <characteristicType name="Effect" id="e965-60bc-cd79-63e7"/>
+        <characteristicType name="Summary" id="3dcf-9034-fc2d-cd56"/>
+        <characteristicType name="Setup" id="e965-60bc-cd79-63e7"/>
+        <characteristicType name="Effect" id="bbd3-5482-ed3a-a3b3"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -110,5 +113,4 @@
     <rule name="Stunned" id="a4d9-6b9e-822f-d40b" hidden="false"/>
     <rule name="Routed" id="3fc1-3428-792e-2703" hidden="false"/>
   </sharedRules>
-  <readme/>
 </gameSystem>
