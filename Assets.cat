@@ -37,9 +37,9 @@
       <profiles>
         <profile name="Graviton Snares" typeId="7ae0-de68-04c6-8d8f" typeName="Asset" hidden="false" id="d099-232c-7c72-c88d">
           <characteristics>
-            <characteristic name="Summary" typeId="3dcf-9034-fc2d-cd56"/>
-            <characteristic name="Setup" typeId="e965-60bc-cd79-63e7"/>
-            <characteristic name="Effect" typeId="bbd3-5482-ed3a-a3b3"/>
+            <characteristic name="Summary" typeId="3dcf-9034-fc2d-cd56">Models close to a Graviton Snare risk becoming Pinned.</characteristic>
+            <characteristic name="Setup" typeId="e965-60bc-cd79-63e7">Each Graviton Snare Marker must be set up by the Player that selected it at the end of the Prepare the Battlefield Step of the Mission Sequence.</characteristic>
+            <characteristic name="Effect" typeId="bbd3-5482-ed3a-a3b3">If a Unit is selected to move in the Movement Phase or make a Charge Move while any Models from that Unit are within 6&quot; of the centre of a Graviton Snare Marker, the Controlling Player of that Unit must roll one Dice for each Model from that Unit. On a 1, that Model triggers the snare and the Unit that includes that Model gains the Pinned Tactical Status. and that Graviton Snare Marker is removed from the Battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
