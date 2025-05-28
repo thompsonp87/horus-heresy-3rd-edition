@@ -16,7 +16,35 @@
         <cost name="Reaction Points" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Strategic Cogitator Array" hidden="false" id="f397-7bc2-a0c5-b230"/>
-    <selectionEntry type="upgrade" import="true" name="Graviton Snares" hidden="false" id="add0-a31f-9c64-db1f"/>
+    <selectionEntry type="upgrade" import="true" name="Strategic Cogitator Array" hidden="false" id="f397-7bc2-a0c5-b230">
+      <profiles>
+        <profile name="Strategic Cogitator Array" typeId="7ae0-de68-04c6-8d8f" typeName="Asset" hidden="false" id="4e72-9a8e-c84e-3541">
+          <characteristics>
+            <characteristic name="Setup" typeId="3dcf-9034-fc2d-cd56"/>
+            <characteristic name="Effect" typeId="e965-60bc-cd79-63e7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Graviton Snares" hidden="false" id="add0-a31f-9c64-db1f">
+      <profiles>
+        <profile name="Graviton Snares" typeId="7ae0-de68-04c6-8d8f" typeName="Asset" hidden="false" id="d099-232c-7c72-c88d">
+          <characteristics>
+            <characteristic name="Setup" typeId="3dcf-9034-fc2d-cd56"/>
+            <characteristic name="Effect" typeId="e965-60bc-cd79-63e7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Disruption Emitter Charges" hidden="false" id="e62d-6141-61c3-beee">
+      <profiles>
+        <profile name="Disruption Emitter Charges" typeId="7ae0-de68-04c6-8d8f" typeName="Asset" hidden="false" id="40a5-a5a5-8ab9-82c7">
+          <characteristics>
+            <characteristic name="Setup" typeId="3dcf-9034-fc2d-cd56"/>
+            <characteristic name="Effect" typeId="e965-60bc-cd79-63e7"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

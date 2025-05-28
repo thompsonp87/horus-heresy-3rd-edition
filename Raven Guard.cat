@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Corvus Corax" hidden="false" id="e0a6-5800-3e64-4163"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="59d5-a49e-5f2a-92b7" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="142e-ae87-99ce-e4ef" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Weapons" id="d53d-233d-995d-287c" targetId="a22d-4dd0-c59d-57d3"/>
+    <catalogueLink type="catalogue" name="Traits" id="973e-b02d-b959-e70f" targetId="df17-7a05-0826-6e22"/>
+    <catalogueLink type="catalogue" name="Wargear" id="03e8-1258-68a0-4932" targetId="fcc7-4319-bb04-2c25"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="edd5-22ef-e81a-6bb4" targetId="106b-693b-99f2-00c3"/>
+  </catalogueLinks>
 </catalogue>

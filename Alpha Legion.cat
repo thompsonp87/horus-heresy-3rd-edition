@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Alpharius" hidden="false" id="df2e-ee83-e5e5-c333"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Weapons" id="f517-9095-a031-a8f1" targetId="a22d-4dd0-c59d-57d3"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="bdf3-371d-8418-3d60" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="acf4-fee3-1855-f850" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="e918-628e-ad6b-ba44" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Traits" id="3bd4-5c0e-f245-b34a" targetId="df17-7a05-0826-6e22"/>
+    <catalogueLink type="catalogue" name="Wargear" id="5570-7dc1-6f26-2f52" targetId="fcc7-4319-bb04-2c25"/>
+  </catalogueLinks>
 </catalogue>

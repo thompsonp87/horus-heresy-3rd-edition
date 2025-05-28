@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Lorgar" hidden="false" id="a763-c205-9fe6-46c1"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Assets" id="21bf-a185-39e4-3a85" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="c146-0f80-e55b-23eb" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Traits" id="0743-aaa0-01da-f5b8" targetId="df17-7a05-0826-6e22"/>
+    <catalogueLink type="catalogue" name="Weapons" id="3a57-4a09-c746-a1b4" targetId="a22d-4dd0-c59d-57d3"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="49b9-dcde-7a96-b668" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Wargear" id="e58d-6917-bbb1-fbc9" targetId="fcc7-4319-bb04-2c25"/>
+  </catalogueLinks>
 </catalogue>

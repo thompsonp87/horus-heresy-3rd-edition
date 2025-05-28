@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Konrad Kurze" hidden="false" id="f5fd-f425-c610-4a94"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="b75d-483c-74cd-bbe1" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="1711-f08c-f830-5c94" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Traits" id="04e6-a3e1-98c2-3ee5" targetId="df17-7a05-0826-6e22"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="622d-cd17-1cdf-d7f9" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Wargear" id="3222-b1a1-d526-fb8e" targetId="fcc7-4319-bb04-2c25"/>
+    <catalogueLink type="catalogue" name="Weapons" id="c5c1-714a-f90e-e319" targetId="a22d-4dd0-c59d-57d3"/>
+  </catalogueLinks>
 </catalogue>

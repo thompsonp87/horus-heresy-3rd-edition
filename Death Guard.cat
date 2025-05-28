@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mortarion" hidden="false" id="1e3b-2a3b-c76d-6f98"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="22b8-486e-a328-4558" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="ec73-d551-138a-6d89" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="2048-85f3-2683-bdbb" targetId="106b-693b-99f2-00c3" importRootEntries="false"/>
+    <catalogueLink type="catalogue" name="Weapons" id="0c89-3ea9-0712-d07e" targetId="a22d-4dd0-c59d-57d3" importRootEntries="false"/>
+    <catalogueLink type="catalogue" name="Wargear" id="4c2a-2625-e60c-ae8b" targetId="fcc7-4319-bb04-2c25" importRootEntries="false"/>
+    <catalogueLink type="catalogue" name="Traits" id="a4ad-3d99-19f6-8573" targetId="df17-7a05-0826-6e22" importRootEntries="false"/>
+  </catalogueLinks>
 </catalogue>

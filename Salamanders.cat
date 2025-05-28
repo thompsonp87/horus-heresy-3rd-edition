@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Vulkan" hidden="false" id="29d9-3ea2-0c2b-5c36"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="d382-c20c-501f-2808" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="19b9-ce6a-a6df-8f33" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Wargear" id="3ee9-5b93-fbf4-9824" targetId="fcc7-4319-bb04-2c25"/>
+    <catalogueLink type="catalogue" name="Traits" id="9765-ed19-5f07-d757" targetId="df17-7a05-0826-6e22"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="383b-24b7-e007-befb" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Weapons" id="ee7a-856f-787a-e488" targetId="a22d-4dd0-c59d-57d3"/>
+  </catalogueLinks>
 </catalogue>

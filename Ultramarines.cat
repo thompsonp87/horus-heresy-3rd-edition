@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Roboute Guilliman" hidden="false" id="8b5a-f212-1993-60bb"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="1aae-0d5f-c523-7fa1" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="1414-94af-0b5c-f294" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Weapons" id="94d7-080f-4f2e-c6b4" targetId="a22d-4dd0-c59d-57d3"/>
+    <catalogueLink type="catalogue" name="Wargear" id="4480-7061-1f54-0e3c" targetId="fcc7-4319-bb04-2c25"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="cde5-16e0-991a-92c1" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Traits" id="1571-2c74-dc8e-7e0f" targetId="df17-7a05-0826-6e22"/>
+  </catalogueLinks>
 </catalogue>

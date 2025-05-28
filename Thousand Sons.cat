@@ -3,4 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Magnus the Red" hidden="false" id="cf2e-fa27-23ce-7502"/>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="ffad-c920-8bc2-5248" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Assets" id="98fe-1055-acdd-bd01" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Wargear" id="8284-450c-689e-7df5" targetId="fcc7-4319-bb04-2c25"/>
+    <catalogueLink type="catalogue" name="Weapons" id="535f-9e4b-b083-53c2" targetId="a22d-4dd0-c59d-57d3"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="b09d-71c4-7d8f-38e4" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Traits" id="6051-427a-30c1-8d3f" targetId="df17-7a05-0826-6e22"/>
+  </catalogueLinks>
 </catalogue>
