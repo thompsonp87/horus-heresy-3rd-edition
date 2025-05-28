@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="9b32-f350-6aa9-9c09" name="Legiones Astartes" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="9b32-f350-6aa9-9c09" name="Legiones Astartes" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Tactical Squad" hidden="false" id="7b69-a372-a803-9c6f"/>
-    <selectionEntry type="upgrade" import="true" name="Rapier Battery" hidden="false" id="5e1a-86ac-b637-daf2"/>
-    <selectionEntry type="upgrade" import="true" name="Saturnine Terminator Squad" hidden="false" id="8b89-b309-c9bd-9c8a"/>
-    <selectionEntry type="upgrade" import="true" name="Centurion" hidden="false" id="3392-e93d-79bc-d648"/>
-    <selectionEntry type="upgrade" import="true" name="Saturnine Praetor" hidden="false" id="2a5a-8ab8-be4d-6fa7"/>
-    <selectionEntry type="upgrade" import="true" name="Assault Squad" hidden="false" id="470d-5d41-cc59-b85b"/>
-    <selectionEntry type="upgrade" import="true" name="Breacher Squad" hidden="false" id="b564-8809-1bcf-d8b3"/>
-    <selectionEntry type="upgrade" import="true" name="Tarantula Sentry Gun" hidden="false" id="f1cf-cca3-bfb2-0443"/>
-    <selectionEntry type="upgrade" import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="acef-2a3d-3434-7583"/>
-    <selectionEntry type="upgrade" import="true" name="Saturnine Dreadnought" hidden="false" id="b26e-1244-2dbc-2b6d"/>
+    <selectionEntry type="unit" import="true" name="Tactical Squad" hidden="false" id="7b69-a372-a803-9c6f"/>
+    <selectionEntry type="unit" import="true" name="Rapier Battery" hidden="false" id="5e1a-86ac-b637-daf2"/>
+    <selectionEntry type="unit" import="true" name="Saturnine Terminator Squad" hidden="false" id="8b89-b309-c9bd-9c8a"/>
+    <selectionEntry type="unit" import="true" name="Centurion" hidden="false" id="3392-e93d-79bc-d648"/>
+    <selectionEntry type="unit" import="true" name="Saturnine Praetor" hidden="false" id="2a5a-8ab8-be4d-6fa7"/>
+    <selectionEntry type="unit" import="true" name="Assault Squad" hidden="false" id="470d-5d41-cc59-b85b"/>
+    <selectionEntry type="unit" import="true" name="Breacher Squad" hidden="false" id="b564-8809-1bcf-d8b3"/>
+    <selectionEntry type="unit" import="true" name="Tarantula Sentry Gun" hidden="false" id="f1cf-cca3-bfb2-0443"/>
+    <selectionEntry type="unit" import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="acef-2a3d-3434-7583"/>
+    <selectionEntry type="unit" import="true" name="Saturnine Dreadnought" hidden="false" id="b26e-1244-2dbc-2b6d"/>
+    <selectionEntry type="unit" import="true" name="Fellblade Super-Heavy Tank" hidden="false" id="ca07-1c1d-3788-c9e5"/>
   </sharedSelectionEntries>
 </catalogue>
