@@ -8,10 +8,16 @@
     <rule name="Battlefield Coordinators" id="35dd-79de-75f5-f2c8" hidden="false"/>
     <rule name="Support Unit (X)" id="313f-7ed6-3833-e97c" hidden="false"/>
     <rule name="Breaching (X)" id="b094-0b64-eb57-aed6" hidden="false"/>
-    <rule name="Heavy (X)" id="bc30-3b33-2683-01a2" hidden="false"/>
+    <rule name="Heavy (X)" id="bc30-3b33-2683-01a2" hidden="false">
+      <description>Weapons with the Heavy (X) Special Rule gain +1 to a Characteristic when Stationary.
+
+When making a Shooting Attack with a Weapon that has the Heavy (X) Special Rule, a modifier of +1 is added to a Characteristic if the Model with that Weapon is part of a Unit that remained Stationary in the Controlling Player’s previous Movement Phase. If the Characteristic listed is AP, then instead it improves the AP by one Step. The value of X in the specific variant of the Heavy (X) Special Rule determines which Characteristic gains the +1 modifier.</description>
+    </rule>
     <rule name="Ordnance (X)" id="b6b3-909a-b78a-3dbf" hidden="false"/>
     <rule name="Blast (X)" id="8687-05f8-7034-412c" hidden="false"/>
     <rule name="Template" id="7df2-9e88-3285-cf6a" hidden="false"/>
     <rule name="Deep Strike" id="0553-d06b-52b9-34db" hidden="false"/>
+    <rule name="Overload (X)" id="1d3a-d1e2-871a-63ae" hidden="false"/>
+    <rule name="Melta (X)" id="8ef6-917e-93da-43c3" hidden="false"/>
   </sharedRules>
 </catalogue>
