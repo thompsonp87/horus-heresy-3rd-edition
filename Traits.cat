@@ -5,5 +5,11 @@
     <rule name="Explosive Asset" id="23a0-c17f-dee1-c309" hidden="false"/>
     <rule name="[Allegiance]" id="39fe-0f75-7412-ec91" hidden="false"/>
     <rule name="Smokescreen" id="91e8-5e87-c516-f44a" hidden="false"/>
+    <rule name="Bolt" id="84ec-b2d1-3fb4-019c" hidden="false"/>
+    <rule name="Melta" id="3a22-c39b-f7c8-be9a" hidden="false"/>
+    <rule name="Las" id="1043-e1a9-e5ab-a070" hidden="false"/>
+    <rule name="Melee" id="a37c-af14-0fcf-f04f" hidden="false"/>
+    <rule name="Power" id="7972-778b-1c28-3708" hidden="false"/>
+    <rule name="Disintegrator" id="2712-667b-8b20-ab1a" hidden="false"/>
   </sharedRules>
 </catalogue>
