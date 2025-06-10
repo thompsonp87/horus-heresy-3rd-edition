@@ -19,5 +19,11 @@ When making a Shooting Attack with a Weapon that has the Heavy (X) Special Rule,
     <rule name="Deep Strike" id="0553-d06b-52b9-34db" hidden="false"/>
     <rule name="Overload (X)" id="1d3a-d1e2-871a-63ae" hidden="false"/>
     <rule name="Melta (X)" id="8ef6-917e-93da-43c3" hidden="false"/>
+    <rule name="Duellist&apos;s Edge (X)" id="94bc-c69f-99b6-8ba0" hidden="false">
+      <description>A Weapon with the Duellist’s Edge (X) Special Rule grants a bonus to Focus Rolls in Challenges.
+
+
+In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared that the Model under their control will use a Weapon with the Duellist’s Edge (X) Special Rule or has the Duellist’s Edge (X) Special Rule, then that Player gains a bonus equal to the value of X on the Focus Roll.</description>
+    </rule>
   </sharedRules>
 </catalogue>
