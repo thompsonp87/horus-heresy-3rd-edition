@@ -307,7 +307,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Melta (x)" id="2cd6-908b-ba32-5930" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+        <infoLink name="Melta (X)" id="2cd6-908b-ba32-5930" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
           <modifiers>
             <modifier type="set" value="Melta (6)" field="name"/>
           </modifiers>
@@ -369,6 +369,21 @@
             <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
             <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">-</characteristic>
             <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Melee</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Charnabal Sabre" hidden="false" id="e85f-734a-c587-e88b">
+      <profiles>
+        <profile name="Charnabal Sabre" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="bf3b-b74a-06fe-8796">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">+1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">S</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">-</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Breaching (6+), Duellist&apos;s Edge (1)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Charnabal</characteristic>
           </characteristics>
         </profile>
       </profiles>
