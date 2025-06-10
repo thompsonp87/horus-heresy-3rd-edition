@@ -36,7 +36,7 @@
     <costType name="Reaction Point(s)" id="c9ba-097e-c47f-ecc2" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
-    <profileType name="Unit" id="a76f-8e23-8c3e-166d" hidden="false" sortIndex="1">
+    <profileType name="Profile" id="a76f-8e23-8c3e-166d" hidden="false" sortIndex="1">
       <characteristicTypes>
         <characteristicType name="Unit Type" id="50fc-9241-d4a2-045b"/>
         <characteristicType name="M" id="a106-a779-d272-5e93"/>
@@ -84,7 +84,7 @@
         <characteristicType name="Description" id="5d02-0e54-0f6a-0f0b"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Vehicle" id="2a80-eec8-a736-2fe3" hidden="false" sortIndex="2"/>
+    <profileType name="Vehicle Profile" id="2a80-eec8-a736-2fe3" hidden="false" sortIndex="2"/>
     <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="6">
       <characteristicTypes>
         <characteristicType name="Summary" id="8e7d-a0ae-fd85-983c"/>
