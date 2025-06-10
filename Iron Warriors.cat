@@ -8,4 +8,39 @@
     <catalogueLink type="catalogue" name="Special Rules" id="84c3-e2f1-2d4a-53a1" importRootEntries="false" targetId="106b-693b-99f2-00c3"/>
     <catalogueLink type="catalogue" name="Weapons" id="bc3a-0220-9d55-cb36" importRootEntries="false" targetId="a22d-4dd0-c59d-57d3"/>
   </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Perturabo" hidden="false" id="2ff4-482b-a2b2-f853">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Perturabo" hidden="false" id="39e4-15b8-4ca4-fb4a">
+          <profiles>
+            <profile name="Perturabo" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="3b98-e35d-f573-1bc5">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+                <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
+                <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4675-656e-f7ef-f670" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b75c-29c8-a41a-9e36" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>

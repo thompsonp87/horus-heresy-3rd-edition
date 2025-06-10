@@ -8,4 +8,39 @@
     <catalogueLink type="catalogue" name="Traits" id="2858-95e5-4b19-515a" targetId="df17-7a05-0826-6e22"/>
     <catalogueLink type="catalogue" name="Special Rules" id="423e-9e38-cdba-c3c7" targetId="106b-693b-99f2-00c3"/>
   </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Fulgrim" hidden="false" id="9ba1-40c2-edd5-8bd7">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Fulgrim" hidden="false" id="fa55-d42f-2879-39c0">
+          <profiles>
+            <profile name="Fulgrim" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="290f-c8dd-0607-3ed5">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+                <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
+                <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3998-25bd-b98f-b86f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6a2-82ce-f44c-3b7c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>
