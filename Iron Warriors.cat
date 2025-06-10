@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="21c0-18db-03dd-ae07" name="Iron Warriors" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema"/>
+<catalogue library="false" id="21c0-18db-03dd-ae07" name="Iron Warriors" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Assets" id="93f1-4e60-f6d6-bf11" importRootEntries="true" targetId="5334-5605-242c-d75e"/>
+    <catalogueLink type="catalogue" name="Legiones Astartes" id="e254-e9ad-1ae7-e52a" importRootEntries="true" targetId="9b32-f350-6aa9-9c09"/>
+    <catalogueLink type="catalogue" name="Traits" id="63d8-82cb-68df-606e" importRootEntries="false" targetId="df17-7a05-0826-6e22"/>
+    <catalogueLink type="catalogue" name="Wargear" id="3c75-c1d5-5025-5900" importRootEntries="false" targetId="fcc7-4319-bb04-2c25"/>
+    <catalogueLink type="catalogue" name="Special Rules" id="84c3-e2f1-2d4a-53a1" importRootEntries="false" targetId="106b-693b-99f2-00c3"/>
+    <catalogueLink type="catalogue" name="Weapons" id="bc3a-0220-9d55-cb36" importRootEntries="false" targetId="a22d-4dd0-c59d-57d3"/>
+  </catalogueLinks>
+</catalogue>
