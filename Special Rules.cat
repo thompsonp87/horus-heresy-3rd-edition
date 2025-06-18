@@ -27,5 +27,11 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     </rule>
     <rule name="Impact (X)" id="6ead-c31c-ab09-2f8c" hidden="false"/>
     <rule name="Critical Hit (X)" id="fe5a-a52a-468f-3f88" hidden="false"/>
+    <rule name="Barrage (X)" id="85f5-3a91-69f4-c3b7" hidden="false"/>
+    <rule name="Reaping Blow (X)" id="951f-eee4-02b7-b014" hidden="false"/>
+    <rule name="Bulky (X)" id="50ad-a9a5-1f1d-9a25" hidden="false"/>
+    <rule name="Implacable Advance" id="3898-aafb-35e0-141b" hidden="false"/>
+    <rule name="Slow and Purposeful" id="6a8e-e508-abc9-cb3e" hidden="false"/>
+    <rule name="Explodes (X)" id="da5b-b871-20da-3e70" hidden="false"/>
   </sharedRules>
 </catalogue>

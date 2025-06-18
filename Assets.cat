@@ -16,6 +16,9 @@
         <cost name="Asset Points" typeId="57e3-1031-7d4d-5ae3" value="2"/>
         <cost name="Reaction Points" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="b720-ea51-7339-6a08" id="745e-0fdf-0355-e9bb" primary="true" name="Asset"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Strategic Cogitator Array" hidden="false" id="f397-7bc2-a0c5-b230">
       <profiles>
@@ -32,6 +35,9 @@
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="1"/>
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="b720-ea51-7339-6a08" id="a7db-34f7-04f7-6b74" primary="true" name="Asset"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Graviton Snares" hidden="false" id="add0-a31f-9c64-db1f">
       <profiles>
@@ -48,6 +54,9 @@
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="1"/>
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="b720-ea51-7339-6a08" id="3a50-b0e8-2623-7dbf" primary="true" name="Asset"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Disruption Emitter Charges" hidden="false" id="e62d-6141-61c3-beee">
       <profiles>
@@ -55,8 +64,7 @@
           <characteristics>
             <characteristic name="Summary" typeId="3dcf-9034-fc2d-cd56">Disruption Emitters apply a negative modifier to certain characteristics of nearby models.</characteristic>
             <characteristic name="Setup" typeId="e965-60bc-cd79-63e7">Each Disruption Emitter Marker must be set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere on the Battlefield that is not within their Opponent&apos;s deployment zone.</characteristic>
-            <characteristic name="Effect" typeId="bbd3-5482-ed3a-a3b3">While any Models from a Unit are within 6&quot; of the centre of a Disruption Emitter Marker, modify the Leadership, Cool, Intelligence, and Willpower Characteristics of all Models in that Unit by -1. At the end of each Battle Turn, the player that selected it rolls one Dice for each Disruption Emitter Marker they set up. On a 1, that Disruption Emitter Marker is removed from the Battlefield.
-</characteristic>
+            <characteristic name="Effect" typeId="bbd3-5482-ed3a-a3b3">While any Models from a Unit are within 6&quot; of the centre of a Disruption Emitter Marker, modify the Leadership, Cool, Intelligence, and Willpower Characteristics of all Models in that Unit by -1. At the end of each Battle Turn, the player that selected it rolls one Dice for each Disruption Emitter Marker they set up. On a 1, that Disruption Emitter Marker is removed from the Battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -66,7 +74,7 @@
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="056e-e6a1-26fa-68db" id="575f-4718-9100-fc86" primary="false" name="Asset"/>
+        <categoryLink targetId="b720-ea51-7339-6a08" id="94ce-eea3-c5de-0495" primary="true" name="Asset"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
