@@ -128,6 +128,8 @@
             <infoLink name="Implacable Advance" id="c1d4-fb0e-ec75-e6c3" hidden="false" type="rule" targetId="3898-aafb-35e0-141b"/>
             <infoLink name="[Legiones Astartes]" id="f4c3-b435-dbdf-4cc2" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
             <infoLink name="[Allegiance]" id="c1f7-3859-ae16-8c96" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+            <infoLink name="Heavy Unit Sub-type" id="990e-17f2-794e-5427" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
+            <infoLink name="Infantry Unit Type" id="dec8-ec3d-a167-d553" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Saturnine Terminator Sergeant" hidden="false" id="22a1-684b-ceef-3582" sortIndex="1">
@@ -229,6 +231,9 @@
             </infoLink>
             <infoLink name="[Legiones Astartes]" id="d08f-b617-6d8f-9550" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
             <infoLink name="[Allegiance]" id="dccd-5d86-ea74-14ab" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+            <infoLink name="Sergeant Unit Sub-type" id="2034-b18e-7add-1a49" hidden="false" type="rule" targetId="de7e-d90d-ffb6-c740"/>
+            <infoLink name="Heavy Unit Sub-type" id="78d8-9665-f105-6fcd" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
+            <infoLink name="Infantry Unit Type" id="910d-cea2-8a8e-38a7" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -354,6 +359,9 @@
             <infoLink name="Master of the Legion" id="a4f6-bab7-47e9-a8b0" hidden="false" type="profile" targetId="6cd2-96be-b703-6d57"/>
             <infoLink name="[Allegiance]" id="0bd7-7dd4-7da3-4f16" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
             <infoLink name="[Legiones Astartes]" id="7663-ac47-95ce-7f95" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+            <infoLink name="Heavy Unit Sub-type" id="28f5-7bff-3a79-96de" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
+            <infoLink name="Infantry Unit Type" id="12a0-7dca-8a47-c4e1" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
+            <infoLink name="Command Unit Sub-type" id="0c1a-4c66-e3c9-a5a7" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -506,33 +514,157 @@
       </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Saturnine Dreadnought" hidden="false" id="b26e-1244-2dbc-2b6d">
-      <profiles>
-        <profile name="Saturnine Dreadnought" typeId="a76f-8e23-8c3e-166d" typeName="Unit" hidden="false" id="1d79-c4d4-ac14-dc8f">
-          <characteristics>
-            <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
-            <characteristic name="M" typeId="a106-a779-d272-5e93"/>
-            <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
-            <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
-            <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
-            <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
-            <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
-            <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
-            <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
-            <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
-            <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
-            <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
-            <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
-            <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
-            <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
-            <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-            <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Saturnine Dreadnought" hidden="false" id="5893-7ec0-df11-7329">
+          <profiles>
+            <profile name="Saturnine Dreadnought" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="1d79-c4d4-ac14-dc8f">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Walker (Heavy)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">6</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">8</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">8</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">8</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">3</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">2</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">12</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">10</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">5</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64a9-ca05-d88e-d5a5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5b1-c725-862e-31c5" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="[Allegiance]" id="b664-2c88-4125-eee5" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+            <infoLink name="[Legiones Astartes]" id="7fac-4e6f-1c90-05f7" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+            <infoLink name="Smokescreen" id="6bcf-f7d0-9eb6-005e" hidden="false" type="profile" targetId="12ec-97aa-0b8a-7573"/>
+            <infoLink name="Explodes (X)" id="1cf3-9d7e-621f-ce3a" hidden="false" type="rule" targetId="da5b-b871-20da-3e70">
+              <comment>4+</comment>
+              <modifiers>
+                <modifier type="set" value="Explodes (4+)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Bulky (X)" id="566c-b787-32ef-aeb3" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25">
+              <comment>8</comment>
+              <modifiers>
+                <modifier type="set" value="Bulky (8)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Unit Sub-type" id="7984-1bec-a1a7-61c0" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
+            <infoLink name="Walker Unit Type" id="b420-0334-fce6-b917" hidden="false" type="rule" targetId="a4d9-6b9e-822f-d40b"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Thermal Diffraction Field" hidden="false" id="bc5c-71ac-19d0-1187" type="selectionEntry" targetId="ae43-8418-ecb1-ef6e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e57-891d-094e-5bca" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6894-e8e8-736c-26a8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="This Model may have its heavy plasma bombard exchanged for one of the following:" id="695c-8a3b-da24-1a01" hidden="false" sortIndex="1" defaultSelectionEntryId="81cc-d504-fec1-c1c6">
+              <entryLinks>
+                <entryLink import="true" name="Heavy Plasma Bombard" hidden="false" id="81cc-d504-fec1-c1c6" type="selectionEntry" targetId="ae1d-6f32-be87-b3c0" sortIndex="1"/>
+                <entryLink import="true" name="Disintegrator cannon" hidden="false" id="4b91-1646-8803-b0a9" type="selectionEntry" targetId="4da0-ea75-bac1-5951" sortIndex="2">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Inversion beamer" hidden="false" id="552f-5b07-97fe-2f3d" type="selectionEntry" targetId="9ba7-5d99-d51b-9811" sortIndex="3">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Graviton pulveriser" hidden="false" id="3b90-aeed-56c0-4c90" type="selectionEntry" targetId="3b1c-3af2-f92c-d2b0" sortIndex="4">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79b7-2c73-786b-3e73" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93e9-71af-c863-49f4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="This Model may have its disintegrator exchanged for one of the following:" id="6785-194f-2868-736a" hidden="false" sortIndex="2" defaultSelectionEntryId="d00f-bab9-ece5-bfbc">
+              <entryLinks>
+                <entryLink import="true" name="Disintegrator cannon" hidden="false" id="d00f-bab9-ece5-bfbc" type="selectionEntry" targetId="4da0-ea75-bac1-5951" sortIndex="1"/>
+                <entryLink import="true" name="Heavy plasma bombard" hidden="false" id="94d1-aad1-b93b-df8f" type="selectionEntry" targetId="ae1d-6f32-be87-b3c0" sortIndex="2"/>
+                <entryLink import="true" name="Inversion beamer" hidden="false" id="30bf-a2e2-d693-3b8f" type="selectionEntry" targetId="9ba7-5d99-d51b-9811" sortIndex="3"/>
+                <entryLink import="true" name="Graviton pulveriser" hidden="false" id="b3f6-c4d7-b9ac-3870" type="selectionEntry" targetId="3b1c-3af2-f92c-d2b0" sortIndex="4"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db6d-5cee-f1e0-3047" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa0a-311e-5d30-11dc" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Both of this Model&apos;s photonic incinerators may be exchanged for one of the following:" id="717a-95ae-5034-04a4" hidden="false" defaultSelectionEntryId="2d32-b642-f57d-024b" sortIndex="3">
+              <entryLinks>
+                <entryLink import="true" name="Photonic incinerator" hidden="false" id="2d32-b642-f57d-024b" type="selectionEntry" targetId="51f6-0820-9443-77e0" sortIndex="1">
+                  <modifiers>
+                    <modifier type="set" value="Two photonic incinerators" field="name"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Concussive resonator" hidden="false" id="2c04-494c-0611-f74a" type="selectionEntry" targetId="caa9-3bee-f09a-9b2f" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="Two concussive resonators" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy particle shredder" hidden="false" id="21a6-3466-4ffb-38a2" type="selectionEntry" targetId="ea02-9e5a-9a9b-7e67" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="Two heavy particle shredders" field="name"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2885-7aa6-eae2-e94b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bab9-ccaa-0f21-784b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="340"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Fellblade Super-Heavy Tank" hidden="false" id="ca07-1c1d-3788-c9e5">
       <profiles>
-        <profile name="Fellblade Super-Heavy Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="1149-0d9a-dfd2-0f82"/>
+        <profile name="Fellblade Super-Heavy Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="1149-0d9a-dfd2-0f82">
+          <characteristics>
+            <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
+            <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
+            <characteristic typeId="c7ff-b51a-f4f2-e043" name="BS"/>
+            <characteristic typeId="c7ff-b51a-f4f2-e043" name="BS"/>
+            <characteristic typeId="616f-6b7d-beed-e322" name="Front"/>
+            <characteristic typeId="616f-6b7d-beed-e322" name="Front"/>
+            <characteristic typeId="15c1-81ce-169d-f3b6" name="Side"/>
+            <characteristic typeId="15c1-81ce-169d-f3b6" name="Side"/>
+            <characteristic typeId="43c8-91f7-de7a-af89" name="Rear"/>
+            <characteristic typeId="43c8-91f7-de7a-af89" name="Rear"/>
+            <characteristic typeId="feb2-3526-bb36-839e" name="Transport Capacity"/>
+            <characteristic typeId="feb2-3526-bb36-839e" name="Transport Capacity"/>
+            <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
+            <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
+            <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+            <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+          </characteristics>
+        </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Praetorian Command Squad" hidden="false" id="0056-047c-b1f4-2555">
@@ -604,7 +736,17 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Predator Battle Tank" hidden="false" id="e3c8-7ba7-f810-452e">
           <profiles>
-            <profile name="Predator Battle Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle Profile" hidden="false" id="3fd0-5d27-4039-c4c8"/>
+            <profile name="Predator Battle Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="3fd0-5d27-4039-c4c8">
+              <characteristics>
+                <characteristic name="M" typeId="f35b-a37a-888f-0a22">12</characteristic>
+                <characteristic name="BS" typeId="c7ff-b51a-f4f2-e043">4</characteristic>
+                <characteristic name="Front" typeId="616f-6b7d-beed-e322">13</characteristic>
+                <characteristic name="Side" typeId="15c1-81ce-169d-f3b6">12</characteristic>
+                <characteristic name="Rear" typeId="43c8-91f7-de7a-af89">10</characteristic>
+                <characteristic name="HP" typeId="9f6c-f494-dc7b-3c0b">5</characteristic>
+                <characteristic name="Transport Capacity" typeId="61fa-aed8-491f-0edb">-</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
@@ -613,7 +755,26 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Rhino" hidden="false" id="d393-3281-c46b-1ea0">
           <profiles>
-            <profile name="Rhino" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle Profile" hidden="false" id="a7bc-d704-d590-6e87"/>
+            <profile name="Rhino" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle Profile" hidden="false" id="a7bc-d704-d590-6e87">
+              <characteristics>
+                <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
+                <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
+                <characteristic typeId="c7ff-b51a-f4f2-e043" name="BS"/>
+                <characteristic typeId="c7ff-b51a-f4f2-e043" name="BS"/>
+                <characteristic typeId="616f-6b7d-beed-e322" name="Front"/>
+                <characteristic typeId="616f-6b7d-beed-e322" name="Front"/>
+                <characteristic typeId="15c1-81ce-169d-f3b6" name="Side"/>
+                <characteristic typeId="15c1-81ce-169d-f3b6" name="Side"/>
+                <characteristic typeId="43c8-91f7-de7a-af89" name="Rear"/>
+                <characteristic typeId="43c8-91f7-de7a-af89" name="Rear"/>
+                <characteristic typeId="feb2-3526-bb36-839e" name="Transport Capacity"/>
+                <characteristic typeId="feb2-3526-bb36-839e" name="Transport Capacity"/>
+                <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
+                <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
+                <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+                <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+              </characteristics>
+            </profile>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4700-a8b4-cd37-7435" includeChildSelections="false"/>
@@ -626,7 +787,26 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Spartan Assault Tank" hidden="false" id="ff8e-1dd5-3ec8-86d9">
           <profiles>
-            <profile name="Spartan Assault Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle Profile" hidden="false" id="5905-610b-0319-c8a3"/>
+            <profile name="Spartan Assault Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle Profile" hidden="false" id="5905-610b-0319-c8a3">
+              <characteristics>
+                <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
+                <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
+                <characteristic typeId="c7ff-b51a-f4f2-e043" name="BS"/>
+                <characteristic typeId="c7ff-b51a-f4f2-e043" name="BS"/>
+                <characteristic typeId="616f-6b7d-beed-e322" name="Front"/>
+                <characteristic typeId="616f-6b7d-beed-e322" name="Front"/>
+                <characteristic typeId="15c1-81ce-169d-f3b6" name="Side"/>
+                <characteristic typeId="15c1-81ce-169d-f3b6" name="Side"/>
+                <characteristic typeId="43c8-91f7-de7a-af89" name="Rear"/>
+                <characteristic typeId="43c8-91f7-de7a-af89" name="Rear"/>
+                <characteristic typeId="feb2-3526-bb36-839e" name="Transport Capacity"/>
+                <characteristic typeId="feb2-3526-bb36-839e" name="Transport Capacity"/>
+                <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
+                <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
+                <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+                <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+              </characteristics>
+            </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
@@ -809,9 +989,27 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="250b-5975-7775-5f05" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Prime Troops" hidden="false" id="255c-fc62-5583-f736" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="e432-7628-b650-1128" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="256b-b8a8-017a-75e9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ac3-a5dc-8061-a30e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3588-610a-5e89-5867" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Prime Benefit" hidden="true" id="0712-07db-4c45-ac40" type="selectionEntryGroup" targetId="93f7-d7db-d7f0-2146">
+        <entryLink import="true" name="Prime Benefit" hidden="true" id="0712-07db-4c45-ac40" type="selectionEntryGroup" targetId="93f7-d7db-d7f0-2146" sortIndex="2">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -821,6 +1019,80 @@
           </modifiers>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier type="set" value="Prime Tactical Squad" field="name">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="c3f9-a7f3-984b-3fda" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="c3f9-a7f3-984b-3fda" field="category">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="parent" childId="255c-fc62-5583-f736" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Deredeo Dreadnought" hidden="false" id="10ad-8abc-c6ef-97ad">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Deredeo Dreadnought" hidden="false" id="2a07-73f2-b745-9848">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac44-3d3d-7d14-31f6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a84e-a04d-ea88-a381" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Deredeo Dreadnought" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="607c-5b94-f491-22b9">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Walker</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">6</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">7</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">6</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">2</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">12</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">10</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">5</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Leviathan Dreadnought" hidden="false" id="9d6f-298d-743c-da5d">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Leviathan Dreadnought" hidden="false" id="c478-8775-3aa8-1c4b">
+          <profiles>
+            <profile name="Leviathan Dreadnought" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="0630-53fc-023c-3072">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Walker</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">6</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">8</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">8</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">7</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">4</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">12</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">10</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">5</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f81-125e-fa15-a1b3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6bd-ac73-bea7-ee01" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -845,11 +1117,13 @@
       <categoryLinks>
         <categoryLink targetId="88e6-d373-4152-0dd8" id="064d-49b2-624b-69ee" primary="true" name="Troops"/>
       </categoryLinks>
+      <comment>Troops</comment>
     </entryLink>
     <entryLink import="true" name="Breacher Squad" hidden="false" id="e967-0f84-46f6-f4db" type="selectionEntry" targetId="b564-8809-1bcf-d8b3">
       <categoryLinks>
         <categoryLink targetId="88e6-d373-4152-0dd8" id="22bf-855c-b7be-daa2" primary="true" name="Troops"/>
       </categoryLinks>
+      <comment>Troops</comment>
     </entryLink>
     <entryLink import="true" name="Saturnine Dreadnought" hidden="false" id="41d5-fbe8-5902-2507" type="selectionEntry" targetId="b26e-1244-2dbc-2b6d">
       <comment>War-engine</comment>
@@ -891,21 +1165,40 @@
       <categoryLinks>
         <categoryLink targetId="5d5e-958f-e388-50b5" id="04f3-b32c-70bd-bbcb" primary="true" name="Elites"/>
       </categoryLinks>
+      <comment>Elites</comment>
     </entryLink>
     <entryLink import="true" name="Spartan Assault Tank" hidden="false" id="408b-aa40-5393-f894" type="selectionEntry" targetId="0f37-da12-bb6f-1a2e">
       <categoryLinks>
         <categoryLink targetId="52d0-8b78-439e-18e5" id="72b9-de69-c8b0-6311" primary="true" name="Heavy Transport"/>
       </categoryLinks>
+      <comment>Heavy Transport</comment>
     </entryLink>
     <entryLink import="true" name="Rhino Armoured Carrier" hidden="false" id="a221-5810-8800-1f65" type="selectionEntry" targetId="1b41-8597-7168-c326">
       <categoryLinks>
         <categoryLink targetId="d162-4711-5d60-0a48" id="3355-5afa-f53c-d3f0" primary="true" name="Transport"/>
       </categoryLinks>
+      <comment>Transport</comment>
     </entryLink>
     <entryLink import="true" name="Predator Battle Tank" hidden="false" id="aadc-fe71-f5a1-afcd" type="selectionEntry" targetId="3a87-65be-2fd8-50f7">
       <categoryLinks>
         <categoryLink name="Armour" hidden="false" id="5fb9-94ac-6be8-4163" targetId="643a-1012-bd51-6537" primary="true"/>
       </categoryLinks>
+      <comment>Armour</comment>
+    </entryLink>
+    <entryLink import="true" name="Deredeo Dreadnought" hidden="false" id="ed8e-f983-51e3-15ce" type="selectionEntry" targetId="10ad-8abc-c6ef-97ad">
+      <categoryLinks>
+        <categoryLink targetId="2499-7239-685f-8465" id="2201-17a0-9166-00ce" primary="true" name="War-engine"/>
+      </categoryLinks>
+      <comment>War-engine</comment>
+    </entryLink>
+    <entryLink import="true" name="Leviathan Dreadnought" hidden="false" id="e468-70ee-8012-9b20" type="selectionEntry" targetId="9d6f-298d-743c-da5d">
+      <categoryLinks>
+        <categoryLink targetId="2499-7239-685f-8465" id="7ff7-5775-b987-fc70" primary="true" name="War-engine"/>
+      </categoryLinks>
+      <comment>War-engine</comment>
+    </entryLink>
+    <entryLink import="true" name="Veteran Assault Squad" hidden="false" id="d24c-7b59-b30c-bde7" type="selectionEntry" targetId="a119-c2a7-ff1a-399c">
+      <comment>Elites</comment>
     </entryLink>
   </entryLinks>
   <catalogueLinks>
