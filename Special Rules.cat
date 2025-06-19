@@ -33,5 +33,9 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Implacable Advance" id="3898-aafb-35e0-141b" hidden="false"/>
     <rule name="Slow and Purposeful" id="6a8e-e508-abc9-cb3e" hidden="false"/>
     <rule name="Explodes (X)" id="da5b-b871-20da-3e70" hidden="false"/>
+    <rule name="Pinning (X)" id="88b6-6493-e4d7-1805" hidden="false"/>
+    <rule name="Shock (X)" id="c6fd-28d0-3f80-672c" hidden="false"/>
+    <rule name="Stun (X)" id="c7c1-bbc9-f852-6f71" hidden="false"/>
+    <rule name="Panic (X)" id="82a7-f471-3fda-6ca1" hidden="false"/>
   </sharedRules>
 </catalogue>
