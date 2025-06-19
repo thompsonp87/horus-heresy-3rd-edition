@@ -653,7 +653,7 @@
             <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
             <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
             <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Blast (3&quot;), Breaching (6+), Shock (Pinned), Pinning (3)</characteristic>
-            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Graviton</characteristic>
           </characteristics>
         </profile>
       </profiles>
