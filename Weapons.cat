@@ -605,7 +605,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Inversion beamer" hidden="false" id="9ba7-5d99-d51b-9811">
       <profiles>
-        <profile name="Inversion beamer (Close)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7d8d-fa8c-e5a4-ac78">
+        <profile name="Inversion beamer (Short)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7d8d-fa8c-e5a4-ac78">
           <characteristics>
             <characteristic name="R" typeId="cdb0-8654-6840-1037">&lt;15</characteristic>
             <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
@@ -616,7 +616,7 @@
             <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
           </characteristics>
         </profile>
-        <profile name="Inversion beamer (Far)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="e298-ee5f-9d1b-c10c">
+        <profile name="Inversion beamer (Long)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="e298-ee5f-9d1b-c10c">
           <characteristics>
             <characteristic name="R" typeId="cdb0-8654-6840-1037">15-30</characteristic>
             <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
@@ -1008,6 +1008,108 @@
           <comment>5+</comment>
         </infoLink>
         <infoLink name="Pistol" id="d3e0-83f3-b140-c400" hidden="false" type="rule" targetId="2bf6-55c8-6810-a71c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Conversion beam cannon" hidden="false" id="e650-5178-1a9b-696e">
+      <profiles>
+        <profile name="Conversion beam cannon (Long)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6acc-3d5a-021c-d006">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">&gt;30-45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Conversion beam cannon (Short)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="f451-eb52-b2ed-cbef">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">&lt;15</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Conversion beam cannon (Medium)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="faed-1e0c-c039-7df5">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">15-30</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="8440-4463-6b80-1c6b" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <comment>RS</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="931b-bc02-478e-5c79" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <comment>3&quot;</comment>
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy conversion beam cannon" hidden="false" id="4c0a-e911-ab85-2286">
+      <profiles>
+        <profile name="Heavy conversion beam cannon (Long)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2e59-2818-48cb-9067">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">&gt;30-45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy conversion beam cannon (Short)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="0b2a-63ff-58d7-0a99">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">&lt;15</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy conversion beam cannon (Medium)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="af36-4c71-f72c-fee8">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">15-30</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Conversion</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="4d78-6511-f27a-a08d" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <comment>RS</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="bc2a-c6c1-018a-e60c" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <comment>5&quot;</comment>
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
