@@ -986,6 +986,30 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Archeotech pistol" hidden="false" id="0600-3af1-d080-abf7">
+      <profiles>
+        <profile name="Archeotech pistol" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="31d2-22ec-4d6b-2940">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol, Breaching (3+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="69f1-b286-fc7b-c068" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+        <infoLink name="Pistol" id="d3e0-83f3-b140-c400" hidden="false" type="rule" targetId="2bf6-55c8-6810-a71c"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
