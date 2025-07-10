@@ -517,6 +517,7 @@
           </modifiers>
           <comment>D</comment>
         </infoLink>
+        <infoLink name="Armourbane" id="392b-42c5-1c1b-3997" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="bc40-b14a-978e-0232">
@@ -1451,6 +1452,271 @@
           <modifiers>
             <modifier type="set" value="Panic (2)" field="name"/>
           </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin lascannon" hidden="false" id="8e62-3fda-37e1-5f0a">
+      <profiles>
+        <profile name="Twin lascannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="c251-0454-3dae-7012">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="10cb-64eb-fbc1-5edb" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
+        <infoLink name="Armourbane" id="ca40-48b9-b6a3-a238" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lascannon array" hidden="false" id="df65-7fb7-d1ff-8486">
+      <profiles>
+        <profile name="Lascannon array" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="8e2a-4b24-4ddb-5098">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="9e31-d9f8-8f4f-0267" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arachnus heavy lascannon battery" hidden="false" id="9976-ef34-7a63-0fe7">
+      <profiles>
+        <profile name="Arachnus heavy lascannon battery" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1a32-bb9a-40c9-9a8d">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Armourbane, Skyfire</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="d97a-9e03-7732-0589" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+        <infoLink name="Armourbane" id="e0bf-2e7c-3f89-9858" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Skyfire" id="bb25-2f66-7ae1-0cff" hidden="false" type="rule" targetId="8ff3-b6fe-c75b-1d52"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Laser destroyer" hidden="false" id="e160-234f-e94c-bab6">
+      <profiles>
+        <profile name="Laser destroyer" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="34e6-782c-c3e0-5ac6">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">10</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="0a95-cf2e-b221-5735" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
+        <infoLink name="Armourbane" id="174f-8cf0-eb1b-a4a2" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magna laser destroyer" hidden="false" id="53de-594e-f5d6-c442">
+      <profiles>
+        <profile name="Magna laser destroyer" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="bc10-38a3-9c83-ea2a">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">10</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="0908-a350-33ce-593b" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Ordnance (X)" id="c437-c658-eb1a-6db4" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Neutron laser battery" hidden="false" id="e1fa-b0b7-240a-df13">
+      <profiles>
+        <profile name="Neutron laser battery" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="31b8-7f01-c65f-aa17">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">72</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">10</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Armourbane, Shock (Suppressed), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="dc77-937c-0662-9f45" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Ordnance (X)" id="d285-759b-45bd-38b3" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shock (X)" id="fb6d-56d4-b462-38c2" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Suppressed</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Suppressed)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Overload (X)" id="c71f-e68c-f82d-fb21" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Neutron blaster" hidden="false" id="c232-60af-a0dc-7786">
+      <profiles>
+        <profile name="Neutron blaster" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="49ec-91e9-077d-ec26">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Armourbane, Shock (Suppressed), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="8d3b-9e94-1db5-975d" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Shock (X)" id="872d-24ef-e147-36ce" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Suppressed</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Suppressed)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Overload (X)" id="5f94-88f7-1994-c9f8" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Neutron beam laser" hidden="false" id="81f3-6879-257e-6552">
+      <profiles>
+        <profile name="Neutron beam laser" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d638-3bf9-3d65-128a">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">10</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Armourbane, Shock (Suppressed)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="d206-e216-63f9-1fa0" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Ordnance (X)" id="044b-9080-9131-8c38" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shock (X)" id="1f56-9901-23e1-a362" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Suppressed</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Suppressed)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Neutron wave cannon" hidden="false" id="1eba-7bf7-2cef-541f">
+      <profiles>
+        <profile name="Neutron wave cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2cda-2d06-f611-75cb">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">120</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">12</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Armourbane, Shock (Stunned)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="1245-0854-e00d-0525" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Ordnance (X)" id="b391-b3f5-523b-6f30" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shock (X)" id="1e5d-b327-517d-1829" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Stunned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Stunned)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Turbo-laser destructor" hidden="false" id="aa70-7846-5273-0e2f">
+      <profiles>
+        <profile name="Turbo-laser destructor" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="c2a4-9bf2-86e8-42e2">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">96</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">12</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">6</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Las</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="35b2-b2ca-cb38-e704" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Blast (X)" id="cc92-711c-253f-5094" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>

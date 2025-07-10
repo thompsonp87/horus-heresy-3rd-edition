@@ -40,5 +40,6 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Poisoned (X)" id="076f-2c91-c58b-71b3" hidden="false"/>
     <rule name="Armourbane" id="36ee-4c54-bced-a696" hidden="false"/>
     <rule name="Pistol" id="2bf6-55c8-6810-a71c" hidden="false"/>
+    <rule name="Skyfire" id="8ff3-b6fe-c75b-1d52" hidden="false"/>
   </sharedRules>
 </catalogue>
