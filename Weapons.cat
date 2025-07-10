@@ -515,6 +515,7 @@
           <modifiers>
             <modifier type="set" value="Heavy (D)" field="name"/>
           </modifiers>
+          <comment>D</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
@@ -714,6 +715,12 @@
             <modifier type="set" value="Pinning (3)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Heavy (X)" id="8f3c-54e3-ed44-3c3c" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Concussive resonator" hidden="false" id="caa9-3bee-f09a-9b2f">
@@ -802,9 +809,9 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Morbus Bombard" hidden="false" id="1729-5940-4e73-a27f">
+    <selectionEntry type="upgrade" import="true" name="Morbus bombard" hidden="false" id="1729-5940-4e73-a27f">
       <profiles>
-        <profile name="Morbus Bombard (HE shell)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2c15-a95a-80ad-e9d6">
+        <profile name="Morbus bombard (HE shell)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2c15-a95a-80ad-e9d6">
           <characteristics>
             <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
             <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
@@ -815,7 +822,7 @@
             <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
           </characteristics>
         </profile>
-        <profile name="Morbus Bombard (Phosphex shell)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3c5e-db01-4a6c-7666">
+        <profile name="Morbus bombard (Phosphex shell)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3c5e-db01-4a6c-7666">
           <characteristics>
             <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
             <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
@@ -1141,6 +1148,194 @@
           <modifiers>
             <modifier type="set" value="Blast (5&quot;)" field="name"/>
           </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Graviton gun" hidden="false" id="4a06-c55e-a06f-bd0c">
+      <profiles>
+        <profile name="Graviton gun" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="5741-c876-7b3d-46d4">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Breaching (6+), Shock (Pinned), Pinning (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="03ba-152f-15dc-d62f" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="0d0e-e121-f899-f217" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Shock (X)" id="a8d8-ba82-1851-2800" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Pinned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Pinned)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="ea19-0074-0148-f294" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Graviton cannon" hidden="false" id="68b3-66f9-a283-1259">
+      <profiles>
+        <profile name="Graviton cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="5548-e28e-8ffe-ce10">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Blast (3&quot;), Breaching (6+), Shock (Pinned), Pinning (2)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Graviton</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="2c40-f5f8-eb16-aa1a" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="a223-9bed-26b7-6262" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Shock (X)" id="7b4b-e965-dfba-e0ef" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Pinned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Pinned)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="8417-9b11-ca04-f957" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>2</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="95c7-9b2b-03d1-624b" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Graviton-charge cannon" hidden="false" id="1e1b-822c-790c-46b0">
+      <profiles>
+        <profile name="Graviton-charge cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4eab-78c8-db78-2e27">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Blast (5&quot;), Barrage (1), Breaching (6+), Shock (Pinned), Pinning (3)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Graviton</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="db48-81d6-98c1-bde7" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Shock (X)" id="aceb-3a0f-e5f0-712d" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Pinned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Pinned)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="9610-0e9b-5df8-5be3" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="87a7-d3e1-c82e-4aed" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>3</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="4266-af49-cca0-60fd" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="fe33-f5ba-af64-d073" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grav-flux bombard" hidden="false" id="da74-2cf9-db7a-419e">
+      <profiles>
+        <profile name="Grav-flux bombard" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="ff13-bc66-18b3-ff1f">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Blast (5&quot;), Breaching (6+), Shock (Pinned), Pinning (2)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Graviton</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="2583-f47f-85ab-1e81" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Shock (X)" id="2c9a-8cf8-15c6-d318" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Pinned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Pinned)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="a75e-a727-5bf7-80c8" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="768b-1871-36ae-8bb4" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>2</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="0ed1-27fd-315a-6747" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
