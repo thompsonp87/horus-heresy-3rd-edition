@@ -37,5 +37,7 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Shock (X)" id="c6fd-28d0-3f80-672c" hidden="false"/>
     <rule name="Stun (X)" id="c7c1-bbc9-f852-6f71" hidden="false"/>
     <rule name="Panic (X)" id="82a7-f471-3fda-6ca1" hidden="false"/>
+    <rule name="Poisoned (X)" id="076f-2c91-c58b-71b3" hidden="false"/>
+    <rule name="Armourbane" id="36ee-4c54-bced-a696" hidden="false"/>
   </sharedRules>
 </catalogue>

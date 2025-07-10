@@ -729,6 +729,263 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Demolisher cannon" hidden="false" id="4514-8e18-77b4-a141">
+      <profiles>
+        <profile name="Demolisher cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3295-4d54-ff6a-3e22">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">12</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Breaching (5+), Ordnance (D), Stun (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Stun (X)" id="89e4-b6bb-6d85-bff0" hidden="false" type="rule" targetId="c7c1-bbc9-f852-6f71">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Stun (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="1930-6e59-ad7f-3384" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="2faf-e24a-bd6b-aa03" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Ordnance (X)" id="f370-afb1-e38d-dfea" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Morbus Bombard" hidden="false" id="1729-5940-4e73-a27f">
+      <profiles>
+        <profile name="Morbus Bombard (HE shell)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2c15-a95a-80ad-e9d6">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Blast (5&quot;), Barrage (2), Breaching (6+), Pinning (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+        <profile name="Morbus Bombard (Phosphex shell)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3c5e-db01-4a6c-7666">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;), Barrage (1), Poisoned (3+), Panic (3), Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Phosphex</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="8203-938c-c9bc-06a7" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="201d-9ca0-d836-45b8" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (HE shell)" field="name"/>
+          </modifiers>
+          <comment>6+ (HE shell)</comment>
+        </infoLink>
+        <infoLink name="Ordnance (X)" id="b411-c07d-1046-0360" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D (HE shell)</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D) (HE shell)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="0186-15ad-35e8-0ec2" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (2) (HE shell)" field="name"/>
+          </modifiers>
+          <comment>2 (HE shell)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="2bd1-b298-051e-4f8d" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Phosphex shell)" field="name"/>
+          </modifiers>
+          <comment>5+ (Phosphex shell)</comment>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="7acf-2248-984a-ea2b" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (1) (Phosphex shell)" field="name"/>
+          </modifiers>
+          <comment>1 (Phosphex shell)</comment>
+        </infoLink>
+        <infoLink name="Panic (X)" id="9607-2373-b41b-b4d0" hidden="false" type="rule" targetId="82a7-f471-3fda-6ca1">
+          <comment>3 (Phosphex shell)</comment>
+          <modifiers>
+            <modifier type="set" value="Panic (3) (Phosphex shell)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Poisoned (X)" id="baf8-42a1-e3ae-4a58" hidden="false" type="rule" targetId="076f-2c91-c58b-71b3">
+          <comment>3+ (Phosphex shell)</comment>
+          <modifiers>
+            <modifier type="set" value="Poisoned (3+) (Phosphex shell)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Quad launcher" hidden="false" id="feb2-84a7-0b35-8f1b">
+      <profiles>
+        <profile name="Quad launcher (Frag)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6736-dfe4-8b9e-662b" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">60</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Blast (5&quot;), Barrage (2)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+        <profile name="Quad launcher (Phosphex canister shot)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="0027-1a59-cd6f-5f1c">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Barrage (1), Poisoned (3+), Panic (3), Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Phosphex</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Quad launcher (Shatter)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6d70-74f2-afd2-66ca">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">4</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Panic (X)" id="17a2-957b-5e0e-566d" hidden="false" type="rule" targetId="82a7-f471-3fda-6ca1">
+          <comment>3 (Phosphex canister shot)</comment>
+          <modifiers>
+            <modifier type="set" value="Panic (3) (Phosphex canister shot)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Poisoned (X)" id="9ca3-063e-7535-a625" hidden="false" type="rule" targetId="076f-2c91-c58b-71b3">
+          <comment>3+ (Phosphex canister shot)</comment>
+          <modifiers>
+            <modifier type="set" value="Poisoned (3+) (Phosphex canister shot)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="fd0b-665c-ad67-62cc" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Phosphex canister shot)" field="name"/>
+          </modifiers>
+          <comment>5+ (Phosphex canister shot)</comment>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="0d70-d9cb-eec1-d39b" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (1) (Phosphex canister shot)" field="name"/>
+          </modifiers>
+          <comment>1 (Phosphex canister shot)</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="5b86-3150-c64c-1973" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Frag)" field="name"/>
+          </modifiers>
+          <comment>5&quot; (Frag)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="279c-bb11-0d0b-af10" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <comment>(FP) (Frag)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (FP) (Frag)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="7ab3-8b2c-7a71-b8bc" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <comment>(D) (Shatter)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (D) (Shatter)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="7500-873a-8816-28a6" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (1) (Phosphex canister shot)" field="name"/>
+          </modifiers>
+          <comment>2 (Frag)</comment>
+        </infoLink>
+        <infoLink name="Armourbane" id="a9c7-04db-bf13-dec4" hidden="false" type="rule" targetId="36ee-4c54-bced-a696">
+          <comment>Shatter</comment>
+          <modifiers>
+            <modifier type="set" value="Armourbane (Shatter)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="6867-6199-aec8-999e" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;) (Phosphex canister shot)" field="name"/>
+          </modifiers>
+          <comment>3&quot; (Phosphex canister shot)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dreadhammer siege cannon" hidden="false" id="6241-f9ad-8d5f-9494">
+      <profiles>
+        <profile name="Dreadhammer siege cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6518-af47-b900-9730">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">12</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Blast (5&quot;), Breaching (5+), Stun (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Stun (X)" id="7776-4a04-c819-3ccf" hidden="false" type="rule" targetId="c7c1-bbc9-f852-6f71">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Stun (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Ordnance (X)" id="91d6-1270-0e9a-e1a3" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="cc4c-5f2f-fc11-0c28" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="1b61-e51f-ed5d-b771" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
