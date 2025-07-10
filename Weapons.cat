@@ -493,6 +493,7 @@
           <modifiers>
             <modifier type="set" value="Melta (6)" field="name"/>
           </modifiers>
+          <comment>6</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
@@ -1717,6 +1718,279 @@
             <modifier type="set" value="Blast (3&quot;)" field="name"/>
           </modifiers>
           <comment>3&quot;</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="0135-12f0-d86f-ced9">
+      <profiles>
+        <profile name="Multi-melta" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="191c-70af-fe38-3a69">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (8)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="c8dd-b96e-2c2a-af6e" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (8)" field="name"/>
+          </modifiers>
+          <comment>8</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="241a-942f-2bb4-b526" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin multi-melta" hidden="false" id="0e76-d08b-904e-c8fd">
+      <profiles>
+        <profile name="Twin multi-melta" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="a3e0-ec4d-a902-8e99">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (8)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="a8ae-15f4-c6ed-5616" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (8)" field="name"/>
+          </modifiers>
+          <comment>8</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="3ec5-1a1b-5868-7a4b" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gravis melta cannon" hidden="false" id="5a5a-1d32-2fcd-e5e3">
+      <profiles>
+        <profile name="Gravis melta cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="376b-2930-58af-0391">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (8)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="bf12-1a06-54eb-1236" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (8)" field="name"/>
+          </modifiers>
+          <comment>8</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="0575-1d8c-b185-c015" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magna-melta cannon" hidden="false" id="cd2b-e3dd-e31b-73f9">
+      <profiles>
+        <profile name="Magna-melta cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7d44-cd0d-23c0-40a0">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (12)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="67d0-160d-3bce-999f" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (12)" field="name"/>
+          </modifiers>
+          <comment>12</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="c814-c39d-f80d-4897" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cyclonic melta lance" hidden="false" id="b567-d6ca-225a-31d8">
+      <profiles>
+        <profile name="Cyclonic melta lance" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="a37c-6e8a-e737-7953">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (8)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="72ff-9600-dffa-1cfb" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (8)" field="name"/>
+          </modifiers>
+          <comment>8</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="a13a-81ed-938a-f47d" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Siege-melta array" hidden="false" id="711a-5744-668b-feb2">
+      <profiles>
+        <profile name="Siege-melta array" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="74b9-3ebd-958d-abed">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">10</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;), Melta (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="b8f6-b1e1-64f3-e70b" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (6)" field="name"/>
+          </modifiers>
+          <comment>6</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="d986-4036-5c3c-f6c3" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="f30b-dfde-557a-6f06" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta cutters" hidden="false" id="030a-72a9-a2b0-e92b">
+      <profiles>
+        <profile name="Melta cutters" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="77cf-2b64-4833-081d">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">6</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;), Melta (3)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="f1ed-b6fe-fa0b-3aa7" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (3)" field="name"/>
+          </modifiers>
+          <comment>3</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="eaa7-a525-fdd8-86b7" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="6e4f-4c06-8de8-29e9" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta blast-gun" hidden="false" id="bd90-7986-8459-1fcc">
+      <profiles>
+        <profile name="Melta blast-gun" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="af4b-a933-9aba-4ff8">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (24)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="db71-e0e2-9bed-de2d" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (24)" field="name"/>
+          </modifiers>
+          <comment>24</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="d4be-e12f-1dca-f12d" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sentry melta array" hidden="false" id="31e3-04f7-7ed9-44f6">
+      <profiles>
+        <profile name="Sentry melta array" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1b81-fe68-bc42-d5f6">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Melta (8)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="0afe-9485-006d-dddc" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (8)" field="name"/>
+          </modifiers>
+          <comment>8</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="8c87-252d-9178-53e1" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
