@@ -41,5 +41,8 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Armourbane" id="36ee-4c54-bced-a696" hidden="false"/>
     <rule name="Pistol" id="2bf6-55c8-6810-a71c" hidden="false"/>
     <rule name="Skyfire" id="8ff3-b6fe-c75b-1d52" hidden="false"/>
+    <rule name="Limited (X)" id="fe57-5bea-a3de-1e60" hidden="false"/>
+    <rule name="Rapid Tracking" id="a3ed-1776-3252-db23" hidden="false"/>
+    <rule name="Suppressive (X)" id="001f-53f3-4d87-4b43" hidden="false"/>
   </sharedRules>
 </catalogue>

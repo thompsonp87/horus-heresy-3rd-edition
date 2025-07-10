@@ -456,6 +456,7 @@
           <modifiers>
             <modifier type="set" value="Breaching (5+)" field="name"/>
           </modifiers>
+          <comment>5+</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
@@ -1991,6 +1992,623 @@
             <modifier type="set" value="Heavy (RS)" field="name"/>
           </modifiers>
           <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Missile launcher" hidden="false" id="f391-c3f5-d98c-dd26">
+      <profiles>
+        <profile name="Missile launcher (Flak)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="765d-0e67-bbe3-2056">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Skyfire</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Missile launcher (Krak)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="8284-4ac4-dc47-e512">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Missile launcher (Frag)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="41fe-02a3-6781-78b5">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">6</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="c083-74e7-60e5-f9f7" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy RS (Frag)" field="name"/>
+          </modifiers>
+          <comment>RS (Frag)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="abda-2f01-95b9-01d7" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <comment>D (Krak &amp; Flak)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (D) (Krak &amp; Flak)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="b9be-b6b2-6873-c018" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;) (Frag)" field="name"/>
+          </modifiers>
+          <comment>3&quot; (Frag)</comment>
+        </infoLink>
+        <infoLink name="Skyfire" id="cd55-5581-a492-8111" hidden="false" type="rule" targetId="8ff3-b6fe-c75b-1d52">
+          <modifiers>
+            <modifier type="set" value="Skyfire (Flak)" field="name"/>
+          </modifiers>
+          <comment>Flak</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vengeance launcher" hidden="false" id="c575-11c1-0b4d-b01e">
+      <profiles>
+        <profile name="Vengeance launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3b99-3cf7-6b5b-799e">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="0ba3-ac54-6e7d-0a6a" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Havoc launcher" hidden="false" id="0295-e35d-2ed6-f28a">
+      <infoLinks>
+        <infoLink name="Blast (X)" id="61c5-5a67-6fe2-d6f8" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Stun (X)" id="f5bf-9f50-98d2-9a42" hidden="false" type="rule" targetId="c7c1-bbc9-f852-6f71">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Stun (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Havoc launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="5a25-b8fa-5ae7-4e6b">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Stun (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hunter-killer missile" hidden="false" id="b9b7-8297-35b5-74ad">
+      <profiles>
+        <profile name="Hunter-killer missile" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="97cf-fa1d-7974-9a96">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Armourbane, Limited (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="d491-bf2f-6a5e-9ae1" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Limited (X)" id="c78e-b67e-ffb8-0386" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hellstrike missile" hidden="false" id="f5a3-87a2-b39d-735c">
+      <profiles>
+        <profile name="Hellstrike missile" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1cb6-c00f-5798-529e">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Armourbane, Limited (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Guided Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="c843-4e9b-fa8b-692f" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Limited (X)" id="596b-f506-9e3a-66bc" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deathstorm missile launcher" hidden="false" id="a774-5009-7e45-c9bf">
+      <profiles>
+        <profile name="Deathstorm missile launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3771-a309-f36d-4832">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">D3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pinning (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pinning (X)" id="4b03-4e97-cd7f-fa7a" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kharybdis missile launcher" hidden="false" id="a6fd-3d58-c22e-1887">
+      <profiles>
+        <profile name="Kharybdis missile launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="be59-5f8e-9279-131d">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">5</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pinning (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pinning (X)" id="225d-bf18-8474-34eb" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rotary missile launcher" hidden="false" id="c35d-5122-6487-0063">
+      <profiles>
+        <profile name="Rotary missile launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="eb39-df19-3502-72d9">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">-</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sabre missile" hidden="false" id="1ec7-d5d4-dd1b-9074">
+      <profiles>
+        <profile name="Sabre missile" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="383f-5b6a-b5dd-274b">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (6+), Limited (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Limited (X)" id="67e0-b4fc-b79a-cb20" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="c6c9-857a-bd61-7156" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tempest rocket" hidden="false" id="211b-5ea9-63ac-d161">
+      <infoLinks>
+        <infoLink name="Limited (X)" id="0153-cc8c-927f-6819" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="18fe-f95d-13b3-767f" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Tempest rocket" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6e6a-27de-85f4-696b">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Armourbane, Limited (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Guided Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Aiolos missile launcher" hidden="false" id="8ae6-6cc4-f663-18de">
+      <profiles>
+        <profile name="Aiolos missile launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="fdb5-a741-1c8c-58f9">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">60</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Blast (3&quot;), Barrage (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="4348-a2e7-753b-0716" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="0efd-d2df-e9d7-f9af" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (FP)" field="name"/>
+          </modifiers>
+          <comment>FP</comment>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="a58b-2563-ecb2-e7c5" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boreas air defence missile" hidden="false" id="9e52-602f-51c2-4548">
+      <profiles>
+        <profile name="Boreas air defence missile" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d978-410e-d5a0-cf65">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Limited (1), Skyfire, Rapid Tracking</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Limited (X)" id="e8b6-e779-dfe9-f2e4" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Skyfire" id="12e0-e692-e254-3bc4" hidden="false" type="rule" targetId="8ff3-b6fe-c75b-1d52"/>
+        <infoLink name="Rapid Tracking" id="1b2a-4b04-31bf-5948" hidden="false" type="rule" targetId="a3ed-1776-3252-db23"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spicula rocket system" hidden="false" id="091a-bb9b-8f2e-edc1">
+      <profiles>
+        <profile name="Spicula rocket system" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="db95-7bf8-efbe-ba3f">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">72</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (7&quot;), Barrage (2), Suppressive (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="e977-e98f-6da0-4f59" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (7&quot;)" field="name"/>
+          </modifiers>
+          <comment>7&quot;</comment>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="3f44-036e-3a21-6d63" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (2)" field="name"/>
+          </modifiers>
+          <comment>2</comment>
+        </infoLink>
+        <infoLink name="Suppressive (X)" id="3625-1b44-ce48-9d77" hidden="false" type="rule" targetId="001f-53f3-4d87-4b43">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Suppressive (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arcus missile launcher" hidden="false" id="c48d-744e-b0ea-61c6">
+      <profiles>
+        <profile name="Arcus missile launcher (Arcus)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="b1d2-88ec-82c5-ef0e">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">5</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">-</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arcus missile launcher (Skyspear)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="183f-6800-0044-f084">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Skyfire, Armourbane, Rapid Tracking</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arcus missile launcher (Pyrax)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="a9e0-5eab-bf03-e80d">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;), Panic (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arcus missile launcher (Neutron-flux)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4d49-7ebc-6e8e-5f52">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Shock (Suppressed)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Skyfire" id="2604-5711-dbea-e462" hidden="false" type="rule" targetId="8ff3-b6fe-c75b-1d52">
+          <comment>Skyspear</comment>
+          <modifiers>
+            <modifier type="set" value="Skyfire (Skyspear)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="e7a9-5a75-ca2a-c0c5" hidden="false" type="rule" targetId="36ee-4c54-bced-a696">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Skyspear)" field="name"/>
+          </modifiers>
+          <comment>Skyspear</comment>
+        </infoLink>
+        <infoLink name="Rapid Tracking" id="598f-e13b-0896-dee2" hidden="false" type="rule" targetId="a3ed-1776-3252-db23">
+          <modifiers>
+            <modifier type="set" value="Rapid Tracking (Skyspear)" field="name"/>
+          </modifiers>
+          <comment>Skyspear</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="f40d-2c40-bccb-8095" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <comment>5&quot; (Pyrax)
+</comment>
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Pyrax)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Panic (X)" id="696e-e148-73c8-1716" hidden="false" type="rule" targetId="82a7-f471-3fda-6ca1">
+          <comment>1 (Pyrax)</comment>
+          <modifiers>
+            <modifier type="set" value="Panic (1) (Pyrax)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shock (X)" id="87fd-16eb-c7a1-593d" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Suppressed (Neutron-flux)</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Suppressed) (Neutron-flux)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cyclone missile launcher" hidden="false" id="b341-159d-9dfb-ff31">
+      <profiles>
+        <profile name="Cyclone missile launcher (Flak)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="84ec-8dda-00e4-d8ce">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Skyfire</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cyclone missile launcher (Krak)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2430-a221-4ddb-5f73">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cyclone missile launcher (Frag)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="035f-1332-ea96-7b08">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">6</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="5673-4b53-54d5-1c54" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy RS (Frag)" field="name"/>
+          </modifiers>
+          <comment>RS (Frag)</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="b8de-d345-19e2-1b03" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <comment>D (Krak &amp; Flak)</comment>
+          <modifiers>
+            <modifier type="set" value="Heavy (D) (Krak &amp; Flak)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="47fb-51ea-81bd-9120" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Frag)" field="name"/>
+          </modifiers>
+          <comment>5&quot; (Frag)</comment>
+        </infoLink>
+        <infoLink name="Skyfire" id="fd31-0d1f-f57a-53b1" hidden="false" type="rule" targetId="8ff3-b6fe-c75b-1d52">
+          <modifiers>
+            <modifier type="set" value="Skyfire (Flak)" field="name"/>
+          </modifiers>
+          <comment>Flak</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scorpius missile launcher" hidden="false" id="b706-15fa-601e-78b9">
+      <profiles>
+        <profile name="Scorpius missile launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4169-dc2f-fbbd-b42c">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Blast (3&quot;), Barrage (2), Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Barrage (X)" id="0209-76bc-82b4-d33d" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <modifiers>
+            <modifier type="set" value="Barrage (2)" field="name"/>
+          </modifiers>
+          <comment>2</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="ad90-d1d9-18d9-22de" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="6e76-bc89-70b3-7171" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (FP)" field="name"/>
+          </modifiers>
+          <comment>FP</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="3f75-08ce-c063-8bea" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hyperios missile launcher" hidden="false" id="a4e2-e284-30e1-f05a">
+      <profiles>
+        <profile name="Hyperios missile launcher" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="77fc-3740-1d19-3600">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Skyfire, Rapid Tracking</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rapid Tracking" id="79cf-c949-3f72-5693" hidden="false" type="rule" targetId="a3ed-1776-3252-db23"/>
+        <infoLink name="Skyfire" id="47e3-20cd-9666-f137" hidden="false" type="rule" targetId="8ff3-b6fe-c75b-1d52"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Orias frag missile" hidden="false" id="ed11-42af-1450-5e8b">
+      <profiles>
+        <profile name="Orias frag missile" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="e6b3-1249-056e-ec42">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Barrage (3), Blast (5&quot;), Limited (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Missile</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="4fae-dbc1-bc8e-246d" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+        <infoLink name="Barrage (X)" id="d0cc-2473-bfe2-0aaa" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+          <comment>3</comment>
+          <modifiers>
+            <modifier type="set" value="Barrage (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Limited (X)" id="8e6c-517f-b8ab-4ca7" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
         </infoLink>
       </infoLinks>
     </selectionEntry>
