@@ -4158,6 +4158,104 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grenade harness" hidden="false" id="a766-856c-52bd-d30a">
+      <profiles>
+        <profile name="Grenade harness" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="a767-65aa-71ba-cc22">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">6</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">6</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Limited (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Limited (X)" id="adac-5cd5-ef3c-9ffa" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (X)" id="0130-b0e4-3271-5606" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Grenade launcher" hidden="false" id="2562-e355-f8e1-4c54">
+      <profiles>
+        <profile name="Grenade launcher (Frag)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7a1f-b1e0-8025-4acd">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">3</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">6</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Grenade launcher (Krak)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="b015-a75d-dc85-2352">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">-</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="e824-6036-2ab8-9bfd" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;) (Frag)" field="name"/>
+          </modifiers>
+          <comment>3&quot; (Frag)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lascutter" hidden="false" id="6838-5e12-03bb-d500">
+      <profiles>
+        <profile name="Lascutter (Ranged)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="e5ba-a129-a60a-5df4">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">8</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">10</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Ordnance (D), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lascutter (Melee)" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="84f9-967d-649f-0667">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-3</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">12</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">4</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">-</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Ordnance (X)" id="2c46-435d-5922-97cf" hidden="false" type="rule" targetId="b6b3-909a-b78a-3dbf">
+          <comment>D</comment>
+          <modifiers>
+            <modifier type="set" value="Ordnance (D)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="bfdc-bdb9-4176-bd39" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
