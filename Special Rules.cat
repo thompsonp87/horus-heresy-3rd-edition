@@ -44,5 +44,7 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Limited (X)" id="fe57-5bea-a3de-1e60" hidden="false"/>
     <rule name="Rapid Tracking" id="a3ed-1776-3252-db23" hidden="false"/>
     <rule name="Suppressive (X)" id="001f-53f3-4d87-4b43" hidden="false"/>
+    <rule name="Precision (X)" id="4fbd-e0bc-8f72-6e3f" hidden="false"/>
+    <rule name="Shot Selector" id="1adf-7dde-c1ec-ce70" hidden="false"/>
   </sharedRules>
 </catalogue>
