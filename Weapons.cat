@@ -3821,6 +3821,343 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="93e7-6a83-1e9e-204a">
+      <profiles>
+        <profile name="Volkite charger" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4ee3-d4fc-ecc4-032b">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">15</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (5)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="4f6b-0eb7-67a6-07e7" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>5</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (5)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite serpenta" hidden="false" id="b7c3-1de1-087c-3d6e">
+      <profiles>
+        <profile name="Volkite serpenta" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3cc3-1f89-9c76-b3c7">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">10</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol, Deflagrate (5)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="1499-7201-9089-7c92" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>5</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (5)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pistol" id="0eca-4a16-4f99-9920" hidden="false" type="rule" targetId="2bf6-55c8-6810-a71c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Overcharged volkite serpenta" hidden="false" id="a3f7-f435-8ad8-05f9">
+      <profiles>
+        <profile name="Overcharged volkite serpenta" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4601-222b-419f-5b73">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">10</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">4</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol, Deflagrate (5), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="32cb-7f31-9e22-8e44" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>5</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (5)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pistol" id="c483-998a-7009-121a" hidden="false" type="rule" targetId="2bf6-55c8-6810-a71c"/>
+        <infoLink name="Overload (X)" id="d941-ede9-1895-5d82" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin volkite charger" hidden="false" id="af81-2c71-7fe0-16bd">
+      <profiles>
+        <profile name="Twin volkite charger" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6260-d2e0-1235-a82e">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">15</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (5)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="6a46-55e9-2b5b-92b9" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>5</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (5)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite caliver" hidden="false" id="a042-1a69-9052-c59a">
+      <profiles>
+        <profile name="Volkite caliver" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d1cc-6453-48e1-48c8">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">30</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="936d-e292-b96c-ecb5" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>6</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin volkite caliver" hidden="false" id="9941-5e63-ca64-1c83">
+      <profiles>
+        <profile name="Twin volkite caliver" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4cc1-f785-529c-ee43">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">30</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Deflagrate (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="0286-d0c9-a483-4779" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>6</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="86e0-1bf2-9f92-5f62" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (FP)" field="name"/>
+          </modifiers>
+          <comment>FP</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite culverin" hidden="false" id="fcf0-9c1b-d51e-6bc7">
+      <profiles>
+        <profile name="Volkite culverin" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4760-277e-c2d2-eeca">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Deflagrate (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="7847-fbb2-3e56-afa9" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>6</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="9d9a-d4a5-6621-4c06" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (FP)" field="name"/>
+          </modifiers>
+          <comment>FP</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin volkite culverin" hidden="false" id="65a5-f5bd-1ecb-0c22">
+      <profiles>
+        <profile name="Twin volkite culverin" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="2be5-7225-fc3a-9528">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">6</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Deflagrate (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="c0f3-7317-e008-1388" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>6</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="cdb7-d9d4-0c1f-1018" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (FP)" field="name"/>
+          </modifiers>
+          <comment>FP</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite falconet" hidden="false" id="0532-903c-5a66-10ae">
+      <profiles>
+        <profile name="Volkite falconet" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d01d-1cf0-dce0-8541">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">10</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (7), Pinning (2)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="c938-f410-1cbd-1d91" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>7</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (7)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="5129-fb8e-75d2-e858" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>2</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite saker" hidden="false" id="a6cc-a4a8-1b3b-9f41">
+      <profiles>
+        <profile name="Volkite saker" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="ba59-aa6c-3ab4-757a">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">25</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">6</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="bff7-b794-e874-25c2" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>6</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite macro saker" hidden="false" id="7416-5aa2-b1b8-9cbf">
+      <profiles>
+        <profile name="Volkite macro saker" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1a86-5391-45e8-17d5">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">8</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (6)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="652a-ebd6-783d-dfdc" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>6</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite carronade" hidden="false" id="06c7-dd15-f390-c59e">
+      <profiles>
+        <profile name="Volkite carronade" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="cfb7-9743-1d47-bfbb">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">12</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (8)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="b190-2962-980f-6e9d" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>8</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (8)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite cardanelle" hidden="false" id="800b-fe83-5935-eee3">
+      <profiles>
+        <profile name="Volkite cardanelle" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="0c23-b3a2-d646-624e">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">45</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">12</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (7), Suppressive (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Deflagrate (X)" id="02f3-17f3-54d0-4796" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>7</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (7)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Suppressive (X)" id="8bd2-173e-46d3-71a1" hidden="false" type="rule" targetId="001f-53f3-4d87-4b43">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Suppressive (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
