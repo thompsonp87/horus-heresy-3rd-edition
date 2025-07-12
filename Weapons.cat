@@ -574,6 +574,20 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Duellist&apos;s Edge (X)" id="7b5d-3de4-22d7-aa29" hidden="false" type="rule" targetId="94bc-c69f-99b6-8ba0">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Duellist&apos;s Edge (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="6990-2d9b-fdbf-e25c" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Saturnine disruption fist w/ Particle shredder" hidden="false" id="ca13-9e8d-e934-a196">
       <profiles>
@@ -3643,6 +3657,35 @@
             <modifier type="set" value="Overload (1)" field="name"/>
           </modifiers>
           <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Charnabal tabar" hidden="false" id="1580-e085-cb65-6e80">
+      <profiles>
+        <profile name="Charnabal tabar" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="6ca8-0077-58da-4fe9">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+1</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">-</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Breaching (6+), Duellist&apos;s Edge (1)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Charnabal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Duellist&apos;s Edge (X)" id="8ce7-ea28-56f7-43bf" hidden="false" type="rule" targetId="94bc-c69f-99b6-8ba0">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Duellist&apos;s Edge (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="a1eb-bd06-19d8-dd56" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>
