@@ -1164,7 +1164,7 @@
             <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
             <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
             <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Breaching (6+), Shock (Pinned), Pinning (1)</characteristic>
-            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Graviton</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3309,6 +3309,340 @@
           <modifiers>
             <modifier type="set" value="Suppressive (2)" field="name"/>
           </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="4be6-cb80-d54b-f156">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4fb5-b6c7-fe0c-e853">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Flamer (Secondary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="faed-44e8-4994-740f">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">Template</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Template, Panic (1), Limited (1), Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Flame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Panic (X)" id="801c-b66c-08e0-dc3d" hidden="false" type="rule" targetId="82a7-f471-3fda-6ca1">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Panic (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Template" id="65d8-e931-e120-615b" hidden="false" type="rule" targetId="7df2-9e88-3285-cf6a"/>
+        <infoLink name="Combi" id="1a7d-c477-7e8c-54cd" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+        <infoLink name="Limited (X)" id="b2b6-3acd-830a-f2bd" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="9d5c-679f-2b12-9fcc">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="a974-362f-ed15-9c50">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Meltagun (Secondary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="0eaf-ee19-296f-c6e0">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Melta (6), Limited (1), Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Melta (X)" id="901b-4013-ab4a-aeef" hidden="false" type="rule" targetId="8ef6-917e-93da-43c3">
+          <modifiers>
+            <modifier type="set" value="Melta (6)" field="name"/>
+          </modifiers>
+          <comment>6</comment>
+        </infoLink>
+        <infoLink name="Combi" id="5918-1cdb-929d-a693" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+        <infoLink name="Limited (X)" id="cea2-f3bd-a2ba-82b4" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-grenade" hidden="false" id="b7e4-aa28-25a2-4591">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="cca5-b2f4-6aad-56b3">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Grenade launcher (Secondary) (Krak)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1ec6-8a4c-6791-efa6">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Combi" id="00b9-beba-08e1-0667" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-volkite" hidden="false" id="b8db-72f3-a241-c3b2">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="8dcf-a93d-7830-9841">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Volkite charger (Secondary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="b693-ac14-2903-f114">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">15</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Deflagrate (5), Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Volkite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Combi" id="de4b-fe35-b298-c2f9" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+        <infoLink name="Deflagrate (X)" id="c4d6-7960-bd52-c562" hidden="false" type="rule" targetId="f4a0-f206-0dba-7d81">
+          <comment>5</comment>
+          <modifiers>
+            <modifier type="set" value="Deflagrate (5)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-disintegrator" hidden="false" id="03a0-ae36-37de-852e">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="230d-080c-9acb-67f3">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Disintegrator (Secondary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="aed0-7110-6e45-2730">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Overload (1), Limited (1), Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Disintegrator</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Combi" id="7303-4455-7c7d-a446" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+        <infoLink name="Overload (X)" id="d58a-3dad-82a0-f82b" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+        <infoLink name="Limited (X)" id="80b9-828e-554c-d44b" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-grav" hidden="false" id="9b35-7e25-1e16-9ef6">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7384-3d81-de33-0e6f">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Graviton gun (Secondary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="ed6a-3555-0270-8d88">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (3&quot;), Breaching (6+), Shock (Pinned), Pinning (1), Limited (1), Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Graviton</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Combi" id="dbb2-de02-0ffa-ccd3" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+        <infoLink name="Blast (X)" id="7145-0d07-d622-6155" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="496b-43d2-3370-1add" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="6757-2101-de10-5272" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shock (X)" id="b51c-c498-1fd3-200c" hidden="false" type="rule" targetId="c6fd-28d0-3f80-672c">
+          <comment>Pinned</comment>
+          <modifiers>
+            <modifier type="set" value="Shock (Pinned)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Limited (X)" id="048c-72d6-a58d-c6db" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="d024-6bbf-9e14-566c">
+      <profiles>
+        <profile name="Bolter (Primary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4a80-dcfb-fce4-97b1">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma gun (Secondary)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="04ea-5f37-2a93-a2e8" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (6+), Limited (1), Combi</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Combi" id="0583-5a92-8150-3613" hidden="false" type="rule" targetId="26a0-aaea-5b18-4de6"/>
+        <infoLink name="Limited (X)" id="2340-8e27-f211-464e" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Limited (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="36a8-b75d-b217-26f1" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="433d-56e0-9878-dea1">
+      <profiles>
+        <profile name="Plasma gun (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="4ed6-4deb-e1d5-7e91">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (5+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma gun (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="9e32-f0f6-e817-c901" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="2c66-51e8-bef0-c195" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="f73b-176f-2da3-5b94" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="ba72-27e2-d28c-5ffb" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
         </infoLink>
       </infoLinks>
     </selectionEntry>

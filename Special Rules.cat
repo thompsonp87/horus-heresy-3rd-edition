@@ -46,5 +46,7 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Suppressive (X)" id="001f-53f3-4d87-4b43" hidden="false"/>
     <rule name="Precision (X)" id="4fbd-e0bc-8f72-6e3f" hidden="false"/>
     <rule name="Shot Selector" id="1adf-7dde-c1ec-ce70" hidden="false"/>
+    <rule name="Combi" id="26a0-aaea-5b18-4de6" hidden="false"/>
+    <rule name="Deflagrate (X)" id="f4a0-f206-0dba-7d81" hidden="false"/>
   </sharedRules>
 </catalogue>
