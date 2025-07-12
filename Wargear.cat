@@ -63,21 +63,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Augury scanner" hidden="false" id="fede-99f5-4c76-4659"/>
     <selectionEntry type="upgrade" import="true" name="Nuncio-vox" hidden="false" id="4d7e-898a-f445-f1d8"/>
+    <selectionEntry type="upgrade" import="true" name="Combat shield" hidden="false" id="5606-f0ad-360b-fe5b"/>
+    <selectionEntry type="upgrade" import="true" name="Boarding shield" hidden="false" id="01e9-334c-80cb-f1c6"/>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Legion Equipment" id="0e69-ccf1-cde7-acaf" hidden="false">
-      <entryLinks>
-        <entryLink import="true" name="Nuncio-vox" hidden="false" id="bcad-f49a-3f01-a2dc" type="selectionEntry" targetId="4d7e-898a-f445-f1d8">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-          </costs>
-        </entryLink>
-        <entryLink import="true" name="Augury scanner" hidden="false" id="098b-f7be-0258-c5ad" type="selectionEntry" targetId="fede-99f5-4c76-4659">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-          </costs>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
 </catalogue>
