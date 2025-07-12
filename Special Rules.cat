@@ -49,5 +49,6 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Combi" id="26a0-aaea-5b18-4de6" hidden="false"/>
     <rule name="Deflagrate (X)" id="f4a0-f206-0dba-7d81" hidden="false"/>
     <rule name="Phage (X)" id="3e26-d357-69d6-1341" hidden="false"/>
+    <rule name="Rending (X)" id="167f-2a64-6e61-505b" hidden="false"/>
   </sharedRules>
 </catalogue>
