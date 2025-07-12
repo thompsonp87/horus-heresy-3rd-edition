@@ -4281,9 +4281,40 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
-    <selectionEntryGroup name="Minor Combi-Weapon" id="eef0-db97-3210-e593" hidden="false"/>
-    <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false"/>
+    <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Flamer" hidden="false" id="1989-9a6a-1cd7-ecb3" type="selectionEntry" targetId="9a45-35cd-3806-2303" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Plasma gun" hidden="false" id="f75a-d3bd-33e5-4e49" type="selectionEntry" targetId="433d-56e0-9878-dea1" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Meltagun" hidden="false" id="ff2d-74cd-9a56-c6c9" type="selectionEntry" targetId="b1e1-e164-5877-6734" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Volkite charger" hidden="false" id="eecf-11f7-2213-52e5" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Volkite caliver" hidden="false" id="39e2-2dc3-e33e-129e" type="selectionEntry" targetId="a042-1a69-9052-c59a" sortIndex="5">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Rotor cannon" hidden="false" id="4a68-b515-bdf0-c798" type="selectionEntry" targetId="05bf-af5e-be67-36a2" sortIndex="6">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="0a98-8ac6-661c-817b" targetId="106b-693b-99f2-00c3"/>
