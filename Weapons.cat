@@ -4832,6 +4832,124 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Krak grenades" hidden="false" id="fa20-82bc-c7de-9e97">
+      <profiles>
+        <profile name="Krak grenades" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="18b8-b0a0-a95e-3236">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-3</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">6</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">4</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">2</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Detonation</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Detonation" id="7564-d5ba-9fd1-9d14" hidden="false" type="rule" targetId="7349-9e80-c051-c22f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta bombs" hidden="false" id="2eb4-687e-a515-ee3d">
+      <profiles>
+        <profile name="Melta bombs" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="d0b8-6aa6-9753-e0d9">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-3</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">9</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">4</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Armourbane, Detonation</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="c72f-5a09-5ffd-c1ea" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+        <infoLink name="Detonation" id="cdb5-0922-1593-df3b" hidden="false" type="rule" targetId="7349-9e80-c051-c22f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leviathan siege claw" hidden="false" id="f39b-5653-54c5-50e2">
+      <profiles>
+        <profile name="Leviathan siege claw" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="5cc5-908e-4d99-b755">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">-</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Paired Leviathan siege claws" hidden="false" id="0d5c-0630-689b-ae6f">
+      <profiles>
+        <profile name="Leviathan siege claw" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="e5b3-e40d-06e2-5c13">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">+1</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">-</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leviathan siege drill" hidden="false" id="273d-0a18-7695-29e5">
+      <profiles>
+        <profile name="Leviathan siege drill" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="694f-174a-dbac-6c43">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-2</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+4</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Armourbane</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="1ba3-417b-7eb8-08d7" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Paired Leviathan siege drills" hidden="false" id="f1d4-d297-2484-deb1">
+      <profiles>
+        <profile name="Paired Leviathan siege drills" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="6cfa-f92a-7049-5e31">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-2</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+4</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">4</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Armourbane</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane" id="9270-a86c-46ea-b6c4" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="3484-1bd3-cb74-7abe">
+      <profiles>
+        <profile name="Bayonet" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="71e6-cbe2-7673-24f7">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">S</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">5</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">-</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Bayonet</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false">
