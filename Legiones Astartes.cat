@@ -1341,29 +1341,5 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Power Weapon" id="d23f-b4f0-0127-9394" hidden="false">
-      <entryLinks>
-        <entryLink import="true" name="Power sword" hidden="false" id="807a-4734-959e-9286" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-          </costs>
-        </entryLink>
-        <entryLink import="true" name="Power axe" hidden="false" id="ceae-3f50-6813-067f" type="selectionEntry" targetId="4861-b77a-620c-f0d6" sortIndex="2">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-          </costs>
-        </entryLink>
-        <entryLink import="true" name="Power maul" hidden="false" id="dfa7-687a-dba5-8309" type="selectionEntry" targetId="c4fa-659d-bf4b-bad1" sortIndex="3">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-          </costs>
-        </entryLink>
-        <entryLink import="true" name="Power lance" hidden="false" id="1d0c-b995-d0fb-ef05" type="selectionEntry" targetId="f56f-c410-b47c-58d9" sortIndex="4">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
-          </costs>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
