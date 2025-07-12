@@ -4950,6 +4950,193 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="78f4-4967-2896-c3a5">
+      <infoLinks>
+        <infoLink name="Shred (X)" id="3576-9677-4c2a-9581" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Chainsword" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="d9c9-3e13-6cbc-fa26">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">S</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">5</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chainaxe" hidden="false" id="31a4-f8de-de6d-1fd9">
+      <infoLinks>
+        <infoLink name="Shred (X)" id="e9f0-bcbb-1090-bc43" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Chainaxe" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="2d70-6a02-5104-edd2">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+1</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">5</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy chainsword" hidden="false" id="e175-3b00-8885-b321">
+      <infoLinks>
+        <infoLink name="Shred (X)" id="b58b-ff70-0bf8-af38" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Heavy chainsword" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="9df7-9396-9dee-63fd">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">4</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy chainaxe" hidden="false" id="3a14-74ac-8634-c204">
+      <infoLinks>
+        <infoLink name="Shred (X)" id="5c63-303c-967c-9566" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Heavy chainaxe" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="b31b-2021-270b-2a80">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-2</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+3</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">4</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="8322-1eca-e855-2683">
+      <profiles>
+        <profile name="Chainfist" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="0b21-9073-dffa-0df5">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-3</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">-1</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+6</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">2</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Armourbane, Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shred (X)" id="f855-b8da-eebe-51c6" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="3254-90ab-9610-6b64" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gravis chainfist" hidden="false" id="dd60-1a48-6cc0-b8a6">
+      <profiles>
+        <profile name="Gravis chainfist" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="1c1a-043a-302a-c974">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+4</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Armourbane, Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shred (X)" id="91a4-04c3-69e5-9c52" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="32c8-2f7f-ec92-102a" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Paired Gravis chainfists" hidden="false" id="1a8a-b668-65a2-7d55">
+      <profiles>
+        <profile name="Paired Gravis chainfists" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="ac9e-ad5d-b82e-ddd5">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+4</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">4</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Armourbane, Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shred (X)" id="a0be-e146-d683-e2b2" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="665b-306f-dd37-d151" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chain bayonet" hidden="false" id="e410-d998-bd3e-c0ea">
+      <infoLinks>
+        <infoLink name="Shred (X)" id="4d46-5543-d740-692a" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Shred (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <profiles>
+        <profile name="Chain bayonet" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="4de6-8ad8-3d57-360e">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">S</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">5</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Shred (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Bayonet, Chain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false">
