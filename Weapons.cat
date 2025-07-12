@@ -774,16 +774,31 @@
       <profiles>
         <profile name="Heavy particle shredder" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="c023-f7f5-d1e8-f92e">
           <characteristics>
-            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
-            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
-            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
-            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
-            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
-            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
-            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">Template</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Template, Breaching (6+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Particle</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Overload (X)" id="ebbd-0ad5-c953-3efb" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+        <infoLink name="Template" id="8de1-202b-7380-cd12" hidden="false" type="rule" targetId="7df2-9e88-3285-cf6a"/>
+        <infoLink name="Breaching (X)" id="a7e2-8f84-c8ce-586b" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Demolisher cannon" hidden="false" id="4514-8e18-77b4-a141">
       <profiles>
