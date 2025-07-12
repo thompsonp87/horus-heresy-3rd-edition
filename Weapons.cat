@@ -4256,6 +4256,29 @@
         <infoLink name="Armourbane" id="bfdc-bdb9-4176-bd39" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Paragon blade" hidden="false" id="1881-a2b5-fc58-4270">
+      <profiles>
+        <profile name="Paragon blade" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="adb6-1c31-a7f9-5be5">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+1</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Critical Hit (X)" id="0640-ee58-93fd-2805" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
+          <comment>6+</comment>
+          <modifiers>
+            <modifier type="set" value="Critical Hit (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Magna Combi-Weapon" id="c7fa-894f-6ba0-7e81" hidden="false"/>
