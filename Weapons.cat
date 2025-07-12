@@ -147,18 +147,50 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Plasma pistol" hidden="false" id="659f-d52e-1515-2912">
       <profiles>
-        <profile name="Plasma pistol" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d37a-cbef-57b7-ce14">
+        <profile name="Plasma pistol (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d37a-cbef-57b7-ce14">
           <characteristics>
-            <characteristic name="R" typeId="cdb0-8654-6840-1037"/>
-            <characteristic name="FP" typeId="5037-1f27-1790-e355"/>
-            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63"/>
-            <characteristic name="AP" typeId="7a23-0248-2b94-5951"/>
-            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291"/>
-            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd"/>
-            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol, Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma pistol (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="8da8-cce8-1320-2454">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol, Breaching (5+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Plasma</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="ae15-bd04-4656-b978" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="7c91-6b66-b3bf-e69d" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="eeef-cf8c-1ecc-2712" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Pistol" id="e0e3-7d27-ae64-3897" hidden="false" type="rule" targetId="2bf6-55c8-6810-a71c"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Plasma bombard" hidden="false" id="9734-6aa8-f0fe-1930">
       <profiles>
@@ -4279,6 +4311,354 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Overcharged plasma pistol" hidden="false" id="6f6b-2628-9aea-2ffb">
+      <profiles>
+        <profile name="Overcharged" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="15d9-1e0e-81c7-1bcd">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Pistol, Breaching (4+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault, Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="fd2c-e0c6-f84e-e52f" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+)" field="name"/>
+          </modifiers>
+          <comment>4+</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="9a21-e31f-609c-ee5c" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1</comment>
+        </infoLink>
+        <infoLink name="Pistol" id="405b-95c0-428f-cf7c" hidden="false" type="rule" targetId="2bf6-55c8-6810-a71c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin plasma gun" hidden="false" id="1603-43c6-8860-d57e">
+      <profiles>
+        <profile name="Twin plasma gun (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="5d3e-b379-c25d-65f4">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (5+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin plasma gun (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="a4d8-b21f-c748-010c" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="637f-1567-b1f2-0799" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>5+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="8e7b-6634-d3c8-e17f" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>4+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="9626-d774-1196-050e" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma cannon" hidden="false" id="f8b8-96c8-ba31-faf8">
+      <profiles>
+        <profile name="Plasma cannon (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="f7f1-cf8a-3f90-62da">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;), Breaching (5+), Overload (2)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasma cannon (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="ba9c-bc54-385b-5998" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (3&quot;), Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="e4fd-a8a5-731c-c067" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="0962-604d-3536-9c58" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="8f6e-27fd-a471-c708" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (2)" field="name"/>
+          </modifiers>
+          <comment>2 (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="50ba-e7dd-2914-bcd5" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (3&quot;)" field="name"/>
+          </modifiers>
+          <comment>3&quot;</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="b3c1-b3fc-2018-7189" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gravis plasma cannon" hidden="false" id="e457-5209-91f7-734f">
+      <profiles>
+        <profile name="Gravis plasma cannon (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6952-517b-f256-0835">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;), Breaching (5+), Overload (2)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gravis plasma cannon (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="b3ee-8393-3b61-9146" noindex="false">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;), Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="b54a-2767-0de4-b1b9" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>6+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="b4df-e491-3485-0021" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="80b4-3984-c0bf-9cec" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Blast (X)" id="992e-74c6-4a29-033c" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="e619-3a47-7c38-4b72" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name"/>
+          </modifiers>
+          <comment>RS</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Executioner plasma destroyer" hidden="false" id="7cb4-a7cc-cada-1190">
+      <profiles>
+        <profile name="Executioner plasma destroyer (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="abe9-f116-d75a-06b2">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;), Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Executioner plasma destroyer (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="c2da-8dfa-7274-27a7">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;), Breaching (4+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="11f2-502b-0925-e2ed" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;)" field="name"/>
+          </modifiers>
+          <comment>5&quot;</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="897c-14fb-4d4b-c2e7" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>5+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="9e9e-1047-cf12-32c1" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>4+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="1053-2189-aa0f-1f14" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hellfire plasma cannonade" hidden="false" id="bcd9-2a05-b14b-6a50">
+      <profiles>
+        <profile name="Hellfire plasma cannonade (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="af0b-060a-4c77-92e1">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">6</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hellfire plasma cannonade (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="c031-b241-de34-f059">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Blast (5&quot;), Breaching (4+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="4da0-4146-eb2e-22a3" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5&quot; (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="196c-926d-08fb-ce82" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>5+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="2a6a-3881-4838-8777" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>4+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="0bd7-c348-a818-1f6b" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Omega plasma array" hidden="false" id="0732-5e8a-8277-9026">
+      <profiles>
+        <profile name="Omega plasma array (Sustained)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="1879-81ca-6d50-dd97">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">6</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">7</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (5+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Omega plasma array (Maximal)" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="69a3-80df-a020-fafc">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">36</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">8</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;), Breaching (4+), Overload (1)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Plasma</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Blast (X)" id="9172-3728-5346-f0f7" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+          <modifiers>
+            <modifier type="set" value="Blast (5&quot;) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>5&quot; (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="d787-fda3-8cc4-35ed" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+) (Sustained)" field="name"/>
+          </modifiers>
+          <comment>5+ (Sustained)</comment>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="d1b9-ca23-2612-ff41" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (4+) (Maximal)" field="name"/>
+          </modifiers>
+          <comment>4+ (Maximal)</comment>
+        </infoLink>
+        <infoLink name="Overload (X)" id="dc09-fc22-061e-dd60" hidden="false" type="rule" targetId="1d3a-d1e2-871a-63ae">
+          <modifiers>
+            <modifier type="set" value="Overload (1)" field="name"/>
+          </modifiers>
+          <comment>1 (Maximal)</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false">
@@ -4311,6 +4691,25 @@
         <entryLink import="true" name="Rotor cannon" hidden="false" id="4a68-b515-bdf0-c798" type="selectionEntry" targetId="05bf-af5e-be67-36a2" sortIndex="6">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Pistols" id="4041-7fad-77cd-f9cf" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Plasma pistol" hidden="false" id="7fb5-c129-9a83-5062" type="selectionEntry" targetId="659f-d52e-1515-2912" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Volkite serpenta" hidden="false" id="52cc-4406-d062-4d0a" type="selectionEntry" targetId="b7c3-1de1-087c-3d6e" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Hand flamer" hidden="false" id="be8f-bfdf-59e5-df4c" type="selectionEntry" targetId="9322-09ed-abec-6e13" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
           </costs>
         </entryLink>
       </entryLinks>
