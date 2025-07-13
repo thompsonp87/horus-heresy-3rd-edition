@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="fcc7-4319-bb04-2c25" name="Wargear" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Strato-vox" hidden="false" id="e3dd-d327-3f0b-265f">
+      <profiles>
+        <profile name="Strato-vox" typeId="5ec5-e0c3-1701-6f16" typeName="Wargear" hidden="false" id="256b-875a-0dad-6e7b">
+          <characteristics>
+            <characteristic name="Summary" typeId="8e7d-a0ae-fd85-983c"/>
+            <characteristic name="Description" typeId="9944-2f6d-d61b-03b5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Frag grenades" hidden="false" id="60e4-ca33-2e68-9afc">
+      <profiles>
+        <profile name="Frag grenades" typeId="5ec5-e0c3-1701-6f16" typeName="Wargear" hidden="false" id="3035-fae8-b4b2-ec46">
+          <characteristics>
+            <characteristic name="Summary" typeId="8e7d-a0ae-fd85-983c"/>
+            <characteristic name="Description" typeId="9944-2f6d-d61b-03b5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Krak grenades" hidden="false" id="0c9b-a32b-87e2-fc3e">
+      <profiles>
+        <profile name="Krak grenades" typeId="5ec5-e0c3-1701-6f16" typeName="Wargear" hidden="false" id="d95c-c624-b5a0-e66e">
+          <characteristics>
+            <characteristic name="Summary" typeId="8e7d-a0ae-fd85-983c"/>
+            <characteristic name="Description" typeId="9944-2f6d-d61b-03b5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Thermal Diffraction Field" hidden="false" id="ae43-8418-ecb1-ef6e">
+      <profiles>
+        <profile name="Thermal Diffraction Field" typeId="5ec5-e0c3-1701-6f16" typeName="Wargear" hidden="false" id="24f0-e464-a157-e1d5">
+          <characteristics>
+            <characteristic name="Summary" typeId="8e7d-a0ae-fd85-983c"/>
+            <characteristic name="Description" typeId="9944-2f6d-d61b-03b5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Occulix targeting auspex" hidden="false" id="01d8-92c7-5399-5e2a">
+      <profiles>
+        <profile name="Occulix targeting auspex" typeId="5ec5-e0c3-1701-6f16" typeName="Wargear" hidden="false" id="3ad7-63c7-4717-3f4d">
+          <characteristics>
+            <characteristic name="Summary" typeId="8e7d-a0ae-fd85-983c"/>
+            <characteristic name="Description" typeId="9944-2f6d-d61b-03b5">When a Model with an occulix targeting auspex is selected to make a Shooting Attack, if that Model&apos;s Unit remained Stationary in the Controlling Player&apos;s preceding Movement Phase, that Model gins the Firing Protocols (2) Special Rule until the Shooting Attack is fully resolved.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Saturnine teleportation transponder" hidden="false" id="b347-5137-3d53-53ab">
+      <profiles>
+        <profile name="Saturnine teleportation transponder" typeId="5ec5-e0c3-1701-6f16" typeName="Wargear" hidden="false" id="6dba-1981-dc99-80bd">
+          <characteristics>
+            <characteristic name="Summary" typeId="8e7d-a0ae-fd85-983c"/>
+            <characteristic name="Description" typeId="9944-2f6d-d61b-03b5">A Model with a Saturnine teleportation transponder has the Deep Strike Special Rule. While such a Model has joined a Saturnine Terminator Squad Unit in Reserves, Saturnine Terminator and Saturnine Terminator Sergeant Models in that Unit also gain the Deep Strike Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Augury scanner" hidden="false" id="fede-99f5-4c76-4659"/>
+    <selectionEntry type="upgrade" import="true" name="Nuncio-vox" hidden="false" id="4d7e-898a-f445-f1d8"/>
+    <selectionEntry type="upgrade" import="true" name="Combat shield" hidden="false" id="5606-f0ad-360b-fe5b"/>
+    <selectionEntry type="upgrade" import="true" name="Boarding shield" hidden="false" id="01e9-334c-80cb-f1c6"/>
+    <selectionEntry type="upgrade" import="true" name="Cognis-signum" hidden="false" id="268f-5e98-166a-6f01"/>
+    <selectionEntry type="upgrade" import="true" name="Searchlight" hidden="false" id="5a85-bf28-f790-7bf0"/>
+    <selectionEntry type="upgrade" import="true" name="Servo-arm" hidden="false" id="9902-2d5f-0df2-5cf0"/>
+    <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="dfcd-0669-ad43-28aa"/>
+    <selectionEntry type="upgrade" import="true" name="Company standard" hidden="false" id="08b9-48cb-732a-aa75"/>
+    <selectionEntry type="upgrade" import="true" name="Cortex controller" hidden="false" id="e1c7-e5c2-8a4c-1e79"/>
+    <selectionEntry type="upgrade" import="true" name="Cyber-familiar" hidden="false" id="a545-36ec-d50e-2ae4"/>
+    <selectionEntry type="upgrade" import="true" name="Dozer blade" hidden="false" id="496e-da18-2afa-b99c"/>
+    <selectionEntry type="upgrade" import="true" name="Legion standard" hidden="false" id="df7f-540b-00d5-1d82"/>
+    <selectionEntry type="upgrade" import="true" name="Narthecium" hidden="false" id="a7bb-ae7f-3ef2-90d1"/>
+  </sharedSelectionEntries>
+</catalogue>

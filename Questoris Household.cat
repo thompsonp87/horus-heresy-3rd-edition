@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fd9b-d04e-362d-8e5d" name="Questoris Household" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issue" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Questoris Knight" hidden="false" id="6fbb-fa07-52b9-d350">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Questoris Knight" hidden="false" id="1afc-28ee-1dec-f9f1">
+          <profiles>
+            <profile name="Questoris Knight" typeId="f99e-9f4d-2075-5a0a" typeName="Knight" hidden="false" id="12a7-03fc-0813-ff69">
+              <characteristics>
+                <characteristic name="M" typeId="5c03-7611-0933-bd64">12</characteristic>
+                <characteristic name="WS" typeId="dde5-e5bd-3253-000c">4</characteristic>
+                <characteristic name="BS" typeId="ba34-f6fb-6bdb-c847">4</characteristic>
+                <characteristic name="S" typeId="fec9-962a-96e4-62cf">8</characteristic>
+                <characteristic name="Front" typeId="49c5-6008-40ba-3781">13</characteristic>
+                <characteristic name="Rear" typeId="c974-3f7c-76d2-98a3">11</characteristic>
+                <characteristic name="I" typeId="f93c-1749-e2e9-3ab1">4</characteristic>
+                <characteristic name="A" typeId="2903-ca70-471c-2741">4</characteristic>
+                <characteristic name="HP" typeId="c427-cd22-b0d1-4db7">10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f1b-739f-3776-789d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06ce-a8ce-649f-7640" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Reaver Titan" hidden="false" id="fe82-182e-02c5-7c8c">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Reaver Titan" hidden="false" id="42c9-d7a7-702b-4dc8">
+          <profiles>
+            <profile name="Reaver" typeId="2e7a-2e4d-dfb2-6b7a" typeName="Titan Head" hidden="false" id="f52d-4d0d-0a5e-d317">
+              <characteristics>
+                <characteristic name="M" typeId="2166-88df-f710-af3f">-</characteristic>
+                <characteristic name="BS" typeId="c495-b16a-f24d-b6a5">-</characteristic>
+                <characteristic name="Primary Armour" typeId="ca2b-9e3d-6d2b-50bb">14</characteristic>
+                <characteristic name="Exposed Armour" typeId="8a30-5814-b7f7-9bcd">12</characteristic>
+                <characteristic name="HP" typeId="2446-14c8-bcb4-40fd">10</characteristic>
+                <characteristic name="Transport Capacity" typeId="f02f-a705-84f7-21c6">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Reaver" typeId="427a-1e14-5a35-588b" typeName="Titan Carapace" hidden="false" id="f7a5-c045-940e-7141">
+              <characteristics>
+                <characteristic name="M" typeId="da45-6b40-46b7-6fe0">-</characteristic>
+                <characteristic name="BS" typeId="7ecd-00b1-f94c-ae3c">3</characteristic>
+                <characteristic name="Primary Armour" typeId="d9bf-1a6a-e602-86ef">15</characteristic>
+                <characteristic name="Exposed Armour" typeId="f2a7-27bd-8ae2-8768">14</characteristic>
+                <characteristic name="HP" typeId="fb1e-e851-064a-b34d">12</characteristic>
+                <characteristic name="Transport Capacity" typeId="33b6-b172-e137-87f3">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Reaver" typeId="196d-8bef-a3cc-336f" typeName="Titan Legs" hidden="false" id="262d-e9fe-68eb-6a51">
+              <characteristics>
+                <characteristic name="M" typeId="b47b-b784-9940-5202">-</characteristic>
+                <characteristic name="BS" typeId="006d-8179-3295-e411">3</characteristic>
+                <characteristic name="Primary Armour" typeId="faaa-3813-1265-a640">14</characteristic>
+                <characteristic name="Exposed Armour" typeId="3c60-53f6-a92f-dd4c">12</characteristic>
+                <characteristic name="HP" typeId="553f-359d-d3b0-f561">10</characteristic>
+                <characteristic name="Transport Capacity" typeId="acd3-8efe-0a62-70f8">12</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Reaver" typeId="90d7-6d94-1c6a-fe28" typeName="Titan Arms" hidden="false" id="ee72-8958-b956-c853">
+              <characteristics>
+                <characteristic name="M" typeId="db3f-53ef-08a8-c0fb">15</characteristic>
+                <characteristic name="BS" typeId="082d-2db1-c27a-ec76">-</characteristic>
+                <characteristic name="Primary Armour" typeId="cde4-2cb6-25ce-18e3">15</characteristic>
+                <characteristic name="Exposed Armour" typeId="4a56-a48e-e6db-05b4">14</characteristic>
+                <characteristic name="HP" typeId="5f7d-4f9b-8d00-8dd7">12</characteristic>
+                <characteristic name="Transport Capacity" typeId="7df3-dabd-eed0-50bf">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc31-6c9b-d43e-1169" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bba-e52e-d335-42f0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
