@@ -1155,6 +1155,12 @@
     <selectionEntry type="unit" import="true" name="Tartaros Terminator Squad" hidden="false" id="3139-1aa9-4b77-da26"/>
     <selectionEntry type="unit" import="true" name="Cataphractii Terminator Command Squad" hidden="false" id="b703-f7ab-dac5-0ae4"/>
     <selectionEntry type="unit" import="true" name="Despoiler Squad" hidden="false" id="44bd-10de-2055-40f6"/>
+    <selectionEntry type="unit" import="true" name="Tactical Support Squad" hidden="false" id="2f96-9d5c-5c94-58db"/>
+    <selectionEntry type="unit" import="true" name="Heavy Support Squad" hidden="false" id="1734-8863-96bf-f052"/>
+    <selectionEntry type="unit" import="true" name="Rapier Battery" hidden="false" id="959f-15b2-d8c2-ef8f"/>
+    <selectionEntry type="unit" import="true" name="Apothecary" hidden="false" id="b7fe-ba65-00d2-57f0"/>
+    <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="6cac-d5d2-dda7-ea8f"/>
+    <selectionEntry type="unit" import="true" name="Deathstorm Drop Pod" hidden="false" id="84cd-c790-5886-8814"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="b587-a0b1-16f9-9cae" type="selectionEntry" targetId="acef-2a3d-3434-7583">
