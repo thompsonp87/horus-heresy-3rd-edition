@@ -1082,16 +1082,45 @@
                 <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
                 <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="set" value="Jump Pack Praetor" field="name">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="9e29-3097-e7b7-8f26" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="12" field="a106-a779-d272-5e93">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="9e29-3097-e7b7-8f26" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5dde-06f1-1a94-a3bc" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2cd-fbff-9851-1c1e" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="Jump Pack Praetor" field="name">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="unit" childId="9e29-3097-e7b7-8f26" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="9e29-3097-e7b7-8f26" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8201-5bc5-5716-265f" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Melta bombs" hidden="false" id="8f0a-e21d-a905-e21b" type="selectionEntry" targetId="2eb4-687e-a515-ee3d">
+        <entryLink import="true" name="Melta bombs" hidden="false" id="8f0a-e21d-a905-e21b" type="selectionEntry" targetId="2eb4-687e-a515-ee3d" sortIndex="3">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
           </costs>
@@ -1099,17 +1128,24 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a44a-6eef-c6a8-52c3" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Cyber-familiar" hidden="false" id="2abf-e2bd-8f56-6691" type="selectionEntry" targetId="a545-36ec-d50e-2ae4">
+        <entryLink import="true" name="Cyber-familiar" hidden="false" id="2abf-e2bd-8f56-6691" type="selectionEntry" targetId="a545-36ec-d50e-2ae4" sortIndex="2">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aff2-0b86-22f9-a348" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="unit" childId="9e29-3097-e7b7-8f26" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="May exchange bolter/bolt pistol for:" id="d3ff-0c94-ec92-9fd3" hidden="false">
+        <selectionEntryGroup name="May exchange bolter/bolt pistol for:" id="d3ff-0c94-ec92-9fd3" hidden="false" sortIndex="4">
           <comment>May exchange bolter/bolt pistol for:</comment>
           <entryLinks>
             <entryLink import="true" name="Legion Officer Wargear" hidden="false" id="97ab-8f76-e254-2096" type="selectionEntryGroup" targetId="f955-8b22-9362-31c0">
@@ -1306,7 +1342,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Praetor in Terminator Armour" hidden="false" id="23ee-bc64-aea6-5272"/>
+    <selectionEntry type="unit" import="true" name="Praetor in Cataphracti Terminator Armour" hidden="false" id="23ee-bc64-aea6-5272"/>
     <selectionEntry type="unit" import="true" name="Optae" hidden="false" id="1653-8dfd-2881-8cec"/>
     <selectionEntry type="unit" import="true" name="Centurion in Terminator Armour" hidden="false" id="976b-2d8a-7e70-e6a7"/>
     <selectionEntry type="unit" import="true" name="Damocles Command Rhino" hidden="false" id="f214-aeb9-0dd6-9071"/>
@@ -1412,254 +1448,6 @@
     <selectionEntry type="unit" import="true" name="Thunderhawk Gunship" hidden="false" id="d1dc-6a65-136b-7d33"/>
     <selectionEntry type="unit" import="true" name="Mastodon Super-Heavy Assault Transport" hidden="false" id="d29b-64ce-e91e-75fa"/>
     <selectionEntry type="unit" import="true" name="Sokar Stormbird" hidden="false" id="c2de-41c2-f4fa-996c"/>
-    <selectionEntry type="unit" import="true" name="Praetor with Jump Pack" hidden="false" id="688b-1fa3-ff70-864d">
-      <costs>
-        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="140"/>
-        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-      </costs>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Praetor with Jump Pack" hidden="false" id="6c79-63fd-2fda-662c">
-          <profiles>
-            <profile name="Praetor with Jump Pack" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="8ee0-10e1-2944-6a88">
-              <characteristics>
-                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Command, Antigrav)</characteristic>
-                <characteristic name="M" typeId="a106-a779-d272-5e93">12</characteristic>
-                <characteristic name="WS" typeId="253c-d694-4695-c89e">6</characteristic>
-                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">5</characteristic>
-                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
-                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
-                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">4</characteristic>
-                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">5</characteristic>
-                <characteristic name="A" typeId="024e-bdb1-7982-25a0">5</characteristic>
-                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">10</characteristic>
-                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">9</characteristic>
-                <characteristic name="WP" typeId="f714-1726-37d3-44df">9</characteristic>
-                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">9</characteristic>
-                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
-                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Bulky (X)" id="4895-ab6b-4c8c-b743" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25">
-              <comment>2</comment>
-              <modifiers>
-                <modifier type="set" value="Bulky (2)" field="name"/>
-              </modifiers>
-            </infoLink>
-            <infoLink name="Deep Strike" id="dbaf-a091-2481-1480" hidden="false" type="rule" targetId="0553-d06b-52b9-34db"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Melta bombs" hidden="false" id="b154-e7c8-7366-533d" type="selectionEntry" targetId="2eb4-687e-a515-ee3d">
-          <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="006b-fe76-2b0f-31ab" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="May exchange bolter/bolt pistol for:" id="b0cc-d27b-034c-3cd3" hidden="false">
-          <comment>May exchange bolter/bolt pistol for:</comment>
-          <entryLinks>
-            <entryLink import="true" name="Legion Officer Wargear" hidden="false" id="08c2-7901-249d-a324" type="selectionEntryGroup" targetId="f955-8b22-9362-31c0">
-              <modifiers>
-                <modifier type="set" value="May exchange bolt pistol for:" field="name"/>
-              </modifiers>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Paragon Blade" hidden="false" id="dc84-846d-02a6-5486" sortIndex="3">
-                  <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
-                    <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                    <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="636e-7521-02da-70d9" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Archeotech Pistol" hidden="false" id="fc67-b7eb-8943-62f7" sortIndex="4">
-                  <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
-                    <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                    <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0d5-ee23-dec2-7801" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bolter w/ Bayonet" hidden="false" id="97b4-6301-36be-727e" sortIndex="1">
-                  <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="1"/>
-                    <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                    <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                  </costs>
-                  <entryLinks>
-                    <entryLink import="true" name="Bolter" hidden="false" id="0391-a523-0c07-03c7" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="34d7-53b3-cd4b-48ea" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f526-0e6c-69db-3e6a" includeChildSelections="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Bayonet" hidden="false" id="be55-d314-ff34-59f1" type="selectionEntry" targetId="3484-1bd3-cb74-7abe">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25f7-2f3c-53a5-3656" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f58-4835-525a-70e3" includeChildSelections="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bolter w/ Chain bayonet" hidden="false" id="d4ff-0323-43fc-e58d" sortIndex="2">
-                  <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
-                    <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                    <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                  </costs>
-                  <entryLinks>
-                    <entryLink import="true" name="Bolter" hidden="false" id="4d86-f71a-a020-ebae" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f461-79fc-c4ca-d02d" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdcc-5b9a-e52c-24fb" includeChildSelections="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Chain bayonet" hidden="false" id="f0c0-fe90-9ef0-76eb" type="selectionEntry" targetId="e410-d998-bd3e-c0ea">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fdd-3b16-662f-35ce" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a5f-afc1-0487-d12d" includeChildSelections="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <comment>Exchange bolt pistol for</comment>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="065c-d8b7-ceaf-ef26" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Pair of lightning claws" hidden="false" id="dc8d-7bd2-488b-ea3f" type="selectionEntry" targetId="6754-24dd-5be0-26ff">
-              <costs>
-                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dbea-248b-0ac3-98e1" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="May exchange bolter for:" id="b4c6-1aed-3806-5e1d" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Legion Officer Wargear" hidden="false" id="9d9c-526d-217c-e013" type="selectionEntryGroup" targetId="f955-8b22-9362-31c0">
-                  <modifiers>
-                    <modifier type="set" value="0" field="69a7-a821-0f1f-85f0"/>
-                  </modifiers>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Paragon Blade" hidden="false" id="acbf-6438-42ad-7306" sortIndex="5">
-                      <costs>
-                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
-                        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3142-812a-b4ad-a81c" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Archeotech Pistol" hidden="false" id="eb90-7d1e-dfed-c6ce" sortIndex="4">
-                      <costs>
-                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
-                        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ed-927b-f94b-a04d" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bolter w/ Bayonet" hidden="false" id="0844-cac0-b240-92f1" sortIndex="2">
-                      <costs>
-                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="1"/>
-                        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                      </costs>
-                      <entryLinks>
-                        <entryLink import="true" name="Bolter" hidden="false" id="0631-152f-38cc-307a" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a20e-4efa-7a01-4b61" includeChildSelections="false"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4218-cea6-08a9-3d21" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Bayonet" hidden="false" id="3ba5-8385-6390-db6a" type="selectionEntry" targetId="3484-1bd3-cb74-7abe">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f2e-7db0-4a85-469f" includeChildSelections="false"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d160-cd30-cae3-fc38" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bolter w/ Chain bayonet" hidden="false" id="9aeb-822b-b0a3-5044" sortIndex="3">
-                      <costs>
-                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
-                        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
-                        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
-                      </costs>
-                      <entryLinks>
-                        <entryLink import="true" name="Bolter" hidden="false" id="1f95-6eaa-a025-f1ab" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5f9-cf0b-f564-100a" includeChildSelections="false"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="275b-8b32-2ee9-c6c8" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Chain bayonet" hidden="false" id="e270-5056-65ce-2779" type="selectionEntry" targetId="e410-d998-bd3e-c0ea">
-                          <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2be9-851a-87ef-1780" includeChildSelections="false"/>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc1d-985c-b54d-112d" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Bolter" hidden="false" id="7993-bc1e-5b1e-a84f" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e" sortIndex="1" defaultAmount="1">
-                      <modifiers>
-                        <modifier type="set" value="Bolter (default)" field="name"/>
-                      </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                  <comment>Exchange bolter for</comment>
-                </entryLink>
-                <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="f718-1e44-3992-7e6f" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08">
-                  <comment>Exchange bolter for</comment>
-                  <modifiers>
-                    <modifier type="set" value="0" field="c6dc-8a79-cc0a-3479"/>
-                  </modifiers>
-                </entryLink>
-                <entryLink import="true" name="Volkite charger" hidden="false" id="8479-d1ea-26d7-23cb" type="selectionEntry" targetId="93e7-6a83-1e9e-204a">
-                  <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
-                  </costs>
-                </entryLink>
-                <entryLink import="true" name="Astartes shotgun" hidden="false" id="e57a-b167-dec8-1425" type="selectionEntry" targetId="6068-d203-27e6-318a">
-                  <costs>
-                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="2"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b47-a87d-ab67-408c" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <modifiers>
-            <modifier type="set" value="1" field="dbea-248b-0ac3-98e1">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="parent" childId="6754-24dd-5be0-26ff" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="b587-a0b1-16f9-9cae" type="selectionEntry" targetId="acef-2a3d-3434-7583">
@@ -1707,7 +1495,7 @@
       <categoryLinks>
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="34e1-5319-47e6-05b0" primary="true" name="High Command"/>
       </categoryLinks>
-      <comment>H.Command</comment>
+      <comment>High Command</comment>
     </entryLink>
     <entryLink import="true" name="Rapier Battery" hidden="false" id="bb96-a49b-4571-78fe" type="selectionEntry" targetId="5e1a-86ac-b637-daf2">
       <categoryLinks>
@@ -1770,6 +1558,7 @@
       <categoryLinks>
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="4753-3066-5d61-3e66" primary="true" name="High Command"/>
       </categoryLinks>
+      <comment>High Command</comment>
     </entryLink>
   </entryLinks>
   <catalogueLinks>
