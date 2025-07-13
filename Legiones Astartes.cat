@@ -487,6 +487,11 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="125"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Saturnine Dreadnought" hidden="false" id="b26e-1244-2dbc-2b6d">
       <selectionEntries>
@@ -1136,7 +1141,13 @@
     <selectionEntry type="unit" import="true" name="Storm Eagle" hidden="false" id="0816-621f-d49d-558c"/>
     <selectionEntry type="unit" import="true" name="Fire Raptor" hidden="false" id="3b08-d24a-c741-8daa"/>
     <selectionEntry type="unit" import="true" name="Javelin Squadron" hidden="false" id="50f3-fca2-49ab-6de4"/>
-    <selectionEntry type="unit" import="true" name="Predator" hidden="false" id="b0ba-83cb-f3bf-bf2e"/>
+    <selectionEntry type="unit" import="true" name="Predator" hidden="false" id="b0ba-83cb-f3bf-bf2e">
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="100"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Land Speeder Squadron" hidden="false" id="7ebb-cdb2-017e-7c51"/>
     <selectionEntry type="unit" import="true" name="Sicaran" hidden="false" id="4d65-cef9-42c6-dd2c"/>
     <selectionEntry type="unit" import="true" name="Sicaran Venator" hidden="false" id="1c8f-840b-c42f-338b"/>
