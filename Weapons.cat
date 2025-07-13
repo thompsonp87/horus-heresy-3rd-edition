@@ -5231,14 +5231,19 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Power Weapon" id="d23f-b4f0-0127-9394" hidden="false">
+    <selectionEntryGroup name="Power Weapon" id="d23f-b4f0-0127-9394" hidden="false" collapsible="true" flatten="true">
       <entryLinks>
-        <entryLink import="true" name="Power sword" hidden="false" id="807a-4734-959e-9286" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1" defaultAmount="1">
+        <entryLink import="true" name="Power sword" hidden="false" id="807a-4734-959e-9286" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1" defaultAmount="">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
           </costs>
           <modifiers>
             <modifier type="set" value="0" field="9893-c379-920b-8982">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="defaultAmount">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
               </conditions>
