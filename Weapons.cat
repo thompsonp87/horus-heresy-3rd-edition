@@ -5288,6 +5288,14 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Force Weapon" id="89e6-2502-2486-71f4" hidden="false" defaultSelectionEntryId="970d-7af0-0052-e25c">
+      <entryLinks>
+        <entryLink import="true" name="Force sword" hidden="false" id="970d-7af0-0052-e25c" type="selectionEntry" targetId="02b1-ed1c-7c89-fc36" sortIndex="1"/>
+        <entryLink import="true" name="Force axe" hidden="false" id="0c55-a1b3-64e0-c34f" type="selectionEntry" targetId="ec9a-091c-cb38-671f" sortIndex="2"/>
+        <entryLink import="true" name="Force maul" hidden="false" id="929c-be19-2772-ebe8" type="selectionEntry" targetId="ea89-55b3-2d6a-705a" sortIndex="3"/>
+        <entryLink import="true" name="Force staff" hidden="false" id="dc03-cf9f-b8c0-95d8" type="selectionEntry" targetId="968c-969b-bf56-8bde" sortIndex="4"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="0a98-8ac6-661c-817b" targetId="106b-693b-99f2-00c3"/>
