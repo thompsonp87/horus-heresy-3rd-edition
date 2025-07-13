@@ -1162,6 +1162,14 @@
     <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="6cac-d5d2-dda7-ea8f"/>
     <selectionEntry type="unit" import="true" name="Deathstorm Drop Pod" hidden="false" id="84cd-c790-5886-8814"/>
     <selectionEntry type="unit" import="true" name="Contemptor Dreadnought" hidden="false" id="3337-0b90-6ead-cba1"/>
+    <selectionEntry type="unit" import="true" name="Termite" hidden="false" id="29c3-0b90-216c-b071"/>
+    <selectionEntry type="unit" import="true" name="Drop Pod" hidden="false" id="2eb3-783d-8dde-733b"/>
+    <selectionEntry type="unit" import="true" name="Rhino" hidden="false" id="103f-cc8b-7e7f-c52b"/>
+    <selectionEntry type="unit" import="true" name="Land Raider Carrier" hidden="false" id="e0b3-3d67-1299-1eb7"/>
+    <selectionEntry type="unit" import="true" name="Spartan" hidden="false" id="8866-180d-b477-b68f"/>
+    <selectionEntry type="unit" import="true" name="Dreadnought Drop Pod" hidden="false" id="e004-bc89-4e2f-c59d"/>
+    <selectionEntry type="unit" import="true" name="Kharybdis Assault Claw" hidden="false" id="ed0b-f07b-ed2f-b510"/>
+    <selectionEntry type="unit" import="true" name="Dreadclaw Drop Pod" hidden="false" id="2438-805f-7a19-3295"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="b587-a0b1-16f9-9cae" type="selectionEntry" targetId="acef-2a3d-3434-7583">
