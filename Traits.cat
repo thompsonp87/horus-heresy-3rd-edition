@@ -120,12 +120,17 @@
         </modifier>
       </modifiers>
     </profile>
-    <profile name="Smokescreen" typeId="d5a9-9164-1e30-7a35" typeName="Trait" hidden="false" id="12ec-97aa-0b8a-7573">
+    <profile name="Smokescreen" typeId="d5a9-9164-1e30-7a35" typeName="Traits" hidden="false" id="12ec-97aa-0b8a-7573">
       <characteristics>
         <characteristic name="Description" typeId="d5eb-0b8b-0f26-6233"/>
       </characteristics>
     </profile>
     <profile name="Explosive Asset" typeId="d5a9-9164-1e30-7a35" typeName="Trait" hidden="false" id="d8fe-bf31-d56a-d665">
+      <characteristics>
+        <characteristic name="Description" typeId="d5eb-0b8b-0f26-6233"/>
+      </characteristics>
+    </profile>
+    <profile name="Psyker" typeId="d5a9-9164-1e30-7a35" typeName="Traits" hidden="false" id="0d5a-bf3a-7b46-785a">
       <characteristics>
         <characteristic name="Description" typeId="d5eb-0b8b-0f26-6233"/>
       </characteristics>
