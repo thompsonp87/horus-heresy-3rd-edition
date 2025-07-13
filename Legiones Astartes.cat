@@ -1551,6 +1551,90 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Legion Pintle Weapons" id="d625-37d6-d83a-0de3" hidden="false" sortIndex="10"/>
+    <selectionEntryGroup name="Legion Pintle Weapons" id="d625-37d6-d83a-0de3" hidden="false" sortIndex="10">
+      <entryLinks>
+        <entryLink import="true" name="Combi-bolter" hidden="false" id="a873-5542-c504-2488" type="selectionEntry" targetId="042d-9e60-db9e-c147" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted combi-bolter" field="name"/>
+          </modifiers>
+          <comment>Pintle Mounted</comment>
+        </entryLink>
+        <entryLink import="true" name="Combi-flamer" hidden="false" id="7829-eeb6-48b5-b5e1" type="selectionEntry" targetId="4be6-cb80-d54b-f156" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+          <comment>Pintle Mounted</comment>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted combi-flamer" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Combi-melta" hidden="false" id="f5c6-7326-8161-29df" type="selectionEntry" targetId="9d5c-679f-2b12-9fcc" sortIndex="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+          <comment>Pintle Mounted</comment>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted combi-melta" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Combi-plasma" hidden="false" id="1c9c-46fe-1052-58a1" type="selectionEntry" targetId="d024-6bbf-9e14-566c" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+          <comment>Pintle Mounted</comment>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted combi-plasma" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Combi-volkite" hidden="false" id="b097-2eda-15c5-9fa0" type="selectionEntry" targetId="b8db-72f3-a241-c3b2" sortIndex="5">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+          <comment>Pintle Mounted</comment>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted combi-volkite" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Havoc launcher" hidden="false" id="2d97-5d5c-e552-d498" type="selectionEntry" targetId="0295-e35d-2ed6-f28a" sortIndex="6">
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted havoc launcher" field="name"/>
+          </modifiers>
+          <comment>Pintle Mounted</comment>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Heavy bolter" hidden="false" id="1a69-0128-abf8-b84a" type="selectionEntry" targetId="bc40-b14a-978e-0232" sortIndex="7">
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted heavy bolter" field="name"/>
+          </modifiers>
+          <comment>Pintle Mounted</comment>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Heavy flamer" hidden="false" id="d104-5771-c2aa-3f78" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="8">
+          <comment>Two Sponson Mounted </comment>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted heavy flamer" field="name"/>
+          </modifiers>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Multi-melta" hidden="false" id="a2c7-4fe1-2f5b-6acc" type="selectionEntry" targetId="0135-12f0-d86f-ced9">
+          <comment>Pintle Mounted</comment>
+          <modifiers>
+            <modifier type="set" value="Pintle Mounted multi-melta" field="name"/>
+          </modifiers>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
