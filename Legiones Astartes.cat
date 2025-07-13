@@ -463,31 +463,6 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tarantula Sentry Gun" hidden="false" id="f1cf-cca3-bfb2-0443">
-      <profiles>
-        <profile name="Tarantula Sentry Gun" typeId="a76f-8e23-8c3e-166d" typeName="Unit" hidden="false" id="04be-23a5-560d-be2a">
-          <characteristics>
-            <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
-            <characteristic name="M" typeId="a106-a779-d272-5e93"/>
-            <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
-            <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
-            <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
-            <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
-            <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
-            <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
-            <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
-            <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
-            <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
-            <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
-            <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
-            <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
-            <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
-            <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-            <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="acef-2a3d-3434-7583">
       <profiles>
         <profile name="Araknae Quad Accelerator Platform" typeId="a76f-8e23-8c3e-166d" typeName="Unit" hidden="false" id="34ef-34a3-fc00-227b">
@@ -1170,6 +1145,11 @@
     <selectionEntry type="unit" import="true" name="Dreadnought Drop Pod" hidden="false" id="e004-bc89-4e2f-c59d"/>
     <selectionEntry type="unit" import="true" name="Kharybdis Assault Claw" hidden="false" id="ed0b-f07b-ed2f-b510"/>
     <selectionEntry type="unit" import="true" name="Dreadclaw Drop Pod" hidden="false" id="2438-805f-7a19-3295"/>
+    <selectionEntry type="unit" import="true" name="Outrider Squadron" hidden="false" id="512e-6a63-1bd3-8a22"/>
+    <selectionEntry type="unit" import="true" name="Reconnaissance Squad" hidden="false" id="c89b-1138-0523-4a9f"/>
+    <selectionEntry type="unit" import="true" name="Sabre" hidden="false" id="e62b-3d98-8678-1f97"/>
+    <selectionEntry type="unit" import="true" name="Land Raider Explorator" hidden="false" id="5794-faa2-b2c8-ef0a"/>
+    <selectionEntry type="unit" import="true" name="Tarantula Battery" hidden="false" id="4ee0-7aae-5319-599f"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="b587-a0b1-16f9-9cae" type="selectionEntry" targetId="acef-2a3d-3434-7583">
