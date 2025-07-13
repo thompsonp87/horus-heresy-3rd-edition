@@ -2064,6 +2064,7 @@
             <modifier type="set" value="Auto-Repair (4+)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Mobile Command Vehicle" id="c623-24ce-078f-54db" hidden="false" type="rule" targetId="799f-1773-d0ae-d423"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="9a3a-fd9c-660e-209a" hidden="false">
@@ -2126,9 +2127,6 @@
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <rules>
-        <rule name="Mobile Command Vehicle" id="799f-1773-d0ae-d423" hidden="false"/>
-      </rules>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Librarian" hidden="false" id="f06f-4418-b230-9ee7">
       <costs>
