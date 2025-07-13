@@ -52,5 +52,9 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Rending (X)" id="167f-2a64-6e61-505b" hidden="false"/>
     <rule name="Detonation" id="7349-9e80-c051-c22f" hidden="false"/>
     <rule name="Force (X)" id="25cd-60d0-a0a4-6b18" hidden="false"/>
+    <rule name="Officer of the Line (X)" id="7779-47c8-99a8-b935" hidden="false"/>
+    <rule name="Light Transport" id="d451-f7f3-fc8f-db23" hidden="false"/>
+    <rule name="Auto-Repair (X)" id="3973-ed50-1482-ff4a" hidden="false"/>
+    <rule name="Mobile Command Vehicle" id="799f-1773-d0ae-d423" hidden="false"/>
   </sharedRules>
 </catalogue>
