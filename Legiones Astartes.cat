@@ -268,7 +268,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Saturnine Praetor" hidden="false" id="2a5a-8ab8-be4d-6fa7">
+    <selectionEntry type="unit" import="true" name="Praetor in Saturnine Terminator Armour" hidden="false" id="2a5a-8ab8-be4d-6fa7">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Saturnine Praetor" hidden="false" id="0b24-87fb-26e8-13d2">
           <profiles>
@@ -1094,6 +1094,22 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Praetor" hidden="false" id="9ae1-34b8-0b83-f1c5"/>
+    <selectionEntry type="unit" import="true" name="Praetor in Terminator Armour" hidden="false" id="23ee-bc64-aea6-5272"/>
+    <selectionEntry type="unit" import="true" name="Optae" hidden="false" id="1653-8dfd-2881-8cec"/>
+    <selectionEntry type="upgrade" import="true" name="Centurion in Terminator Armour" hidden="false" id="976b-2d8a-7e70-e6a7"/>
+    <selectionEntry type="unit" import="true" name="Damocles Command Rhino" hidden="false" id="f214-aeb9-0dd6-9071"/>
+    <selectionEntry type="unit" import="true" name="Librarian" hidden="false" id="f06f-4418-b230-9ee7"/>
+    <selectionEntry type="unit" import="true" name="Legion Champion" hidden="false" id="8ab7-6f30-ce10-65df"/>
+    <selectionEntry type="upgrade" import="true" name="Vigilator" hidden="false" id="22fd-89ea-04c6-3f3d"/>
+    <selectionEntry type="unit" import="true" name="Esoterist" hidden="false" id="868f-f32d-d5ef-8021"/>
+    <selectionEntry type="unit" import="true" name="Master of Signals" hidden="false" id="0c1d-e55e-1d4e-ab94"/>
+    <selectionEntry type="unit" import="true" name="Praevian" hidden="false" id="7bb3-1bf7-ab4b-c34b"/>
+    <selectionEntry type="unit" import="true" name="Moritat" hidden="false" id="0c28-19c0-71b2-424e"/>
+    <selectionEntry type="upgrade" import="true" name="Siege Breaker" hidden="false" id="8128-2ba6-b677-eb81"/>
+    <selectionEntry type="upgrade" import="true" name="Overseer" hidden="false" id="d43d-be97-943b-2081"/>
+    <selectionEntry type="upgrade" import="true" name="Herald" hidden="false" id="388f-1220-df0b-fcc6"/>
+    <selectionEntry type="upgrade" import="true" name="Chaplain" hidden="false" id="a6c4-31c4-9e9d-ab03"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="b587-a0b1-16f9-9cae" type="selectionEntry" targetId="acef-2a3d-3434-7583">
