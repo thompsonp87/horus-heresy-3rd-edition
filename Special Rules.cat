@@ -56,5 +56,6 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Light Transport" id="d451-f7f3-fc8f-db23" hidden="false"/>
     <rule name="Auto-Repair (X)" id="3973-ed50-1482-ff4a" hidden="false"/>
     <rule name="Mobile Command Vehicle" id="799f-1773-d0ae-d423" hidden="false"/>
+    <rule name="Anathemata Discipline" id="f260-e43b-e300-79a6" hidden="false"/>
   </sharedRules>
 </catalogue>
