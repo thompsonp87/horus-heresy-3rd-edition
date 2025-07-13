@@ -1212,7 +1212,7 @@
     <rule name="Fury of the Legion" id="91be-db1f-87dd-20d1" hidden="false"/>
   </sharedRules>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Legion Pistols" id="4041-7fad-77cd-f9cf" hidden="false">
+    <selectionEntryGroup name="Legion Pistols" id="4041-7fad-77cd-f9cf" hidden="false" sortIndex="4">
       <entryLinks>
         <entryLink import="true" name="Plasma pistol" hidden="false" id="7fb5-c129-9a83-5062" type="selectionEntry" targetId="659f-d52e-1515-2912" sortIndex="1">
           <costs>
@@ -1231,7 +1231,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false">
+    <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false" sortIndex="6">
       <entryLinks>
         <entryLink import="true" name="Flamer" hidden="false" id="1989-9a6a-1cd7-ecb3" type="selectionEntry" targetId="9a45-35cd-3806-2303" sortIndex="1">
           <costs>
@@ -1265,7 +1265,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Legion Officer Wargear" id="f955-8b22-9362-31c0" hidden="false">
+    <selectionEntryGroup name="Legion Officer Wargear" id="f955-8b22-9362-31c0" hidden="false" sortIndex="1">
       <entryLinks>
         <entryLink import="true" name="Bolt pistol" hidden="false" id="47a9-bf3a-57bf-dd76" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1">
           <costs>
@@ -1325,9 +1325,10 @@
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
           </costs>
         </entryLink>
+        <entryLink import="true" name="New Entry (link)" hidden="false" id="7634-d6fc-c76f-2b8f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Legion Equipment" id="0e69-ccf1-cde7-acaf" hidden="false">
+    <selectionEntryGroup name="Legion Equipment" id="0e69-ccf1-cde7-acaf" hidden="false" sortIndex="7">
       <entryLinks>
         <entryLink import="true" name="Nuncio-vox" hidden="false" id="bcad-f49a-3f01-a2dc" type="selectionEntry" targetId="4d7e-898a-f445-f1d8" sortIndex="1">
           <costs>
@@ -1341,5 +1342,30 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Terminator Melee Weapons" id="0523-46e6-6df1-a4c0" hidden="false" sortIndex="2">
+      <entryLinks>
+        <entryLink import="true" name="Lightning claw" hidden="false" id="1b85-899f-5499-4534" type="selectionEntry" targetId="cbf0-9b29-9a16-28b2" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power fist" hidden="false" id="b0a0-0041-9445-28d6" type="selectionEntry" targetId="2fcc-92a6-d03a-4b55" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Thunder hammer" hidden="false" id="cd4d-d23a-76a7-b479" type="selectionEntry" targetId="4338-dbe9-1e94-7e6d" sortIndex="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Chainfist" hidden="false" id="df81-d090-643f-5d5a" type="selectionEntry" targetId="8322-1eca-e855-2683" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Sergeant Melee Weapons" id="b8d7-8ff0-721e-a963" hidden="false" sortIndex="3"/>
   </sharedSelectionEntryGroups>
 </catalogue>
