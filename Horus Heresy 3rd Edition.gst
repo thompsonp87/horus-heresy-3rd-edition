@@ -3943,13 +3943,14 @@
     </profileType>
     <profileType name="Vehicle" id="2a80-eec8-a736-2fe3" hidden="false" sortIndex="2">
       <characteristicTypes>
-        <characteristicType name="M" id="f35b-a37a-888f-0a22"/>
-        <characteristicType name="BS" id="c7ff-b51a-f4f2-e043"/>
-        <characteristicType name="Front" id="616f-6b7d-beed-e322"/>
-        <characteristicType name="Side" id="15c1-81ce-169d-f3b6"/>
-        <characteristicType name="Rear" id="43c8-91f7-de7a-af89"/>
-        <characteristicType name="HP" id="9f6c-f494-dc7b-3c0b"/>
-        <characteristicType name="Transport Capacity" id="61fa-aed8-491f-0edb"/>
+        <characteristicType name="Type" id="827f-9ce2-2118-e134"/>
+        <characteristicType name="M" id="d624-72fe-0205-4443"/>
+        <characteristicType name="BS" id="a17e-8e7d-d21f-c138"/>
+        <characteristicType name="Front Armour" id="6536-e73d-4a74-c675"/>
+        <characteristicType name="Side Armour" id="f03a-18a7-8586-273d"/>
+        <characteristicType name="Rear Armour" id="ec84-1f5d-1bb3-6826"/>
+        <characteristicType name="HP" id="8735-4497-1f8a-4dda"/>
+        <characteristicType name="Transport Capacity" id="a82e-858c-9aa9-2b43"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="12">

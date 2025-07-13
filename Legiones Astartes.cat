@@ -947,6 +947,15 @@
                 <characteristic name="Rear" typeId="43c8-91f7-de7a-af89">12</characteristic>
                 <characteristic name="HP" typeId="9f6c-f494-dc7b-3c0b">18</characteristic>
                 <characteristic name="Transport Capacity" typeId="61fa-aed8-491f-0edb">-</characteristic>
+                <characteristic typeId="9c0c-83c3-e5de-6cfd" name="New Characteristic Type"/>
+                <characteristic typeId="827f-9ce2-2118-e134" name="Type"/>
+                <characteristic typeId="d624-72fe-0205-4443" name="M"/>
+                <characteristic typeId="a17e-8e7d-d21f-c138" name="BS"/>
+                <characteristic typeId="6536-e73d-4a74-c675" name="Front Armour"/>
+                <characteristic typeId="f03a-18a7-8586-273d" name="Side Armour"/>
+                <characteristic typeId="ec84-1f5d-1bb3-6826" name="Rear Armour"/>
+                <characteristic typeId="8735-4497-1f8a-4dda" name="HP"/>
+                <characteristic typeId="a82e-858c-9aa9-2b43" name="Transport Capacity"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1045,6 +1054,15 @@
                 <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
                 <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
                 <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+                <characteristic typeId="9c0c-83c3-e5de-6cfd" name="New Characteristic Type"/>
+                <characteristic typeId="827f-9ce2-2118-e134" name="Type"/>
+                <characteristic typeId="d624-72fe-0205-4443" name="M"/>
+                <characteristic typeId="a17e-8e7d-d21f-c138" name="BS"/>
+                <characteristic typeId="6536-e73d-4a74-c675" name="Front Armour"/>
+                <characteristic typeId="f03a-18a7-8586-273d" name="Side Armour"/>
+                <characteristic typeId="ec84-1f5d-1bb3-6826" name="Rear Armour"/>
+                <characteristic typeId="8735-4497-1f8a-4dda" name="HP"/>
+                <characteristic typeId="a82e-858c-9aa9-2b43" name="Transport Capacity"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1059,7 +1077,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Spartan Assault Tank" hidden="false" id="ff8e-1dd5-3ec8-86d9">
           <profiles>
-            <profile name="Spartan Assault Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle Profile" hidden="false" id="5905-610b-0319-c8a3">
+            <profile name="Spartan Assault Tank" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="5905-610b-0319-c8a3">
               <characteristics>
                 <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
                 <characteristic typeId="f35b-a37a-888f-0a22" name="M"/>
@@ -1077,6 +1095,15 @@
                 <characteristic typeId="9f6c-f494-dc7b-3c0b" name="HP"/>
                 <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
                 <characteristic typeId="61fa-aed8-491f-0edb" name="Transport Capacity"/>
+                <characteristic typeId="9c0c-83c3-e5de-6cfd" name="New Characteristic Type"/>
+                <characteristic typeId="827f-9ce2-2118-e134" name="Type"/>
+                <characteristic typeId="d624-72fe-0205-4443" name="M"/>
+                <characteristic typeId="a17e-8e7d-d21f-c138" name="BS"/>
+                <characteristic typeId="6536-e73d-4a74-c675" name="Front Armour"/>
+                <characteristic typeId="f03a-18a7-8586-273d" name="Side Armour"/>
+                <characteristic typeId="ec84-1f5d-1bb3-6826" name="Rear Armour"/>
+                <characteristic typeId="8735-4497-1f8a-4dda" name="HP"/>
+                <characteristic typeId="a82e-858c-9aa9-2b43" name="Transport Capacity"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2013,13 +2040,14 @@
           <profiles>
             <profile name="Damocles Command Rhino" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="b41c-5369-c3ee-8da6">
               <characteristics>
-                <characteristic name="M" typeId="f35b-a37a-888f-0a22">12</characteristic>
-                <characteristic name="BS" typeId="c7ff-b51a-f4f2-e043">4</characteristic>
-                <characteristic name="Front" typeId="616f-6b7d-beed-e322">12</characteristic>
-                <characteristic name="Side" typeId="15c1-81ce-169d-f3b6">11</characteristic>
-                <characteristic name="Rear" typeId="43c8-91f7-de7a-af89">10</characteristic>
-                <characteristic name="HP" typeId="9f6c-f494-dc7b-3c0b">5</characteristic>
-                <characteristic name="Transport Capacity" typeId="61fa-aed8-491f-0edb">6</characteristic>
+                <characteristic name="Type" typeId="827f-9ce2-2118-e134">Vehicle (Transport)</characteristic>
+                <characteristic name="M" typeId="d624-72fe-0205-4443">12</characteristic>
+                <characteristic name="BS" typeId="a17e-8e7d-d21f-c138">4</characteristic>
+                <characteristic name="Front Armour" typeId="6536-e73d-4a74-c675">12</characteristic>
+                <characteristic name="Side Armour" typeId="f03a-18a7-8586-273d">11</characteristic>
+                <characteristic name="Rear Armour" typeId="ec84-1f5d-1bb3-6826">10</characteristic>
+                <characteristic name="HP" typeId="8735-4497-1f8a-4dda">5</characteristic>
+                <characteristic name="Transport Capacity" typeId="a82e-858c-9aa9-2b43">6</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2029,6 +2057,13 @@
         <infoLink name="[Allegiance]" id="243f-1d49-08fa-6dbf" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
         <infoLink name="[Legiones Astartes]" id="509a-29ac-70cf-7c99" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
         <infoLink name="Smokescreen" id="ea44-267a-2890-ff0e" hidden="false" type="profile" targetId="12ec-97aa-0b8a-7573"/>
+        <infoLink name="Light Transport" id="a230-71be-2ff6-628a" hidden="false" type="rule" targetId="d451-f7f3-fc8f-db23"/>
+        <infoLink name="Auto-Repair (X)" id="f947-6652-876f-485e" hidden="false" type="rule" targetId="3973-ed50-1482-ff4a">
+          <comment>4+</comment>
+          <modifiers>
+            <modifier type="set" value="Auto-Repair (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="9a3a-fd9c-660e-209a" hidden="false">
@@ -2091,6 +2126,9 @@
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <rules>
+        <rule name="Mobile Command Vehicle" id="799f-1773-d0ae-d423" hidden="false"/>
+      </rules>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Librarian" hidden="false" id="f06f-4418-b230-9ee7">
       <costs>
@@ -2164,6 +2202,31 @@
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Herald" hidden="false" id="5a0a-4cf9-07bb-cf1c">
+          <profiles>
+            <profile name="Herald" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="a7a3-f701-bc4e-e04e">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Command)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaplain" hidden="false" id="a6c4-31c4-9e9d-ab03">
       <costs>
