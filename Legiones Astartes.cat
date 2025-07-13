@@ -1230,6 +1230,10 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7326-e20b-64f2-74f6" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b329-b5de-7f78-93a5" includeChildSelections="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Special Weapons List" id="8e2d-acd9-be67-36f2" hidden="false" sortIndex="6">
       <entryLinks>
@@ -1264,6 +1268,10 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="604f-daac-a0c4-e542" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cfc-7543-f018-185c" includeChildSelections="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Officer Wargear" id="f955-8b22-9362-31c0" hidden="false" sortIndex="1">
       <entryLinks>
@@ -1303,30 +1311,34 @@
           </costs>
         </entryLink>
         <entryLink import="true" name="Chainaxe" hidden="false" id="7a3f-436b-fd22-1cd9" type="selectionEntry" targetId="31a4-f8de-de6d-1fd9" sortIndex="8"/>
-        <entryLink import="true" name="Power Weapon" hidden="false" id="d46d-36b4-98f3-7558" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" sortIndex="9"/>
+        <entryLink import="true" name="Power Weapon" hidden="false" id="d46d-36b4-98f3-7558" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" sortIndex="10"/>
         <entryLink import="true" name="Power fist" hidden="false" id="a698-ba7d-db12-21e0" type="selectionEntry" targetId="2fcc-92a6-d03a-4b55" sortIndex="10">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Lightning claw" hidden="false" id="0e6a-d5c3-27a5-6e82" type="selectionEntry" targetId="cbf0-9b29-9a16-28b2" sortIndex="11">
+        <entryLink import="true" name="Lightning claw" hidden="false" id="0e6a-d5c3-27a5-6e82" type="selectionEntry" targetId="cbf0-9b29-9a16-28b2" sortIndex="12">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Thunder hammer" hidden="false" id="bc02-d4d3-1f2a-b718" type="selectionEntry" targetId="4338-dbe9-1e94-7e6d" sortIndex="12">
+        <entryLink import="true" name="Thunder hammer" hidden="false" id="bc02-d4d3-1f2a-b718" type="selectionEntry" targetId="4338-dbe9-1e94-7e6d" sortIndex="13">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Combat shield" hidden="false" id="3e10-365b-c98e-a35b" type="selectionEntry" targetId="5606-f0ad-360b-fe5b" sortIndex="13"/>
-        <entryLink import="true" name="Boarding shield" hidden="false" id="85b1-0089-f754-c9a6" type="selectionEntry" targetId="01e9-334c-80cb-f1c6" sortIndex="14">
+        <entryLink import="true" name="Combat shield" hidden="false" id="3e10-365b-c98e-a35b" type="selectionEntry" targetId="5606-f0ad-360b-fe5b" sortIndex="14"/>
+        <entryLink import="true" name="Boarding shield" hidden="false" id="85b1-0089-f754-c9a6" type="selectionEntry" targetId="01e9-334c-80cb-f1c6" sortIndex="15">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="New Entry (link)" hidden="false" id="7634-d6fc-c76f-2b8f" type="selectionEntry"/>
+        <entryLink import="true" name="Charnabal sabre" hidden="false" id="7634-d6fc-c76f-2b8f" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="9"/>
       </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3531-5f98-b892-5500" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a865-38f9-63fa-1cfa" includeChildSelections="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Equipment" id="0e69-ccf1-cde7-acaf" hidden="false" sortIndex="7">
       <entryLinks>
@@ -1341,6 +1353,10 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="555f-98e2-5086-d319" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fef6-0257-8abf-120e" includeChildSelections="false"/>
+      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Terminator Melee Weapons" id="0523-46e6-6df1-a4c0" hidden="false" sortIndex="2">
       <entryLinks>
@@ -1365,7 +1381,141 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf22-3653-7dfb-f13d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af1f-a968-0c07-ed13" includeChildSelections="false"/>
+      </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Legion Sergeant Melee Weapons" id="b8d7-8ff0-721e-a963" hidden="false" sortIndex="3"/>
+    <selectionEntryGroup name="Legion Sergeant Melee Weapons" id="b8d7-8ff0-721e-a963" hidden="false" sortIndex="3">
+      <entryLinks>
+        <entryLink import="true" name="Chainsword" hidden="false" id="9994-4d65-a0b5-bef0" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Chainaxe" hidden="false" id="b1eb-a53d-47a9-86af" type="selectionEntry" targetId="31a4-f8de-de6d-1fd9" sortIndex="2"/>
+        <entryLink import="true" name="Charnabal sabre" hidden="false" id="4f5e-b694-4bd2-26e1" type="selectionEntry" targetId="e85f-734a-c587-e88b" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power Weapon" hidden="false" id="3689-7ad7-4b0c-c565" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" sortIndex="4"/>
+        <entryLink import="true" name="Thunder hammer" hidden="false" id="f0c7-c0f4-9ef0-3753" type="selectionEntry" targetId="4338-dbe9-1e94-7e6d" sortIndex="5">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Power fist" hidden="false" id="cdaa-5781-7782-add7" type="selectionEntry" targetId="2fcc-92a6-d03a-4b55" sortIndex="6">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Lightning claw" hidden="false" id="a13b-6dfa-42ae-e9e5" type="selectionEntry" targetId="cbf0-9b29-9a16-28b2" sortIndex="7">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d61-34be-ccb4-c38d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d15d-63e5-d7d0-341b" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Combi-weapons" id="f335-622e-6b0a-6b08" hidden="false" sortIndex="5">
+      <entryLinks>
+        <entryLink import="true" name="Combi-bolter" hidden="false" id="1835-ef9c-0fb6-4793" type="selectionEntry" targetId="042d-9e60-db9e-c147" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-flamer" hidden="false" id="8e13-a939-5aa2-b6a5" type="selectionEntry" targetId="4be6-cb80-d54b-f156" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-melta" hidden="false" id="6b33-ba25-8770-9558" type="selectionEntry" targetId="9d5c-679f-2b12-9fcc" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-plasma" hidden="false" id="9daa-e354-494c-296e" type="selectionEntry" targetId="d024-6bbf-9e14-566c" sortIndex="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-volkite" hidden="false" id="46f0-6cd3-6fb3-1f6e" type="selectionEntry" targetId="b8db-72f3-a241-c3b2" sortIndex="5">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-grenade" hidden="false" id="c40b-0bd2-a47f-63b3" type="selectionEntry" targetId="b7e4-aa28-25a2-4591" sortIndex="6">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-disintegrator" hidden="false" id="4727-2042-4099-94c6" type="selectionEntry" targetId="03a0-ae36-37de-852e" sortIndex="7">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Combi-grav" hidden="false" id="52ca-f85b-e386-5c1d" type="selectionEntry" targetId="9b35-7e25-1e16-9ef6" sortIndex="8">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c6dc-8a79-cc0a-3479" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c164-7629-ae9e-5c0e" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Heavy Weapons" id="9f99-7e2a-4899-4066" hidden="false" sortIndex="8">
+      <entryLinks>
+        <entryLink import="true" name="Heavy bolter" hidden="false" id="755d-985b-1f83-800c" type="selectionEntry" targetId="bc40-b14a-978e-0232" sortIndex="1">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Heavy flamer" hidden="false" id="e1f7-ac5a-0a5e-45f0" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="2">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Autocannon" hidden="false" id="c18a-dfe4-711a-3bcb" type="selectionEntry" targetId="da6e-3b8a-ea61-1e93" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Missile launcher" hidden="false" id="9d3e-3082-11e1-b641" type="selectionEntry" targetId="f391-c3f5-d98c-dd26" sortIndex="4">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Multi-melta" hidden="false" id="92f2-1d29-6056-21ac" type="selectionEntry" targetId="0135-12f0-d86f-ced9" sortIndex="5">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Plasma cannon" hidden="false" id="1571-2b99-be37-54dc" type="selectionEntry" targetId="f8b8-96c8-ba31-faf8" sortIndex="6">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Volkite culverin" hidden="false" id="b59f-be92-9915-2166" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7" sortIndex="7">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Lascannon" hidden="false" id="e93d-3336-c4b3-d6e8" type="selectionEntry" targetId="b6d5-4be2-c37e-2197" sortIndex="8">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8037-c7e7-b097-8194" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="179e-5002-6ffa-7103" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
