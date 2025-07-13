@@ -1517,5 +1517,40 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="179e-5002-6ffa-7103" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Sponson Weapons" id="df25-ac22-5bbd-0e44" hidden="false" sortIndex="9">
+      <entryLinks>
+        <entryLink import="true" name="Heavy bolter" hidden="false" id="dfde-7237-e188-06e0" type="selectionEntry" targetId="bc40-b14a-978e-0232" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="Two Sponson Mounted heavy bolters" field="name"/>
+          </modifiers>
+          <comment>Two Sponson Mounted </comment>
+        </entryLink>
+        <entryLink import="true" name="Heavy flamer" hidden="false" id="5874-f9c1-0f5b-b443" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="2">
+          <comment>Two Sponson Mounted </comment>
+          <modifiers>
+            <modifier type="set" value="Two Sponson Mounted heavy flamers" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Volkite culverin" hidden="false" id="b251-1c93-b966-25cc" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7" sortIndex="4">
+          <comment>Two Sponson Mounted </comment>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="Two Sponson Mounted volkite culverins" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Lascannon" hidden="false" id="8f27-ec4d-1166-f7f9" type="selectionEntry" targetId="b6d5-4be2-c37e-2197" sortIndex="3">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+          </costs>
+          <comment>Two Sponson Mounted </comment>
+          <modifiers>
+            <modifier type="set" value="Two Sponson Mounted lascannon" field="name"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Legion Pintle Weapons" id="d625-37d6-d83a-0de3" hidden="false" sortIndex="10"/>
   </sharedSelectionEntryGroups>
 </catalogue>
