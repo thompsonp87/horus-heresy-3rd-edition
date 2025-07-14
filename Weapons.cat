@@ -3737,9 +3737,9 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Phosphex bomb" hidden="false" id="5ad2-c3b4-f5eb-5b10">
+    <selectionEntry type="upgrade" import="true" name="Phosphex bombs" hidden="false" id="5ad2-c3b4-f5eb-5b10">
       <profiles>
-        <profile name="Phosphex bomb" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="346b-bb91-350b-6e1d">
+        <profile name="Phosphex bombs" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="346b-bb91-350b-6e1d">
           <characteristics>
             <characteristic name="R" typeId="cdb0-8654-6840-1037">6</characteristic>
             <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
