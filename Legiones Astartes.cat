@@ -3833,6 +3833,11 @@
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="e2e2-ebf4-2680-160d" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Moritat" hidden="false" id="3624-91d5-28dd-1a9f" type="selectionEntry" targetId="0c28-19c0-71b2-424e">
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="a44b-4a66-359d-fb3f" primary="true" name="Command"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Weapons" id="32ee-d63c-aa09-89f0" targetId="a22d-4dd0-c59d-57d3"/>
