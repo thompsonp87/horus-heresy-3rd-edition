@@ -3828,6 +3828,11 @@
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="f95a-1d3a-bc59-1585" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Damocles Command Rhino" hidden="false" id="fe78-9671-5656-c304" type="selectionEntry" targetId="f214-aeb9-0dd6-9071">
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="e2e2-ebf4-2680-160d" primary="true" name="Command"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Weapons" id="32ee-d63c-aa09-89f0" targetId="a22d-4dd0-c59d-57d3"/>
