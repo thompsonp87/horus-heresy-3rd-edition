@@ -5252,6 +5252,47 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nemesis rifle" hidden="false" id="6643-6be5-c3cb-c5e1">
+      <profiles>
+        <profile name="Nemesis rifle" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="b344-8fb2-bb69-c170">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Breaching (5+), Pinning (1), Precision (4+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="3b2f-328e-e23e-991a" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="e121-0634-ca0f-0790" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision (X)" id="24e9-8957-027c-0f9f" hidden="false" type="rule" targetId="4fbd-e0bc-8f72-6e3f">
+          <comment>4+</comment>
+          <modifiers>
+            <modifier type="set" value="Precision (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="9ae7-09fc-b168-e2fd" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Power Weapon" id="d23f-b4f0-0127-9394" hidden="false" collapsible="true" flatten="true">

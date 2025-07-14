@@ -65,6 +65,7 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Feel No Pain (X)" id="89b5-7320-db15-fd60" hidden="false"/>
     <rule name="Battlesmith (X)" id="c3db-d17c-fd46-eb01" hidden="false"/>
     <rule name="Master of Automata" id="3ad7-36d0-16cc-4995" hidden="false"/>
+    <rule name="Infiltrate (X)" id="f330-254e-1a98-798a" hidden="false"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Telepathy" hidden="false" id="e09e-1438-3205-2a57"/>
