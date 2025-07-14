@@ -76,5 +76,6 @@
     <selectionEntry type="upgrade" import="true" name="Legion standard" hidden="false" id="df7f-540b-00d5-1d82"/>
     <selectionEntry type="upgrade" import="true" name="Narthecium" hidden="false" id="a7bb-ae7f-3ef2-90d1"/>
     <selectionEntry type="upgrade" import="true" name="Icon of Allegiance" hidden="false" id="b808-6eaa-6396-6ce3"/>
+    <selectionEntry type="upgrade" import="true" name="Command vox relay" hidden="false" id="2012-4b76-43b0-c7dd"/>
   </sharedSelectionEntries>
 </catalogue>

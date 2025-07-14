@@ -59,6 +59,8 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Anathemata Discipline" id="f260-e43b-e300-79a6" hidden="false"/>
     <rule name="Fear (X)" id="0ebc-0c92-2209-6393" hidden="false"/>
     <rule name="Never Back Down" id="91a6-7f61-0c0b-a236" hidden="false"/>
+    <rule name="Master of Descent" id="b04c-3f1f-9fac-cd25" hidden="false"/>
+    <rule name="Tip of the Spear" id="96e2-c6ab-8084-c1d2" hidden="false"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Telepathy" hidden="false" id="e09e-1438-3205-2a57"/>
