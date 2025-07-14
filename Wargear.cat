@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="fcc7-4319-bb04-2c25" name="Wargear" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<catalogue library="true" id="fcc7-4319-bb04-2c25" name="Wargear" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="2" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Strato-vox" hidden="false" id="e3dd-d327-3f0b-265f">
       <profiles>
@@ -75,5 +75,7 @@
     <selectionEntry type="upgrade" import="true" name="Dozer blade" hidden="false" id="496e-da18-2afa-b99c"/>
     <selectionEntry type="upgrade" import="true" name="Legion standard" hidden="false" id="df7f-540b-00d5-1d82"/>
     <selectionEntry type="upgrade" import="true" name="Narthecium" hidden="false" id="a7bb-ae7f-3ef2-90d1"/>
+    <selectionEntry type="upgrade" import="true" name="Icon of Allegiance" hidden="false" id="b808-6eaa-6396-6ce3"/>
+    <selectionEntry type="upgrade" import="true" name="Command vox relay" hidden="false" id="2012-4b76-43b0-c7dd"/>
   </sharedSelectionEntries>
 </catalogue>

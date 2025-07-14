@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <categoryEntries>
     <categoryEntry name="Officer of the Line (2)" id="901a-6b71-7a29-4597" hidden="false"/>
     <categoryEntry name="Allegiance" id="c408-52f1-b632-4c82" hidden="false"/>
@@ -55,7 +55,17 @@
     <categoryEntry name="Troops" id="88e6-d373-4152-0dd8" hidden="false"/>
     <categoryEntry name="War-engine" id="2499-7239-685f-8465" hidden="false"/>
     <categoryEntry name="Warlord" id="22ee-7208-4089-b005" hidden="false"/>
-    <categoryEntry name="Terminator" id="647c-faca-3c98-c203" hidden="true"/>
+    <categoryEntry name="Free Power Weapon" id="647c-faca-3c98-c203" hidden="true"/>
+    <categoryEntry name="Command Model Sub-type" id="9871-cb62-5283-2216" hidden="false"/>
+    <categoryEntry name="Unique Model Sub-Type" id="b980-187b-2b17-d635" hidden="false"/>
+    <categoryEntry name="Champion Model Sub-Type" id="5a95-e564-96b2-8dc9" hidden="false"/>
+    <categoryEntry name="Specialist Model Sub-Type" id="af7d-af64-6b7d-da9d" hidden="false"/>
+    <categoryEntry name="Sergeant Model Sub-Type" id="8045-89a4-76d4-fcef" hidden="false"/>
+    <categoryEntry name="Heavy Model Sub-Type" id="1e7d-9066-28d2-97a0" hidden="false"/>
+    <categoryEntry name="Light Model Sub-Type" id="f4ba-00e5-3d2e-eaac" hidden="false"/>
+    <categoryEntry name="Skirmish Model Sub-Type" id="d2d6-5a84-672b-2833" hidden="false"/>
+    <categoryEntry name="Antigrav Model Sub-Type" id="c504-9dfa-35d3-c98f" hidden="false"/>
+    <categoryEntry name="Transport Model Sub-Type" id="2e6d-36f6-eeca-8e0c" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crusade Force Organization Chart" id="8562-592c-8d4b-a1f0" hidden="false" childForcesLabel="Auxillary and Apex Detachments" sortIndex="1">

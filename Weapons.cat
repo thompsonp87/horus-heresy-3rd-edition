@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="a22d-4dd0-c59d-57d3" name="Weapons" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<catalogue library="true" id="a22d-4dd0-c59d-57d3" name="Weapons" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="2" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="2942-f783-d627-33c5">
       <profiles>
@@ -3737,9 +3737,9 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Phosphex bomb" hidden="false" id="5ad2-c3b4-f5eb-5b10">
+    <selectionEntry type="upgrade" import="true" name="Phosphex bombs" hidden="false" id="5ad2-c3b4-f5eb-5b10">
       <profiles>
-        <profile name="Phosphex bomb" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="346b-bb91-350b-6e1d">
+        <profile name="Phosphex bombs" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="346b-bb91-350b-6e1d">
           <characteristics>
             <characteristic name="R" typeId="cdb0-8654-6840-1037">6</characteristic>
             <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
@@ -5229,19 +5229,87 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power lash" hidden="false" id="2198-1efb-d4ef-5907">
+      <profiles>
+        <profile name="Power lash" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="0c26-fa08-5c28-867d">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">+1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">-1</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">3</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="480f-6102-6c57-1e21" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+          <comment>6+</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nemesis rifle" hidden="false" id="6643-6be5-c3cb-c5e1">
+      <profiles>
+        <profile name="Nemesis rifle" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="b344-8fb2-bb69-c170">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (D), Breaching (5+), Pinning (1), Precision (4+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="3b2f-328e-e23e-991a" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+          <comment>5+</comment>
+        </infoLink>
+        <infoLink name="Pinning (X)" id="e121-0634-ca0f-0790" hidden="false" type="rule" targetId="88b6-6493-e4d7-1805">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Pinning (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precision (X)" id="24e9-8957-027c-0f9f" hidden="false" type="rule" targetId="4fbd-e0bc-8f72-6e3f">
+          <comment>4+</comment>
+          <modifiers>
+            <modifier type="set" value="Precision (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Heavy (X)" id="9ae7-09fc-b168-e2fd" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (D)" field="name"/>
+          </modifiers>
+          <comment>D</comment>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Power Weapon" id="d23f-b4f0-0127-9394" hidden="false" collapsible="true" flatten="true">
       <entryLinks>
-        <entryLink import="true" name="Power sword" hidden="false" id="807a-4734-959e-9286" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1" defaultAmount="">
+        <entryLink import="true" name="Power sword" hidden="false" id="807a-4734-959e-9286" type="selectionEntry" targetId="59a9-57c1-fff9-ca75" sortIndex="1">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
           </costs>
           <modifiers>
             <modifier type="set" value="0" field="9893-c379-920b-8982">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="1" field="defaultAmount">
               <conditions>
@@ -5256,9 +5324,13 @@
           </costs>
           <modifiers>
             <modifier type="set" value="0" field="9893-c379-920b-8982">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -5268,9 +5340,13 @@
           </costs>
           <modifiers>
             <modifier type="set" value="0" field="9893-c379-920b-8982">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -5280,12 +5356,24 @@
           </costs>
           <modifiers>
             <modifier type="set" value="0" field="9893-c379-920b-8982">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="647c-faca-3c98-c203" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Force Weapon" id="89e6-2502-2486-71f4" hidden="false" defaultSelectionEntryId="970d-7af0-0052-e25c">
+      <entryLinks>
+        <entryLink import="true" name="Force sword" hidden="false" id="970d-7af0-0052-e25c" type="selectionEntry" targetId="02b1-ed1c-7c89-fc36" sortIndex="1"/>
+        <entryLink import="true" name="Force axe" hidden="false" id="0c55-a1b3-64e0-c34f" type="selectionEntry" targetId="ec9a-091c-cb38-671f" sortIndex="2"/>
+        <entryLink import="true" name="Force maul" hidden="false" id="929c-be19-2772-ebe8" type="selectionEntry" targetId="ea89-55b3-2d6a-705a" sortIndex="3"/>
+        <entryLink import="true" name="Force staff" hidden="false" id="dc03-cf9f-b8c0-95d8" type="selectionEntry" targetId="968c-969b-bf56-8bde" sortIndex="4"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
