@@ -3825,7 +3825,7 @@
     </entryLink>
     <entryLink import="true" name="Vigilator" hidden="false" id="1c13-a301-7104-5cc9" type="selectionEntry" targetId="22fd-89ea-04c6-3f3d">
       <categoryLinks>
-        <categoryLink targetId="9871-cb62-5283-2216" id="cb2d-381c-51ee-2353" primary="true" name="Command Model Sub-type"/>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="f95a-1d3a-bc59-1585" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
