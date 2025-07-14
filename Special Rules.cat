@@ -61,6 +61,10 @@ In Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared t
     <rule name="Never Back Down" id="91a6-7f61-0c0b-a236" hidden="false"/>
     <rule name="Master of Descent" id="b04c-3f1f-9fac-cd25" hidden="false"/>
     <rule name="Tip of the Spear" id="96e2-c6ab-8084-c1d2" hidden="false"/>
+    <rule name="Master of Auxilia" id="da1d-168c-c688-80cb" hidden="false"/>
+    <rule name="Feel No Pain (X)" id="89b5-7320-db15-fd60" hidden="false"/>
+    <rule name="Battlesmith (X)" id="c3db-d17c-fd46-eb01" hidden="false"/>
+    <rule name="Master of Automata" id="3ad7-36d0-16cc-4995" hidden="false"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Telepathy" hidden="false" id="e09e-1438-3205-2a57"/>
