@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <categoryEntries>
     <categoryEntry name="Officer of the Line (2)" id="901a-6b71-7a29-4597" hidden="false"/>
     <categoryEntry name="Allegiance" id="c408-52f1-b632-4c82" hidden="false"/>
@@ -66,6 +66,55 @@
     <categoryEntry name="Skirmish Model Sub-Type" id="d2d6-5a84-672b-2833" hidden="false"/>
     <categoryEntry name="Antigrav Model Sub-Type" id="c504-9dfa-35d3-c98f" hidden="false"/>
     <categoryEntry name="Transport Model Sub-Type" id="2e6d-36f6-eeca-8e0c" hidden="false"/>
+    <categoryEntry name="Infantry Type" id="594d-fa82-13cb-a345" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+      <rules>
+        <rule name="Infantry Type" id="6740-4d5b-fca0-ba1f" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+          <description>Infantry is the most basic Type, and is applied to most Models in the game. A Model with the Infantry Type uses the Core Rules without modification, gaining neither benefit nor penalty. Models with the Infantry Type may Embark and Disembark upon Models with the Transport Sub-Type.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Cavalry Type" id="a073-2d4a-5bed-123e" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+      <rules>
+        <rule name="Cavalry Type" id="f051-0d1e-c7c2-c92e" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+          <description>The following Rules apply to all Models with the Cavalry Types:
+- When making a Fall Back Move for a Model with the Cavalry Type, that Model moves a distance equal to the Initiative Characteristic of the Model plus the total of two Dice (IE: 2D6) rolled and added together.
+- Models with the Cavalry Type may not make use of any Cover Save granted by Terrain Features or Areas of Terrain.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Walker Type" id="38d4-d720-8009-acd3" hidden="false" page="174" publicationId="7d63-5df4-c656-52de">
+      <rules>
+        <rule name="Walker Type" id="55d4-fd0c-cbdb-a25a" hidden="false" publicationId="7d63-5df4-c656-52de" page="174">
+          <description>The following Rules apply to all Models with the Walker Type:
+- When targeting a Unit that includes any Models with the Walker Type, the effects of the Poisoned (X) Special Rule only trigger a Wound Test with a result of a &apos;6&apos; before modifiers are applied, regardless of the value of X for that variant of the Special Rule.
+- A Model with the Walker Type may attack with all Weapons they have in each Shooting Attack they make, including as part of a Reaction. Note that this does not allow Weapons that do not have the Assault Trait to be used to attack as part of a Volley Attack.
+- In Step 1 of the Resolution Sub-Phase, when deciding how many Models a Player controls in a Combat, a Model with the Walker Type counts as a number of Models equal to that Model&apos;s Base Wounds Value.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Paragon Type" id="7799-e1d6-762b-700b" hidden="false" publicationId="7d63-5df4-c656-52de" page="175">
+      <rules>
+        <rule name="Paragon Type" id="3abd-0aed-12ad-8b4f" hidden="false" publicationId="7d63-5df4-c656-52de" page="175">
+          <description>The following Rules apply to all Models with the Paragon Type:
+- Any Hits inflicted by a Model with the Paragon Type, as part of either Shooting Attacks or in close combat are allocated by the attacking Model&apos;s Controlling Player and not the Controlling Player of the Target Unit.
+- Models with the Paragon Type may join an leave a Unit that includes Models with the Infantry Type, and Models with the Infantry Type may join and leave a Unit that includes one or more Models with the Paragon Type.
+- Models with the Paragon Type may Embark and Disembark upon Models with the Transport Sub-Type.
+- A Model with the Paragon Type may Issue and Accept Challenges (see Rules for Challenges on page 256).
+- The Controlling Player of a Unit that include one or more Models with the Paragon Type may use the Characteristics of one of those Models to resolve any Characteristic Checks made for that Unit.
+- In Step 1 of the Resolution Sub-Phase, when deciding how many Models a Player controls in a Combat, a Model with the Paragon Type counts as a number of Models equal to that Model&apos;s Base Wounds Value.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry name="Automata Type" id="5833-5e86-26bc-0916" hidden="false" publicationId="7d63-5df4-c656-52de" page="175">
+      <rules>
+        <rule name="Automata Type" id="a7d3-aaa8-8179-33d1" hidden="false" publicationId="7d63-5df4-c656-52de" page="175">
+          <description>The following Rules apply to all Models with the Automata Type:
+- Models with the Automata Type cannot gain any Tactical Statuses and are considered to automatically pass any Check made to avoid gaining a Tactical Status.
+- When targeting a Unit that includes any Models with the Automata Type, the effects of the Poisoned (X) Special Rule only trigger on a Wound Test with a result of &apos;6&apos; before modifiers are applied, regardless of the value of X for that variant of the Special Rule.
+- A Unit that includes one or more Models with the Automata Type may not make Reactions.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crusade Force Organization Chart" id="8562-592c-8d4b-a1f0" hidden="false" childForcesLabel="Auxillary and Apex Detachments" sortIndex="1">
