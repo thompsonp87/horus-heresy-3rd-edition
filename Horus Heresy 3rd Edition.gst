@@ -4582,8 +4582,16 @@
             <categoryLink targetId="c85c-2963-658f-1bb9" id="c1dc-0919-397c-4986" primary="false" name="Prime Command"/>
           </categoryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Master Sergeant" hidden="false" id="2c90-1d52-7075-59d3" sortIndex="1"/>
-        <selectionEntry type="upgrade" import="true" name="Paragon of Battle" hidden="false" id="20cb-4eec-0844-8a97" sortIndex="3"/>
+        <selectionEntry type="upgrade" import="true" name="Master Sergeant" hidden="false" id="2c90-1d52-7075-59d3" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6282-9945-7fff-a114"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Paragon of Battle" hidden="false" id="20cb-4eec-0844-8a97" sortIndex="3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efed-cc57-2cf2-5b68"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Logistical Benefit" id="52ae-1a80-a764-d4fd" hidden="false" sortIndex="5">
