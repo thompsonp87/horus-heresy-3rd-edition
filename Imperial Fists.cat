@@ -81,13 +81,16 @@
               </modifiers>
             </infoLink>
             <infoLink name="Infantry Unit Type" id="520b-c4a5-ad93-e617" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
-            <infoLink name="Eternal Warrior (X)" id="4310-038b-4ecf-0a6d" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
+            <infoLink name="Fire Discipline" id="93da-d23c-514d-32ba" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Eternal Warrior (X)" id="cab6-5981-6158-d9a7" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
               <comment>1</comment>
               <modifiers>
                 <modifier type="set" value="Eternal Warrior (1)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Fire Discipline" id="93da-d23c-514d-32ba" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Fire Discipline" id="cdb0-fae2-2ecf-7963" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c">
+              <comment>Unique</comment>
+            </infoLink>
           </infoLinks>
           <rules>
             <rule name="Slayer of Kings" id="7f68-5ae5-dbdd-5f29" hidden="false">
@@ -117,23 +120,21 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
           <profiles>
             <profile name="Rogal Dorn" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="7e4e-ce9c-24ba-1fdb">
               <characteristics>
-                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
-                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
-                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
-                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
-                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
-                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
-                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
-                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
-                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
-                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
-                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
-                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
-                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
-                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
-                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
-                <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-                <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Paragon (Unique)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">8</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">7</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">6</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">6</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">6</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">6</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">6</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">6</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">12</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">10</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">10</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">10</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -142,8 +143,107 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9518-b4a7-3c1e-3f41-max" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Fire Discipline" id="6c05-f9e1-e417-b232" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Fire Discipline" id="6c05-f9e1-e417-b232" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c">
+              <comment>Paragon</comment>
+            </infoLink>
+            <infoLink name="Command Unit Sub-type" id="419d-e41b-d81e-8b29" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
+            <infoLink name="Eternal Warrior (X)" id="4310-038b-4ecf-0a6d" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
+              <comment>2</comment>
+              <modifiers>
+                <modifier type="set" value="Eternal Warrior (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Bulky (X)" id="cad8-a5ad-c25e-2058" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25">
+              <comment>4</comment>
+              <modifiers>
+                <modifier type="set" value="Bulky (4)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Fire Discipline" id="5fcc-9894-77b9-0e4e" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Fire Discipline" id="9cd2-f1ef-f616-4e10" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c">
+              <comment>Unique</comment>
+            </infoLink>
           </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm&apos;s Teeth" hidden="false" id="246a-1914-3c66-2769" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8b6e-4088-1eb0-ac8f-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b6e-4088-1eb0-ac8f-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Storm&apos;s Teeth" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="9375-98d0-95eb-f6aa">
+                  <characteristics>
+                    <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
+                    <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+                    <characteristic name="SM" typeId="4505-de6f-d4ae-6280">S</characteristic>
+                    <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+                    <characteristic name="D" typeId="6a9d-4feb-065a-33e7">2</characteristic>
+                    <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Shred (4+) Reaping Blow (2)</characteristic>
+                    <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Chain</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Shred (X)" id="edad-60f0-b0be-b719" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+                  <comment>4+</comment>
+                  <modifiers>
+                    <modifier type="set" value="Shred (4+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Reaping Blow (X)" id="10ff-809c-1a2d-69cc" hidden="false" type="rule" targetId="951f-eee4-02b7-b014">
+                  <comment>2</comment>
+                  <modifiers>
+                    <modifier type="set" value="Reaping Blow (2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Voice of Terra" hidden="false" id="32fa-f0ca-d437-d8fa" sortIndex="2">
+              <profiles>
+                <profile name="The Voice of Terra" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="0b5d-7c26-e71c-a90a">
+                  <characteristics>
+                    <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+                    <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+                    <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">5</characteristic>
+                    <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+                    <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+                    <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (5+)</characteristic>
+                    <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt, Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c9b-e5a4-5ff0-0064-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c9b-e5a4-5ff0-0064-max" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Breaching (X)" id="35a8-0293-fefd-688e" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+                  <comment>5+</comment>
+                  <modifiers>
+                    <modifier type="set" value="Breaching (5+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="a8fd-ab02-1283-28be" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="4"/>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="3675-bb41-a681-c1d7" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="3"/>
+          </entryLinks>
+          <rules>
+            <rule name="Bulwark of the Imperium" id="fc91-b274-e3a5-cf3b" hidden="false">
+              <description>While a Model with this Special Rule is engaged in a Challenge, its Controlling Player can select the following Gambit:
+
+
+Bulwark of the Imperium:  While this Gambit is selected, Wound Tests made against the Model that this Gambit was selected for that have an unmodified result of a 1, 2, 3 and 4 are never successful regardless of the Strength Characteristic of a hit or any Special Rules that set the Target Number for Wound Tests.</description>
+            </rule>
+            <rule name="Sire of the Imperial Fists" id="a08f-3fb8-ad95-0574" hidden="false">
+              <description>If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:
+If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Tactical Squads and/or Breacher Squads, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.
+Furthermore, if a Model with this Special Rule is part of an Army, then all Models with the Imperial Fists Trait and the Infantry Type gain the Prepared Defenses Special Rule:
+Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Models in this Army with the Infantry Type and the Imperial Fists Trait have a 5+ Cover Save while they are within their Controlling Player&apos;s Deployment Zone.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -232,7 +332,7 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec4b-d0e5-ecc5-aaf1-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Subjugator" hidden="false" id="e8ae-3327-952c-3b9c">
+            <selectionEntry type="upgrade" import="true" name="Subjugator" hidden="false" id="e8ae-3327-952c-3b9c" sortIndex="1">
               <profiles>
                 <profile name="Subjugator" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="68ce-b5ea-2050-bfc9">
                   <characteristics>
@@ -251,7 +351,7 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecb4-3af8-4a1e-9491-max" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Incineratus" hidden="false" id="616a-6d2a-8158-0499">
+            <selectionEntry type="upgrade" import="true" name="Incineratus" hidden="false" id="616a-6d2a-8158-0499" sortIndex="2">
               <profiles>
                 <profile name="Subjugator" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="7533-4916-e548-f0c8">
                   <characteristics>
