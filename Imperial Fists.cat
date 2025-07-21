@@ -15,7 +15,7 @@
           <profiles>
             <profile name="Sigismund" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="d7ec-110a-6ab4-613a">
               <characteristics>
-                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"> Infantry (Unique, Command)</characteristic>
                 <characteristic name="M" typeId="a106-a779-d272-5e93"/>
                 <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
                 <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
@@ -30,48 +30,86 @@
                 <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
                 <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
                 <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
-                <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-                <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
               </characteristics>
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ebc-a8a7-225f-55ef" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f92e-b5a7-313f-a3c6" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb07-2375-ab7e-7aa5-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb07-2375-ab7e-7aa5-max" includeChildSelections="false"/>
           </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Black Sword" hidden="false" id="2a65-81fa-0410-df3c">
-          <profiles>
-            <profile name="The Black Sword" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="63e9-673a-4624-452b">
-              <characteristics>
-                <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
-                <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
-                <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
-                <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
-                <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
-                <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (6+), Duellist&apos;s Edge (2)</characteristic>
-                <characteristic name="Traits" typeId="76e3-c188-bc65-3467"/>
-              </characteristics>
-            </profile>
-          </profiles>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Black Sword" hidden="false" id="2a65-81fa-0410-df3c">
+              <profiles>
+                <profile name="The Black Sword" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="63e9-673a-4624-452b">
+                  <characteristics>
+                    <characteristic name="IM" typeId="6eec-4093-f946-1014">I</characteristic>
+                    <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+                    <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
+                    <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+                    <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+                    <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (6+), Duellist&apos;s Edge (2)</characteristic>
+                    <characteristic name="Traits" typeId="76e3-c188-bc65-3467"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Duellist&apos;s Edge (X)" id="41e5-08cf-2983-f4c5" hidden="false" type="rule" targetId="94bc-c69f-99b6-8ba0">
+                  <modifiers>
+                    <modifier type="set" value="Duellist&apos;s Edge (2)" field="name"/>
+                  </modifiers>
+                  <comment>2</comment>
+                </infoLink>
+                <infoLink name="Critical Hit (X)" id="2c64-d486-97f7-e0a8" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
+                  <modifiers>
+                    <modifier type="set" value="Critical Hit (6+)" field="name"/>
+                  </modifiers>
+                  <comment>6+</comment>
+                </infoLink>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="87dd-69a2-1e19-11bc-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87dd-69a2-1e19-11bc-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
           <infoLinks>
-            <infoLink name="Duellist&apos;s Edge (X)" id="41e5-08cf-2983-f4c5" hidden="false" type="rule" targetId="94bc-c69f-99b6-8ba0">
+            <infoLink name="Command Unit Sub-type" id="8313-d934-4bd2-40ef" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
+            <infoLink name="Precision (X)" id="eb78-b905-9ba0-2f5d" hidden="false" type="rule" targetId="4fbd-e0bc-8f72-6e3f">
+              <comment>4+</comment>
               <modifiers>
-                <modifier type="set" value="Duellist&apos;s Edge (2)" field="name"/>
+                <modifier type="set" value="Precision (4+)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Critical Hit (X)" id="2c64-d486-97f7-e0a8" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
+            <infoLink name="Infantry Unit Type" id="520b-c4a5-ad93-e617" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
+            <infoLink name="Eternal Warrior (X)" id="4310-038b-4ecf-0a6d" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
+              <comment>1</comment>
               <modifiers>
-                <modifier type="set" value="Critical Hit (6+)" field="name"/>
+                <modifier type="set" value="Eternal Warrior (1)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Fire Discipline" id="93da-d23c-514d-32ba" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
           </infoLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5dc5-c7f4-d733-01e4" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="757a-3b43-f56c-d0ca" includeChildSelections="false"/>
-          </constraints>
+          <rules>
+            <rule name="Slayer of Kings" id="7f68-5ae5-dbdd-5f29" hidden="false">
+              <description>During the Controlling Player&apos;s Challenge Sub-Phase, if Sigismund is eligible, he must be declared as the Challenger.
+If more than one Model under the Active Player&apos;s control in a Combat must be the Challenger, they must select Sigismund as the Challenger.
+
+Additionally, when the Controlling Player issues a Challenge for Sigismund (including as part of the Heroic Intervention Advanced Reaction), they may select which of the Opposing Player&apos;s eligible Models is the Challenged. If, for any reason, the selected enemy Model cannot be the Challenged, Sigismund&apos;s Controlling Player gains a number of Combat Resolution Points equal to the starting Wounds Characteristic of the selected enemy Model that did not become the Challenged, and Sigismund&apos;s Controlling Player may select an alternative eligible Model to accept the Challenge.</description>
+            </rule>
+            <rule name="Death&apos;s Champion" id="4fd5-8d29-5bfe-984e" hidden="false">
+              <description>While a Model with this Special Rule is engaged in a Challenge, its Controlling Player can select the following Gambit:
+Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in the following Strike Step have the Critical Hit (5+) Special Rule.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="597e-83d8-32e1-8eaa" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rogal Dorn" hidden="false" id="7067-3938-a4ea-112c">
       <selectionEntries>
@@ -100,9 +138,12 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0769-0b62-9e99-cb02" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5657-609c-0f3e-0918" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9518-b4a7-3c1e-3f41-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9518-b4a7-3c1e-3f41-max" includeChildSelections="false"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Fire Discipline" id="6c05-f9e1-e417-b232" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -157,7 +198,7 @@
             <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
             <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
             <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
-            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Breaching (6+) </characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (FP), Breaching (6+)</characteristic>
             <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
           </characteristics>
         </profile>
@@ -183,9 +224,9 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Evander Garrius" hidden="false" id="6819-8014-fe49-2e96">
+    <selectionEntry type="unit" import="true" name="Evander Garrius" hidden="false" id="6819-8014-fe49-2e96">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Evander Garrius " hidden="false" id="6efb-ae05-8ed9-50a7">
+        <selectionEntry type="model" import="true" name="Evander Garrius " hidden="false" id="6efb-ae05-8ed9-50a7">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec4b-d0e5-ecc5-aaf1-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec4b-d0e5-ecc5-aaf1-max" includeChildSelections="false"/>
@@ -205,6 +246,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecb4-3af8-4a1e-9491-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecb4-3af8-4a1e-9491-max" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Incineratus" hidden="false" id="616a-6d2a-8158-0499">
               <profiles>
@@ -228,6 +273,10 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c27a-f15c-4a90-6fc3-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c27a-f15c-4a90-6fc3-max" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <profiles>
@@ -252,7 +301,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Unit Type" id="18ed-2f0c-f9ac-faee" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
+            <infoLink name="Heavy Unit Sub-type" id="18ed-2f0c-f9ac-faee" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
             <infoLink name="Command Unit Sub-type" id="8106-8c74-99f7-af4c" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
             <infoLink name="Infantry Unit Type" id="8ec4-ac65-32f7-3144" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1">
               <comment>Unique</comment>
@@ -271,6 +320,8 @@
                 <modifier type="set" value="Feel No Pain (5)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Infantry Unit Type" id="88fe-1260-cb96-0e3d" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
+            <infoLink name="Fire Discipline" id="6a0c-dce1-64d0-fa88" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
           </infoLinks>
           <rules>
             <rule name="The Tyrant&apos;s Regalia" id="df3d-43cc-983a-267f" hidden="false">
@@ -284,6 +335,13 @@
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="597e-83d8-32e1-8eaa" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
