@@ -129,6 +129,7 @@
       </costs>
       <categoryLinks>
         <categoryLink name="Warlord" hidden="false" id="7004-b039-27fb-a405" targetId="22ee-7208-4089-b005" primary="true"/>
+        <categoryLink name="Required Fulgrim Transformed" hidden="false" id="b5a8-bde1-7cdb-1ec4" targetId="634b-596b-118f-80b6" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lord Commander Eidolon" hidden="false" id="fee3-dc10-99d3-37aa" page="134" publicationId="e54c-7040-0f35-d85d">
@@ -360,5 +361,58 @@
       </constraints>
       <comment>Unit Version</comment>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Emperor&apos;s Children Rite of War" id="67f2-6d7f-9c35-9774" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Legiones Astartes Emperor&apos;s Children" hidden="false" id="6666-33b0-8206-5094"/>
+        <selectionEntry type="upgrade" import="true" name="Legiones Hereticus Emperor&apos;s Children" hidden="false" id="51f4-9244-2a1c-2d7e"/>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <forceEntries>
+    <forceEntry name="Brotherhood of the Phoenix (Replaces Warlord)" id="cca7-b054-62dc-bec9" hidden="false">
+      <modifiers>
+        <modifier type="set" value="1" field="2421-aa0b-4f10-6f1a">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="3000" field="9893-c379-920b-8982" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="equalTo" value="0" field="forces" scope="roster" childId="50c3-ba24-7471-3d32" shared="true" includeChildForces="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="forces" scope="roster" shared="true" id="2421-aa0b-4f10-6f1a"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Warlord" hidden="false" id="bd95-5e15-7c67-ef6f" targetId="22ee-7208-4089-b005" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a37-327e-1bb4-ea06"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="High Command" hidden="false" id="bf51-67b2-508d-9da5" targetId="d9a6-9b5f-b18a-4d63" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0200-27dc-e18c-d233"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Command" hidden="false" id="bf8f-46f9-e063-b882" targetId="6dbf-654a-f06f-2d69" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c90-2190-26d4-7ca7"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Prime High Command" hidden="false" id="2172-df90-08a5-8cd6" targetId="3568-ad75-b452-3137" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21d4-ea05-fb4b-6f4a"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Required Fulgrim Transformed" hidden="false" id="f7e7-7865-9d3d-f136" targetId="634b-596b-118f-80b6" type="categoryEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e9fa-db73-f6f7-c9ae-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9fa-db73-f6f7-c9ae-max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
 </catalogue>
