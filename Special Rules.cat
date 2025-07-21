@@ -123,6 +123,10 @@ A model with the Shrouded (X) Special Rule gains a Shrouded Damage Mitigation Te
     <rule name="Automated Fire Protocols" id="bbf2-c529-d30b-b6b1" hidden="false"/>
     <rule name="Independent Sentries" id="7444-aeba-2958-ee0d" hidden="false"/>
     <rule name="Void Shields (X)" id="86e9-04a5-e7d9-0253" hidden="false"/>
+    <rule name="Wraiths" id="84fd-366e-517d-e228" hidden="false">
+      <description>After the Controlling Player makes a Rush Move with a Unit that includes only Models with this Special Rule, they may also choose to make a Willpower Check for that Unit. If the Willpower Check is successful, any Charges targeting the selected Unit in the Assault Phase of the following Player Turn are Disordered. If the Willpower Check is failed, the selected Unit instead gains the Stunned Tactical Status.</description>
+      <comment>(Raven Guard Only)</comment>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Telepathy" hidden="false" id="e09e-1438-3205-2a57"/>
