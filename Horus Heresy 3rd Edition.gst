@@ -202,6 +202,7 @@
         <rule name="New Rule" id="a7d3-aaa8-8179-33d1" hidden="false"/>
       </rules>
     </categoryEntry>
+    <categoryEntry name="Prime High Command" id="3568-ad75-b452-3137" hidden="false"/>
     <categoryEntry name="Prime War-engine" id="9699-67c9-2c0b-e64b" hidden="false"/>
     <categoryEntry name="Prime Support" id="1c79-ecdf-9a64-84c9" hidden="false"/>
     <categoryEntry name="Prime Transport" id="fc27-1a48-84ae-aa7b" hidden="false"/>
@@ -489,9 +490,14 @@
           </constraints>
           <modifiers>
             <modifier type="set" value="1" field="63d0-2300-c551-7797">
-              <conditions>
-                <condition type="atLeast" value="3000" field="9893-c379-920b-8982" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="3000" field="9893-c379-920b-8982" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="equalTo" value="0" field="forces" scope="roster" childId="cca7-b054-62dc-bec9" shared="true" includeChildForces="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
