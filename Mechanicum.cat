@@ -780,7 +780,7 @@
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="40b6-5935-2a4f-f5eb" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
         <entryLink import="true" name="Arcana Benefice:" hidden="false" id="b23a-3936-6431-374e" type="selectionEntry" targetId="f7b9-dc9c-2c8b-0c92" sortIndex="10"/>
         <entryLink import="true" name="Heterodoxist" hidden="false" id="3584-b2ee-6065-d0ed" type="selectionEntry" targetId="7a1e-e035-4b60-0b35" sortIndex="3"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="2da5-37c0-d6e3-ea11" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="12">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="2da5-37c0-d6e3-ea11" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="12">
           <categoryLinks>
             <categoryLink targetId="c85c-2963-658f-1bb9" id="02fa-c675-6dc8-0bac" primary="false" name="Prime Command"/>
           </categoryLinks>
@@ -940,7 +940,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="3f36-ef37-6adb-409e" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="b908-cc3a-f91b-c9f0" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="b908-cc3a-f91b-c9f0" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink targetId="c66b-ef39-b20f-725b" id="391d-45b4-1d0a-1a82" primary="false" name="Prime Retinue"/>
           </categoryLinks>
@@ -1070,7 +1070,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Arcana Benefice:" hidden="false" id="4d1e-0afa-099f-7e20" type="selectionEntry" targetId="f7b9-dc9c-2c8b-0c92" sortIndex="10"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="c339-6218-8921-c0a2" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="12">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="c339-6218-8921-c0a2" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="12">
           <categoryLinks>
             <categoryLink name="Prime Command" hidden="false" id="bf84-2553-0ed8-7402" targetId="c85c-2963-658f-1bb9" primary="false"/>
           </categoryLinks>
@@ -1171,7 +1171,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="fee7-bc64-5422-4317" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="ea94-751e-0d74-6c95" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="ea94-751e-0d74-6c95" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
           <categoryLinks>
             <categoryLink name="Prime Retinue" hidden="false" id="ba4e-75ed-8c34-5b19" targetId="c66b-ef39-b20f-725b" primary="false"/>
           </categoryLinks>
@@ -1360,7 +1360,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9a6-99d2-8506-3515"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="f7bd-69d0-8993-bd24" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="f7bd-69d0-8993-bd24" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink targetId="276f-7a07-a56c-affd" id="2899-8d9f-b5b4-cda2" primary="false" name="Prime Elites"/>
           </categoryLinks>
@@ -1492,7 +1492,7 @@
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="1f26-8829-0310-fcff" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
         <entryLink import="true" name="Arcana Benefice:" hidden="false" id="ae59-b0fb-2120-a6e1" type="selectionEntry" targetId="f7b9-dc9c-2c8b-0c92" sortIndex="10"/>
         <entryLink import="true" name="Heterodoxist" hidden="false" id="69e6-5473-8108-c999" type="selectionEntry" targetId="7a1e-e035-4b60-0b35" sortIndex="3"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="16b6-a516-622c-62a0" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="12">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="16b6-a516-622c-62a0" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="12">
           <categoryLinks>
             <categoryLink name="Prime Command" hidden="false" id="9bb0-f6fb-49ee-45d6" targetId="c85c-2963-658f-1bb9" primary="false"/>
           </categoryLinks>
@@ -1749,7 +1749,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee0e-70a3-fb77-f7c3"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="74b8-4066-d2f5-3681" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="6">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="74b8-4066-d2f5-3681" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="6">
           <categoryLinks>
             <categoryLink name="Prime Elites" hidden="false" id="609f-e4e9-27d3-b4fe" targetId="276f-7a07-a56c-affd" primary="false"/>
           </categoryLinks>
@@ -1958,7 +1958,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c7d-9105-64ce-e8fa"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="a4ff-d32c-f0ff-2482" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="6">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="a4ff-d32c-f0ff-2482" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="6">
           <categoryLinks>
             <categoryLink name="Prime Elites" hidden="false" id="981c-a676-615e-55bd" targetId="276f-7a07-a56c-affd" primary="false"/>
           </categoryLinks>
@@ -2032,7 +2032,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af53-938d-664b-72cf"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="df59-054b-7567-e7c1" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="df59-054b-7567-e7c1" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
           <categoryLinks>
             <categoryLink targetId="1c79-ecdf-9a64-84c9" id="d86b-f4d1-58f6-c4af" primary="false" name="Prime Support"/>
           </categoryLinks>
@@ -2198,7 +2198,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e74-a7bf-d90a-d62b"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="2add-3992-0734-9159" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="3">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="2add-3992-0734-9159" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="3">
           <categoryLinks>
             <categoryLink targetId="1e95-35f0-1353-ffa1" id="1c5c-5df8-16c8-f3e9" primary="false" name="Prime Heavy assault"/>
           </categoryLinks>
@@ -2373,7 +2373,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a858-d236-117c-bac8"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="bd36-4cf3-185d-54b6" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="bd36-4cf3-185d-54b6" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink name="Prime Heavy assault" hidden="false" id="de01-7672-2f0a-577d" targetId="1e95-35f0-1353-ffa1" primary="false"/>
           </categoryLinks>
@@ -2476,7 +2476,7 @@
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="884b-f6af-9a40-7ff1" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
         <entryLink import="true" name="Arcana Benefice:" hidden="false" id="68f5-a35d-51e6-3b32" type="selectionEntry" targetId="f7b9-dc9c-2c8b-0c92" sortIndex="8"/>
         <entryLink import="true" name="Heterodoxist" hidden="false" id="0f57-500a-c9a3-4a36" type="selectionEntry" targetId="7a1e-e035-4b60-0b35" sortIndex="3"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="4944-5f01-5980-a80d" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="10">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="4944-5f01-5980-a80d" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="10">
           <categoryLinks>
             <categoryLink targetId="c3f9-a7f3-984b-3fda" id="63dc-bdf6-2168-522d" primary="false" name="Prime Troops"/>
           </categoryLinks>
@@ -2684,7 +2684,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5252-5933-f57d-44e0"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="175f-df59-3cbe-ce59" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="175f-df59-3cbe-ce59" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink name="Prime Support" hidden="false" id="7195-ab74-5005-9fd1" targetId="1c79-ecdf-9a64-84c9" primary="false"/>
           </categoryLinks>
@@ -2907,7 +2907,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="d1c2-ce59-a6f4-9191" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="898b-4591-1759-52e9" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="3">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="898b-4591-1759-52e9" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="3">
           <categoryLinks>
             <categoryLink name="Prime War-engine" hidden="false" id="30e9-80a8-e99d-ecbc" targetId="9699-67c9-2c0b-e64b" primary="false"/>
           </categoryLinks>
@@ -3054,7 +3054,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d504-8497-5718-4c25"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="f87b-760f-5b44-e00c" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="6">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="f87b-760f-5b44-e00c" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="6">
           <categoryLinks>
             <categoryLink targetId="9699-67c9-2c0b-e64b" id="5c33-0c96-8cec-6f89" primary="false" name="Prime War-engine"/>
           </categoryLinks>
@@ -3195,7 +3195,7 @@
           </constraints>
         </entryLink>
         <entryLink import="true" name="Mechanicum - Sub-faction" hidden="false" id="6516-bee0-56b2-0965" type="selectionEntryGroup" targetId="ce61-2d74-5519-70bf" sortIndex="2"/>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="4113-df1a-1b6a-8edd" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="8">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="4113-df1a-1b6a-8edd" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="8">
           <categoryLinks>
             <categoryLink targetId="abff-3686-c39a-9a24" id="cc39-027e-2bb4-7fdd" primary="false" name="Prime Heavy transport"/>
           </categoryLinks>
@@ -3410,7 +3410,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b362-7434-2002-3d72"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="89c3-e386-201c-227b" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="89c3-e386-201c-227b" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
           <categoryLinks>
             <categoryLink name="Prime Support" hidden="false" id="3484-895c-3ae2-ea46" targetId="1c79-ecdf-9a64-84c9" primary="false"/>
           </categoryLinks>
@@ -3543,7 +3543,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1b0-c36b-896a-98aa"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="440a-bcbb-f6ae-54ab" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="440a-bcbb-f6ae-54ab" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink targetId="6348-ecd0-714d-042a" id="538b-eb82-fbad-79c4" primary="false" name="Prime Recon"/>
           </categoryLinks>
@@ -3718,7 +3718,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a46b-96e8-6f15-1046"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="6d2f-5545-0f2d-c5d1" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="6d2f-5545-0f2d-c5d1" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink targetId="c291-144b-3da6-37ed" id="5a08-9b7e-d149-439d" primary="false" name="Prime Fast attack"/>
           </categoryLinks>
@@ -3878,7 +3878,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="720d-7c8b-2f39-d145"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="8a53-b7f2-7e82-040c" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="8a53-b7f2-7e82-040c" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="4">
           <categoryLinks>
             <categoryLink name="Prime Heavy assault" hidden="false" id="ad04-eda4-279d-9fae" targetId="1e95-35f0-1353-ffa1" primary="false"/>
           </categoryLinks>
@@ -3985,7 +3985,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcb9-3c5d-3995-352b"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="1be1-f186-85bb-52a0" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="7">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="1be1-f186-85bb-52a0" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="7">
           <categoryLinks>
             <categoryLink targetId="4460-7bc1-4d80-aecb" id="be60-83c2-3422-4fdb" primary="false" name="Prime Armour"/>
           </categoryLinks>
@@ -4105,7 +4105,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fc5-5c7b-3b14-1f31"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="dce4-45ed-862f-7b33" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="dce4-45ed-862f-7b33" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink name="Prime Armour" hidden="false" id="e050-0108-c2d0-3fa9" targetId="4460-7bc1-4d80-aecb" primary="false"/>
           </categoryLinks>
@@ -4318,7 +4318,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cde7-d157-0722-e982"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="cd3f-f7e0-af84-2110" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="cd3f-f7e0-af84-2110" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink name="Prime Elites" hidden="false" id="b1c3-838a-6e9e-8d98" targetId="276f-7a07-a56c-affd" primary="false"/>
           </categoryLinks>
@@ -4385,7 +4385,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6494-97d1-a0b3-0763"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Benefits (Mech)" hidden="false" id="8f56-c7ae-4144-abd5" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
+        <entryLink import="true" name="Mechanicum Prime Benefits" hidden="false" id="8f56-c7ae-4144-abd5" type="selectionEntryGroup" targetId="4ae1-f3b2-e1c8-165f" sortIndex="5">
           <categoryLinks>
             <categoryLink name="Prime Armour" hidden="false" id="f58b-1639-7ad7-b09c" targetId="4460-7bc1-4d80-aecb" primary="false"/>
           </categoryLinks>
@@ -5845,6 +5845,10 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
         </entryLink>
         <entryLink import="true" name="Logistical Benefit" hidden="false" id="3cbc-73cd-2206-f8a9" type="selectionEntryGroup" targetId="52ae-1a80-a764-d4fd" sortIndex="5"/>
       </entryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b90f-06f9-942e-4930"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95f1-3a26-9e4b-0a26"/>
+      </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
