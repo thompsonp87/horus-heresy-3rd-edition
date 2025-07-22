@@ -5826,12 +5826,12 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8095-8611-6afd-3a8f"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Prime Benefits (Mech)" id="4ae1-f3b2-e1c8-165f" hidden="false">
+    <selectionEntryGroup name="Mechanicum Prime Benefits" id="4ae1-f3b2-e1c8-165f" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Prime Advantage: Paragon of Metal" hidden="false" id="c6a6-47b0-4926-dd94" type="selectionEntry" targetId="e6ba-320e-f91f-d533" sortIndex="6"/>
-        <entryLink import="true" name="Prime Advantage: Prime Specimens" hidden="false" id="3d61-54d8-f3e6-c097" type="selectionEntry" targetId="a533-4a75-9434-4595" sortIndex="7"/>
-        <entryLink import="true" name="Prime Advantage: Prime Conveyor" hidden="false" id="8855-4255-3c14-bc68" type="selectionEntry" targetId="5e61-75cf-5a52-a94d" sortIndex="8"/>
-        <entryLink import="true" name="Prime Advantage: Thallaxi Principe" hidden="false" id="6c45-965d-4aef-3d33" type="selectionEntry" targetId="a3af-b73f-4a1b-efd1" sortIndex="9"/>
+        <entryLink import="true" name="Paragon of Metal" hidden="false" id="c6a6-47b0-4926-dd94" type="selectionEntry" targetId="e6ba-320e-f91f-d533" sortIndex="6"/>
+        <entryLink import="true" name="Prime Specimens" hidden="false" id="3d61-54d8-f3e6-c097" type="selectionEntry" targetId="a533-4a75-9434-4595" sortIndex="7"/>
+        <entryLink import="true" name="Prime Conveyor" hidden="false" id="8855-4255-3c14-bc68" type="selectionEntry" targetId="5e61-75cf-5a52-a94d" sortIndex="8"/>
+        <entryLink import="true" name="Thallaxi Principe" hidden="false" id="6c45-965d-4aef-3d33" type="selectionEntry" targetId="a3af-b73f-4a1b-efd1" sortIndex="9"/>
         <entryLink import="true" name="Combat Veterans" hidden="false" id="521d-139d-0ad1-0943" type="selectionEntry" targetId="8cf8-9be5-91d6-c96d" sortIndex="2"/>
         <entryLink import="true" name="Master Sergeant" hidden="false" id="3f78-e5d6-b285-dcb1" type="selectionEntry" targetId="2c90-1d52-7075-59d3" sortIndex="1"/>
         <entryLink import="true" name="Paragon of Battle" hidden="false" id="8b45-ddb4-143a-0ab0" type="selectionEntry" targetId="20cb-4eec-0844-8a97" sortIndex="3">
