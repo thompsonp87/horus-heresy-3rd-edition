@@ -16,20 +16,20 @@
             <profile name="Sigismund" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="d7ec-110a-6ab4-613a">
               <characteristics>
                 <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Unique, Command)</characteristic>
-                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
-                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
-                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
-                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
-                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
-                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
-                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
-                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
-                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
-                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
-                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
-                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
-                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
-                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">7</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">4</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">5</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">5</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">10</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">9</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">9</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">9</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -73,23 +73,18 @@
             </selectionEntry>
           </selectionEntries>
           <infoLinks>
-            <infoLink name="Command Unit Sub-type" id="8313-d934-4bd2-40ef" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
             <infoLink name="Precision (X)" id="eb78-b905-9ba0-2f5d" hidden="false" type="rule" targetId="4fbd-e0bc-8f72-6e3f">
               <comment>4+</comment>
               <modifiers>
                 <modifier type="set" value="Precision (4+)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Infantry Unit Type" id="520b-c4a5-ad93-e617" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
             <infoLink name="Fire Discipline" id="93da-d23c-514d-32ba" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
             <infoLink name="Eternal Warrior (X)" id="cab6-5981-6158-d9a7" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
               <comment>1</comment>
               <modifiers>
                 <modifier type="set" value="Eternal Warrior (1)" field="name"/>
               </modifiers>
-            </infoLink>
-            <infoLink name="Fire Discipline" id="cdb0-fae2-2ecf-7963" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c">
-              <comment>Unique</comment>
             </infoLink>
           </infoLinks>
           <rules>
@@ -104,6 +99,13 @@ Additionally, when the Controlling Player issues a Challenge for Sigismund (incl
 Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in the following Strike Step have the Critical Hit (5+) Special Rule.</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink targetId="b980-187b-2b17-d635" id="7d90-30ce-61b6-ccd5" primary="false" name="Unique Model Sub-Type"/>
+            <categoryLink targetId="594d-fa82-13cb-a345" id="9ad4-1c74-e915-681a" primary="false" name="Infantry Model Type"/>
+            <categoryLink targetId="6dbf-654a-f06f-2d69" id="963e-c3ee-952c-a3d4" primary="false" name="Command"/>
+            <categoryLink targetId="450e-112d-a64a-ef6e" id="9d74-cfb6-7722-c97b" primary="false" name="Imperial Fists"/>
+            <categoryLink targetId="4381-ed35-c3fa-a225" id="5b1d-3676-b0f0-affa" primary="false" name="Loyalist"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
@@ -154,10 +156,6 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9518-b4a7-3c1e-3f41-max" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
-            <infoLink name="Fire Discipline" id="6c05-f9e1-e417-b232" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c">
-              <comment>Paragon</comment>
-            </infoLink>
-            <infoLink name="Command Unit Sub-type" id="419d-e41b-d81e-8b29" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
             <infoLink name="Eternal Warrior (X)" id="4310-038b-4ecf-0a6d" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
               <comment>2</comment>
               <modifiers>
@@ -171,9 +169,6 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
               </modifiers>
             </infoLink>
             <infoLink name="Fire Discipline" id="5fcc-9894-77b9-0e4e" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
-            <infoLink name="Fire Discipline" id="9cd2-f1ef-f616-4e10" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c">
-              <comment>Unique</comment>
-            </infoLink>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Storm&apos;s Teeth" hidden="false" id="246a-1914-3c66-2769" sortIndex="1">
@@ -249,6 +244,12 @@ Furthermore, if a Model with this Special Rule is part of an Army, then all Mode
 Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Models in this Army with the Infantry Type and the Imperial Fists Trait have a 5+ Cover Save while they are within their Controlling Player&apos;s Deployment Zone.</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink targetId="7799-e1d6-762b-700b" id="4787-2b03-00ea-eb47" primary="false" name="Paragon Model Type"/>
+            <categoryLink targetId="450e-112d-a64a-ef6e" id="7353-620c-e46c-f07c" primary="false" name="Imperial Fists"/>
+            <categoryLink targetId="4381-ed35-c3fa-a225" id="d4c7-d069-a7a2-a167" primary="false" name="Loyalist"/>
+            <categoryLink targetId="b980-187b-2b17-d635" id="e906-f27c-b13b-ab9a" primary="false" name="Unique Model Sub-Type"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -281,11 +282,9 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Vigil Pattern Storm Shield" hidden="false" id="25b1-d9fe-2b90-dc58">
-      <infoLinks>
-        <infoLink name="Heavy Unit Sub-type" id="545d-2e90-e5fc-9dff" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
-      </infoLinks>
       <modifiers>
-        <modifier type="add" value="6ece-5c52-590e-43a4" field="category" scope="parent"/>
+        <modifier type="add" value="1e7d-9066-28d2-97a0" field="category" scope="parent"/>
+        <modifier type="add" value="26c6-e05c-0f72-7852" field="category" scope="parent"/>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Iliastus Assault Cannon" hidden="false" id="a6ba-6f72-e2fd-037a">
@@ -411,11 +410,6 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Heavy Unit Sub-type" id="18ed-2f0c-f9ac-faee" hidden="false" type="rule" targetId="7d35-4d6f-c4fe-4aac"/>
-            <infoLink name="Command Unit Sub-type" id="8106-8c74-99f7-af4c" hidden="false" type="rule" targetId="7b6d-2e0d-8659-252d"/>
-            <infoLink name="Infantry Unit Type" id="8ec4-ac65-32f7-3144" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1">
-              <comment>Unique</comment>
-            </infoLink>
             <infoLink name="Bulky (X)" id="f013-1da0-8111-a433" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25">
               <comment>2</comment>
               <modifiers>
@@ -430,7 +424,6 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
                 <modifier type="set" value="Feel No Pain (5)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Infantry Unit Type" id="88fe-1260-cb96-0e3d" hidden="false" type="rule" targetId="d518-ea26-a708-e6a1"/>
             <infoLink name="Fire Discipline" id="6a0c-dce1-64d0-fa88" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
           </infoLinks>
           <rules>
@@ -438,6 +431,14 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
               <description>A Model with this Special Rule has the Feel No Pain (5+) Special Rule against Wounds suffered when Engaged in a Challenge.</description>
             </rule>
           </rules>
+          <categoryLinks>
+            <categoryLink targetId="594d-fa82-13cb-a345" id="badb-7637-2170-e402" primary="false" name="Infantry Model Type"/>
+            <categoryLink targetId="b980-187b-2b17-d635" id="6002-09f9-7118-5fac" primary="false" name="Unique Model Sub-Type"/>
+            <categoryLink targetId="9871-cb62-5283-2216" id="403b-d793-2acf-889d" primary="false" name="Command Model Sub-type"/>
+            <categoryLink targetId="1e7d-9066-28d2-97a0" id="f45b-f67e-2d9c-cd41" primary="false" name="Heavy Model Sub-Type"/>
+            <categoryLink targetId="450e-112d-a64a-ef6e" id="5a66-4c00-949b-c8d3" primary="false" name="Imperial Fists"/>
+            <categoryLink targetId="4381-ed35-c3fa-a225" id="540e-c103-c023-e75e" primary="false" name="Loyalist"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -453,10 +454,181 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Templar Brethren" hidden="false" id="7ee4-7278-0ad7-4c29">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="d99f-8c4b-e50d-698d">
+          <entryLinks>
+            <entryLink import="true" name="Allegiance Traits" hidden="false" id="ea17-79ec-6fa6-c9ed" type="selectionEntryGroup" targetId="edd3-9763-97ca-0323"/>
+            <entryLink import="true" name="Legiones Astartes Trait" hidden="false" id="06c0-a821-d13e-a206" type="selectionEntryGroup" targetId="3014-5f25-bc3b-4675"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Alexis Polux" hidden="false" id="0511-25f6-aaef-e1dd">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Alexis Polux" hidden="false" id="4734-25d1-74ab-574b">
+          <profiles>
+            <profile name="Alexis Polux" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="c14d-9d7e-acfb-8b9b">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Unique, Command)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">6</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">3</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">5</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">3</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">9</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">9</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">8</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">8</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f34-23cf-7cc2-ed3f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae3-d16b-961d-8c76" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hammerblow" hidden="false" id="11c0-4a05-9608-0a1c">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ab6-42a7-fcb1-907f-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ab6-42a7-fcb1-907f-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hammerblow" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="b644-c580-e510-932c">
+                  <characteristics>
+                    <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
+                    <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
+                    <characteristic name="SM" typeId="4505-de6f-d4ae-6280">10</characteristic>
+                    <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+                    <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+                    <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (6+)</characteristic>
+                    <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Hammerblow" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="3d71-0c6d-47b5-3023">
+                  <characteristics>
+                    <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">Alexis Polux can make an alternative attack during a Challenge.</characteristic>
+                    <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">While this Gambit is selected, this Model gains the Hammerblow Weapon Profile and may not choose to make attacks with any other Weapon in the Strike Step.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Critical Hit (X)" id="ecdc-2589-693b-7566" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
+                  <comment>6+</comment>
+                  <modifiers>
+                    <modifier type="set" value="Critical Hit (6+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Fire Discipline" id="2552-9f07-398d-e932" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Officer of the Line (X)" id="387f-1dfc-7330-aac3" hidden="false" type="rule" targetId="7779-47c8-99a8-b935">
+              <comment>2</comment>
+              <modifiers>
+                <modifier type="set" value="Officer of the Line (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Deep Strike" id="b1ae-a886-64d9-b6fe" hidden="false" type="rule" targetId="0553-d06b-52b9-34db"/>
+            <infoLink name="Feel No Pain (X)" id="7dff-7996-6f32-a909" hidden="false" type="rule" targetId="89b5-7320-db15-fd60">
+              <comment>5+</comment>
+              <modifiers>
+                <modifier type="set" value="Feel No Pain (5+)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <rules>
+            <rule name="Void Commander" id="c89f-b87a-6674-2a21" hidden="false">
+              <description>If a Model with this Special Rule joins a Breacher Squad Unit in Reserves, Models in that Unit gain the Deep Strike Special Rule while this Model is part of the Unit. In addition, when a Model with this Special Rule is deployed as part of a Deep Strike, that Model and each other Model in the same Unit gain the Feel No Pain (5+) Special Rule until the Controlling Player&apos;s next Effects Sub-Phase.</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink targetId="b980-187b-2b17-d635" id="160b-e3bd-7767-86f2" primary="false" name="Unique Model Sub-Type"/>
+            <categoryLink targetId="594d-fa82-13cb-a345" id="6e21-70e3-c92b-c34a" primary="false" name="Infantry Model Type"/>
+            <categoryLink targetId="6dbf-654a-f06f-2d69" id="074b-7597-b0be-3dbd" primary="false" name="Command"/>
+            <categoryLink targetId="1e7d-9066-28d2-97a0" id="6714-a8fc-d7f3-adb1" primary="false" name="Heavy Model Sub-Type"/>
+            <categoryLink targetId="4381-ed35-c3fa-a225" id="88c7-a796-874b-ff3f" primary="false" name="Loyalist"/>
+            <categoryLink targetId="450e-112d-a64a-ef6e" id="f7ec-213b-1ea1-b3dc" primary="false" name="Imperial Fists"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="1f8f-2561-685a-fe8f" type="selectionEntry" targetId="3b91-56eb-e1fc-7567" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9aec-24d9-2241-2956-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aec-24d9-2241-2956-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="cf9a-606b-5fd5-ee4e" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b251-aa2c-a525-2400-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b251-aa2c-a525-2400-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Vigil Pattern Storm Shield" hidden="false" id="af6b-298b-0c0d-1841" type="selectionEntry" targetId="25b1-d9fe-2b90-dc58" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f632-e9be-d026-acfa-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f632-e9be-d026-acfa-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Combi-melta" hidden="false" id="6a1e-5a0d-8e3e-1afb" type="selectionEntry" targetId="9d5c-679f-2b12-9fcc" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c74-67bb-9b6a-87fb-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c74-67bb-9b6a-87fb-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="bc7c-b633-6396-0049" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e002-b619-174c-de35-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e002-b619-174c-de35-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="597e-83d8-32e1-8eaa" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="185"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Fire Discipline" id="43fe-8703-9ddf-686c" hidden="false">
       <description>When making a Shooting Attack for a Unit that only includes Models with this Special Rule, add +1 to the result of Hit Tests made for attacks in any Fire Groups that include more than five Dice or attacks and that have the Bolt or Auto Trait.</description>
     </rule>
   </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="Evander Garrius" hidden="false" id="64df-65a8-7276-df76" type="selectionEntry" targetId="6819-8014-fe49-2e96">
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="19ba-0605-2f92-b84e" primary="false" name="High Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rogal Dorn" hidden="false" id="2306-2636-3ed8-db90" type="selectionEntry" targetId="7067-3938-a4ea-112c">
+      <categoryLinks>
+        <categoryLink targetId="22ee-7208-4089-b005" id="3485-109e-dcea-4a80" primary="true" name="Warlord"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sigismund" hidden="false" id="6ced-891d-49c6-d087" type="selectionEntry" targetId="4870-010f-27b4-20db">
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="6822-367d-e39d-a141" primary="false" name="High Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Alexis Polux" hidden="false" id="cca3-792a-0e89-9443" type="selectionEntry" targetId="0511-25f6-aaef-e1dd">
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="317e-5916-84a1-ac04" primary="false" name="High Command"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
