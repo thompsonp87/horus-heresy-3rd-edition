@@ -4698,4 +4698,73 @@
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Prime Unit" hidden="false" id="3fa2-78b1-637f-7fb2">
+      <modifiers>
+        <modifier type="add" value="c85c-2963-658f-1bb9" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6dbf-654a-f06f-2d69" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="276f-7a07-a56c-affd" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5d5e-958f-e388-50b5" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="c66b-ef39-b20f-725b" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a38e-50ff-310f-f19e" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="c3f9-a7f3-984b-3fda" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="88e6-d373-4152-0dd8" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="9699-67c9-2c0b-e64b" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2499-7239-685f-8465" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="1c79-ecdf-9a64-84c9" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="345f-9ba6-9b02-ed5c" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="fc27-1a48-84ae-aa7b" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d162-4711-5d60-0a48" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="1e95-35f0-1353-ffa1" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3235-bd79-e9b1-60fa" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="abff-3686-c39a-9a24" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="52d0-8b78-439e-18e5" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="4460-7bc1-4d80-aecb" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="643a-1012-bd51-6537" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="6348-ecd0-714d-042a" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2b65-a3f2-620a-dc58" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" value="c291-144b-3da6-37ed" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cf96-8891-3f9a-8921" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="358b-c4f7-9bf0-406b"/>
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </gameSystem>
