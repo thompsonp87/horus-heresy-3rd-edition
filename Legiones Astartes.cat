@@ -955,7 +955,7 @@
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange bolt pistol for:" id="2da1-6f3c-e1f4-3537" hidden="false" defaultSelectionEntryId="29a9-66f3-d0b9-2cfa" sortIndex="1">
+                <selectionEntryGroup name="May exchange Bolt pistol for:" id="2da1-6f3c-e1f4-3537" hidden="false" defaultSelectionEntryId="29a9-66f3-d0b9-2cfa" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="c9a3-7eca-95a4-63d0" type="selectionEntryGroup" targetId="b8d7-8ff0-721e-a963" sortIndex="3" flatten="true"/>
                     <entryLink import="true" name="Bolt pistol" hidden="false" id="29a9-66f3-d0b9-2cfa" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1">
@@ -1012,7 +1012,7 @@
                         <condition type="atLeast" value="1" field="selections" scope="956c-75a7-824e-0d9a" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </modifier>
-                    <modifier type="set" value="0" field="cb89-48ad-d00d-1715">
+                    <modifier type="set" value="0" field="6db6-b4db-e0a9-dc57">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="956c-75a7-824e-0d9a" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                       </conditions>
