@@ -3709,7 +3709,7 @@
                     <constraint type="max" value="0" field="selections" scope="44bd-10de-2055-40f6" shared="true" id="aa1a-eff9-05f6-8c39" includeChildSelections="true"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="1" field="aa1a-eff9-05f6-8c39">
+                    <modifier type="increment" value="1" field="aa1a-eff9-05f6-8c39">
                       <repeats>
                         <repeat value="5" repeats="1" field="selections" scope="44bd-10de-2055-40f6" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                       </repeats>
