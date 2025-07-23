@@ -464,11 +464,132 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Alexis Polux" hidden="false" id="0511-25f6-aaef-e1dd">
+    <selectionEntry type="unit" import="true" name="Camba Diaz" hidden="false" id="0511-25f6-aaef-e1dd">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Alexis Polux" hidden="false" id="4734-25d1-74ab-574b">
+        <selectionEntry type="model" import="true" name="Camba Diaz" hidden="false" id="4734-25d1-74ab-574b">
           <profiles>
-            <profile name="Alexis Polux" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="c14d-9d7e-acfb-8b9b">
+            <profile name="Camba Diaz" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="c14d-9d7e-acfb-8b9b">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Unique, Command)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">6</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">5</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">3</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">5</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">3</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">9</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">8</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">8</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">8</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Line Unbroken" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="549a-1655-e037-ff6a">
+              <characteristics>
+                <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">Camba Diaz gains additional attacks when he fights last in a Challenge.</characteristic>
+                <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">When this Gambit is selected and this Model does not have Combat Advantage, Camba Diaz&apos;s Attacks Characteristic is modified by +2.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f34-23cf-7cc2-ed3f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae3-d16b-961d-8c76" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Durenda" hidden="false" id="acb2-1ea2-254e-d963" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05fe-5eda-974a-5d2d-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05fe-5eda-974a-5d2d-max" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Durenda" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="9eb9-8cb8-f6a7-1dd1">
+                  <characteristics>
+                    <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
+                    <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+                    <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+1</characteristic>
+                    <characteristic name="AP" typeId="a014-126b-3b7b-27e8">3</characteristic>
+                    <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+                    <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Breaching (5+)</characteristic>
+                    <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Breaching (X)" id="64f1-21ea-5a33-f150" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+                  <comment>5+</comment>
+                  <modifiers>
+                    <modifier type="set" value="Breaching (5+)" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Fire Discipline" id="2552-9f07-398d-e932" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Officer of the Line (X)" id="387f-1dfc-7330-aac3" hidden="false" type="rule" targetId="7779-47c8-99a8-b935">
+              <comment>2</comment>
+              <modifiers>
+                <modifier type="set" value="Officer of the Line (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="b980-187b-2b17-d635" id="160b-e3bd-7767-86f2" primary="false" name="Unique Model Sub-Type"/>
+            <categoryLink targetId="594d-fa82-13cb-a345" id="6e21-70e3-c92b-c34a" primary="false" name="Infantry Model Type"/>
+            <categoryLink targetId="6dbf-654a-f06f-2d69" id="074b-7597-b0be-3dbd" primary="false" name="Command"/>
+            <categoryLink targetId="4381-ed35-c3fa-a225" id="88c7-a796-874b-ff3f" primary="false" name="Loyalist"/>
+            <categoryLink targetId="450e-112d-a64a-ef6e" id="f7ec-213b-1ea1-b3dc" primary="false" name="Imperial Fists"/>
+            <categoryLink targetId="e3cd-7a38-34d7-9cbf" id="9500-aab4-cfb5-4398" primary="false" name="Master of the Legion"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="cf9a-606b-5fd5-ee4e" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b251-aa2c-a525-2400-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b251-aa2c-a525-2400-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="af6b-298b-0c0d-1841" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f632-e9be-d026-acfa-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f632-e9be-d026-acfa-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Combi-melta" hidden="false" id="6a1e-5a0d-8e3e-1afb" type="selectionEntry" targetId="9d5c-679f-2b12-9fcc" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c74-67bb-9b6a-87fb-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c74-67bb-9b6a-87fb-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="bc7c-b633-6396-0049" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e002-b619-174c-de35-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e002-b619-174c-de35-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="597e-83d8-32e1-8eaa" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="120"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Alexis Polux" hidden="false" id="bb94-88c3-c9b8-c117">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Alexis Polux" hidden="false" id="f107-bb3a-61fd-12de">
+          <profiles>
+            <profile name="Alexis Polux" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="43da-2a5c-4b79-cc98">
               <characteristics>
                 <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Unique, Command)</characteristic>
                 <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
@@ -489,17 +610,17 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             </profile>
           </profiles>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f34-23cf-7cc2-ed3f" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae3-d16b-961d-8c76" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8771-119e-183e-b2aa" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd67-23d5-0770-ec87" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hammerblow" hidden="false" id="11c0-4a05-9608-0a1c">
+            <selectionEntry type="upgrade" import="true" name="Hammerblow" hidden="false" id="e8ec-20cc-5007-8faa">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ab6-42a7-fcb1-907f-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ab6-42a7-fcb1-907f-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea98-6e58-5ad3-ffa6" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c36-d5d7-c816-39d5" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Hammerblow" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="b644-c580-e510-932c">
+                <profile name="Hammerblow" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="966d-889f-b903-c57c">
                   <characteristics>
                     <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
                     <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
@@ -510,7 +631,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
                     <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Hammerblow" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="3d71-0c6d-47b5-3023">
+                <profile name="Hammerblow" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="2e88-dec6-8aa0-e1d7">
                   <characteristics>
                     <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">Alexis Polux can make an alternative attack during a Challenge.</characteristic>
                     <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">While this Gambit is selected, this Model gains the Hammerblow Weapon Profile and may not choose to make attacks with any other Weapon in the Strike Step.</characteristic>
@@ -518,7 +639,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Critical Hit (X)" id="ecdc-2589-693b-7566" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
+                <infoLink name="Critical Hit (X)" id="166e-0c93-4b19-4380" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
                   <comment>6+</comment>
                   <modifiers>
                     <modifier type="set" value="Critical Hit (6+)" field="name"/>
@@ -528,15 +649,15 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             </selectionEntry>
           </selectionEntries>
           <infoLinks>
-            <infoLink name="Fire Discipline" id="2552-9f07-398d-e932" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
-            <infoLink name="Officer of the Line (X)" id="387f-1dfc-7330-aac3" hidden="false" type="rule" targetId="7779-47c8-99a8-b935">
+            <infoLink name="Fire Discipline" id="9c6c-d1ff-2187-34ea" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
+            <infoLink name="Officer of the Line (X)" id="8aed-9aeb-61d9-61d2" hidden="false" type="rule" targetId="7779-47c8-99a8-b935">
               <comment>2</comment>
               <modifiers>
                 <modifier type="set" value="Officer of the Line (2)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Deep Strike" id="b1ae-a886-64d9-b6fe" hidden="false" type="rule" targetId="0553-d06b-52b9-34db"/>
-            <infoLink name="Feel No Pain (X)" id="7dff-7996-6f32-a909" hidden="false" type="rule" targetId="89b5-7320-db15-fd60">
+            <infoLink name="Deep Strike" id="fe5b-9e84-4e0d-1cf2" hidden="false" type="rule" targetId="0553-d06b-52b9-34db"/>
+            <infoLink name="Feel No Pain (X)" id="9bce-075e-3e5f-367f" hidden="false" type="rule" targetId="89b5-7320-db15-fd60">
               <comment>5+</comment>
               <modifiers>
                 <modifier type="set" value="Feel No Pain (5+)" field="name"/>
@@ -544,47 +665,47 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             </infoLink>
           </infoLinks>
           <rules>
-            <rule name="Void Commander" id="c89f-b87a-6674-2a21" hidden="false">
+            <rule name="Void Commander" id="edc9-d85c-1001-2749" hidden="false">
               <description>If a Model with this Special Rule joins a Breacher Squad Unit in Reserves, Models in that Unit gain the Deep Strike Special Rule while this Model is part of the Unit. In addition, when a Model with this Special Rule is deployed as part of a Deep Strike, that Model and each other Model in the same Unit gain the Feel No Pain (5+) Special Rule until the Controlling Player&apos;s next Effects Sub-Phase.</description>
             </rule>
           </rules>
           <categoryLinks>
-            <categoryLink targetId="b980-187b-2b17-d635" id="160b-e3bd-7767-86f2" primary="false" name="Unique Model Sub-Type"/>
-            <categoryLink targetId="594d-fa82-13cb-a345" id="6e21-70e3-c92b-c34a" primary="false" name="Infantry Model Type"/>
-            <categoryLink targetId="6dbf-654a-f06f-2d69" id="074b-7597-b0be-3dbd" primary="false" name="Command"/>
-            <categoryLink targetId="1e7d-9066-28d2-97a0" id="6714-a8fc-d7f3-adb1" primary="false" name="Heavy Model Sub-Type"/>
-            <categoryLink targetId="4381-ed35-c3fa-a225" id="88c7-a796-874b-ff3f" primary="false" name="Loyalist"/>
-            <categoryLink targetId="450e-112d-a64a-ef6e" id="f7ec-213b-1ea1-b3dc" primary="false" name="Imperial Fists"/>
+            <categoryLink targetId="b980-187b-2b17-d635" id="a5c8-8dbd-1bb8-5748" primary="false" name="Unique Model Sub-Type"/>
+            <categoryLink targetId="594d-fa82-13cb-a345" id="f28d-fe2f-ddd0-8959" primary="false" name="Infantry Model Type"/>
+            <categoryLink targetId="6dbf-654a-f06f-2d69" id="40a9-2c15-8088-2d7a" primary="false" name="Command"/>
+            <categoryLink targetId="1e7d-9066-28d2-97a0" id="e7a3-586a-7268-a22b" primary="false" name="Heavy Model Sub-Type"/>
+            <categoryLink targetId="4381-ed35-c3fa-a225" id="2344-b14e-046e-d88f" primary="false" name="Loyalist"/>
+            <categoryLink targetId="450e-112d-a64a-ef6e" id="da58-f92d-8ea4-816e" primary="false" name="Imperial Fists"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="1f8f-2561-685a-fe8f" type="selectionEntry" targetId="3b91-56eb-e1fc-7567" sortIndex="1">
+            <entryLink import="true" name="Solarite Power Gauntlet" hidden="false" id="303d-f5c6-6517-f7e4" type="selectionEntry" targetId="3b91-56eb-e1fc-7567" sortIndex="1">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9aec-24d9-2241-2956-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aec-24d9-2241-2956-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0589-2eaa-e77e-3548" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7036-77b3-5fd0-f4fe" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Frag grenades" hidden="false" id="cf9a-606b-5fd5-ee4e" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="4">
+            <entryLink import="true" name="Frag grenades" hidden="false" id="cef9-1789-c5e6-4717" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="4">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b251-aa2c-a525-2400-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b251-aa2c-a525-2400-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f23b-57b8-b5cb-6e70" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2293-2eef-7f37-a0a8" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Vigil Pattern Storm Shield" hidden="false" id="af6b-298b-0c0d-1841" type="selectionEntry" targetId="25b1-d9fe-2b90-dc58" sortIndex="2">
+            <entryLink import="true" name="Vigil Pattern Storm Shield" hidden="false" id="10bb-750a-b5c1-16a5" type="selectionEntry" targetId="25b1-d9fe-2b90-dc58" sortIndex="2">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f632-e9be-d026-acfa-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f632-e9be-d026-acfa-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f88-5d2c-e9d4-e1c7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b371-762f-2dfd-6295" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Combi-melta" hidden="false" id="6a1e-5a0d-8e3e-1afb" type="selectionEntry" targetId="9d5c-679f-2b12-9fcc" sortIndex="3">
+            <entryLink import="true" name="Combi-melta" hidden="false" id="a5b4-010e-27cd-0649" type="selectionEntry" targetId="9d5c-679f-2b12-9fcc" sortIndex="3">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c74-67bb-9b6a-87fb-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c74-67bb-9b6a-87fb-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="65a4-33c7-9fc5-f46a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f7d-479d-dabe-7e4f" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Krak grenades" hidden="false" id="bc7c-b633-6396-0049" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="5">
+            <entryLink import="true" name="Krak grenades" hidden="false" id="7895-7d0d-4cd4-7de8" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="5">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e002-b619-174c-de35-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e002-b619-174c-de35-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b288-aab0-9eb9-385e" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3274-122b-9c7f-aa2c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -625,9 +746,14 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="6822-367d-e39d-a141" primary="false" name="High Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Alexis Polux" hidden="false" id="cca3-792a-0e89-9443" type="selectionEntry" targetId="0511-25f6-aaef-e1dd">
+    <entryLink import="true" name="Alexis Polux" hidden="false" id="cca3-792a-0e89-9443" type="selectionEntry" targetId="bb94-88c3-c9b8-c117">
       <categoryLinks>
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="317e-5916-84a1-ac04" primary="false" name="High Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Camba Diaz" hidden="false" id="7242-e10f-2d56-32dc" type="selectionEntry" targetId="0511-25f6-aaef-e1dd">
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="ac27-6422-aae6-3c21" primary="false" name="High Command"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
