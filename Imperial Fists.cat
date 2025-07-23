@@ -38,7 +38,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb07-2375-ab7e-7aa5-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="The Black Sword" hidden="false" id="2a65-81fa-0410-df3c">
+            <selectionEntry type="upgrade" import="true" name="The Black Sword" hidden="false" id="2a65-81fa-0410-df3c" sortIndex="1">
               <profiles>
                 <profile name="The Black Sword" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="63e9-673a-4624-452b">
                   <characteristics>
@@ -105,7 +105,28 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
             <categoryLink targetId="6dbf-654a-f06f-2d69" id="963e-c3ee-952c-a3d4" primary="false" name="Command"/>
             <categoryLink targetId="450e-112d-a64a-ef6e" id="9d74-cfb6-7722-c97b" primary="false" name="Imperial Fists"/>
             <categoryLink targetId="4381-ed35-c3fa-a225" id="5b1d-3676-b0f0-affa" primary="false" name="Loyalist"/>
+            <categoryLink targetId="e3cd-7a38-34d7-9cbf" id="c482-8574-f608-dad6" primary="false" name="Master of the Legion"/>
           </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="75e3-2ef9-0cb7-f294" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1de5-6a13-4a06-f5a5" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8b3-b03f-27c3-ac67" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="5157-00d7-45ae-966e" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f616-776b-cac4-8433" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c56-f6ff-2ce8-9b63" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="df0b-052a-4fe3-2910" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8221-77aa-faea-81bb" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3613-7316-cc83-442f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <modifiers>
@@ -233,8 +254,18 @@ Death&apos;s Champion: If this Gambit is selected, attacks made by this Model in
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Krak grenades" hidden="false" id="a8fd-ab02-1283-28be" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="4"/>
-            <entryLink import="true" name="Frag grenades" hidden="false" id="3675-bb41-a681-c1d7" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="3"/>
+            <entryLink import="true" name="Krak grenades" hidden="false" id="a8fd-ab02-1283-28be" type="selectionEntry" targetId="0c9b-a32b-87e2-fc3e" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3724-1e9b-3f54-06a8-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3724-1e9b-3f54-06a8-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Frag grenades" hidden="false" id="3675-bb41-a681-c1d7" type="selectionEntry" targetId="60e4-ca33-2e68-9afc" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bb8-1314-b6e0-3a41-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bb8-1314-b6e0-3a41-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <rules>
             <rule name="Sire of the Imperial Fists" id="a08f-3fb8-ad95-0574" hidden="false">
@@ -249,6 +280,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             <categoryLink targetId="450e-112d-a64a-ef6e" id="7353-620c-e46c-f07c" primary="false" name="Imperial Fists"/>
             <categoryLink targetId="4381-ed35-c3fa-a225" id="d4c7-d069-a7a2-a167" primary="false" name="Loyalist"/>
             <categoryLink targetId="b980-187b-2b17-d635" id="e906-f27c-b13b-ab9a" primary="false" name="Unique Model Sub-Type"/>
+            <categoryLink targetId="e3cd-7a38-34d7-9cbf" id="80d9-d5bf-6137-f61a" primary="false" name="Master of the Legion"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -387,6 +419,17 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c27a-f15c-4a90-6fc3-max" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Tyrant&apos;s Regalia" hidden="false" id="ce8f-6cc1-03dd-4600" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef70-b64e-2d71-8cd4-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef70-b64e-2d71-8cd4-max" includeChildSelections="false"/>
+              </constraints>
+              <rules>
+                <rule name="The Tyrant&apos;s Regalia" id="df3d-43cc-983a-267f" hidden="false">
+                  <description>A Model with this Special Rule has the Feel No Pain (5+) Special Rule against Wounds suffered when Engaged in a Challenge.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
           </selectionEntries>
           <profiles>
             <profile name="Evander Garrius " typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="5d3e-b21a-f71d-b2e2">
@@ -426,11 +469,6 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             </infoLink>
             <infoLink name="Fire Discipline" id="6a0c-dce1-64d0-fa88" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
           </infoLinks>
-          <rules>
-            <rule name="The Tyrant&apos;s Regalia" id="df3d-43cc-983a-267f" hidden="false">
-              <description>A Model with this Special Rule has the Feel No Pain (5+) Special Rule against Wounds suffered when Engaged in a Challenge.</description>
-            </rule>
-          </rules>
           <categoryLinks>
             <categoryLink targetId="594d-fa82-13cb-a345" id="badb-7637-2170-e402" primary="false" name="Infantry Model Type"/>
             <categoryLink targetId="b980-187b-2b17-d635" id="6002-09f9-7118-5fac" primary="false" name="Unique Model Sub-Type"/>
@@ -438,6 +476,7 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
             <categoryLink targetId="1e7d-9066-28d2-97a0" id="f45b-f67e-2d9c-cd41" primary="false" name="Heavy Model Sub-Type"/>
             <categoryLink targetId="450e-112d-a64a-ef6e" id="5a66-4c00-949b-c8d3" primary="false" name="Imperial Fists"/>
             <categoryLink targetId="4381-ed35-c3fa-a225" id="540e-c103-c023-e75e" primary="false" name="Loyalist"/>
+            <categoryLink targetId="e3cd-7a38-34d7-9cbf" id="b672-0913-3b7a-daa7" primary="false" name="Master of the Legion"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -801,46 +840,28 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
                 <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
               </characteristics>
             </profile>
+            <profile name="Hammerblow" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="966d-889f-b903-c57c">
+              <characteristics>
+                <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
+                <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
+                <characteristic name="SM" typeId="4505-de6f-d4ae-6280">10</characteristic>
+                <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+                <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
+                <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (6+)</characteristic>
+                <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Hammerblow" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="2e88-dec6-8aa0-e1d7">
+              <characteristics>
+                <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">Alexis Polux can make an alternative attack during a Challenge.</characteristic>
+                <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">While this Gambit is selected, this Model gains the Hammerblow Weapon Profile and may not choose to make attacks with any other Weapon in the Strike Step.</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8771-119e-183e-b2aa" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd67-23d5-0770-ec87" includeChildSelections="false"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hammerblow" hidden="false" id="e8ec-20cc-5007-8faa">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea98-6e58-5ad3-ffa6" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c36-d5d7-c816-39d5" includeChildSelections="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Hammerblow" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="966d-889f-b903-c57c">
-                  <characteristics>
-                    <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
-                    <characteristic name="AM" typeId="03d0-6094-84f0-e27e">1</characteristic>
-                    <characteristic name="SM" typeId="4505-de6f-d4ae-6280">10</characteristic>
-                    <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
-                    <characteristic name="D" typeId="6a9d-4feb-065a-33e7">3</characteristic>
-                    <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (6+)</characteristic>
-                    <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Hammerblow" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="2e88-dec6-8aa0-e1d7">
-                  <characteristics>
-                    <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">Alexis Polux can make an alternative attack during a Challenge.</characteristic>
-                    <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">While this Gambit is selected, this Model gains the Hammerblow Weapon Profile and may not choose to make attacks with any other Weapon in the Strike Step.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Critical Hit (X)" id="166e-0c93-4b19-4380" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
-                  <comment>6+</comment>
-                  <modifiers>
-                    <modifier type="set" value="Critical Hit (6+)" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
           <infoLinks>
             <infoLink name="Fire Discipline" id="9c6c-d1ff-2187-34ea" hidden="false" type="rule" targetId="43fe-8703-9ddf-686c"/>
             <infoLink name="Officer of the Line (X)" id="8aed-9aeb-61d9-61d2" hidden="false" type="rule" targetId="7779-47c8-99a8-b935">
@@ -854,6 +875,12 @@ Prepared Defenses: Until the end of the first Battle Turn of the Battle, all Mod
               <comment>5+</comment>
               <modifiers>
                 <modifier type="set" value="Feel No Pain (5+)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Critical Hit (X)" id="166e-0c93-4b19-4380" hidden="false" type="rule" targetId="fe5a-a52a-468f-3f88">
+              <comment>6+</comment>
+              <modifiers>
+                <modifier type="set" value="Critical Hit (6+)" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>
