@@ -834,7 +834,7 @@
                     <entryLink import="true" name="Power Weapon" hidden="false" id="b38f-4153-705e-a047" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" flatten="true" sortIndex="4"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="false" id="9f61-04d2-1059-40e8" includeChildSelections="true"/>
+                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="9f61-04d2-1059-40e8" includeChildSelections="true"/>
                   </constraints>
                   <modifiers>
                     <modifier type="increment" value="1" field="9f61-04d2-1059-40e8">
@@ -864,7 +864,7 @@
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="false" id="a9c2-dcf6-4e3b-5a20" includeChildSelections="true"/>
+                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="a9c2-dcf6-4e3b-5a20" includeChildSelections="true"/>
                   </constraints>
                   <modifiers>
                     <modifier type="increment" value="1" field="a9c2-dcf6-4e3b-5a20">
