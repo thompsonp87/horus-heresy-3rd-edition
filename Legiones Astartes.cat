@@ -778,52 +778,12 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="[Allegiance]" id="81bb-3774-5033-549a" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="67a8-f9c0-97ce-3110" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Breacher Squad" hidden="false" id="b564-8809-1bcf-d8b3" sortIndex="33">
-      <profiles>
-        <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Unit" hidden="false" id="f349-e714-ec2e-c90a">
-          <characteristics>
-            <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry</characteristic>
-            <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
-            <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
-            <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
-            <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
-            <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
-            <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">1</characteristic>
-            <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
-            <characteristic name="A" typeId="024e-bdb1-7982-25a0">1</characteristic>
-            <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">7</characteristic>
-            <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">7</characteristic>
-            <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
-            <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">7</characteristic>
-            <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
-            <characteristic name="INV" typeId="a951-a772-7ce0-0b64">-</characteristic>
-            <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-            <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
-          </characteristics>
-        </profile>
-        <profile name="Sergeant" typeId="a76f-8e23-8c3e-166d" typeName="Unit" hidden="false" id="dfd4-9125-a52d-b903">
-          <characteristics>
-            <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry</characteristic>
-            <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
-            <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
-            <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
-            <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
-            <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
-            <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">1</characteristic>
-            <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
-            <characteristic name="A" typeId="024e-bdb1-7982-25a0">1</characteristic>
-            <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">8</characteristic>
-            <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">7</characteristic>
-            <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
-            <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">7</characteristic>
-            <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
-            <characteristic name="INV" typeId="a951-a772-7ce0-0b64">-</characteristic>
-            <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-            <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <modifiers>
         <modifier type="set" value="Prime Breacher Squad" field="name">
           <conditions>
@@ -832,12 +792,218 @@
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Prime Unit" hidden="false" id="2a2d-ef5e-47ed-46a6" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2">
+        <entryLink import="true" name="Prime Unit" hidden="false" id="2a2d-ef5e-47ed-46a6" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Prime Benefits" hidden="false" id="9c29-f094-abd6-413b" type="selectionEntryGroup" targetId="a396-b846-c263-6767"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Boarding shield" hidden="false" id="09bc-9991-897b-b6f5" type="selectionEntry" targetId="01e9-334c-80cb-f1c6">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="337d-6299-71d3-521a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e6c-1158-bb89-d1fc" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Krak grenades" hidden="false" id="06d0-09a8-652d-f497" type="selectionEntry" targetId="fa20-82bc-c7de-9e97">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2404-bf39-96db-b7c2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2809-bf61-2edf-be85" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Frag grenades" hidden="false" id="1c84-3521-dfbb-c296" type="selectionEntry" targetId="60e4-ca33-2e68-9afc">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5941-bc43-1668-bbdb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93cb-7eb1-8a98-b346" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sergeant" hidden="false" id="5809-c342-b9e6-740a" defaultAmount="1" sortIndex="1">
+          <profiles>
+            <profile name="Breacher Sergeant" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="dfd4-9125-a52d-b903">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Sergeant, Heavy)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">1</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">1</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">8</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">7</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">7</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ed1-a51e-7375-fac9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="185a-2d0f-ab10-ad0d" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Sergeant Model Sub-Type" hidden="false" id="6e6a-82d8-d65a-5a50" targetId="8045-89a4-76d4-fcef" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Options" id="1825-d1d8-0dc4-bdd2" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Melta bombs" hidden="false" id="84b6-8db3-df22-6303" type="selectionEntry" targetId="2eb4-687e-a515-ee3d" sortIndex="3">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbf4-59b6-2c80-dded"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May exchange Bolter for:" id="3b0c-88ef-ae35-9daf" hidden="false" defaultSelectionEntryId="7847-3bb4-11fe-a697" sortIndex="2">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="043e-212c-32c0-e0b1" includeChildSelections="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2ffd-14f7-a62d-7bcd" includeChildSelections="true"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="3aba-52cb-1d26-634a" type="selectionEntryGroup" targetId="b8d7-8ff0-721e-a963" sortIndex="2" flatten="true"/>
+                    <entryLink import="true" name="Bolter" hidden="false" id="7847-3bb4-11fe-a697" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e" sortIndex="1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9651-a8ee-6f05-4e06"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="b97c-fc4f-b803-3dcb" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="May exchange bolt pistol for:" id="c8c9-8091-f181-6929" hidden="false" defaultSelectionEntryId="cee1-204c-3eaf-cf3f" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Bolt pistol" hidden="false" id="cee1-204c-3eaf-cf3f" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4291-86c8-4eaa-f300"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Legion Pistols" hidden="false" id="1734-f08a-0c24-544f" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" sortIndex="2" flatten="true"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="090a-c7b3-7d0b-0777" includeChildSelections="true"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4a08-4ad7-c5c2-1ab8" includeChildSelections="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="4aab-6f78-9ab5-3c0b" defaultAmount="9" sortIndex="2">
+          <profiles>
+            <profile name="Breacher Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f349-e714-ec2e-c90a">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Infantry (Heavy)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">4</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">1</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">1</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">7</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">7</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">7</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="7702-3378-5347-929e" includeChildSelections="false"/>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="9db0-3d53-c833-babf" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Options" id="d316-422d-694f-9123" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Legion Equipment" hidden="false" id="f3bb-2a68-efee-51fc" type="selectionEntryGroup" targetId="0e69-ccf1-cde7-acaf">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73ac-336a-1639-6c31" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="unit" shared="true" id="a718-c723-94e0-d483" includeChildSelections="true"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Vexilla" hidden="false" id="84e5-3e9e-ac30-a9c0" type="selectionEntry" targetId="dfcd-0669-ad43-28aa">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="428e-791c-ce61-e8d4" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="aed4-52d5-b4cf-113f" includeChildSelections="true"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Bolter" id="885d-acdb-1528-9fd0" hidden="false" defaultSelectionEntryId="a2ad-0aa8-428b-6c45" sortIndex="2">
+              <entryLinks>
+                <entryLink import="true" name="Bolter" hidden="false" id="a2ad-0aa8-428b-6c45" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a49-3f2c-f3e2-d088" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="1-5 may exchange Bolter for:" id="d2f0-9751-b438-482c" hidden="false" flatten="false">
+                  <entryLinks>
+                    <entryLink import="true" name="Lascutter" hidden="false" id="b472-5dc5-7750-b90f" type="selectionEntry" targetId="6838-5e12-03bb-d500" sortIndex="3">
+                      <costs>
+                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Graviton gun" hidden="false" id="c87f-fc4d-50d3-86ae" type="selectionEntry" targetId="4a06-c55e-a06f-bd0c" sortIndex="2">
+                      <costs>
+                        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="d3c7-ee41-f0d3-6afb" includeChildSelections="true"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="d3c7-ee41-f0d3-6afb">
+                      <repeats>
+                        <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d07d-991e-fe61-75a6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f782-71a4-e237-5337"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="6d6d-84c3-5d97-a44f" type="selectionEntry" targetId="2942-f783-d627-33c5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3b3-afe0-5f81-f99f" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caaa-558e-f4d0-e8d9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="[Allegiance]" id="d9a0-c384-ab32-7d54" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="7e6f-acb5-16a5-b664" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+        <infoLink name="Shield" id="2fd8-9c1f-933a-0879" hidden="false" type="profile" targetId="1af7-07d5-7558-0b64"/>
+        <infoLink name="Line (X)" id="32df-a1b3-47f4-ba2d" hidden="false" type="rule" targetId="1b5d-ceec-802a-c611">
+          <comment>1</comment>
+          <modifiers>
+            <modifier type="set" value="Line (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="acef-2a3d-3434-7583" sortIndex="40">
       <profiles>
@@ -1418,8 +1584,8 @@
               <selectionEntryGroups>
                 <selectionEntryGroup name="May exchange bolter for:" id="5e4b-3fd5-dfde-e23c" hidden="false" defaultSelectionEntryId="7955-eaf8-6193-7d93" sortIndex="1">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5610-5697-c7cc-19c4" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31ab-ca4b-15e9-8891" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5610-5697-c7cc-19c4" includeChildSelections="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="31ab-ca4b-15e9-8891" includeChildSelections="true"/>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Bolter" hidden="false" id="7955-eaf8-6193-7d93" type="selectionEntry" targetId="d3f9-b9e6-3ea5-cc8e" sortIndex="1"/>
@@ -1478,8 +1644,8 @@
                     <entryLink import="true" name="Legion Pistols" hidden="false" id="1674-bc5e-f4c3-7f0b" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" sortIndex="2"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cae3-587f-14e4-f628" includeChildSelections="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6246-e731-9ed4-b88d" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cae3-587f-14e4-f628" includeChildSelections="true"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="6246-e731-9ed4-b88d" includeChildSelections="true"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1521,6 +1687,8 @@
           </modifiers>
         </infoLink>
         <infoLink name="Fury of the Legion" id="fbed-dcca-a519-e864" hidden="false" type="rule" targetId="b49c-d074-165e-ce1b"/>
+        <infoLink name="[Allegiance]" id="7142-2718-c3b5-c7cc" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="a9fa-7437-90fb-47d8" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
       </infoLinks>
       <costs>
         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
@@ -3592,7 +3760,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be09-0fb9-699f-466a" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Unit" hidden="false" id="ca55-b5eb-17ec-f0dc" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2">
+        <entryLink import="true" name="Prime Unit" hidden="false" id="ca55-b5eb-17ec-f0dc" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2" sortIndex="3">
           <entryLinks>
             <entryLink import="true" name="Prime Benefits" hidden="false" id="baee-914d-bd20-168b" type="selectionEntryGroup" targetId="a396-b846-c263-6767"/>
           </entryLinks>
@@ -3770,35 +3938,43 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="34a3-0e57-371d-6986" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Melta bombs" hidden="false" id="371a-0ec3-ad86-7a36" type="selectionEntry" targetId="2eb4-687e-a515-ee3d">
+                <entryLink import="true" name="Melta bombs" hidden="false" id="371a-0ec3-ad86-7a36" type="selectionEntry" targetId="2eb4-687e-a515-ee3d" sortIndex="3">
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac2d-ee48-b86e-be2c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ac2d-ee48-b86e-be2c"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="May exchange chainsword for:" id="49be-d789-4001-7fcb" hidden="false" defaultSelectionEntryId="48bb-e102-e0c0-092c">
+                <selectionEntryGroup name="May exchange chainsword for:" id="49be-d789-4001-7fcb" hidden="false" defaultSelectionEntryId="48bb-e102-e0c0-092c" sortIndex="2">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71d4-7dd7-9f8b-401d" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62d4-e708-7fe5-1946" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="71d4-7dd7-9f8b-401d" includeChildSelections="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="62d4-e708-7fe5-1946" includeChildSelections="true"/>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="c1f2-5e6a-521b-8d64" type="selectionEntryGroup" targetId="b8d7-8ff0-721e-a963" sortIndex="2" flatten="true"/>
-                    <entryLink import="true" name="Chainsword" hidden="false" id="48bb-e102-e0c0-092c" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="1"/>
+                    <entryLink import="true" name="Chainsword" hidden="false" id="48bb-e102-e0c0-092c" type="selectionEntry" targetId="78f4-4967-2896-c3a5" sortIndex="1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="200b-23da-9eda-793f"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May exchange bolt pistol for:" id="d168-ffc8-6f19-ecbb" hidden="false" defaultSelectionEntryId="bc75-4ca7-704b-ad22">
+                <selectionEntryGroup name="May exchange bolt pistol for:" id="d168-ffc8-6f19-ecbb" hidden="false" defaultSelectionEntryId="bc75-4ca7-704b-ad22" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Sergeant Melee Weapons" hidden="false" id="e116-b59b-a836-2c6d" type="selectionEntryGroup" targetId="b8d7-8ff0-721e-a963" sortIndex="3" flatten="true"/>
-                    <entryLink import="true" name="Bolt pistol" hidden="false" id="bc75-4ca7-704b-ad22" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1"/>
+                    <entryLink import="true" name="Bolt pistol" hidden="false" id="bc75-4ca7-704b-ad22" type="selectionEntry" targetId="2942-f783-d627-33c5" sortIndex="1">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63cd-fe94-66ab-28aa"/>
+                      </constraints>
+                    </entryLink>
                     <entryLink import="true" name="Legion Pistols" hidden="false" id="4638-c7ce-1c64-19ae" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" sortIndex="2" flatten="true"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="495e-37ae-fc5d-acc4" includeChildSelections="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e3c-2753-53e0-57db" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="495e-37ae-fc5d-acc4" includeChildSelections="true"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4e3c-2753-53e0-57db" includeChildSelections="true"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3814,6 +3990,8 @@
             <modifier type="set" value="Line (2)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="[Allegiance]" id="2be1-9148-ed5d-85cc" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="9262-ca88-5249-d31f" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="Prime Despoiler Squad" field="name">
@@ -3822,6 +4000,11 @@
           </conditions>
         </modifier>
       </modifiers>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tactical Support Squad" hidden="false" id="2f96-9d5c-5c94-58db" sortIndex="34"/>
     <selectionEntry type="unit" import="true" name="Heavy Support Squad" hidden="false" id="1734-8863-96bf-f052" sortIndex="35"/>
@@ -4966,7 +5149,11 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Prime Benefits" id="d3a2-e7f2-9da7-fd3c" hidden="false" sortIndex="11">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Interdiction Cadres" hidden="false" id="ef90-dc9f-fc38-6b5d"/>
+        <selectionEntry type="upgrade" import="true" name="Interdiction Cadres" hidden="false" id="ef90-dc9f-fc38-6b5d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f02e-fdea-3bdf-3270"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Prime Benefits" id="a396-b846-c263-6767" hidden="false">
@@ -4974,30 +5161,6 @@
         <entryLink import="true" name="Legion Prime Benefits" hidden="false" id="305a-ba33-df73-b67d" type="selectionEntryGroup" targetId="d3a2-e7f2-9da7-fd3c" sortIndex="2" flatten="false"/>
         <entryLink import="true" name="Common Prime Benefits" hidden="false" id="c115-438b-4395-1eb7" type="selectionEntryGroup" targetId="93f7-d7db-d7f0-2146" sortIndex="1" flatten="false"/>
       </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Prime Unit" id="4ba7-3137-87b5-10e5" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Prime" hidden="false" id="3296-8d29-cb29-8f6f">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef12-da5b-02c0-8c8d" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Prime Benefits" id="fb68-a747-4f58-1693" hidden="true">
-          <entryLinks>
-            <entryLink import="true" name="Legion Prime Benefits" hidden="false" id="629e-02a2-5368-e9c5" type="selectionEntryGroup" targetId="d3a2-e7f2-9da7-fd3c" sortIndex="1"/>
-            <entryLink import="true" name="Common Prime Benefits" hidden="false" id="d98c-ce44-acee-e58a" type="selectionEntryGroup" targetId="93f7-d7db-d7f0-2146" sortIndex="2"/>
-          </entryLinks>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="equalTo" value="1" field="selections" scope="unit" childId="3296-8d29-cb29-8f6f" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <infoLinks>
