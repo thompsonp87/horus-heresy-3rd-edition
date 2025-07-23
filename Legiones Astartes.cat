@@ -834,12 +834,12 @@
                     <entryLink import="true" name="Power Weapon" hidden="false" id="b38f-4153-705e-a047" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" flatten="true" sortIndex="4"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="9f61-04d2-1059-40e8" includeChildSelections="true"/>
+                    <constraint type="max" value="0" field="selections" scope="470d-5d41-cc59-b85b" shared="true" id="9f61-04d2-1059-40e8" includeChildSelections="true"/>
                   </constraints>
                   <modifiers>
                     <modifier type="increment" value="1" field="9f61-04d2-1059-40e8">
                       <repeats>
-                        <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                        <repeat value="5" repeats="1" field="selections" scope="470d-5d41-cc59-b85b" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                       </repeats>
                     </modifier>
                   </modifiers>
@@ -864,12 +864,12 @@
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="a9c2-dcf6-4e3b-5a20" includeChildSelections="true"/>
+                    <constraint type="max" value="0" field="selections" scope="470d-5d41-cc59-b85b" shared="true" id="a9c2-dcf6-4e3b-5a20" includeChildSelections="true"/>
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="1" field="a9c2-dcf6-4e3b-5a20">
                       <repeats>
-                        <repeat value="5" repeats="2" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                        <repeat value="5" repeats="2" field="selections" scope="470d-5d41-cc59-b85b" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                       </repeats>
                     </modifier>
                   </modifiers>
