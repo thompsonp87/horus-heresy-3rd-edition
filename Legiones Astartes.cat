@@ -3638,7 +3638,7 @@
                 <entryLink import="true" name="Legion Equipment" hidden="false" id="ad2f-80c5-1eb0-0bc1" type="selectionEntryGroup" targetId="0e69-ccf1-cde7-acaf">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5860-6eb3-69e4-9781" includeChildSelections="false"/>
-                    <constraint type="max" value="2" field="selections" scope="unit" shared="true" id="269b-0733-f599-eee4"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="269b-0733-f599-eee4"/>
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Vexilla" hidden="false" id="3df3-dd18-b3d8-1fcb" type="selectionEntry" targetId="dfcd-0669-ad43-28aa">
@@ -3666,7 +3666,7 @@
                     <entryLink import="true" name="Legion Pistols" hidden="false" id="9447-4171-6004-7716" type="selectionEntryGroup" targetId="4041-7fad-77cd-f9cf" flatten="true"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="56fe-5146-b2c4-04e3"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="56fe-5146-b2c4-04e3"/>
                   </constraints>
                   <modifiers>
                     <modifier type="increment" value="1" field="56fe-5146-b2c4-04e3">
@@ -3706,7 +3706,7 @@
                     <entryLink import="true" name="Power Weapon" hidden="false" id="452a-27d2-a72f-0726" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" flatten="true" sortIndex="4"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="aa1a-eff9-05f6-8c39"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="aa1a-eff9-05f6-8c39"/>
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="1" field="aa1a-eff9-05f6-8c39">
