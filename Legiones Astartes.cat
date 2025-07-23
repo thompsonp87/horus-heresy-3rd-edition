@@ -3644,7 +3644,7 @@
                 <entryLink import="true" name="Vexilla" hidden="false" id="3df3-dd18-b3d8-1fcb" type="selectionEntry" targetId="dfcd-0669-ad43-28aa">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deba-5566-4c72-6a57" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="81a6-0b9a-fe2f-611b"/>
+                    <constraint type="max" value="1" field="selections" scope="44bd-10de-2055-40f6" shared="true" id="81a6-0b9a-fe2f-611b"/>
                   </constraints>
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
