@@ -4113,124 +4113,127 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Praetor in Saturnine Terminator Armour" hidden="false" id="723a-caa1-9f03-13f9" type="selectionEntry" targetId="2a5a-8ab8-be4d-6fa7">
+    <entryLink import="true" name="Praetor in Saturnine Terminator Armour" hidden="false" id="723a-caa1-9f03-13f9" type="selectionEntry" targetId="2a5a-8ab8-be4d-6fa7" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="34e1-5319-47e6-05b0" primary="true" name="High Command"/>
       </categoryLinks>
       <comment>High Command</comment>
     </entryLink>
-    <entryLink import="true" name="Rapier Battery" hidden="false" id="bb96-a49b-4571-78fe" type="selectionEntry" targetId="5e1a-86ac-b637-daf2">
+    <entryLink import="true" name="Rapier Battery" hidden="false" id="bb96-a49b-4571-78fe" type="selectionEntry" targetId="5e1a-86ac-b637-daf2" sortIndex="36">
       <categoryLinks>
         <categoryLink targetId="345f-9ba6-9b02-ed5c" id="fd3d-7e6a-459b-15ec" primary="true" name="Support"/>
       </categoryLinks>
       <comment>Support</comment>
     </entryLink>
-    <entryLink import="true" name="Tarantula Battery" hidden="false" id="461e-1075-6f9a-2208" type="selectionEntry" targetId="4ee0-7aae-5319-599f">
+    <entryLink import="true" name="Tarantula Battery" hidden="false" id="461e-1075-6f9a-2208" type="selectionEntry" targetId="4ee0-7aae-5319-599f" sortIndex="57">
       <categoryLinks>
         <categoryLink targetId="2b65-a3f2-620a-dc58" id="e9ba-4b72-d383-72c9" primary="true" name="Recon"/>
       </categoryLinks>
       <comment>Recon</comment>
     </entryLink>
-    <entryLink import="true" name="Fellblade Super-Heavy Battle Tank" hidden="false" id="28b1-8f09-464f-d1d5" type="selectionEntry" targetId="ca07-1c1d-3788-c9e5">
+    <entryLink import="true" name="Fellblade Super-Heavy Battle Tank" hidden="false" id="28b1-8f09-464f-d1d5" type="selectionEntry" targetId="ca07-1c1d-3788-c9e5" sortIndex="74">
       <comment>Lord of War</comment>
       <categoryLinks>
         <categoryLink targetId="a46f-a465-0ead-d6b8" id="5866-3dad-1713-8d0e" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Veteran Tactical Squad" hidden="false" id="a64b-106b-6f61-ed50" type="selectionEntry" targetId="07f6-349f-046d-bf5e">
+    <entryLink import="true" name="Veteran Tactical Squad" hidden="false" id="a64b-106b-6f61-ed50" type="selectionEntry" targetId="07f6-349f-046d-bf5e" sortIndex="24">
       <categoryLinks>
         <categoryLink targetId="5d5e-958f-e388-50b5" id="04f3-b32c-70bd-bbcb" primary="true" name="Elites"/>
       </categoryLinks>
       <comment>Elites</comment>
     </entryLink>
-    <entryLink import="true" name="Spartan Assault Tank" hidden="false" id="408b-aa40-5393-f894" type="selectionEntry" targetId="0f37-da12-bb6f-1a2e">
+    <entryLink import="true" name="Spartan Assault Tank" hidden="false" id="408b-aa40-5393-f894" type="selectionEntry" targetId="0f37-da12-bb6f-1a2e" sortIndex="49">
       <categoryLinks>
         <categoryLink targetId="52d0-8b78-439e-18e5" id="72b9-de69-c8b0-6311" primary="true" name="Heavy Transport"/>
       </categoryLinks>
       <comment>Heavy Transport</comment>
     </entryLink>
-    <entryLink import="true" name="Rhino Armoured Carrier" hidden="false" id="a221-5810-8800-1f65" type="selectionEntry" targetId="1b41-8597-7168-c326">
+    <entryLink import="true" name="Rhino Armoured Carrier" hidden="false" id="a221-5810-8800-1f65" type="selectionEntry" targetId="1b41-8597-7168-c326" sortIndex="45">
       <categoryLinks>
         <categoryLink targetId="d162-4711-5d60-0a48" id="3355-5afa-f53c-d3f0" primary="true" name="Transport"/>
       </categoryLinks>
       <comment>Transport</comment>
     </entryLink>
-    <entryLink import="true" name="Predator" hidden="false" id="aadc-fe71-f5a1-afcd" type="selectionEntry" targetId="b0ba-83cb-f3bf-bf2e">
+    <entryLink import="true" name="Predator" hidden="false" id="aadc-fe71-f5a1-afcd" type="selectionEntry" targetId="b0ba-83cb-f3bf-bf2e" sortIndex="64">
       <categoryLinks>
         <categoryLink name="Armour" hidden="false" id="5fb9-94ac-6be8-4163" targetId="643a-1012-bd51-6537" primary="true"/>
       </categoryLinks>
       <comment>Armour</comment>
     </entryLink>
-    <entryLink import="true" name="Deredeo Dreadnought" hidden="false" id="ed8e-f983-51e3-15ce" type="selectionEntry" targetId="10ad-8abc-c6ef-97ad">
+    <entryLink import="true" name="Deredeo Dreadnought" hidden="false" id="ed8e-f983-51e3-15ce" type="selectionEntry" targetId="10ad-8abc-c6ef-97ad" sortIndex="42">
       <categoryLinks>
         <categoryLink targetId="2499-7239-685f-8465" id="2201-17a0-9166-00ce" primary="true" name="War-engine"/>
       </categoryLinks>
       <comment>War-engine</comment>
     </entryLink>
-    <entryLink import="true" name="Leviathan Dreadnought" hidden="false" id="e468-70ee-8012-9b20" type="selectionEntry" targetId="9d6f-298d-743c-da5d">
+    <entryLink import="true" name="Leviathan Dreadnought" hidden="false" id="e468-70ee-8012-9b20" type="selectionEntry" targetId="9d6f-298d-743c-da5d" sortIndex="43">
       <categoryLinks>
         <categoryLink targetId="2499-7239-685f-8465" id="7ff7-5775-b987-fc70" primary="true" name="War-engine"/>
       </categoryLinks>
       <comment>War-engine</comment>
     </entryLink>
-    <entryLink import="true" name="Veteran Assault Squad" hidden="false" id="d24c-7b59-b30c-bde7" type="selectionEntry" targetId="a119-c2a7-ff1a-399c">
+    <entryLink import="true" name="Veteran Assault Squad" hidden="false" id="d24c-7b59-b30c-bde7" type="selectionEntry" targetId="a119-c2a7-ff1a-399c" sortIndex="25">
       <comment>Elites</comment>
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="86cf-b687-62e9-df53" primary="true" name="Elites"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Praetor" hidden="false" id="26fe-3b8a-0d61-e070" type="selectionEntry" targetId="9ae1-34b8-0b83-f1c5">
+    <entryLink import="true" name="Praetor" hidden="false" id="26fe-3b8a-0d61-e070" type="selectionEntry" targetId="9ae1-34b8-0b83-f1c5" sortIndex="1">
       <categoryLinks>
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="4753-3066-5d61-3e66" primary="true" name="High Command"/>
       </categoryLinks>
       <comment>High Command</comment>
     </entryLink>
-    <entryLink import="true" name="Praetor in Terminator Armour" hidden="false" id="e5b5-5476-3c88-141b" type="selectionEntry" targetId="23ee-bc64-aea6-5272">
+    <entryLink import="true" name="Praetor in Terminator Armour" hidden="false" id="e5b5-5476-3c88-141b" type="selectionEntry" targetId="23ee-bc64-aea6-5272" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="6798-31b1-a68b-84ec" primary="true" name="High Command"/>
       </categoryLinks>
       <comment>High Command</comment>
     </entryLink>
-    <entryLink import="true" name="Centurion in Terminator Armour" hidden="false" id="5dd5-d00c-b150-34b9" type="selectionEntry" targetId="976b-2d8a-7e70-e6a7">
+    <entryLink import="true" name="Centurion in Terminator Armour" hidden="false" id="5dd5-d00c-b150-34b9" type="selectionEntry" targetId="976b-2d8a-7e70-e6a7" sortIndex="5">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="96d8-65fd-0450-9973" primary="true" name="Command"/>
       </categoryLinks>
       <comment>Command</comment>
     </entryLink>
-    <entryLink import="true" name="Cataphractii Terminator Command Squad" hidden="false" id="c795-6de9-030e-e480" type="selectionEntry" targetId="b703-f7ab-dac5-0ae4">
+    <entryLink import="true" name="Cataphractii Terminator Command Squad" hidden="false" id="c795-6de9-030e-e480" type="selectionEntry" targetId="b703-f7ab-dac5-0ae4" sortIndex="23">
       <categoryLinks>
         <categoryLink targetId="a38e-50ff-310f-f19e" id="e4de-fbc7-9b91-c918" primary="true" name="Retinue"/>
       </categoryLinks>
       <comment>Retinue</comment>
     </entryLink>
-    <entryLink import="true" name="Chaplain" hidden="false" id="26d7-ccb4-b585-59ff" type="selectionEntry" targetId="a6c4-31c4-9e9d-ab03">
+    <entryLink import="true" name="Chaplain" hidden="false" id="26d7-ccb4-b585-59ff" type="selectionEntry" targetId="a6c4-31c4-9e9d-ab03" sortIndex="18">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="829f-0f7b-3890-17d0" primary="true" name="Command"/>
       </categoryLinks>
       <comment>Command</comment>
     </entryLink>
-    <entryLink import="true" name="Centurion" hidden="false" id="f613-76c6-e58e-f286" type="selectionEntry" targetId="3392-e93d-79bc-d648">
+    <entryLink import="true" name="Centurion" hidden="false" id="f613-76c6-e58e-f286" type="selectionEntry" targetId="3392-e93d-79bc-d648" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="11ac-806e-8290-2f6b" primary="true" name="Command"/>
       </categoryLinks>
       <comment>Command</comment>
     </entryLink>
-    <entryLink import="true" name="Esoterist" hidden="false" id="6fd5-131b-1d38-be86" type="selectionEntry" targetId="868f-f32d-d5ef-8021">
+    <entryLink import="true" name="Esoterist" hidden="false" id="6fd5-131b-1d38-be86" type="selectionEntry" targetId="868f-f32d-d5ef-8021" sortIndex="11">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="284c-5bfe-15d6-8a84" primary="true" name="Command"/>
       </categoryLinks>
       <comment>Command</comment>
     </entryLink>
-    <entryLink import="true" name="Herald" hidden="false" id="93d9-93b5-0c39-0fde" type="selectionEntry" targetId="388f-1220-df0b-fcc6">
+    <entryLink import="true" name="Herald" hidden="false" id="93d9-93b5-0c39-0fde" type="selectionEntry" targetId="388f-1220-df0b-fcc6" sortIndex="17">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="50a4-4f62-8212-5c0c" primary="true" name="Command"/>
       </categoryLinks>
       <comment>Command</comment>
     </entryLink>
-    <entryLink import="true" name="Legion Champion" hidden="false" id="196e-e469-ec70-e1e3" type="selectionEntry" targetId="8ab7-6f30-ce10-65df">
+    <entryLink import="true" name="Legion Champion" hidden="false" id="196e-e469-ec70-e1e3" type="selectionEntry" targetId="8ab7-6f30-ce10-65df" sortIndex="9">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="f5d5-de65-988d-1cbc" primary="true" name="Command"/>
       </categoryLinks>
       <comment>Command</comment>
     </entryLink>
-    <entryLink import="true" name="Librarian" hidden="false" id="1a6e-2c58-9081-7ab4" type="selectionEntry" targetId="f06f-4418-b230-9ee7">
+    <entryLink import="true" name="Librarian" hidden="false" id="1a6e-2c58-9081-7ab4" type="selectionEntry" targetId="f06f-4418-b230-9ee7" sortIndex="8">
       <comment>Command</comment>
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="6f2a-d61a-4710-9f17" primary="true" name="Command"/>
@@ -4241,50 +4244,290 @@
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="d740-a772-52d0-2a18" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Master of Signals" hidden="false" id="a23e-e927-643e-1c43" type="selectionEntry" targetId="0c1d-e55e-1d4e-ab94">
+    <entryLink import="true" name="Master of Signals" hidden="false" id="a23e-e927-643e-1c43" type="selectionEntry" targetId="0c1d-e55e-1d4e-ab94" sortIndex="12">
       <comment>Command</comment>
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="9789-e7a5-de1a-26c3" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Optae" hidden="false" id="03f3-e7ae-13b0-47c3" type="selectionEntry" targetId="1653-8dfd-2881-8cec">
+    <entryLink import="true" name="Optae" hidden="false" id="03f3-e7ae-13b0-47c3" type="selectionEntry" targetId="1653-8dfd-2881-8cec" sortIndex="6">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="b79f-8403-c36f-bf61" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Overseer" hidden="false" id="fb61-fa6d-ea59-b8a4" type="selectionEntry" targetId="d43d-be97-943b-2081">
+    <entryLink import="true" name="Overseer" hidden="false" id="fb61-fa6d-ea59-b8a4" type="selectionEntry" targetId="d43d-be97-943b-2081" sortIndex="16">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="bed4-8431-29ca-bcb5" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Praevian" hidden="false" id="43b8-0a02-83dd-d3f2" type="selectionEntry" targetId="7bb3-1bf7-ab4b-c34b">
+    <entryLink import="true" name="Praevian" hidden="false" id="43b8-0a02-83dd-d3f2" type="selectionEntry" targetId="7bb3-1bf7-ab4b-c34b" sortIndex="13">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="0159-d713-d4b0-a993" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Siege Breaker" hidden="false" id="bd9b-8e97-b137-105d" type="selectionEntry" targetId="8128-2ba6-b677-eb81">
+    <entryLink import="true" name="Siege Breaker" hidden="false" id="bd9b-8e97-b137-105d" type="selectionEntry" targetId="8128-2ba6-b677-eb81" sortIndex="15">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="ea5c-5b1a-7e72-f9b9" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Vigilator" hidden="false" id="1c13-a301-7104-5cc9" type="selectionEntry" targetId="22fd-89ea-04c6-3f3d">
+    <entryLink import="true" name="Vigilator" hidden="false" id="1c13-a301-7104-5cc9" type="selectionEntry" targetId="22fd-89ea-04c6-3f3d" sortIndex="10">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="f95a-1d3a-bc59-1585" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Damocles Command Rhino" hidden="false" id="fe78-9671-5656-c304" type="selectionEntry" targetId="f214-aeb9-0dd6-9071">
+    <entryLink import="true" name="Damocles Command Rhino" hidden="false" id="fe78-9671-5656-c304" type="selectionEntry" targetId="f214-aeb9-0dd6-9071" sortIndex="7">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="e2e2-ebf4-2680-160d" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Moritat" hidden="false" id="3624-91d5-28dd-1a9f" type="selectionEntry" targetId="0c28-19c0-71b2-424e">
+    <entryLink import="true" name="Moritat" hidden="false" id="3624-91d5-28dd-1a9f" type="selectionEntry" targetId="0c28-19c0-71b2-424e" sortIndex="14">
       <categoryLinks>
         <categoryLink targetId="6dbf-654a-f06f-2d69" id="a44b-4a66-359d-fb3f" primary="true" name="Command"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Tactical Squad" hidden="false" id="e7dd-3f2d-ab65-9c65" type="selectionEntry" targetId="7b69-a372-a803-9c6f">
+    <entryLink import="true" name="Tactical Squad" hidden="false" id="e7dd-3f2d-ab65-9c65" type="selectionEntry" targetId="7b69-a372-a803-9c6f" sortIndex="30">
       <categoryLinks>
         <categoryLink targetId="88e6-d373-4152-0dd8" id="70c4-abe3-0428-3f1e" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Praetorian Command Squad" hidden="false" id="141e-b2ce-23bf-bd0a" type="selectionEntry" targetId="0056-047c-b1f4-2555" sortIndex="19">
+      <categoryLinks>
+        <categoryLink targetId="a38e-50ff-310f-f19e" id="2999-00f4-507f-5caa" primary="true" name="Retinue"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Praetorian Command Squad with Jump Packs" hidden="false" id="22b4-e43d-d420-7658" type="selectionEntry" targetId="bcbf-35a6-91e8-b0b1" sortIndex="20">
+      <categoryLinks>
+        <categoryLink targetId="a38e-50ff-310f-f19e" id="7323-9c77-7237-9490" primary="true" name="Retinue"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Centurion Command Squad" hidden="false" id="7966-ca20-b5f1-218d" type="selectionEntry" targetId="4985-94a1-4448-a9ff" sortIndex="21">
+      <categoryLinks>
+        <categoryLink targetId="a38e-50ff-310f-f19e" id="76f8-ab49-f43a-2e09" primary="true" name="Retinue"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tartaros Terminator Command Squad" hidden="false" id="f8c9-8c04-ae18-e7ea" type="selectionEntry" targetId="50fb-f90a-70ec-7649" sortIndex="22">
+      <categoryLinks>
+        <categoryLink targetId="a38e-50ff-310f-f19e" id="760f-7a72-f581-24ba" primary="true" name="Retinue"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Seeker Squad" hidden="false" id="3487-3ac1-d5c9-a405" type="selectionEntry" targetId="f1c4-6d65-d660-f16f" sortIndex="26">
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="2ef6-f45e-20ac-9c90" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cataphractii Terminator Squad" hidden="false" id="bcb4-ccd6-7eb6-0afb" type="selectionEntry" targetId="e9a1-490f-8679-fc4e" sortIndex="27">
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="427e-01d1-3772-402e" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tartaros Terminator Squad" hidden="false" id="8105-97e4-8327-c826" type="selectionEntry" targetId="3139-1aa9-4b77-da26" sortIndex="28">
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="f4a4-84f9-64ad-475c" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Saturnine Terminator Squad" hidden="false" id="df2d-e23d-dc17-55e6" type="selectionEntry" targetId="8b89-b309-c9bd-9c8a" sortIndex="29">
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="bfb0-c666-ae0b-8920" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Despoiler Squad" hidden="false" id="f869-2ab3-b777-0638" type="selectionEntry" targetId="44bd-10de-2055-40f6" sortIndex="31">
+      <categoryLinks>
+        <categoryLink targetId="88e6-d373-4152-0dd8" id="15c8-0561-6647-3204" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Assault Squad" hidden="false" id="7726-d0ba-8b71-d890" type="selectionEntry" targetId="470d-5d41-cc59-b85b" sortIndex="32">
+      <categoryLinks>
+        <categoryLink targetId="88e6-d373-4152-0dd8" id="a7a0-b6c1-beca-6886" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Breacher Squad" hidden="false" id="182a-8bcd-34d2-fbba" type="selectionEntry" targetId="b564-8809-1bcf-d8b3" sortIndex="33">
+      <categoryLinks>
+        <categoryLink targetId="88e6-d373-4152-0dd8" id="638b-6b79-f750-51da" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tactical Support Squad" hidden="false" id="39a6-b136-acec-fea4" type="selectionEntry" targetId="2f96-9d5c-5c94-58db" sortIndex="34">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="1d1c-e182-0288-23b2" primary="true" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heavy Support Squad" hidden="false" id="a5be-3984-06b2-449f" type="selectionEntry" targetId="1734-8863-96bf-f052" sortIndex="35">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="b245-46ad-5c7b-a552" primary="true" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Apothecary" hidden="false" id="5cc5-ddd8-1477-47c4" type="selectionEntry" targetId="b7fe-ba65-00d2-57f0" sortIndex="37">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="03ca-c0de-4f8a-7c34" primary="true" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Techmarine" hidden="false" id="ada5-2dea-ee15-f1e9" type="selectionEntry" targetId="6cac-d5d2-dda7-ea8f" sortIndex="38">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="59fd-f339-cffd-8d94" primary="true" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathstorm Drop Pod" hidden="false" id="d3f2-e827-f765-e95b" type="selectionEntry" targetId="84cd-c790-5886-8814" sortIndex="39">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="25b7-7573-1c25-828d" primary="true" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Araknae Quad Accelerator Platform" hidden="false" id="d330-10a7-9c5a-37eb" type="selectionEntry" targetId="acef-2a3d-3434-7583" sortIndex="40">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="fff6-4838-87d1-e943" primary="true" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Contemptor Dreadnought" hidden="false" id="4f8f-1588-ee1e-789c" type="selectionEntry" targetId="3337-0b90-6ead-cba1" sortIndex="41">
+      <categoryLinks>
+        <categoryLink targetId="2499-7239-685f-8465" id="d92a-fb67-4edc-ad3f" primary="true" name="War-engine"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Saturnine Dreadnought" hidden="false" id="cf93-8bbf-ceb2-b76a" type="selectionEntry" targetId="b26e-1244-2dbc-2b6d" sortIndex="44">
+      <categoryLinks>
+        <categoryLink targetId="2499-7239-685f-8465" id="a59d-fa1d-cc92-c7ba" primary="true" name="War-engine"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Drop Pod" hidden="false" id="557f-29a5-eadf-1fef" type="selectionEntry" targetId="2eb3-783d-8dde-733b" sortIndex="46">
+      <categoryLinks>
+        <categoryLink targetId="d162-4711-5d60-0a48" id="55d3-5d55-7368-d9bc" primary="true" name="Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Termite" hidden="false" id="ea3e-96d6-ba5a-2c6c" type="selectionEntry" targetId="29c3-0b90-216c-b071" sortIndex="47">
+      <categoryLinks>
+        <categoryLink targetId="d162-4711-5d60-0a48" id="0add-1a19-39a7-587b" primary="true" name="Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Carrier" hidden="false" id="d54f-d8d0-db20-0096" type="selectionEntry" targetId="e0b3-3d67-1299-1eb7" sortIndex="48">
+      <categoryLinks>
+        <categoryLink targetId="52d0-8b78-439e-18e5" id="04e2-365a-0e85-6cb8" primary="true" name="Heavy Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dreadnought Drop Pod" hidden="false" id="8269-c43e-fe33-64ec" type="selectionEntry" targetId="e004-bc89-4e2f-c59d" sortIndex="50">
+      <categoryLinks>
+        <categoryLink targetId="52d0-8b78-439e-18e5" id="04a9-6733-0710-7805" primary="true" name="Heavy Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dreadclaw Drop Pod" hidden="false" id="afda-bea8-56d6-dd0a" type="selectionEntry" targetId="2438-805f-7a19-3295" sortIndex="51">
+      <categoryLinks>
+        <categoryLink targetId="52d0-8b78-439e-18e5" id="433e-fedc-3e2a-bc55" primary="true" name="Heavy Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kharybdis Assault Claw" hidden="false" id="dbac-c6ec-098c-8607" type="selectionEntry" targetId="ed0b-f07b-ed2f-b510" sortIndex="52">
+      <categoryLinks>
+        <categoryLink targetId="52d0-8b78-439e-18e5" id="9691-1e90-3c75-9d3e" primary="true" name="Heavy Transport"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Reconnaissance Squad" hidden="false" id="ad5f-ba5f-3ab7-5a3c" type="selectionEntry" targetId="c89b-1138-0523-4a9f" sortIndex="53">
+      <categoryLinks>
+        <categoryLink targetId="2b65-a3f2-620a-dc58" id="7c58-53b8-bffa-c169" primary="true" name="Recon"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sabre" hidden="false" id="b551-0070-bb98-02dd" type="selectionEntry" targetId="e62b-3d98-8678-1f97" sortIndex="54">
+      <categoryLinks>
+        <categoryLink targetId="2b65-a3f2-620a-dc58" id="eb39-f6f6-5024-58c3" primary="true" name="Recon"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Outrider Squadron" hidden="false" id="db0a-b391-932b-3817" type="selectionEntry" targetId="512e-6a63-1bd3-8a22" sortIndex="55">
+      <categoryLinks>
+        <categoryLink targetId="2b65-a3f2-620a-dc58" id="462f-2f04-a2ed-253c" primary="true" name="Recon"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Raider Explorator" hidden="false" id="ea44-b21f-f424-44fd" type="selectionEntry" targetId="5794-faa2-b2c8-ef0a" sortIndex="56">
+      <categoryLinks>
+        <categoryLink targetId="2b65-a3f2-620a-dc58" id="03df-ff68-a13e-06dc" primary="true" name="Recon"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Xiphon Interceptor" hidden="false" id="b1bc-1a7b-5deb-2e6b" type="selectionEntry" targetId="06a4-3ae8-c5d2-aa1d" sortIndex="58">
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="d64c-545f-7814-c1ce" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Storm Eagle" hidden="false" id="6c98-3acf-65bb-99b0" type="selectionEntry" targetId="0816-621f-d49d-558c" sortIndex="59">
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="598d-3354-d6c6-ce72" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fire Raptor" hidden="false" id="5fad-0c88-5d9f-f48b" type="selectionEntry" targetId="3b08-d24a-c741-8daa" sortIndex="60">
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="99b0-e12f-87d6-ecf1" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scimitar Jetbike Squadron" hidden="false" id="a8d4-0697-8077-5d6d" type="selectionEntry" targetId="aa3c-45cc-2dfb-a98e" sortIndex="61">
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="9a5c-ea33-96c1-968e" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Javelin Squadron" hidden="false" id="5e2b-dc62-44d4-247a" type="selectionEntry" targetId="50f3-fca2-49ab-6de4" sortIndex="62">
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="d9f3-1076-2c5a-01ad" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Speeder Squadron" hidden="false" id="fab9-d877-d11c-90b7" type="selectionEntry" targetId="7ebb-cdb2-017e-7c51" sortIndex="63">
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="d57c-dca8-9b5c-b0ad" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sicaran" hidden="false" id="f28e-ef2e-f28c-5385" type="selectionEntry" targetId="4d65-cef9-42c6-dd2c" sortIndex="65">
+      <categoryLinks>
+        <categoryLink targetId="643a-1012-bd51-6537" id="2f54-7888-1313-6e88" primary="true" name="Armour"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sicaran Venator" hidden="false" id="e782-806b-997d-257d" type="selectionEntry" targetId="1c8f-840b-c42f-338b" sortIndex="66">
+      <categoryLinks>
+        <categoryLink targetId="643a-1012-bd51-6537" id="61f3-2319-8ed7-66b0" primary="true" name="Armour"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kratos Battle Tank" hidden="false" id="82d0-fe0d-f087-3fff" type="selectionEntry" targetId="e3f2-ff0d-f190-ecfd" sortIndex="67">
+      <categoryLinks>
+        <categoryLink targetId="643a-1012-bd51-6537" id="2bc7-1d88-d455-0a91" primary="true" name="Armour"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vindicator Siege Tank" hidden="false" id="ffb2-67fc-506a-bd6e" type="selectionEntry" targetId="5cb0-777c-bc90-f31a" sortIndex="68">
+      <categoryLinks>
+        <categoryLink targetId="643a-1012-bd51-6537" id="e030-db62-5090-6b5c" primary="true" name="Armour"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scorpius Missile Tank" hidden="false" id="fd2d-2f7b-803a-c377" type="selectionEntry" targetId="4e75-6c81-f3ac-33f1" sortIndex="69">
+      <categoryLinks>
+        <categoryLink targetId="643a-1012-bd51-6537" id="1295-ad32-75d6-7038" primary="true" name="Armour"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arquitor Bombard" hidden="false" id="08db-017f-44c0-51a4" type="selectionEntry" targetId="e6e4-964a-5852-9c07" sortIndex="70">
+      <categoryLinks>
+        <categoryLink targetId="643a-1012-bd51-6537" id="e01f-e543-a5a0-4439" primary="true" name="Armour"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cerberus Heavy Tank Destroyer" hidden="false" id="92b5-9340-df96-6375" type="selectionEntry" targetId="a7a8-9dd5-69b2-a598" sortIndex="71">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="4dbb-30c4-024b-ac92" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Typhon Heavy Siege Tank" hidden="false" id="c6aa-db21-1ce7-6b8b" type="selectionEntry" targetId="b3e6-be98-5b83-87b4" sortIndex="72">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="f007-2df5-cd23-3c54" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Glaive Super-Heavy Special Weapons Tank" hidden="false" id="9ec8-017f-36c4-7b82" type="selectionEntry" targetId="7d7b-1430-d550-9fe6" sortIndex="73">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="5711-6a38-c86b-fdd2" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Falchion Super-Heavy Tank Destroyer" hidden="false" id="8590-270a-1a2a-2739" type="selectionEntry" targetId="af99-c4c6-cde2-2ee1" sortIndex="75">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="b1fd-28f5-7563-15b8" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Thunderhawk Gunship" hidden="false" id="5841-1f7e-c03a-ae33" type="selectionEntry" targetId="d1dc-6a65-136b-7d33" sortIndex="76">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="ca4b-55c7-d502-a2ae" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sokar Stormbird" hidden="false" id="8edf-e3e1-0a1b-20a9" type="selectionEntry" targetId="c2de-41c2-f4fa-996c" sortIndex="77">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="0033-06d6-b148-2ddc" primary="true" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mastodon Super-Heavy Assault Transport" hidden="false" id="0047-b1df-944f-498e" type="selectionEntry" targetId="d29b-64ce-e91e-75fa" sortIndex="78">
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="4bf1-eaa2-2035-da7c" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
