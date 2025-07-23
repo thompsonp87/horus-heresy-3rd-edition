@@ -1024,9 +1024,7 @@
                     </modifier>
                   </modifiers>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="May Exchange both Bolt pistol and Chainsword for:" hidden="false" id="f6e9-38d7-449e-ac92" sortIndex="3">
+                <selectionEntryGroup name="May Exchange both Bolt pistol and Chainsword for:" id="3f83-df99-c7ce-1bf7" hidden="false" sortIndex="3">
                   <entryLinks>
                     <entryLink import="true" name="Pair of lightning claws" hidden="false" id="2019-b65c-0b45-e994" type="selectionEntry" targetId="6754-24dd-5be0-26ff">
                       <constraints>
@@ -1035,10 +1033,10 @@
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="691c-9084-b60d-3b72"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="691c-9084-b60d-3b72" includeChildSelections="true"/>
                   </constraints>
-                </selectionEntry>
-              </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
