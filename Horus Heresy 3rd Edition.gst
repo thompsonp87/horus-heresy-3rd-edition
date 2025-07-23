@@ -2848,7 +2848,7 @@
             </modifier>
           </modifiers>
         </forceEntry>
-        <forceEntry name="Apex - Iron Phalanx (Needs Prime Armour/Heavy Transport)" id="a782-7985-325b-1840" hidden="true" sortIndex="20">
+        <forceEntry name="Apex - Iron Phalanx" id="a782-7985-325b-1840" hidden="true" sortIndex="20">
           <categoryLinks>
             <categoryLink name="Armour" hidden="false" id="08ab-b51f-53b5-8bdb" targetId="643a-1012-bd51-6537">
               <constraints>
@@ -2887,7 +2887,7 @@
             </modifier>
           </modifiers>
         </forceEntry>
-        <forceEntry name="Apex - Thallax Command Cohort (Needs Prime Support)" id="7f03-c1a3-d883-8a98" hidden="true" sortIndex="21">
+        <forceEntry name="Apex - Thallax Command Cohort" id="7f03-c1a3-d883-8a98" hidden="true" sortIndex="21">
           <categoryLinks>
             <categoryLink name="Support" hidden="false" id="46b3-d841-3b96-79d0" targetId="345f-9ba6-9b02-ed5c">
               <constraints>
