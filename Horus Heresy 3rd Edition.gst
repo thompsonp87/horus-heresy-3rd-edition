@@ -39,6 +39,11 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="c857-47bd-6a4f-fcf8" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
+        <modifier type="decrement" value="1" field="fa1e-96ba-db0c-d111">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="9501-add0-621d-f40f" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
       </modifiers>
     </categoryEntry>
     <categoryEntry name="Command" id="6dbf-654a-f06f-2d69" hidden="false"/>
@@ -218,6 +223,7 @@
         </rule>
       </rules>
     </categoryEntry>
+    <categoryEntry name="Crux Magisterium" id="9501-add0-621d-f40f" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crusade Force Organization Chart" id="8562-592c-8d4b-a1f0" hidden="false" childForcesLabel="Auxillary and Apex Detachments" sortIndex="1">
@@ -4745,6 +4751,7 @@
       </modifiers>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="358b-c4f7-9bf0-406b"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="881f-5dbe-10fd-ec48"/>
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
