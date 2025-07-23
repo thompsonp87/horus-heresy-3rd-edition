@@ -6003,23 +6003,30 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
       <categoryLinks>
         <categoryLink targetId="5d5e-958f-e388-50b5" id="1e44-1526-878a-f276" primary="true" name="Elites"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="dbe3-9946-d4de-dc73" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Myrmidon Destructor Host" hidden="false" id="a105-e91d-fa54-6d05" type="selectionEntry" targetId="229c-7b38-1dac-de3e" sortIndex="10">
       <categoryLinks>
         <categoryLink targetId="5d5e-958f-e388-50b5" id="f96f-6dd4-2d80-4ee3" primary="true" name="Elites"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="dbe3-9946-d4de-dc73" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Castellax Destructor Maniple" hidden="false" id="3676-9cda-cbb3-0552" type="selectionEntry" targetId="112f-1168-d07c-7f8f" sortIndex="11">
       <categoryLinks>
         <categoryLink targetId="3235-bd79-e9b1-60fa" id="f34b-c6c6-d147-5dbe" primary="true" name="Heavy Assault"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d5e2-3162-f591-6a81" shared="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </entryLink>
     <entryLink import="true" name="Ursarax Cohort" hidden="false" id="a8e1-7ca7-b17e-8f51" type="selectionEntry" targetId="4d8f-5e38-5902-0947" sortIndex="12">
       <categoryLinks>
@@ -6037,9 +6044,14 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7f03-c1a3-d883-8a98" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7f03-c1a3-d883-8a98" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="dbe3-9946-d4de-dc73" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
@@ -6047,6 +6059,13 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
       <categoryLinks>
         <categoryLink targetId="345f-9ba6-9b02-ed5c" id="dcd2-b567-6aea-878f" primary="true" name="Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="dbe3-9946-d4de-dc73" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Castellax Battle Maniple" hidden="false" id="0d8a-be54-5bd2-1d5a" type="selectionEntry" targetId="e8d6-2ba5-d10d-d617" sortIndex="16">
       <categoryLinks>
@@ -6113,9 +6132,14 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
           </conditionGroups>
         </modifier>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1db9-6dc0-7da5-e517" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1db9-6dc0-7da5-e517" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="dbe3-9946-d4de-dc73" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <categoryLinks>
@@ -6136,7 +6160,7 @@ A Unit that includes a Model with this Special Rule may have two Cybertheurgic R
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d5e2-3162-f591-6a81" shared="true"/>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d5e2-3162-f591-6a81" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
