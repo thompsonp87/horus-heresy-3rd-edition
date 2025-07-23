@@ -3644,7 +3644,7 @@
                 <entryLink import="true" name="Vexilla" hidden="false" id="3df3-dd18-b3d8-1fcb" type="selectionEntry" targetId="dfcd-0669-ad43-28aa">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deba-5566-4c72-6a57" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="81a6-0b9a-fe2f-611b"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="81a6-0b9a-fe2f-611b"/>
                   </constraints>
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
@@ -3671,7 +3671,7 @@
                   <modifiers>
                     <modifier type="increment" value="1" field="56fe-5146-b2c4-04e3">
                       <repeats>
-                        <repeat value="5" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                        <repeat value="5" repeats="1" field="selections" scope="44bd-10de-2055-40f6" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                       </repeats>
                     </modifier>
                   </modifiers>
@@ -3706,7 +3706,7 @@
                     <entryLink import="true" name="Power Weapon" hidden="false" id="452a-27d2-a72f-0726" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" flatten="true" sortIndex="4"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="aa1a-eff9-05f6-8c39"/>
+                    <constraint type="max" value="0" field="selections" scope="44bd-10de-2055-40f6" shared="true" id="aa1a-eff9-05f6-8c39"/>
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="1" field="aa1a-eff9-05f6-8c39">
