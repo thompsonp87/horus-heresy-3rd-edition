@@ -700,7 +700,7 @@
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Legionary" hidden="false" id="cdf1-272d-d4f4-eba2" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="cdf1-272d-d4f4-eba2" sortIndex="2">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="12"/>
             <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
@@ -834,10 +834,10 @@
                     <entryLink import="true" name="Power Weapon" hidden="false" id="b38f-4153-705e-a047" type="selectionEntryGroup" targetId="d23f-b4f0-0127-9394" flatten="true" sortIndex="4"/>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="9f61-04d2-1059-40e8" includeChildSelections="true"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="7432-1f23-e2a1-64a8"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="increment" value="1" field="9f61-04d2-1059-40e8">
+                    <modifier type="increment" value="1" field="7432-1f23-e2a1-64a8">
                       <repeats>
                         <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                       </repeats>
@@ -864,10 +864,10 @@
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="0" field="selections" scope="unit" shared="true" id="a9c2-dcf6-4e3b-5a20" includeChildSelections="true"/>
+                    <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="e933-03a4-bd4c-968d"/>
                   </constraints>
                   <modifiers>
-                    <modifier type="increment" value="1" field="a9c2-dcf6-4e3b-5a20">
+                    <modifier type="increment" value="1" field="e933-03a4-bd4c-968d">
                       <repeats>
                         <repeat value="5" repeats="2" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                       </repeats>
@@ -882,7 +882,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Sergeant" hidden="false" id="956c-75a7-824e-0d9a" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Sergeant" hidden="false" id="956c-75a7-824e-0d9a" sortIndex="1">
           <profiles>
             <profile name="Assault Sergeant" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="0b6c-790b-9073-fa33">
               <characteristics>
@@ -4715,7 +4715,7 @@
       </categoryLinks>
       <comment>Heavy Transport</comment>
     </entryLink>
-    <entryLink import="true" name="Rhino Armoured Carrier" hidden="false" id="a221-5810-8800-1f65" type="selectionEntry" targetId="1b41-8597-7168-c326" sortIndex="45">
+    <entryLink import="true" name="Rhino" hidden="false" id="a221-5810-8800-1f65" type="selectionEntry" targetId="1b41-8597-7168-c326" sortIndex="45">
       <categoryLinks>
         <categoryLink targetId="d162-4711-5d60-0a48" id="3355-5afa-f53c-d3f0" primary="true" name="Transport"/>
       </categoryLinks>
