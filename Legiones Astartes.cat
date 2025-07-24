@@ -3630,7 +3630,52 @@
     <selectionEntry type="unit" import="true" name="Rapier Battery" hidden="false" id="959f-15b2-d8c2-ef8f"/>
     <selectionEntry type="unit" import="true" name="Apothecary" hidden="false" id="b7fe-ba65-00d2-57f0"/>
     <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="6cac-d5d2-dda7-ea8f"/>
-    <selectionEntry type="unit" import="true" name="Deathstorm Drop Pod" hidden="false" id="84cd-c790-5886-8814"/>
+    <selectionEntry type="unit" import="true" name="Deathstorm Drop Pod" hidden="false" id="84cd-c790-5886-8814">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Deathstorm Drop Pod" hidden="false" id="3fa0-4271-8af0-0e03">
+          <profiles>
+            <profile name="Deathstorm Drop Pod" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="5f61-9550-e27d-0815">
+              <characteristics>
+                <characteristic name="Type" typeId="827f-9ce2-2118-e134">Vehicle</characteristic>
+                <characteristic name="M" typeId="d624-72fe-0205-4443">-</characteristic>
+                <characteristic name="BS" typeId="a17e-8e7d-d21f-c138">2</characteristic>
+                <characteristic name="Front Armour" typeId="6536-e73d-4a74-c675">12</characteristic>
+                <characteristic name="Side Armour" typeId="f03a-18a7-8586-273d">12</characteristic>
+                <characteristic name="Rear Armour" typeId="ec84-1f5d-1bb3-6826">12</characteristic>
+                <characteristic name="HP" typeId="8735-4497-1f8a-4dda">4</characteristic>
+                <characteristic name="Transport Capacity" typeId="a82e-858c-9aa9-2b43">-</characteristic>
+                <characteristic name="Access Points" typeId="ffe7-e997-ea4e-6c2d">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="aa5a-c9fd-1eb1-7a45" id="e059-ab64-f0dd-cb9c" primary="false" name="Vehicle Model Type"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="90"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Impact Reactive Doors" id="73bb-6528-2373-5372" hidden="false" type="rule" targetId="ba5d-a783-2256-afe3"/>
+        <infoLink name="Orbital Assault Vehicle" id="1b26-411e-f035-3d97" hidden="false" type="rule" targetId="ef39-ccc2-44a6-d075"/>
+        <infoLink name="[Allegiance]" id="fac8-dc40-b34d-d740" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="3abb-6b0f-ac07-5abf" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+      </infoLinks>
+      <rules>
+        <rule name="Deathstorm" id="1284-c2a7-0b6c-0dc1" hidden="false"/>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Deathstorm missile launcher" hidden="false" id="dc06-2cf1-61e7-7f8f" type="selectionEntry" targetId="a774-5009-7e45-c9bf">
+          <comment>Turret Mounted</comment>
+          <modifiers>
+            <modifier type="set" value="Turret Mounted Deathstorm missile launcher" field="name"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Contemptor Dreadnought" hidden="false" id="3337-0b90-6ead-cba1"/>
     <selectionEntry type="unit" import="true" name="Termite" hidden="false" id="29c3-0b90-216c-b071"/>
     <selectionEntry type="unit" import="true" name="Drop Pod" hidden="false" id="2eb3-783d-8dde-733b"/>
@@ -4411,6 +4456,12 @@
       <categoryLinks>
         <categoryLink targetId="52d0-8b78-439e-18e5" id="b7f0-1cf8-c661-d611" primary="true" name="Heavy Transport"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathstorm Drop Pod" hidden="false" id="f5b0-7fa0-b690-5390" type="selectionEntry" targetId="84cd-c790-5886-8814">
+      <categoryLinks>
+        <categoryLink targetId="345f-9ba6-9b02-ed5c" id="5097-92a9-5887-07a5" primary="true" name="Support"/>
+      </categoryLinks>
+      <comment>Support</comment>
     </entryLink>
   </entryLinks>
   <catalogueLinks>
