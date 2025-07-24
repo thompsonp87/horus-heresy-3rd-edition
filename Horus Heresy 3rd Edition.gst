@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <categoryEntries>
     <categoryEntry name="Officer of the Line (2)" id="901a-6b71-7a29-4597" hidden="false"/>
     <categoryEntry name="Allegiance" id="c408-52f1-b632-4c82" hidden="false"/>
@@ -4457,6 +4457,7 @@
         <characteristicType name="Rear Armour" id="ec84-1f5d-1bb3-6826"/>
         <characteristicType name="HP" id="8735-4497-1f8a-4dda"/>
         <characteristicType name="Transport Capacity" id="a82e-858c-9aa9-2b43"/>
+        <characteristicType name="Access Points" id="ffe7-e997-ea4e-6c2d"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Wargear" id="5ec5-e0c3-1701-6f16" hidden="false" sortIndex="12">
