@@ -3648,6 +3648,10 @@
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef7d-0e21-28d2-aff6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f637-a931-b995-b28f" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -3673,6 +3677,10 @@
           <modifiers>
             <modifier type="set" value="Turret Mounted Deathstorm missile launcher" field="name"/>
           </modifiers>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ed6-9ed8-b6d4-2dee" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ec0-152a-a797-d57f" includeChildSelections="false"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntry>
@@ -3682,7 +3690,16 @@
     <selectionEntry type="unit" import="true" name="Rhino" hidden="false" id="103f-cc8b-7e7f-c52b"/>
     <selectionEntry type="unit" import="true" name="Land Raider Carrier" hidden="false" id="e0b3-3d67-1299-1eb7"/>
     <selectionEntry type="unit" import="true" name="Spartan" hidden="false" id="8866-180d-b477-b68f"/>
-    <selectionEntry type="unit" import="true" name="Dreadnought Drop Pod" hidden="false" id="e004-bc89-4e2f-c59d"/>
+    <selectionEntry type="unit" import="true" name="Dreadnought Drop Pod" hidden="false" id="e004-bc89-4e2f-c59d">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Dreadnought Drop Pod" hidden="false" id="9c53-7d3d-6786-8d1a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc59-48cc-31c1-98fa" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5e9-fe16-6cac-3278" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kharybdis Assault Claw" hidden="false" id="ed0b-f07b-ed2f-b510"/>
     <selectionEntry type="unit" import="true" name="Dreadclaw Drop Pod" hidden="false" id="2438-805f-7a19-3295">
       <selectionEntries>
