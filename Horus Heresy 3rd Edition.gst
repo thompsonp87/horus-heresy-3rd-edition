@@ -232,6 +232,13 @@
     <categoryEntry name="Open Beta Release" id="c5ac-45c2-a8a9-e32c" hidden="false"/>
     <categoryEntry name="Command - Optae Only" id="ee42-a241-c364-489d" hidden="false"/>
     <categoryEntry name="The Hammer of Olympia Unlock" id="b7c9-7d2d-fb56-5486" hidden="true"/>
+    <categoryEntry name="Malefic" id="2de1-ddd6-ebb4-10df" hidden="false">
+      <rules>
+        <rule name="Malefic" id="56af-aee5-210b-7093" hidden="false">
+          <description>Malefic Rule</description>
+        </rule>
+      </rules>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crusade Force Organization Chart" id="8562-592c-8d4b-a1f0" hidden="false" childForcesLabel="Detachments" sortIndex="1">
