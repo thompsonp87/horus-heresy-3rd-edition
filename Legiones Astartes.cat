@@ -3697,8 +3697,40 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc59-48cc-31c1-98fa" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5e9-fe16-6cac-3278" includeChildSelections="false"/>
           </constraints>
+          <profiles>
+            <profile name="Dreadnought Drop Pod" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="5239-b766-f2ab-ef23">
+              <characteristics>
+                <characteristic name="Type" typeId="827f-9ce2-2118-e134">Vehicle (Transport)</characteristic>
+                <characteristic name="M" typeId="d624-72fe-0205-4443">-</characteristic>
+                <characteristic name="BS" typeId="a17e-8e7d-d21f-c138">2</characteristic>
+                <characteristic name="Front Armour" typeId="6536-e73d-4a74-c675">12</characteristic>
+                <characteristic name="Side Armour" typeId="f03a-18a7-8586-273d">12</characteristic>
+                <characteristic name="Rear Armour" typeId="ec84-1f5d-1bb3-6826">12</characteristic>
+                <characteristic name="HP" typeId="8735-4497-1f8a-4dda">5</characteristic>
+                <characteristic name="Transport Capacity" typeId="a82e-858c-9aa9-2b43">7</characteristic>
+                <characteristic name="Access Points" typeId="ffe7-e997-ea4e-6c2d">All facings</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
+      <infoLinks>
+        <infoLink name="[Legiones Astartes]" id="bc5b-2e15-d143-e9d0" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+        <infoLink name="[Allegiance]" id="bf1f-65a0-17c5-dd57" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="Orbital Assault Vehicle" id="f2cd-a33f-7ec8-7a08" hidden="false" type="rule" targetId="ef39-ccc2-44a6-d075"/>
+        <infoLink name="Impact Reactive Doors" id="8508-82cf-73d3-77a0" hidden="false" type="rule" targetId="ba5d-a783-2256-afe3"/>
+      </infoLinks>
+      <rules>
+        <rule name="Dreadnought Transport" id="fbe3-fc8e-7d03-4a1a" hidden="false"/>
+      </rules>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="100"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="aa5a-c9fd-1eb1-7a45" id="3972-a926-a380-cc27" primary="false" name="Vehicle Model Type"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kharybdis Assault Claw" hidden="false" id="ed0b-f07b-ed2f-b510"/>
     <selectionEntry type="unit" import="true" name="Dreadclaw Drop Pod" hidden="false" id="2438-805f-7a19-3295">
@@ -3715,10 +3747,14 @@
                 <characteristic name="Rear Armour" typeId="ec84-1f5d-1bb3-6826">12</characteristic>
                 <characteristic name="HP" typeId="8735-4497-1f8a-4dda">5</characteristic>
                 <characteristic name="Transport Capacity" typeId="a82e-858c-9aa9-2b43">12</characteristic>
-                <characteristic name="Access Points" typeId="ffe7-e997-ea4e-6c2d">All sides</characteristic>
+                <characteristic name="Access Points" typeId="ffe7-e997-ea4e-6c2d">All facings</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b620-229c-e1ae-c9d9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6035-a75f-9bac-f5e7" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4479,6 +4515,12 @@
         <categoryLink targetId="345f-9ba6-9b02-ed5c" id="5097-92a9-5887-07a5" primary="true" name="Support"/>
       </categoryLinks>
       <comment>Support</comment>
+    </entryLink>
+    <entryLink import="true" name="Dreadnought Drop Pod" hidden="false" id="d630-748e-06aa-42d1" type="selectionEntry" targetId="e004-bc89-4e2f-c59d">
+      <categoryLinks>
+        <categoryLink targetId="52d0-8b78-439e-18e5" id="a795-5ba8-cc14-7e3b" primary="true" name="Heavy Transport"/>
+      </categoryLinks>
+      <comment>Heavy Transport</comment>
     </entryLink>
   </entryLinks>
   <catalogueLinks>
