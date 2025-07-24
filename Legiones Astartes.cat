@@ -1044,11 +1044,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="afa2-25fe-1f35-d707" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="98cd-e5ff-aa19-d747" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="3">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e41d-9b9e-a555-fa95" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="98cd-e5ff-aa19-d747" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="3"/>
             <entryLink import="true" name="Hunter-killer missile" hidden="false" id="8414-e87c-b631-afc6" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="4">
               <modifiers>
                 <modifier type="set" value="Hull (Front) hunter-killer missile" field="name"/>
@@ -2663,7 +2659,6 @@
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d52-bf87-aa78-2992" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c7d-f77b-c8d5-96c9" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="May take any of the following:" id="952c-1102-1d63-4020" hidden="false" sortIndex="1">
@@ -4040,6 +4035,117 @@
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Predator" hidden="false" id="99bb-2f78-0840-c5ba">
+          <profiles>
+            <profile name="Predator" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="3e05-3bdc-7328-c224">
+              <characteristics>
+                <characteristic name="Type" typeId="827f-9ce2-2118-e134">Vehicle</characteristic>
+                <characteristic name="M" typeId="d624-72fe-0205-4443">12</characteristic>
+                <characteristic name="BS" typeId="a17e-8e7d-d21f-c138">4</characteristic>
+                <characteristic name="Front Armour" typeId="6536-e73d-4a74-c675">13</characteristic>
+                <characteristic name="Side Armour" typeId="f03a-18a7-8586-273d">12</characteristic>
+                <characteristic name="Rear Armour" typeId="ec84-1f5d-1bb3-6826">10</characteristic>
+                <characteristic name="HP" typeId="8735-4497-1f8a-4dda">5</characteristic>
+                <characteristic name="Transport Capacity" typeId="a82e-858c-9aa9-2b43">-</characteristic>
+                <characteristic name="Access Points" typeId="ffe7-e997-ea4e-6c2d">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dae6-ded1-3c67-8dcb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0940-4de2-2d6c-afae" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="[Allegiance]" id="5065-8efd-60cd-97f2" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="e67e-99d7-ecd9-6f4f" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+        <infoLink name="Smokescreen" id="2c2c-09e8-bb89-e63e" hidden="false" type="profile" targetId="12ec-97aa-0b8a-7573"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Options" id="b85f-2a19-7abe-8d03" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Turret" id="612e-a7f1-4854-b6e2" hidden="false" sortIndex="2" defaultSelectionEntryId="6483-4b11-920b-31c1">
+              <entryLinks>
+                <entryLink import="true" name="Predator cannon" hidden="false" id="6483-4b11-920b-31c1" type="selectionEntry" targetId="4c10-e3e7-244a-cf23" sortIndex="1"/>
+                <entryLink import="true" name="Flamestorm cannon" hidden="false" id="bb3f-c559-5869-b4d6" type="selectionEntry" targetId="35d1-1196-aa98-c6fb" sortIndex="2"/>
+                <entryLink import="true" name="Executioner plasma destroyer" hidden="false" id="c0a3-c540-371a-8865" type="selectionEntry" targetId="7cb4-a7cc-cada-1190" sortIndex="3">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy conversion beam cannon" hidden="false" id="142c-501c-b242-8938" type="selectionEntry" targetId="4c0a-e911-ab85-2286" sortIndex="4">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Magna-melta cannon" hidden="false" id="a1f8-033d-b4a9-dca4" type="selectionEntry" targetId="cd2b-e3dd-e31b-73f9" sortIndex="5">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Graviton cannon" hidden="false" id="08c8-c259-5696-ec7a" type="selectionEntry" targetId="68b3-66f9-a283-1259" sortIndex="6">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Volkite macro saker" hidden="false" id="52cd-82ab-937e-9f4a" type="selectionEntry" targetId="7416-5aa2-b1b8-9cbf" sortIndex="7">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Neutron blaster" hidden="false" id="426f-1251-412c-6bbe" type="selectionEntry" targetId="c232-60af-a0dc-7786" sortIndex="8">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Twin lascannon" hidden="false" id="3ef7-5843-df1d-e31c" type="selectionEntry" targetId="8e62-3fda-37e1-5f0a" sortIndex="9">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="52f3-c0ba-e47e-e3df" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="932d-1614-71f9-711b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Legion Sponson Weapons" hidden="false" id="c840-0225-c795-02fa" type="selectionEntryGroup" targetId="df25-ac22-5bbd-0e44" sortIndex="3"/>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="4f11-d246-e0fa-42e8" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="4"/>
+            <entryLink import="true" name="Dozer blade" hidden="false" id="bcfc-81f2-d60a-bfd0" type="selectionEntry" targetId="496e-da18-2afa-b99c" sortIndex="7">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a6f-3ad2-9b06-4b9a" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Searchlight" hidden="false" id="aaf3-06e9-4801-cbd1" type="selectionEntry" targetId="5a85-bf28-f790-7bf0" sortIndex="6">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c17-6a62-6a03-7e97" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Hunter-killer missile" hidden="false" id="e5f2-b531-e8b6-1e8b" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="5">
+              <modifiers>
+                <modifier type="set" value="Turret Mounted hunter-killer missile" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6022-d9aa-5da4-17ff" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Legiones Decurion" hidden="false" id="37a0-b852-9643-e794" type="selectionEntryGroup" targetId="6dcf-12ac-0f05-f158" sortIndex="1"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Land Speeder Squadron" hidden="false" id="7ebb-cdb2-017e-7c51"/>
     <selectionEntry type="unit" import="true" name="Sicaran" hidden="false" id="4d65-cef9-42c6-dd2c"/>
@@ -4129,7 +4235,7 @@
             <entryLink import="true" name="Legion Sponson Weapons" hidden="false" id="e3b6-b7b7-2448-ca57" type="selectionEntryGroup" targetId="df25-ac22-5bbd-0e44" sortIndex="4"/>
             <entryLink import="true" name="Hunter-killer missile" hidden="false" id="4b4d-a67d-a63f-555c" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="6">
               <modifiers>
-                <modifier type="set" value="Hull (Front) hunter-killer missile" field="name"/>
+                <modifier type="set" value="Turret Mounted hunter-killer missile" field="name"/>
               </modifiers>
               <costs>
                 <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
@@ -4146,20 +4252,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9ab-af82-bb7b-b711" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="2445-fd32-8e4b-dde4" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="5">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3949-b0db-c92f-a5dc" includeChildSelections="false"/>
-                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="66f4-6849-ece0-fa0b" includeChildSelections="false"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="1" field="66f4-6849-ece0-fa0b">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="99b1-fccd-7389-fdec" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="2445-fd32-8e4b-dde4" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="5"/>
             <entryLink import="true" name="Legiones Decurion" hidden="false" id="47d7-cfa0-0a9e-e915" type="selectionEntryGroup" targetId="6dcf-12ac-0f05-f158" sortIndex="1"/>
+            <entryLink import="true" name="Dozer blade" hidden="false" id="5536-500f-9dd2-340c" type="selectionEntry" targetId="496e-da18-2afa-b99c" sortIndex="8">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba24-dace-90e6-991c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4232,11 +4334,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="11cb-d8b8-7d55-7651" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="a2d6-4357-93a5-8047" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="3">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3da-a265-9b21-e895" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="a2d6-4357-93a5-8047" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="3"/>
             <entryLink import="true" name="Hunter-killer missile" hidden="false" id="6108-5adc-4ea9-30a8" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="4">
               <modifiers>
                 <modifier type="set" value="Hull (Front) hunter-killer missile" field="name"/>
@@ -4431,11 +4529,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="0031-ce0e-002d-7174" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="5a6a-560a-a790-c85a" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="2">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a90-8579-72cf-962a" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="5a6a-560a-a790-c85a" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="2"/>
             <entryLink import="true" name="Legion Sponson Weapons" hidden="false" id="a960-6879-85c5-edcf" type="selectionEntryGroup" targetId="df25-ac22-5bbd-0e44" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0ec-c7b1-9f02-7824" includeChildSelections="false"/>
@@ -4473,11 +4567,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="c0da-faba-282b-e64d" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="0594-c2a0-ba99-274d" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="2">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="304f-14c3-e1d1-0b04" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="0594-c2a0-ba99-274d" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="2"/>
             <entryLink import="true" name="Hunter-killer missile" hidden="false" id="297a-a01f-eae1-0b34" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="3">
               <modifiers>
                 <modifier type="set" value="Hull (Front) hunter-killer missile" field="name"/>
@@ -4596,11 +4686,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Options" id="63bf-5d7a-29b6-f4f6" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="fb98-87fd-d5f1-2970" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="2">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2b3-f537-bad2-b58e" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Legion Pintle Weapons" hidden="false" id="fb98-87fd-d5f1-2970" type="selectionEntryGroup" targetId="d625-37d6-d83a-0de3" sortIndex="2"/>
             <entryLink import="true" name="Hunter-killer missile" hidden="false" id="9147-3080-4570-8944" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="3">
               <modifiers>
                 <modifier type="set" value="Hull (Front) hunter-killer missile" field="name"/>
@@ -5550,6 +5636,17 @@
           </costs>
         </entryLink>
       </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e081-d692-1c19-1ac6" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="66f4-6849-ece0-fa0b" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="66f4-6849-ece0-fa0b">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="unit" childId="99b1-fccd-7389-fdec" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
     <selectionEntryGroup name="Legion Prime Benefits" id="d3a2-e7f2-9da7-fd3c" hidden="false" sortIndex="11">
       <selectionEntries>
