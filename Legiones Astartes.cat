@@ -4508,8 +4508,8 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="da37-106c-714c-b2e2" includeChildSelections="false"/>
-            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="b849-e85b-1ab0-40ee" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="da37-106c-714c-b2e2" includeChildSelections="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="b849-e85b-1ab0-40ee" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="b30c-62b3-1394-73f4" hidden="false">
@@ -4576,7 +4576,7 @@
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Legion Special Weapons List" id="c921-b0f1-8b47-03b3" hidden="false" collapsible="true" flatten="true" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Legion Special Weapons List" id="c921-b0f1-8b47-03b3" hidden="false" collapsible="true" flatten="false" defaultSelectionEntryId="47a9-466f-aec3-5d36">
           <entryLinks>
             <entryLink import="true" name="Flamer" hidden="false" id="47a9-466f-aec3-5d36" type="selectionEntry" targetId="9a45-35cd-3806-2303" sortIndex="1">
               <costs>
@@ -4657,6 +4657,11 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="8"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Support Squad" hidden="false" id="1734-8863-96bf-f052" sortIndex="35">
       <selectionEntries>
@@ -4740,8 +4745,8 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="d0c3-ec35-b7b0-c5ee" includeChildSelections="false"/>
-            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="6286-1ac1-e98e-2629" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d0c3-ec35-b7b0-c5ee" includeChildSelections="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="6286-1ac1-e98e-2629" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="8af4-e803-d735-7430" hidden="false">
@@ -4765,7 +4770,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="8"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
             <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
             <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
           </costs>
@@ -4797,7 +4802,7 @@
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Legion Heavy Weapons List" id="f3e8-47d6-ac92-2b66" hidden="false" collapsible="true" flatten="true" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Legion Heavy Weapons List" id="f3e8-47d6-ac92-2b66" hidden="false" collapsible="true" flatten="false" defaultSelectionEntryId="cf76-c4c7-8a9a-0beb">
           <entryLinks>
             <entryLink import="true" name="Heavy bolter" hidden="false" id="cf76-c4c7-8a9a-0beb" type="selectionEntry" targetId="bc40-b14a-978e-0232" sortIndex="1">
               <costs>
@@ -4913,6 +4918,11 @@
           </conditions>
         </modifier>
       </modifiers>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Apothecary" hidden="false" id="b7fe-ba65-00d2-57f0" sortIndex="37"/>
     <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="6cac-d5d2-dda7-ea8f" sortIndex="38"/>
