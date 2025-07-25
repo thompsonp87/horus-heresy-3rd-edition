@@ -737,6 +737,7 @@
           </profiles>
           <constraints>
             <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="7176-40a0-8a79-1c54" includeChildSelections="false"/>
+            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="8bc0-2949-2cdb-18e8" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Pistol" id="4bc9-0844-26c2-367f" hidden="false" defaultSelectionEntryId="ca11-6709-f37f-db1c">
@@ -1243,7 +1244,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="4aab-6f78-9ab5-3c0b" defaultAmount="9" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="4aab-6f78-9ab5-3c0b" defaultAmount="" sortIndex="2">
           <profiles>
             <profile name="Breacher Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f349-e714-ec2e-c90a">
               <characteristics>
@@ -1806,7 +1807,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tactical Squad" hidden="false" id="7b69-a372-a803-9c6f" sortIndex="30">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="7ea7-4722-7936-df4a" defaultAmount="9" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="7ea7-4722-7936-df4a" defaultAmount="" sortIndex="2">
           <profiles>
             <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="1335-5f58-6ff2-8cdd">
               <characteristics>
@@ -4138,7 +4139,7 @@
         </entryLink>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="9de3-15fa-986b-500a" defaultAmount="9" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="9de3-15fa-986b-500a" defaultAmount="" sortIndex="2">
           <profiles>
             <profile name="Despoiler Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f5ca-0752-fac9-b8c2">
               <characteristics>
@@ -4477,7 +4478,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="1208-1781-18dd-a3a0" defaultAmount="9" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="1208-1781-18dd-a3a0" defaultAmount="" sortIndex="2">
           <profiles>
             <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="808e-63b2-2be3-2095">
               <characteristics>
@@ -4508,8 +4509,8 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="da37-106c-714c-b2e2" includeChildSelections="false"/>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="b849-e85b-1ab0-40ee" includeChildSelections="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d94c-f056-c582-d4a3" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="1dbb-239d-1643-a000" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="b30c-62b3-1394-73f4" hidden="false">
@@ -4714,7 +4715,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="f3f7-54e9-44d3-af78" defaultAmount="9" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="f3f7-54e9-44d3-af78" defaultAmount="" sortIndex="2">
           <profiles>
             <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="7b35-9c2e-4c06-bf77">
               <characteristics>
@@ -4745,8 +4746,8 @@
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d0c3-ec35-b7b0-c5ee" includeChildSelections="false"/>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="6286-1ac1-e98e-2629" includeChildSelections="false"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="c9c9-9f3c-72c1-fad3" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="1c4d-1b81-22de-8b60" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Options" id="8af4-e803-d735-7430" hidden="false">
@@ -4912,7 +4913,7 @@
         <infoLink name="[Legiones Astartes]" id="b7b6-c6af-9bb9-01a9" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
       </infoLinks>
       <modifiers>
-        <modifier type="set" value="Prime Tactical Support Squad" field="name">
+        <modifier type="set" value="Prime Heavy Support Squad" field="name">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
           </conditions>
