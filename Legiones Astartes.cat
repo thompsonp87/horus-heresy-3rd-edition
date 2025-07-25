@@ -221,13 +221,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Centurion" hidden="false" id="3392-e93d-79bc-d648" sortIndex="4">
       <costs>
@@ -556,13 +549,6 @@
         <categoryLink targetId="901a-6b71-7a29-4597" id="f89a-0506-db27-b8b1" primary="false" name="Officer of the Line (2)"/>
         <categoryLink targetId="9871-cb62-5283-2216" id="afd0-62c1-fe68-8fab" primary="false" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Praetor in Saturnine Terminator Armour" hidden="false" id="2a5a-8ab8-be4d-6fa7" sortIndex="3">
       <selectionEntries>
@@ -1036,13 +1022,6 @@
           </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <entryLinks>
         <entryLink import="true" name="Prime Unit" hidden="false" id="e6df-24b1-0988-ef41" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2" sortIndex="3">
           <entryLinks>
@@ -1106,13 +1085,6 @@
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Breacher Squad" hidden="false" id="b564-8809-1bcf-d8b3" sortIndex="33">
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <entryLinks>
         <entryLink import="true" name="Prime Unit" hidden="false" id="2a2d-ef5e-47ed-46a6" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2" sortIndex="3">
           <entryLinks>
@@ -1578,13 +1550,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rhino" hidden="false" id="1b41-8597-7168-c326" sortIndex="45">
       <selectionEntries>
@@ -1720,13 +1685,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Veteran Assault Squad" hidden="false" id="a119-c2a7-ff1a-399c" sortIndex="25">
       <selectionEntries>
@@ -1784,13 +1742,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tactical Squad" hidden="false" id="7b69-a372-a803-9c6f" sortIndex="30">
       <selectionEntries>
@@ -2028,13 +1979,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink name="Line (X)" id="e24e-5c1c-81dd-fdee" hidden="false" type="rule" targetId="1b5d-ceec-802a-c611">
           <comment>2</comment>
@@ -2861,11 +2805,6 @@
             <condition type="equalTo" value="1" field="selections" scope="unit" childId="4aec-f1bd-9755-cf92" shared="true"/>
           </conditions>
         </modifier>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Centurion in Terminator Armour" hidden="false" id="976b-2d8a-7e70-e6a7" sortIndex="5">
@@ -3018,11 +2957,6 @@
             <condition type="equalTo" value="1" field="selections" scope="unit" childId="d4a4-a3f7-f634-4632" shared="true"/>
           </conditions>
         </modifier>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Prime Unit" hidden="false" id="0462-0809-0ad6-230e" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2">
@@ -3146,13 +3080,6 @@
       <categoryLinks>
         <categoryLink targetId="2e6d-36f6-eeca-8e0c" id="8e07-89d2-67b9-49aa" primary="false" name="Transport Model Sub-Type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Librarian" hidden="false" id="f06f-4418-b230-9ee7" sortIndex="8">
       <costs>
@@ -3239,13 +3166,6 @@
       <categoryLinks>
         <categoryLink targetId="9871-cb62-5283-2216" id="d04a-ddb9-2953-ef79" primary="false" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Legion Champion" hidden="false" id="8ab7-6f30-ce10-65df" sortIndex="9">
       <costs>
@@ -3339,13 +3259,6 @@
       <categoryLinks>
         <categoryLink targetId="5a95-e564-96b2-8dc9" id="4157-fb03-9a71-7ed6" primary="false" name="Champion Model Sub-Type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Vigilator" hidden="false" id="22fd-89ea-04c6-3f3d" sortIndex="10">
       <costs>
@@ -3427,13 +3340,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Esoterist" hidden="false" id="868f-f32d-d5ef-8021" sortIndex="11">
       <costs>
@@ -3511,13 +3417,6 @@
       <categoryLinks>
         <categoryLink targetId="9871-cb62-5283-2216" id="7092-2474-59a0-6090" primary="false" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Master of Signals" hidden="false" id="0c1d-e55e-1d4e-ab94" sortIndex="12">
       <costs>
@@ -3602,13 +3501,6 @@
       <categoryLinks>
         <categoryLink targetId="9871-cb62-5283-2216" id="7588-f989-5682-42bb" primary="false" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Praevian" hidden="false" id="7bb3-1bf7-ab4b-c34b" sortIndex="13">
       <costs>
@@ -3717,13 +3609,6 @@
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Moritat" hidden="false" id="0c28-19c0-71b2-424e" sortIndex="14">
       <costs>
@@ -3820,13 +3705,6 @@
         <categoryLink targetId="af7d-af64-6b7d-da9d" id="0e26-a79b-b9dc-b713" primary="false" name="Specialist Model Sub-Type"/>
         <categoryLink targetId="c504-9dfa-35d3-c98f" id="42cc-e3fc-9c48-b7d4" primary="false" name="Antigrav Model Sub-Type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Siege Breaker" hidden="false" id="8128-2ba6-b677-eb81" sortIndex="15">
       <costs>
@@ -3962,13 +3840,6 @@
         <categoryLink targetId="9871-cb62-5283-2216" id="1182-0c8a-c30b-3f9b" primary="false" name="Command Model Sub-type"/>
         <categoryLink targetId="1e7d-9066-28d2-97a0" id="4b2c-7ac6-48d1-27cf" primary="false" name="Heavy Model Sub-Type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Herald" hidden="false" id="388f-1220-df0b-fcc6" sortIndex="17">
       <costs>
@@ -4079,13 +3950,6 @@
         <categoryLink targetId="647c-faca-3c98-c203" id="b288-fb66-00bd-3d8a" primary="false" name="Free Power Weapon"/>
         <categoryLink targetId="9871-cb62-5283-2216" id="f12f-5078-1f7f-4bd5" primary="false" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chaplain" hidden="false" id="a6c4-31c4-9e9d-ab03" sortIndex="18">
       <costs>
@@ -4178,13 +4042,6 @@
       <categoryLinks>
         <categoryLink targetId="9871-cb62-5283-2216" id="3dfb-8b67-e986-af59" primary="false" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Praetorian Command Squad with Jump Packs" hidden="false" id="bcbf-35a6-91e8-b0b1" sortIndex="20">
       <selectionEntries>
@@ -4219,13 +4076,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Centurion Command Squad" hidden="false" id="4985-94a1-4448-a9ff" sortIndex="21">
       <entryLinks>
@@ -4235,13 +4085,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tartaros Terminator Command Squad" hidden="false" id="50fb-f90a-70ec-7649" sortIndex="22">
       <entryLinks>
@@ -4251,13 +4094,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Cataphractii Terminator Squad" hidden="false" id="e9a1-490f-8679-fc4e" sortIndex="27">
       <entryLinks>
@@ -4267,13 +4103,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Seeker Squad" hidden="false" id="f1c4-6d65-d660-f16f" sortIndex="26">
       <entryLinks>
@@ -4283,13 +4112,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tartaros Terminator Squad" hidden="false" id="3139-1aa9-4b77-da26" sortIndex="28">
       <entryLinks>
@@ -4299,13 +4121,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Cataphractii Terminator Command Squad" hidden="false" id="b703-f7ab-dac5-0ae4" sortIndex="23">
       <selectionEntries>
@@ -4343,13 +4158,6 @@
           </entryLinks>
         </entryLink>
       </entryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Despoiler Squad" hidden="false" id="44bd-10de-2055-40f6" sortIndex="31">
       <entryLinks>
@@ -4636,13 +4444,6 @@
         <infoLink name="[Allegiance]" id="2be1-9148-ed5d-85cc" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
         <infoLink name="[Legiones Astartes]" id="9262-ca88-5249-d31f" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
       </infoLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <costs>
         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
@@ -4802,13 +4603,6 @@
         <infoLink name="[Allegiance]" id="9eea-baa3-681d-b174" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
         <infoLink name="[Legiones Astartes]" id="b78c-4bec-762c-66a9" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
       </infoLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Legion Special Weapons List" id="c921-b0f1-8b47-03b3" hidden="false" collapsible="true" flatten="false" defaultSelectionEntryId="47a9-466f-aec3-5d36" sortIndex="4">
           <entryLinks>
@@ -5129,13 +4923,6 @@
           </modifiers>
         </infoLink>
       </infoLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <costs>
         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
         <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
@@ -5435,13 +5222,6 @@
       <categoryLinks>
         <categoryLink targetId="9871-cb62-5283-2216" id="8272-118c-94b6-cbb9" primary="true" name="Command Model Sub-type"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="prepend" value="Prime" field="name">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="3fa2-78b1-637f-7fb2" shared="true" includeChildSelections="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
