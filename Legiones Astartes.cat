@@ -28,7 +28,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Saturnine Terminator Squad" hidden="false" id="8b89-b309-c9bd-9c8a" sortIndex="29">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Saturnine Terminator" hidden="false" id="32ae-3f83-5e58-a809" defaultAmount="" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Saturnine Terminator" hidden="false" id="32ae-3f83-5e58-a809" sortIndex="2">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="451a-0ae2-b306-ca5d" includeChildSelections="false"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="4790-9e4b-431a-22dc" includeChildSelections="false"/>
@@ -1222,7 +1222,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="4aab-6f78-9ab5-3c0b" defaultAmount="" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="4aab-6f78-9ab5-3c0b" sortIndex="2">
           <profiles>
             <profile name="Breacher Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f349-e714-ec2e-c90a">
               <characteristics>
@@ -1794,7 +1794,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tactical Squad" hidden="false" id="7b69-a372-a803-9c6f" sortIndex="30">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="7ea7-4722-7936-df4a" defaultAmount="" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="7ea7-4722-7936-df4a" sortIndex="2">
           <profiles>
             <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="1335-5f58-6ff2-8cdd">
               <characteristics>
@@ -4372,7 +4372,7 @@
         </entryLink>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="9de3-15fa-986b-500a" defaultAmount="" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="9de3-15fa-986b-500a" sortIndex="2">
           <profiles>
             <profile name="Despoiler Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f5ca-0752-fac9-b8c2">
               <characteristics>
@@ -4711,7 +4711,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="1208-1781-18dd-a3a0" defaultAmount="" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="1208-1781-18dd-a3a0" sortIndex="2">
           <profiles>
             <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="808e-63b2-2be3-2095">
               <characteristics>
@@ -4948,7 +4948,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="f3f7-54e9-44d3-af78" defaultAmount="" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Legionary" hidden="false" id="f3f7-54e9-44d3-af78" sortIndex="2">
           <profiles>
             <profile name="Legionary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="7b35-9c2e-4c06-bf77">
               <characteristics>
@@ -5123,7 +5123,7 @@
         <infoLink name="Support Unit (X)" id="2f7b-9247-e731-66d5" hidden="false" type="rule" targetId="313f-7ed6-3833-e97c">
           <comment>1</comment>
           <modifiers>
-            <modifier type="set" value="" field="name">
+            <modifier type="set" field="name">
               <comment>Support Unit (1)</comment>
             </modifier>
           </modifiers>
