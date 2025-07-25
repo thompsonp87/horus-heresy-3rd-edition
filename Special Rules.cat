@@ -120,6 +120,7 @@ A model with the Shrouded (X) Special Rule gains a Shrouded Damage Mitigation Te
     </rule>
     <rule name="Impact Reactive Doors" id="ba5d-a783-2256-afe3" hidden="false"/>
     <rule name="Orbital Assault Vehicle" id="ef39-ccc2-44a6-d075" hidden="false"/>
+    <rule name="Void Shields (X)" id="f6db-e4c8-c205-20d5" hidden="false"/>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Telepathy" hidden="false" id="e09e-1438-3205-2a57"/>
