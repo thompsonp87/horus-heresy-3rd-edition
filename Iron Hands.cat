@@ -131,7 +131,17 @@
         <selectionEntry type="upgrade" import="true" name="Sire of the Iron Hands" hidden="false" id="426f-aa7a-5b53-2dc1">
           <rules>
             <rule name="Sire of the Iron Hands" id="b6dc-f887-42b4-948d" hidden="false" publicationId="b905-0414-1057-bb34">
-              <description>
+              <description>If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule:
+
+
+• If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Tactical Squads and/or Breacher Squads, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.
+
+
+Furthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Infantry Type and the Iron Hands Trait in the same Army:
+
+
+• Until the end of the first Battle Turn of the Battle, all Models in this Army with the Infantry Type and the Iron Hands Trait have the Feel No Pain (6+) Special Rule. 
+
 </description>
             </rule>
           </rules>
@@ -144,8 +154,8 @@
           <profiles>
             <profile name="Gambit: Tempered by War" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="ebb9-85b1-449d-16ae">
               <characteristics>
-                <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7"/>
-                <characteristic name="Description" typeId="2d7d-b1d9-dead-605a"/>
+                <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">Whilst this Gambit is selected, Ferrus Manus has an increased Toughness Characteristic. </characteristic>
+                <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">When this Gambit is selected, this Model&apos;s toughness Characteristic is set to 8 for the duration of the following Strike Step. </characteristic>
               </characteristics>
             </profile>
           </profiles>

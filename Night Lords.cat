@@ -3,33 +3,108 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Konrad Kurze" hidden="false" id="f5fd-f425-c610-4a94">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Konrad Kurze" hidden="false" id="e47b-d8f0-a85c-71a9">
+        <selectionEntry type="model" import="true" name="Konrad Kurze" hidden="false" id="e47b-d8f0-a85c-71a9" sortIndex="1">
           <profiles>
             <profile name="Konrad Kurze" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="a6fc-e95a-426b-2aa8">
               <characteristics>
-                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
-                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
-                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
-                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
-                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
-                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
-                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
-                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
-                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
-                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
-                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
-                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
-                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
-                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
-                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
-                <characteristic name="Special Rules" typeId="2cda-2fb9-4239-cbcb"/>
-                <characteristic name="Traits" typeId="6a9a-2af3-00c4-d134"/>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Paragon (Unique)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">8</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">7</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">7</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">6</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">6</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">6</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">7</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">6</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">12</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">10</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">8</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">10</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e51-d15e-5578-4d03" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d13-5b7d-71c7-7e6a" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sire of the Night Lords" hidden="false" id="1ad5-c601-409d-73bd">
+          <rules>
+            <rule name="Sire of the Night Lords" id="3dc8-d4d5-000f-8611" hidden="false" publicationId="e54c-7040-0f35-d85d" page="">
+              <description>If a Model with this Special Rule is part of an Army, then the Controlling Player may apply the following additional Special Rules to all Auxiliary, Apex and Primary Detachments that have the same Faction Trait as the Model with this Special Rule.
+
+• If four or more Troops Battlefield Role Slots in the Primary Detachment of this Army are filled with Terror Squad and/or Assault Squads, then all Force Organisation Slots with the Troops Battlefield Role in the Primary Detachment are considered Prime Slots.
+
+Furthermore, if a Model with this Special Rule is part of an Army, then the following Special Rules are granted to all Models with the Infantry Type and the Iron Warriors Trait in the same Army:
+
+• All Models in Terror Squad Units in this Army gain the Infiltrate (12) Special Rule.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0162-eb1d-f2f1-cb63"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05b5-4048-f463-a6cc"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mercy and Forgiveness" hidden="false" id="3194-9ee3-e070-f912" sortIndex="1">
+          <profiles>
+            <profile name="Mercy and Forgiveness" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="b4b2-b7cd-b62c-d2da">
+              <characteristics>
+                <characteristic name="IM" typeId="6eec-4093-f946-1014">1</characteristic>
+                <characteristic name="AM" typeId="03d0-6094-84f0-e27e">+2</characteristic>
+                <characteristic name="SM" typeId="4505-de6f-d4ae-6280">S</characteristic>
+                <characteristic name="AP" typeId="a014-126b-3b7b-27e8">2</characteristic>
+                <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+                <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Critical Hit (5+), Shred (4+)</characteristic>
+                <characteristic name="Traits" typeId="76e3-c188-bc65-3467">Power</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f71a-8717-092b-3f5d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ad1-b20d-d3c9-4887"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Widowmakers" hidden="false" id="f50b-829a-1620-77dd">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bbb4-c4ea-45d4-fd61"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4d9-b63e-33f9-c947"/>
+          </constraints>
+          <profiles>
+            <profile name="The Widowmakers" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="cc6b-16c9-d47f-e0c1">
+              <characteristics>
+                <characteristic name="R" typeId="cdb0-8654-6840-1037">12</characteristic>
+                <characteristic name="FP" typeId="5037-1f27-1790-e355">3</characteristic>
+                <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+                <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+                <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+                <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (4+)</characteristic>
+                <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Assault</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gambit: A death Long Forseen" hidden="false" id="970d-2e26-9139-8d07">
+          <profiles>
+            <profile name="A death Long Forseen" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="3919-c1e7-3f05-a432">
+              <characteristics>
+                <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">If the Controlling Player succeeds at a Dice Roll, they may select this Gambit instead of any others normally available.</characteristic>
+                <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">When selecting Gambits for a Model with this Special Rule, it&apos;s Controlling Player can roll one Dice. On a 5+, this Gambit is available to the Controlling Player to be selected for that Model. 
+
+
+When this Gambit is selected, the Controlling Player can make one Willpower Check for each of the following benefits. If the Willpower Check is successful, the corresponding effect applies until the start of the next Face-Off Step:
+
+
+•This Model has the Feel No Pain (5+) Special Rule.
+•Modify this Model&apos;s Attacks Characteristic by +1.
+•This Model&apos;s Mercy and Forgiveness have an Initiative Modifier Characteristic of &apos;+2&apos;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4a9-a34c-2501-f892"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83e2-705e-56f6-3bbf"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -42,6 +117,25 @@
         <infoLink name="[Allegiance]" id="b200-af26-8f19-5d20" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
         <infoLink name="[Legiones Astartes]" id="e1e3-8b7e-cf90-0882" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
         <infoLink name="Master of the Legion" id="ddb0-fd9f-c7b5-42b9" hidden="false" type="profile" targetId="6cd2-96be-b703-6d57"/>
+        <infoLink name="Bulky (X)" id="cea7-efe2-17b1-43dd" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25">
+          <modifiers>
+            <modifier type="set" value="Bulky (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Fear (X)" id="8f2d-7ab7-7682-f9a1" hidden="false" type="rule" targetId="0ebc-0c92-2209-6393">
+          <modifiers>
+            <modifier type="set" value="Fear (2)" field="name">
+              <comment>2</comment>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Eternal Warrior (X)" id="6f6d-ed27-0625-6007" hidden="false" type="rule" targetId="15b4-9e4a-f361-c5a3">
+          <modifiers>
+            <modifier type="set" value="Eternal Warrior (2)" field="name">
+              <comment>2</comment>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="22ee-7208-4089-b005" id="65ff-d88e-d017-47d9" primary="true" name="Warlord"/>
