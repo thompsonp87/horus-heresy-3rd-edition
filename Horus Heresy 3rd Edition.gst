@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="4" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<gameSystem id="sys-9fe4-1dc3-b7c2-73cf" name="Horus Heresy 3rd Edition" battleScribeVersion="2.03" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorName="The4D6" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <categoryEntries>
     <categoryEntry name="Officer of the Line (2)" id="901a-6b71-7a29-4597" hidden="false"/>
     <categoryEntry name="Allegiance" id="c408-52f1-b632-4c82" hidden="false"/>
@@ -261,12 +261,12 @@
             </categoryLink>
             <categoryLink name="Prime Troops" hidden="false" id="7f2f-617f-ebff-25e0" targetId="c3f9-a7f3-984b-3fda">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="715b-f5db-a7c6-1555"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="715b-f5db-a7c6-1555" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
             <categoryLink name="Prime Command" hidden="false" id="3142-6a47-c47b-7dff" targetId="c85c-2963-658f-1bb9">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9625-0609-3106-9090"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9625-0609-3106-9090" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
             <categoryLink name="Transport" hidden="false" id="254b-5bcb-d955-27c3" targetId="d162-4711-5d60-0a48">
@@ -2006,7 +2006,7 @@
             </categoryLink>
             <categoryLink name="Prime Retinue" hidden="false" id="0b17-ed7d-de3d-8b06" targetId="c66b-ef39-b20f-725b">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1305-aaaf-1d68-85d3"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1305-aaaf-1d68-85d3" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -2216,7 +2216,7 @@
             </categoryLink>
             <categoryLink name="Prime Command" hidden="false" id="68a6-87c4-29e7-1ad6" targetId="c85c-2963-658f-1bb9">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56e0-120e-2643-933d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56e0-120e-2643-933d" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -2421,7 +2421,7 @@
             </categoryLink>
             <categoryLink name="Prime Elites" hidden="false" id="6537-5c62-58d9-adbb" targetId="276f-7a07-a56c-affd">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="369b-315b-551d-2eeb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="369b-315b-551d-2eeb" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -2608,7 +2608,7 @@
           <categoryLinks>
             <categoryLink name="Support" hidden="false" id="aaf9-4c82-2830-47b6" targetId="345f-9ba6-9b02-ed5c">
               <constraints>
-                <constraint type="max" value="4" field="selections" scope="force" shared="true" id="ec08-2ba4-b38c-8746" includeChildSelections="true"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="ec08-2ba4-b38c-8746" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -2635,12 +2635,12 @@
           <categoryLinks>
             <categoryLink name="Troops" hidden="false" id="b964-d2eb-562c-17b1" targetId="88e6-d373-4152-0dd8">
               <constraints>
-                <constraint type="max" value="4" field="selections" scope="force" shared="true" id="d17a-1b20-7ed3-f6b9" includeChildSelections="true"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="d17a-1b20-7ed3-f6b9" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
             <categoryLink name="Prime Troops" hidden="false" id="a9b4-9c31-01ac-0c8b" targetId="c3f9-a7f3-984b-3fda">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b649-61e8-62cb-a4b0" includeChildSelections="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b649-61e8-62cb-a4b0" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -2667,22 +2667,22 @@
           <categoryLinks>
             <categoryLink name="Retinue" hidden="false" id="c224-b95f-a73a-ea18" targetId="a38e-50ff-310f-f19e">
               <constraints>
-                <constraint type="max" value="3" field="selections" scope="force" shared="true" id="15ee-6d6c-95a1-c556" includeChildSelections="true"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="15ee-6d6c-95a1-c556" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
             <categoryLink name="Troops" hidden="false" id="6193-d328-43af-a157" targetId="88e6-d373-4152-0dd8">
               <constraints>
-                <constraint type="max" value="3" field="selections" scope="force" shared="true" id="432d-8f1f-69e5-ae1a" includeChildSelections="true"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="432d-8f1f-69e5-ae1a" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
             <categoryLink name="Prime Troops" hidden="false" id="d328-63f2-eacd-6993" targetId="c3f9-a7f3-984b-3fda">
               <constraints>
-                <constraint type="max" value="3" field="selections" scope="force" shared="true" id="4f87-3280-8817-9aa0" includeChildSelections="true"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4f87-3280-8817-9aa0" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
             <categoryLink name="Prime Retinue" hidden="false" id="f067-4ed1-baca-a150" targetId="c66b-ef39-b20f-725b">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="01b3-450e-6e90-b041" includeChildSelections="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01b3-450e-6e90-b041" includeChildSelections="true"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
@@ -4314,7 +4314,7 @@
             </categoryLink>
             <categoryLink name="Prime Troops" hidden="false" id="1f28-33ad-3ff7-a318" targetId="c3f9-a7f3-984b-3fda">
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f373-8abc-11b3-fd79" includeChildSelections="true"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f373-8abc-11b3-fd79" includeChildSelections="false"/>
               </constraints>
             </categoryLink>
           </categoryLinks>
