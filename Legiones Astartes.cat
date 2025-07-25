@@ -5203,6 +5203,7 @@
             <categoryLink targetId="aa5a-c9fd-1eb1-7a45" id="340a-4600-e452-d8ef" primary="false" name="Vehicle Model Type"/>
             <categoryLink targetId="4d42-b711-7946-8e15" id="d64c-16c3-d261-c58f" primary="false" name="Super-heavy Model Sub-Type"/>
             <categoryLink targetId="42a3-02e9-e0e4-8292" id="a06f-e1da-e63d-41da" primary="false" name="Flyer Model Sub-Type"/>
+            <categoryLink targetId="2e6d-36f6-eeca-8e0c" id="ef1c-213c-dab0-fe2e" primary="false" name="Transport Model Sub-Type"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5267,7 +5268,84 @@
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mastodon Super-Heavy Assault Transport" hidden="false" id="d29b-64ce-e91e-75fa"/>
+    <selectionEntry type="unit" import="true" name="Mastodon Super-Heavy Assault Transport" hidden="false" id="d29b-64ce-e91e-75fa">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mastodon Super-Heavy Assault Transport" hidden="false" id="73a0-8059-8a7c-67f9">
+          <categoryLinks>
+            <categoryLink targetId="aa5a-c9fd-1eb1-7a45" id="10d8-0e1c-47b8-6066" primary="false" name="Vehicle Model Type"/>
+            <categoryLink targetId="4d42-b711-7946-8e15" id="a17a-42fa-9b2d-0309" primary="false" name="Super-heavy Model Sub-Type"/>
+            <categoryLink targetId="2e6d-36f6-eeca-8e0c" id="4c00-8c64-31dd-a57a" primary="false" name="Transport Model Sub-Type"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Mastodon Super-Heavy Assault Transport" typeId="2a80-eec8-a736-2fe3" typeName="Vehicle" hidden="false" id="fbf1-bb0b-d02e-a5fb">
+              <characteristics>
+                <characteristic name="Type" typeId="827f-9ce2-2118-e134">Vehicle (Transport, Super-heavy)</characteristic>
+                <characteristic name="M" typeId="d624-72fe-0205-4443">10</characteristic>
+                <characteristic name="BS" typeId="a17e-8e7d-d21f-c138">4</characteristic>
+                <characteristic name="Front Armour" typeId="6536-e73d-4a74-c675">14</characteristic>
+                <characteristic name="Side Armour" typeId="f03a-18a7-8586-273d">14</characteristic>
+                <characteristic name="Rear Armour" typeId="ec84-1f5d-1bb3-6826">14</characteristic>
+                <characteristic name="HP" typeId="8735-4497-1f8a-4dda">20</characteristic>
+                <characteristic name="Transport Capacity" typeId="a82e-858c-9aa9-2b43">42</characteristic>
+                <characteristic name="Access Points" typeId="ffe7-e997-ea4e-6c2d">Front, Rear</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7aa6-f4f7-3f1c-e623" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="004c-a459-c853-c513" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Options" id="7f22-6894-7375-119f" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Legion Sponson Weapons" hidden="false" id="8d57-a26a-b172-7097" type="selectionEntryGroup" targetId="df25-ac22-5bbd-0e44" sortIndex="1">
+              <modifiers>
+                <modifier type="set" value="Sponsons #1" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Legion Sponson Weapons" hidden="false" id="bbda-45c7-09c2-24cd" type="selectionEntryGroup" targetId="df25-ac22-5bbd-0e44" sortIndex="2">
+              <modifiers>
+                <modifier type="set" value="Sponsons #2" field="name"/>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Hunter-killer missile" hidden="false" id="a1e8-2fea-3e49-30bb" type="selectionEntry" targetId="b9b7-8297-35b5-74ad" sortIndex="3">
+              <modifiers>
+                <modifier type="prepend" value="Hull (Front) Mounted" field="name"/>
+              </modifiers>
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0495-2f28-9827-0b04" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Searchlight" hidden="false" id="fd71-7cb5-957e-7a57" type="selectionEntry" targetId="5a85-bf28-f790-7bf0" sortIndex="4">
+              <costs>
+                <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa74-b437-cb95-3a9d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="[Allegiance]" id="a067-19cc-3f2a-0dcf" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="0bf6-f345-b17f-cebc" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+        <infoLink name="Smokescreen" id="f2fe-9f62-1bf1-b9f3" hidden="false" type="profile" targetId="12ec-97aa-0b8a-7573"/>
+      </infoLinks>
+      <rules>
+        <rule name="Mastodon Transport Bay" id="e072-e4f5-b964-a208" hidden="false"/>
+      </rules>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="600"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sokar Stormbird" hidden="false" id="c2de-41c2-f4fa-996c">
       <entryLinks>
         <entryLink import="true" name="Hellstrike missile" hidden="false" id="3074-4e39-05c0-ce6d" type="selectionEntry" targetId="f5a3-87a2-b39d-735c">
@@ -5332,6 +5410,7 @@
             <categoryLink targetId="aa5a-c9fd-1eb1-7a45" id="5519-46ae-7f97-2183" primary="false" name="Vehicle Model Type"/>
             <categoryLink targetId="4d42-b711-7946-8e15" id="384c-d242-ff51-16a7" primary="false" name="Super-heavy Model Sub-Type"/>
             <categoryLink targetId="42a3-02e9-e0e4-8292" id="2047-d70c-52e3-0ed8" primary="false" name="Flyer Model Sub-Type"/>
+            <categoryLink targetId="2e6d-36f6-eeca-8e0c" id="12a9-5dee-a37b-90c6" primary="false" name="Transport Model Sub-Type"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5919,6 +5998,12 @@
     <entryLink import="true" name="Thunderhawk Gunship" hidden="false" id="3021-aba6-c334-8021" type="selectionEntry" targetId="d1dc-6a65-136b-7d33">
       <categoryLinks>
         <categoryLink targetId="a46f-a465-0ead-d6b8" id="5672-0538-f290-07f5" primary="false" name="Lord of War"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mastodon Super-Heavy Assault Transport" hidden="false" id="b5b8-0faa-79e7-0656" type="selectionEntry" targetId="d29b-64ce-e91e-75fa">
+      <comment>Lord of War</comment>
+      <categoryLinks>
+        <categoryLink targetId="a46f-a465-0ead-d6b8" id="3a47-792b-377a-4ab9" primary="true" name="Lord of War"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
