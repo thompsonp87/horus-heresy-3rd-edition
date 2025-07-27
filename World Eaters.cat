@@ -250,6 +250,7 @@ Furthermore, if a Model with this Special Rule is part of an Army, then the foll
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e995-280c-cbeb-f0b8"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Prime Unit" hidden="false" id="5c0e-08c7-65a1-cdb0" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2"/>
       </entryLinks>
       <costs>
         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="47"/>
@@ -437,6 +438,9 @@ Any Hit Tests made in the Assault Phase that target a Unit that includes one or 
           </conditions>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Prime Unit" hidden="false" id="9084-a3e6-6ef2-69ce" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lotara Sarrin" hidden="false" id="e628-409b-5f93-170a">
       <categoryLinks>
@@ -558,6 +562,9 @@ If a Unit includes a Model with this Special Rule, during the Start Phase of the
           </conditions>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Prime Unit" hidden="false" id="fc0c-4f2b-f51f-a41c" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Angron Transfigured" hidden="false" id="eb31-de9c-e5ef-a9ac">
       <costs>
@@ -961,10 +968,7 @@ If a Unit includes a Model with this Special Rule, during the Start Phase of the
             <selectionEntry type="upgrade" import="true" name="Legion Tactica: WE" hidden="false" id="76a0-5e6b-d5c1-2c48">
               <rules>
                 <rule name="The Nails&apos; Bite" id="7b8c-068a-9985-9b71" hidden="false">
-                  <description>&quot;&quot;
-
-
-</description>
+                  <description>&quot;&quot;</description>
                 </rule>
               </rules>
               <constraints>
@@ -1055,7 +1059,7 @@ On any Turn in which they made a Charge Move, Models with this Special Rule modi
         <selectionEntry type="upgrade" import="true" name="Chain-bonded" hidden="false" id="1e72-0834-c2e7-16a5">
           <rules>
             <rule name="Chain-brothers" id="262c-556a-b346-4253" hidden="false">
-              <description>While a Model with this Special Rule is within Unit Coherency of the other Model from your Army with this Special Rule, that Model gains a bonus of +1 to Hit Tests made in the Assault Phase. If a Model that is engaged in a Challenge is in the same Combat as the other Model from your Army with this Special Rule, that Model is treated as being in Unit Coherency  with that other Model for the purposes of this Special Rule. </description>
+              <description>While a Model with this Special Rule is within Unit Coherency of the other Model from your Army with this Special Rule, that Model gains a bonus of +1 to Hit Tests made in the Assault Phase. If a Model that is engaged in a Challenge is in the same Combat as the other Model from your Army with this Special Rule, that Model is treated as being in Unit Coherency  with that other Model for the purposes of this Special Rule.</description>
             </rule>
             <rule name="Chain-bonded" id="b20c-76b7-0109-ebd7" hidden="false">
               <description>This Prime Advantage can only be selected once per Army. When this Prime Advantage is selected, the Controlling Player must select another Unit which only includes Models with the World Eaters Trait that has the Command Battlefield Role from their Army. One Model in the selected Unit and one Model in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage both gain the Chain-brothers Special Rule.</description>
@@ -1079,17 +1083,17 @@ On any Turn in which they made a Charge Move, Models with this Special Rule modi
   <forceEntries>
     <forceEntry name="Auxiliary Detachment - Berserker Cadre" id="bda6-c5d3-eafc-4eb5" hidden="false">
       <categoryLinks>
-        <categoryLink name="Prime Heavy assault" hidden="false" id="bd12-1650-bf1a-e19c" targetId="1e95-35f0-1353-ffa1" type="categoryEntry">
+        <categoryLink name="Prime Heavy assault" hidden="false" id="bd12-1650-bf1a-e19c" targetId="1e95-35f0-1353-ffa1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb50-f24e-7444-9d43"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Heavy Assault" hidden="false" id="ed75-c1e4-47c0-af3f" targetId="3235-bd79-e9b1-60fa" type="categoryEntry">
+        <categoryLink name="Heavy Assault" hidden="false" id="ed75-c1e4-47c0-af3f" targetId="3235-bd79-e9b1-60fa">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7193-2b1c-1938-61ae"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Elites" hidden="false" id="e9ad-aa99-a589-92cf" targetId="5d5e-958f-e388-50b5" type="categoryEntry">
+        <categoryLink name="Elites" hidden="false" id="e9ad-aa99-a589-92cf" targetId="5d5e-958f-e388-50b5">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="306d-42d8-ef52-c726"/>
           </constraints>
@@ -1099,12 +1103,12 @@ On any Turn in which they made a Charge Move, Models with this Special Rule modi
     </forceEntry>
     <forceEntry name="Auxiliary Detachment - Sons of Bodt" id="9bfb-c160-31df-9108" hidden="false">
       <categoryLinks>
-        <categoryLink name="Prime Support" hidden="false" id="261c-10f1-b1bd-994f" targetId="1c79-ecdf-9a64-84c9" type="categoryEntry">
+        <categoryLink name="Prime Support" hidden="false" id="261c-10f1-b1bd-994f" targetId="1c79-ecdf-9a64-84c9">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4f62-e0d0-4242-c305"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Troops" hidden="false" id="f5e1-8893-18e5-afd2" targetId="88e6-d373-4152-0dd8" type="categoryEntry">
+        <categoryLink name="Troops" hidden="false" id="f5e1-8893-18e5-afd2" targetId="88e6-d373-4152-0dd8">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4e96-bf2a-2ed0-1f7e"/>
           </constraints>
