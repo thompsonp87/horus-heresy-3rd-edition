@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="ac06-fcec-b634-5bd9" name="                        XVI - Sons of Horus" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="1" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="ac06-fcec-b634-5bd9" name="                        XVI - Sons of Horus" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="2" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Horus Lupercal" hidden="false" id="c0a2-76a5-6a6f-82bc">
       <selectionEntries>
@@ -33,6 +33,491 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="22ee-7208-4089-b005" id="8015-088e-b803-528a" primary="true" name="Warlord"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ezekyle Abbadon" hidden="false" id="aa7d-73fa-eaac-d951">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ezekyle Abbadon" hidden="false" id="20a3-8f5f-b252-8991">
+          <profiles>
+            <profile name="Ezekyle Abbadon" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="5b5d-14fa-b780-38a6">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e859-1907-dfad-b721"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4fe-3575-233c-7881"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="473c-0403-69a9-b1b8" primary="true" name="High Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Dark Emmissary" hidden="false" id="ac51-dccb-d5ff-3d20">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Dark Emmissary" hidden="false" id="f0cd-2432-330b-9652">
+          <profiles>
+            <profile name="Dark Emmissary" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="c7ff-55bb-f502-4a44">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2db-9df6-da41-7aa8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="316d-5d58-1e5c-02ae"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="cbe3-b5a9-a485-c2a3" primary="true" name="Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Vheren Ashurhaddon" hidden="false" id="6b99-8ee6-accb-c1e3">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Vheren Ashurhaddon" hidden="false" id="d245-a974-f175-5581">
+          <profiles>
+            <profile name="Vheren Ashurhaddon" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f0f5-4b75-d429-99bd">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="02d2-a8f8-7647-5a97" primary="true" name="High Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Horus Ascended" hidden="false" id="79f3-7312-bae4-da6c">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Horus Ascended" hidden="false" id="b6a8-4a03-a8b5-87de">
+          <profiles>
+            <profile name="Horus Ascended" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="f1c9-3360-a9eb-1940">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0e15-6671-db8b-6ff7"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="22ee-7208-4089-b005" id="d647-70cd-cf93-966b" primary="true" name="Warlord"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Justaerin Terminator Squad" hidden="false" id="3866-f18c-3b7c-3a7e">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Justaerin" hidden="false" id="79ba-f89e-d130-48a5">
+          <profiles>
+            <profile name="Justaerin" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="1b2d-763c-60e5-069a">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="4018-5203-3770-1c1a"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="a5ee-75f3-d823-ba37"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="5d5e-958f-e388-50b5" id="2f4d-b0e7-ab84-5a87" primary="true" name="Elites"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="&apos;Little&apos; Horus Aximand " hidden="false" id="f9ac-f2fc-fbb3-cc37">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Horus Aximand " hidden="false" id="ec1c-34cc-46a1-f0ea">
+          <profiles>
+            <profile name="Horus Aximand " typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="88b3-6f52-9636-9a29">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca47-6f6b-a97d-02c3"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d67f-6bb7-8031-cec8"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="6d48-4c17-0a15-6f51" primary="true" name="High Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Garviel Loken" hidden="false" id="ed21-80f8-e842-c972">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Garviel Loken" hidden="false" id="d5a5-4f8b-3589-247b">
+          <profiles>
+            <profile name="Garviel Loken" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="0fec-00e1-e665-9e4a">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e66b-89ce-1a2b-061b"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32c3-f524-76c6-e92c"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="4e8f-159f-eeb2-5587" primary="true" name="High Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tybalt Marr" hidden="false" id="df11-d2e3-cfd8-a189">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Tybalt Marr" hidden="false" id="a1c6-ebab-02ac-8cf4">
+          <profiles>
+            <profile name="Tybalt Marr" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="21ea-e1a2-54c9-5b68">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4b0-f1cb-a3c6-43db"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4316-dd65-da5f-9a1b"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="d9a6-9b5f-b18a-4d63" id="ebe7-f9fd-141e-bfe1" primary="true" name="High Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reaver Attack Squad" hidden="false" id="8010-21cf-b606-b491">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Reaver Chieftain" hidden="false" id="a7c6-6507-5322-173f" sortIndex="1">
+          <profiles>
+            <profile name="Reaver Chieftain" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="3513-3e0b-cfde-ce43">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1893-978e-5d8f-1e64"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2455-3adc-6e36-54c7"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Reaver" hidden="false" id="0d9d-8a8f-b0f0-abeb" sortIndex="2">
+          <profiles>
+            <profile name="Reaver" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="7403-fbb2-c739-6978">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="f75e-d3e5-66a2-ff68"/>
+            <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="7fea-107e-62a6-1b89"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="3235-bd79-e9b1-60fa" id="a156-c4fa-034d-ea8a" primary="true" name="Heavy Assault"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Maloghurst the Twisted" hidden="false" id="cdbb-e9d2-1c14-4a15">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Maloghurst the Twisted" hidden="false" id="ac63-2820-c12d-0e66">
+          <profiles>
+            <profile name="Maloghurst the Twisted" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="b645-ab6d-8405-be8d">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2ac-0209-9307-e8f6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdd5-67f0-8095-e3e6"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="6dbf-654a-f06f-2d69" id="f6a8-a847-c3e5-fbc9" primary="true" name="Command"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banestrike Bolt Cannon" hidden="false" id="62ff-b042-bbf7-ab75">
+      <profiles>
+        <profile name="Banestrike Bolt Cannon" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="fa5a-dc9b-b068-df60">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">24</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">4</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="1e28-8a40-6097-6767" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banestrike bolter" hidden="false" id="e031-bf89-67b6-744a">
+      <profiles>
+        <profile name="Banestrike bolter" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="d481-3391-c23d-3a96">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="bf6e-47b2-3d87-f9b1" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Banestrike combi-bolter" hidden="false" id="5e46-b31d-5fa3-fbcd">
+      <profiles>
+        <profile name="Banestrike combi-bolter" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="3eb0-1778-a4c6-ce9e">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">4</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Breaching (6+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Bolt</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="9752-7247-6e53-7462" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Casoran power axe" hidden="false" id="196a-6316-4c52-e90b">
+      <profiles>
+        <profile name="Casoran power axe" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="074e-bbc5-c6b3-ec58">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-1</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+1</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">3</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Breaching (5+), Shred (5+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="f4c7-dcb6-54f8-8200" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred (X)" id="607f-7fd0-9a32-bec9" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <modifiers>
+            <modifier type="set" value="Shred (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Casoran power tabar" hidden="false" id="8fde-41bb-9695-74b1">
+      <profiles>
+        <profile name="Casoran power tabar" typeId="3587-6dcd-005c-c263" typeName="Melee Weapon" hidden="false" id="cbcb-5f6f-4deb-bb64">
+          <characteristics>
+            <characteristic name="IM" typeId="6eec-4093-f946-1014">-2</characteristic>
+            <characteristic name="AM" typeId="03d0-6094-84f0-e27e">A</characteristic>
+            <characteristic name="SM" typeId="4505-de6f-d4ae-6280">+2</characteristic>
+            <characteristic name="AP" typeId="a014-126b-3b7b-27e8">3</characteristic>
+            <characteristic name="D" typeId="6a9d-4feb-065a-33e7">1</characteristic>
+            <characteristic name="Special Rules" typeId="ebe0-7b28-b40c-694e">Breaching (5+), Shred (5+)</characteristic>
+            <characteristic name="Traits" typeId="76e3-c188-bc65-3467"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Breaching (X)" id="1141-ce51-8c30-0e8f" hidden="false" type="rule" targetId="b094-0b64-eb57-aed6">
+          <modifiers>
+            <modifier type="set" value="Breaching (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred (X)" id="baed-dcb0-d9d0-01c3" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <modifiers>
+            <modifier type="set" value="Shred (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
@@ -43,4 +528,90 @@
     <catalogueLink type="catalogue" name="Assets" id="57dc-157b-748c-cfd0" targetId="5334-5605-242c-d75e" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Legiones Astartes" id="6f53-c67c-1368-1a62" targetId="9b32-f350-6aa9-9c09" importRootEntries="true"/>
   </catalogueLinks>
+  <forceEntries>
+    <forceEntry name="Supremecy Cadre" id="2436-a714-22cc-fd31" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Prime Troops" hidden="false" id="6b3b-458b-ed58-04e5" targetId="c3f9-a7f3-984b-3fda" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6e61-be9c-766f-f4d8"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Heavy Assault" hidden="false" id="10c1-896f-b211-13bd" targetId="3235-bd79-e9b1-60fa" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a480-63e7-44a4-69f3"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="7340-7adf-6118-33eb" targetId="5d5e-958f-e388-50b5" type="categoryEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84a5-959c-6e92-f406"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Rite of War:" id="ebd5-242a-8c7c-be02" hidden="false" defaultSelectionEntryId="badf-1b55-f615-4eb3">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Legiones Astartes Sons of Horus" hidden="false" id="90e3-24ff-0619-e021">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gambit: A Saga Woven of Glory" hidden="false" id="6236-98d5-4644-d2cb">
+              <profiles>
+                <profile name="A Saga Woven of Glory" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="4763-10a7-dca1-f274">
+                  <characteristics>
+                    <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7">This Gambit increases the Attacks Chracteristic of a Unit that accompanies a Model fighting in a Challenge.</characteristic>
+                    <characteristic name="Description" typeId="2d7d-b1d9-dead-605a">If a Model with this Gambit selected for it is the winner of the Challenge whilst this Gambit is selected and the opposing Model is Removed as a Casualty, all Models in the same Unit as the Model that this Gambit is selected for gain a modifier of +1 to their Attacks Characteristic in the following Fight Sub-phase.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gambit: Merciless Strike" hidden="false" id="33a6-6be3-8b7f-3ca4">
+              <profiles>
+                <profile name="Merciless Strike" typeId="9b5f-da4e-5739-cbcf" typeName="Gambit:" hidden="false" id="2af6-bce7-4a13-eb9e">
+                  <characteristics>
+                    <characteristic name="Summary" typeId="98f3-41cf-e3be-2ae7"/>
+                    <characteristic name="Description" typeId="2d7d-b1d9-dead-605a"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Legion Tactica: SH" hidden="false" id="f2df-05ae-4d29-a45c">
+              <rules>
+                <rule name="Death Dealers" id="c839-3f77-5885-b209" hidden="false">
+                  <description>&quot;&quot;
+
+
+</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Advanced Reaction - Warrior Pride" hidden="false" id="4951-13ad-b9e6-754a">
+              <profiles>
+                <profile name="Warrior Pride" typeId="c14c-ecfd-ea65-58c9" typeName="Reaction" hidden="false" id="4ab0-0960-96d1-672d">
+                  <characteristics>
+                    <characteristic name="Description" typeId="5d02-0e54-0f6a-0f0b">&quot;.&quot;</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Sons of Horus Prime Benefits" id="96c3-9da2-edfa-22df" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Martial Supremecy" hidden="false" id="9a8f-e85c-1bf5-a350">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d34-edf0-8f8f-ad35"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e3b-01e5-b8f5-175e"/>
+          </constraints>
+          <rules>
+            <rule name="Martial Supremecy" id="73c7-8c85-f108-f3cd" hidden="false">
+              <description>Has it&apos;s Base Attacks and Weapon Skill Characteristics modified by +1
+May have it&apos;s power sword exchanged with one frost sword or frost axe for Free, or with one frost claw for +5 Points</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
