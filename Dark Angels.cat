@@ -382,7 +382,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d333-5443-2db2-f082" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Unit" hidden="false" id="8d8e-94ec-f857-c8b1" type="selectionEntryGroup" targetId="4ba7-3137-87b5-10e5"/>
+        <entryLink import="true" name="Prime Unit" hidden="false" id="8d8e-94ec-f857-c8b1" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2"/>
       </entryLinks>
       <comment>Retinue</comment>
     </selectionEntry>
@@ -420,7 +420,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed90-bcd5-4796-3b27" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Unit" hidden="false" id="5225-eb05-6b7a-932f" type="selectionEntryGroup" targetId="4ba7-3137-87b5-10e5"/>
+        <entryLink import="true" name="Prime Unit" hidden="false" id="5225-eb05-6b7a-932f" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2"/>
       </entryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Interemptor Praefectus" hidden="false" id="b9cc-f676-273f-a094">
@@ -694,7 +694,7 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0472-f871-f6b5-80a9" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Prime Unit" hidden="false" id="4edf-74d7-ceb9-d5e2" type="selectionEntryGroup" targetId="4ba7-3137-87b5-10e5"/>
+        <entryLink import="true" name="Prime Unit" hidden="false" id="4edf-74d7-ceb9-d5e2" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2"/>
       </entryLinks>
       <comment>Elite</comment>
     </selectionEntry>
