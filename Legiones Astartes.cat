@@ -8089,7 +8089,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="17"/>
             <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
             <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
           </costs>
@@ -8136,6 +8136,11 @@
         <categoryLink targetId="594d-fa82-13cb-a345" id="e0e3-66e3-501e-7873" primary="false" name="Infantry Model Type"/>
         <categoryLink targetId="d2d6-5a84-672b-2833" id="cea4-7173-5b37-b720" primary="false" name="Skirmish Model Sub-Type"/>
       </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="42"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sabre" hidden="false" id="e62b-3d98-8678-1f97" sortIndex="54">
       <selectionEntryGroups>
