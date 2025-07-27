@@ -2501,7 +2501,7 @@
         <categoryLink targetId="3235-bd79-e9b1-60fa" id="6e0a-df48-e836-7209" primary="true" name="Heavy Assault"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Charonite ogryn" hidden="false" id="a81b-cc98-1357-5266" sortIndex="1">
+        <selectionEntry type="model" import="true" name="Charonite ogryn" hidden="false" id="a81b-cc98-1357-5266" sortIndex="1">
           <costs>
             <cost name="Point(s)" typeId="9893-c379-920b-8982" value="40"/>
             <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
@@ -3145,10 +3145,26 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="40"/>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
             <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
             <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
           </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Exchange volkite caliver for:" id="b550-a95d-1bf8-d21d" hidden="false" defaultSelectionEntryId="5806-a8ee-06ea-6423">
+              <entryLinks>
+                <entryLink import="true" name="Volkite caliver" hidden="false" id="5806-a8ee-06ea-6423" type="selectionEntry" targetId="a042-1a69-9052-c59a" sortIndex="1"/>
+                <entryLink import="true" name="Heavy flamer" hidden="false" id="5228-ddf3-6ccb-6846" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="3" field="9893-c379-920b-8982"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1840-d574-4b83-7722"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b963-b79c-d511-75c2"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3180,12 +3196,189 @@
             <modifier type="set" value="Vanguard (2)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="[Allegiance]" id="cec3-a0ba-7cc3-7401" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
       </infoLinks>
+      <profiles>
+        <profile name="Solar Auxilia" typeId="d5a9-9164-1e30-7a35" typeName="Traits" hidden="false" id="5f1e-ee43-e5a7-8455">
+          <characteristics>
+            <characteristic name="Description" typeId="d5eb-0b8b-0f26-6233"/>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Aethon Heavy Sentinel Squadron" hidden="false" id="ab2e-5984-a5b1-5253">
       <categoryLinks>
         <categoryLink targetId="2499-7239-685f-8465" id="deb1-4eb5-112e-06c6" primary="true" name="War-engine"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Aethon Heavy Sentinel" hidden="false" id="5c2a-5948-7dea-b5b9">
+          <profiles>
+            <profile name="Aethon Heavy Sentinel" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="d847-29d1-035d-463c">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Walker (Skirmish)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">7</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">3</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">3</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">6</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">6</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">5</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">3</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">2</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">9</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">10</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">6</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">2</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">2+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e169-c9e2-1b8a-ae39"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="75db-8a91-b6c0-3d38"/>
+          </constraints>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="60"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Exchange multi-laser for:" id="387f-8fba-2195-31d4" hidden="false" defaultSelectionEntryId="0270-5929-3727-0307" sortIndex="1">
+              <entryLinks>
+                <entryLink import="true" name="Autocannon" hidden="false" id="44b2-79e5-c7c0-462f" type="selectionEntry" targetId="da6e-3b8a-ea61-1e93" sortIndex="2">
+                  <modifiers>
+                    <modifier type="set" value="10" field="9893-c379-920b-8982"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Volkite culverin" hidden="false" id="734b-9f1e-152b-bf90" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7" sortIndex="3">
+                  <modifiers>
+                    <modifier type="set" value="7" field="9893-c379-920b-8982"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Lascannon" hidden="false" id="0edc-d958-3d88-2e4d" type="selectionEntry" targetId="b6d5-4be2-c37e-2197" sortIndex="4">
+                  <modifiers>
+                    <modifier type="set" value="15" field="9893-c379-920b-8982"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy incinerator" hidden="false" id="638a-44cd-26f0-5239" type="selectionEntry" targetId="6617-5acd-a2a3-6c86" sortIndex="5">
+                  <modifiers>
+                    <modifier type="set" value="10" field="9893-c379-920b-8982"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Melta lance" hidden="false" id="6b0c-5fae-5e78-f62b" type="selectionEntry" targetId="a5b9-1888-e61e-0421" sortIndex="6">
+                  <modifiers>
+                    <modifier type="set" value="20" field="9893-c379-920b-8982"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Multi-laser" hidden="false" id="0270-5929-3727-0307" type="selectionEntry" targetId="247d-a71c-d493-790b" sortIndex="1"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22ee-6b98-863f-fdee"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10ed-424d-e65d-17ae"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Exchange Aethon missile battery for:" id="51f1-cda4-c1e8-a097" hidden="false" defaultSelectionEntryId="d0ed-39d3-e4e7-87bb" sortIndex="2">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Aethon missile battery" hidden="false" id="d0ed-39d3-e4e7-87bb">
+                  <profiles>
+                    <profile name="Aethon missile battery" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="6ef8-4fab-eda7-e447">
+                      <characteristics>
+                        <characteristic name="R" typeId="cdb0-8654-6840-1037">30</characteristic>
+                        <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+                        <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">4</characteristic>
+                        <characteristic name="AP" typeId="7a23-0248-2b94-5951">5</characteristic>
+                        <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">2</characteristic>
+                        <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Blast (5&quot;), Barrage (1), Stun (1)</characteristic>
+                        <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d9fb-c6a8-c7ce-6261"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d86-5e4b-7874-4b24"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Blast (X)" id="03f8-b4fc-de91-21cd" hidden="false" type="rule" targetId="8687-05f8-7034-412c">
+                      <modifiers>
+                        <modifier type="set" value="Blast (5&quot;)" field="name">
+                          <comment>5</comment>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Barrage (X)" id="015a-ebd5-4506-05c9" hidden="false" type="rule" targetId="85f5-3a91-69f4-c3b7">
+                      <modifiers>
+                        <modifier type="set" value="Barrage (1)" field="name">
+                          <comment>1</comment>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink name="Stun (X)" id="29df-196d-e74b-8a2a" hidden="false" type="rule" targetId="c7c1-bbc9-f852-6f71">
+                      <modifiers>
+                        <modifier type="set" value="Stun (1)" field="name">
+                          <comment>1</comment>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Hunter-killer missile battery" hidden="false" id="5dc5-e942-ab0f-4f56">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="15"/>
+                    <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+                    <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Hunter-killer missile battery" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="9f79-7e5e-c395-c87a">
+                      <characteristics>
+                        <characteristic name="R" typeId="cdb0-8654-6840-1037">48</characteristic>
+                        <characteristic name="FP" typeId="5037-1f27-1790-e355">2</characteristic>
+                        <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+                        <characteristic name="AP" typeId="7a23-0248-2b94-5951">3</characteristic>
+                        <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">3</characteristic>
+                        <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Armoubane, Limited (2)</characteristic>
+                        <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">missile</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Armourbane" id="d073-9bef-bfed-45d0" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+                    <infoLink name="Limited (X)" id="aa3d-0e0f-c603-6049" hidden="false" type="rule" targetId="fe57-5bea-a3de-1e60">
+                      <modifiers>
+                        <modifier type="set" value="Limited (2)" field="name">
+                          <comment>2</comment>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00e6-891d-64fa-8409"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f10c-e382-ba2c-2234"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Prime Unit" hidden="false" id="396b-a702-2c49-ef90" type="selectionEntry" targetId="3fa2-78b1-637f-7fb2" sortIndex="3"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Bulky (X)" id="29f5-6e62-9a34-be54" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25">
+          <modifiers>
+            <modifier type="set" value="Bulky (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Slow and Purposeful" id="e612-5dd3-b45b-1a84" hidden="false" type="rule" targetId="6a8e-e508-abc9-cb3e"/>
+        <infoLink name="[Allegiance]" id="cea3-d2b0-44e7-c538" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Solar Auxilia" typeId="d5a9-9164-1e30-7a35" typeName="Traits" hidden="false" id="c204-0738-d0ac-dc74">
+          <characteristics>
+            <characteristic name="Description" typeId="d5eb-0b8b-0f26-6233"/>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Arvus Lighter" hidden="false" id="b42c-4380-99ba-1a9e">
       <categoryLinks>
@@ -3702,6 +3895,63 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy incinerator" hidden="false" id="6617-5acd-a2a3-6c86">
+      <profiles>
+        <profile name="Heavy incinerator" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="29a2-5180-e7c8-153d">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">Template</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">6</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">4</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">1</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Template, Panic (1), Shred (4+)</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Flame</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Template" id="d6b7-6f27-7063-ace1" hidden="false" type="rule" targetId="7df2-9e88-3285-cf6a"/>
+        <infoLink name="Panic (X)" id="c915-bfd1-de37-92a2" hidden="false" type="rule" targetId="82a7-f471-3fda-6ca1">
+          <modifiers>
+            <modifier type="set" value="Panic (1)" field="name">
+              <comment>1</comment>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Shred (X)" id="37ab-bef6-2b39-0e98" hidden="false" type="rule" targetId="d01e-f96b-b5c1-8fb1">
+          <modifiers>
+            <modifier type="set" value="Shred (4+)" field="name">
+              <comment>4</comment>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Melta lance" hidden="false" id="a5b9-1888-e61e-0421">
+      <profiles>
+        <profile name="Melta lance" typeId="c591-09ed-3e6f-eb2b" typeName="Ranged Weapon" hidden="false" id="884e-2023-0464-c91c">
+          <characteristics>
+            <characteristic name="R" typeId="cdb0-8654-6840-1037">18</characteristic>
+            <characteristic name="FP" typeId="5037-1f27-1790-e355">1</characteristic>
+            <characteristic name="RS" typeId="b9da-ee13-79f9-fa63">9</characteristic>
+            <characteristic name="AP" typeId="7a23-0248-2b94-5951">2</characteristic>
+            <characteristic name="D" typeId="88c3-1ca5-7dc1-f291">4</characteristic>
+            <characteristic name="Special Rules" typeId="5aad-137a-8ee2-63fd">Heavy (RS), Armourbane</characteristic>
+            <characteristic name="Traits" typeId="1247-79d2-6cc1-8a03">Melta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Heavy (X)" id="73d5-6198-fc10-7470" hidden="false" type="rule" targetId="bc30-3b33-2683-01a2">
+          <modifiers>
+            <modifier type="set" value="Heavy (RS)" field="name">
+              <comment>RS</comment>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Armourbane" id="41c3-46b1-1553-393a" hidden="false" type="rule" targetId="36ee-4c54-bced-a696"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Special Rules" id="6523-64cb-9da8-764f" targetId="106b-693b-99f2-00c3"/>
@@ -3858,5 +4108,7 @@
     <entryLink import="true" name="Charonite Ogryn Section" hidden="false" id="bf1c-1029-d4ab-4db6" type="selectionEntry" targetId="bc99-f75e-c0b6-6c0f"/>
     <entryLink import="true" name="Basilisk Artillery Tank" hidden="false" id="c9f3-c058-0758-2409" type="selectionEntry" targetId="9757-288f-c3cd-bd7f"/>
     <entryLink import="true" name="Medusa Artillery Tank" hidden="false" id="2ceb-9daf-1ed7-70e5" type="selectionEntry" targetId="f15b-8333-252f-b85b"/>
+    <entryLink import="true" name="Hermes Veletaris Squadron" hidden="false" id="61db-f02b-f101-3a2c" type="selectionEntry" targetId="473a-0dcd-6dd3-746d"/>
+    <entryLink import="true" name="Aethon Heavy Sentinel Squadron" hidden="false" id="50d0-0eac-5b4b-e17b" type="selectionEntry" targetId="ab2e-5984-a5b1-5253"/>
   </entryLinks>
 </catalogue>
