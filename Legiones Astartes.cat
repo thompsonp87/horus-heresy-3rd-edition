@@ -7858,6 +7858,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <selectionEntry type="unit" import="true" name="Reconnaissance Squad" hidden="false" id="c89b-1138-0523-4a9f" sortIndex="53">
       <selectionEntries>
@@ -8756,6 +8759,36 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+<<<<<<< Updated upstream
+=======
+    <selectionEntry type="unit" import="true" name="Land Speeder Squadron" hidden="false" id="7ebb-cdb2-017e-7c51" sortIndex="63">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Land Speeder" hidden="false" id="efac-b5ce-a4a3-7273">
+          <profiles>
+            <profile name="Land Speeder" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="3b26-9f37-eefa-2a18">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
+                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+>>>>>>> Stashed changes
     <selectionEntry type="unit" import="true" name="Sicaran" hidden="false" id="4d65-cef9-42c6-dd2c" sortIndex="65">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Sicaran" hidden="false" id="ece3-baad-8a65-1cf7">
