@@ -5828,6 +5828,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b64b-4ca7-437d-262a" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="b64b-4ca7-437d-262a">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange combi-bolter for:" id="2e3b-a5ee-70d8-76f6" hidden="false" collapsible="false" defaultSelectionEntryId="f838-a63a-5a8b-43ee" sortIndex="1">
                   <entryLinks>
@@ -5847,6 +5854,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d027-61f0-9b0a-9dc1" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="d027-61f0-9b0a-9dc1">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -5860,12 +5874,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1047-86bc-2a97-2894" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1047-86bc-2a97-2894" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f1f3-a12f-e1e5-6dae" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="1047-86bc-2a97-2894">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="f1f3-a12f-e1e5-6dae">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5913,6 +5933,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3e9-d7f8-a12e-0fb8" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="d3e9-d7f8-a12e-0fb8">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange combi-bolter for:" id="241c-e46e-61c9-eb2b" hidden="false" collapsible="false" defaultSelectionEntryId="83a2-a5a8-22e7-fd1d" sortIndex="1">
                   <entryLinks>
@@ -5923,6 +5950,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a324-37ea-711a-eae5" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="a324-37ea-711a-eae5">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -5936,12 +5970,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5664-52cf-6acd-3ca2" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5664-52cf-6acd-3ca2" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9c4d-d838-406d-d05d" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="5664-52cf-6acd-3ca2">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="9c4d-d838-406d-d05d">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6031,12 +6071,19 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3816-f61b-0bfc-0301" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="3816-f61b-0bfc-0301">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange volkite charger for:" id="f536-70d5-1cb0-2fc2" hidden="false" collapsible="false" defaultSelectionEntryId="c86a-0146-f187-75bf" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="a8e0-2f12-2ab9-8566" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="28a7-3413-3a18-82ba" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="2"/>
-                    <entryLink import="true" name="Volkite charger" hidden="false" id="c86a-0146-f187-75bf" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1"/>
+                    <entryLink import="true" name="Combi-bolter" hidden="false" id="28a7-3413-3a18-82ba" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="" sortIndex="2"/>
+                    <entryLink import="true" name="Volkite charger" hidden="false" id="c86a-0146-f187-75bf" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1" defaultAmount="1"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c21-b908-7351-0479" includeChildSelections="false"/>
@@ -6063,7 +6110,7 @@
                       <modifiers>
                         <modifier type="increment" value="1" field="2e85-c168-e3f7-9fb2">
                           <repeats>
-                            <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false"/>
+                            <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                           </repeats>
                         </modifier>
                       </modifiers>
@@ -6072,6 +6119,13 @@
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <modifiers>
+                    <modifier type="set" value="0" field="9c21-b908-7351-0479">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -6085,12 +6139,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9da0-1a05-9a3a-22ce" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9da0-1a05-9a3a-22ce" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b0c8-a169-9a0f-f9b7" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="9da0-1a05-9a3a-22ce">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="b0c8-a169-9a0f-f9b7">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6137,16 +6197,30 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c3a-8fdf-597a-316d" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="3c3a-8fdf-597a-316d">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange volkite charger for:" id="cad3-0f7c-67ff-7200" hidden="false" collapsible="false" defaultSelectionEntryId="2751-1e6a-5a56-94ae" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="2e9e-2cec-79d5-9a30" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="effc-1d05-01ac-a89e" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="2"/>
-                    <entryLink import="true" name="Volkite charger" hidden="false" id="2751-1e6a-5a56-94ae" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1"/>
+                    <entryLink import="true" name="Combi-bolter" hidden="false" id="effc-1d05-01ac-a89e" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="" sortIndex="2"/>
+                    <entryLink import="true" name="Volkite charger" hidden="false" id="2751-1e6a-5a56-94ae" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1" defaultAmount="1"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a55-9725-f2cb-1169" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="5a55-9725-f2cb-1169">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -6160,12 +6234,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8304-1577-d09a-08e2" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8304-1577-d09a-08e2" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="42e3-8ace-b7b8-07d2" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="8304-1577-d09a-08e2">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="42e3-8ace-b7b8-07d2">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6368,6 +6448,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14db-01dc-b108-7623" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="14db-01dc-b108-7623">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange combi-bolter for:" id="739a-cf17-19e6-cdf5" hidden="false" collapsible="false" defaultSelectionEntryId="e6c9-e05e-9b8e-13a4" sortIndex="1">
                   <entryLinks>
@@ -6400,7 +6487,7 @@
                       <modifiers>
                         <modifier type="increment" value="1" field="099b-19a3-0621-a139">
                           <repeats>
-                            <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false"/>
+                            <repeat value="5" repeats="1" field="selections" scope="unit" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
                           </repeats>
                         </modifier>
                       </modifiers>
@@ -6409,6 +6496,13 @@
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <modifiers>
+                    <modifier type="set" value="0" field="6c38-bff5-7993-82f1">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -6422,12 +6516,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="80ee-ce66-5f40-c71d" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="80ee-ce66-5f40-c71d" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6655-dfc5-e204-f3a1" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="80ee-ce66-5f40-c71d">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="6655-dfc5-e204-f3a1">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6474,6 +6574,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b0e-99b5-85cf-625e" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="8b0e-99b5-85cf-625e">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange combi-bolter for:" id="6156-ceda-bd50-37e2" hidden="false" collapsible="false" defaultSelectionEntryId="38ba-1d55-b554-da57" sortIndex="1">
                   <entryLinks>
@@ -6484,6 +6591,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc70-44ec-f3f2-2abf" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="dc70-44ec-f3f2-2abf">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -6498,11 +6612,17 @@
               </entryLinks>
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3a98-1d1b-1711-8f43" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7c6e-1571-3ccc-f5ca" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="3a98-1d1b-1711-8f43">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="3a98-1d1b-1711-8f43">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6591,12 +6711,19 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9a8-cce9-23e3-8145" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="d9a8-cce9-23e3-8145">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange volkite charger for:" id="ae78-015b-e85c-3027" hidden="false" collapsible="false" defaultSelectionEntryId="9c2b-c6e5-6039-5f4f" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="e373-4771-3a9b-4590" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="dd1c-9d67-fd91-4e8e" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="2"/>
-                    <entryLink import="true" name="Volkite charger" hidden="false" id="9c2b-c6e5-6039-5f4f" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1"/>
+                    <entryLink import="true" name="Combi-bolter" hidden="false" id="dd1c-9d67-fd91-4e8e" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="" sortIndex="2"/>
+                    <entryLink import="true" name="Volkite charger" hidden="false" id="9c2b-c6e5-6039-5f4f" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1" defaultAmount="1"/>
                     <entryLink import="true" name="Legion standard" hidden="false" id="7290-92e6-3f4f-ecf1" type="selectionEntry" targetId="df7f-540b-00d5-1d82" sortIndex="4">
                       <costs>
                         <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
@@ -6610,6 +6737,13 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f54e-106b-a9a9-94ef" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="f54e-106b-a9a9-94ef">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -6623,12 +6757,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2ce5-2520-e303-1b82" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2ce5-2520-e303-1b82" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7bd8-b89d-8e58-b5c3" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="2ce5-2520-e303-1b82">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="7bd8-b89d-8e58-b5c3">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6681,16 +6821,30 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7188-cde1-eff5-62c2" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="7188-cde1-eff5-62c2">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May exchange volkite charger for:" id="e0b6-5f03-0d9f-404f" hidden="false" collapsible="false" defaultSelectionEntryId="0f56-368f-972c-bd81" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Legion Combi-weapons" hidden="false" id="7a65-c333-3ab6-3059" type="selectionEntryGroup" targetId="f335-622e-6b0a-6b08" flatten="true" sortIndex="3"/>
-                    <entryLink import="true" name="Combi-bolter" hidden="false" id="e164-398f-fa72-52c1" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="1" sortIndex="2"/>
-                    <entryLink import="true" name="Volkite charger" hidden="false" id="0f56-368f-972c-bd81" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1"/>
+                    <entryLink import="true" name="Combi-bolter" hidden="false" id="e164-398f-fa72-52c1" type="selectionEntry" targetId="042d-9e60-db9e-c147" defaultAmount="" sortIndex="2"/>
+                    <entryLink import="true" name="Volkite charger" hidden="false" id="0f56-368f-972c-bd81" type="selectionEntry" targetId="93e7-6a83-1e9e-204a" sortIndex="1" defaultAmount="1"/>
                   </entryLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca6c-4214-a4a1-5c48" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="ca6c-4214-a4a1-5c48">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
@@ -6704,12 +6858,18 @@
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fc1a-08b7-b66e-b562" includeChildSelections="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="fc1a-08b7-b66e-b562" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="362c-8dbd-091b-d6ac" includeChildSelections="false"/>
               </constraints>
               <modifiers>
                 <modifier type="set" value="1" field="fc1a-08b7-b66e-b562">
                   <conditions>
-                    <condition type="equalTo" value="1" field="selections" scope="unit" childId="6754-24dd-5be0-26ff" shared="true"/>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="1" field="362c-8dbd-091b-d6ac">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="model" childId="6754-24dd-5be0-26ff" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
