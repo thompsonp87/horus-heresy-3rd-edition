@@ -230,6 +230,7 @@
     <categoryEntry name="Flyer Model Sub-Type" id="42a3-02e9-e0e4-8292" hidden="false"/>
     <categoryEntry name="Stable Model Sub-Type" id="3753-39e1-22c2-531b" hidden="false"/>
     <categoryEntry name="Open Beta Release" id="c5ac-45c2-a8a9-e32c" hidden="false"/>
+    <categoryEntry name="Command - Optae Only" id="ee42-a241-c364-489d" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Crusade Force Organization Chart" id="8562-592c-8d4b-a1f0" hidden="false" childForcesLabel="Detachments" sortIndex="1">
@@ -2960,6 +2961,48 @@
               <comment>Mechanicum only</comment>
             </modifier>
           </modifiers>
+        </forceEntry>
+        <forceEntry name="Auxiliary - Primus Demi-Company" id="1da1-f220-0bad-5f78" hidden="true">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="656a-07b6-d4fd-57af" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="656a-07b6-d4fd-57af" shared="true"/>
+                  </conditions>
+                  <comment>UM</comment>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink name="Optae Only" hidden="false" id="cc04-ac5c-f2c5-8c7a" targetId="ee42-a241-c364-489d" type="categoryEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5b4-12a7-164c-df56"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Troops" hidden="false" id="72cf-9728-d681-09a3" targetId="88e6-d373-4152-0dd8">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e4aa-c2f6-e5bb-55f8"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Support" hidden="false" id="6028-9049-4def-98a5" targetId="345f-9ba6-9b02-ed5c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fab5-fa71-cc55-0d54"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Prime Command" hidden="false" id="c183-a899-4051-1be6" targetId="c85c-2963-658f-1bb9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="331d-6635-18c5-0aae" includeChildSelections="true"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink name="Fast Attack" hidden="false" id="f9c1-957f-a121-3bad" targetId="cf96-8891-3f9a-8921">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b6a-83d5-ce04-e8ee"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
         </forceEntry>
       </forceEntries>
       <constraints>
