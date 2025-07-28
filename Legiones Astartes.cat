@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="9b32-f350-6aa9-9c09" name="Legiones Astartes" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="5" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<catalogue library="true" id="9b32-f350-6aa9-9c09" name="Legiones Astartes" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="6" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Rapier Battery" hidden="false" id="5e1a-86ac-b637-daf2" sortIndex="36">
       <profiles>
@@ -8857,32 +8857,92 @@
         <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Javelin Squadron" hidden="false" id="50f3-fca2-49ab-6de4" sortIndex="62">
+    <selectionEntry type="unit" import="true" name="Javelin Squadron" hidden="false" id="50f3-fca2-49ab-6de4" sortIndex="62" defaultAmount="1,3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Javelin Speeder" hidden="false" id="bcab-d669-63bc-66fd">
           <profiles>
-            <profile name="Javelin Speeder" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="252d-4948-967b-a247">
+            <profile name="Javelin Speeder" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="252d-4948-967b-a247" publicationId="b905-0414-1057-bb34" page="101">
               <characteristics>
-                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b"/>
-                <characteristic name="M" typeId="a106-a779-d272-5e93"/>
-                <characteristic name="WS" typeId="253c-d694-4695-c89e"/>
-                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b"/>
-                <characteristic name="S" typeId="498f-dce1-59fd-d8d7"/>
-                <characteristic name="T" typeId="3120-8275-e537-ecd2"/>
-                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d"/>
-                <characteristic name="I" typeId="af9d-7db8-dc95-71c1"/>
-                <characteristic name="A" typeId="024e-bdb1-7982-25a0"/>
-                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6"/>
-                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f"/>
-                <characteristic name="WP" typeId="f714-1726-37d3-44df"/>
-                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77"/>
-                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b"/>
-                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Cavalary (Skirmish, Antigrav)</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">14</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">6</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">4</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">2</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">8</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">8</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">7</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64">-</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink targetId="cf96-8891-3f9a-8921" id="b50d-4d88-8a34-1159" primary="false" name="Fast Attack"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8e08-b5d8-aa2b-e9aa" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bdb6-09e6-99a5-3ba9" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="75"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon Option" id="fc82-2177-9a0c-2010" hidden="false" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Lascannon" id="88be-6763-9a75-487f" hidden="false" type="selectionEntry" targetId="b6d5-4be2-c37e-2197">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </infoLink>
+                <infoLink name="Heavy flamer" id="3925-bccb-33e6-7412" hidden="false" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+                  </costs>
+                </infoLink>
+                <infoLink name="Heavy bolter" id="98ef-7a9d-a40c-b44b" hidden="false" type="selectionEntry" targetId="bc40-b14a-978e-0232" defaultAmount="2">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+                  </costs>
+                </infoLink>
+                <infoLink name="Volkite culverin" id="9142-45c5-f92b-83a1" hidden="false" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </infoLink>
+                <infoLink name="Cyclone missile launcher" id="8a7a-cd98-a6e2-8b3e" hidden="false" type="selectionEntry" targetId="b341-159d-9dfb-ff31" sortIndex="1">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+                  </costs>
+                </infoLink>
+              </infoLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Heavy bolter" id="3a06-a1f8-9085-eda9" hidden="false" type="selectionEntry" targetId="bc40-b14a-978e-0232"/>
+            <infoLink name="[Legiones Astartes]" id="cc38-b82a-6383-5972" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="cf96-8891-3f9a-8921" id="0f65-5063-27e0-d544" primary="false" name="Fast Attack"/>
+        <categoryLink targetId="a073-2d4a-5bed-123e" id="eaa3-8ae1-fb68-c185" primary="false" name="Cavalry Model Type"/>
+        <categoryLink targetId="c504-9dfa-35d3-c98f" id="b739-103f-6616-50f6" primary="false" name="Antigrav Model Sub-Type"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="75"/>
+        <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+        <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="[Allegiance]" id="c76c-f1d9-1efc-81c5" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Predator" hidden="false" id="b0ba-83cb-f3bf-bf2e" sortIndex="64">
       <costs>
