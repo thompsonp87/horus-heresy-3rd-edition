@@ -8929,24 +8929,24 @@
             <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Weapon Option" id="fc82-2177-9a0c-2010" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="May exchange cyclone missile launcher for:" id="fc82-2177-9a0c-2010" hidden="false" sortIndex="1">
               <infoLinks>
-                <infoLink name="Lascannon" id="88be-6763-9a75-487f" hidden="false" type="selectionEntry" targetId="b6d5-4be2-c37e-2197">
+                <infoLink name="Lascannon" id="88be-6763-9a75-487f" hidden="false" type="selectionEntry" targetId="b6d5-4be2-c37e-2197" sortIndex="4">
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
                   </costs>
                 </infoLink>
-                <infoLink name="Heavy flamer" id="3925-bccb-33e6-7412" hidden="false" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86">
+                <infoLink name="Heavy flamer" id="3925-bccb-33e6-7412" hidden="false" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="2">
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
                   </costs>
                 </infoLink>
-                <infoLink name="Heavy bolter" id="98ef-7a9d-a40c-b44b" hidden="false" type="selectionEntry" targetId="bc40-b14a-978e-0232" defaultAmount="2">
+                <infoLink name="Heavy bolter" id="98ef-7a9d-a40c-b44b" hidden="false" type="selectionEntry" targetId="bc40-b14a-978e-0232" defaultAmount="2" sortIndex="3">
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
                   </costs>
                 </infoLink>
-                <infoLink name="Volkite culverin" id="9142-45c5-f92b-83a1" hidden="false" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7">
+                <infoLink name="Volkite culverin" id="9142-45c5-f92b-83a1" hidden="false" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7" sortIndex="5">
                   <costs>
                     <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
                   </costs>
@@ -8961,7 +8961,6 @@
           </selectionEntryGroups>
           <infoLinks>
             <infoLink name="Heavy bolter" id="3a06-a1f8-9085-eda9" hidden="false" type="selectionEntry" targetId="bc40-b14a-978e-0232"/>
-            <infoLink name="[Legiones Astartes]" id="cc38-b82a-6383-5972" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -8977,6 +8976,7 @@
       </costs>
       <infoLinks>
         <infoLink name="[Allegiance]" id="c76c-f1d9-1efc-81c5" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="cc38-b82a-6383-5972" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Predator" hidden="false" id="b0ba-83cb-f3bf-bf2e" sortIndex="64">
