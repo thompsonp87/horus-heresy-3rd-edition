@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="9b32-f350-6aa9-9c09" name="Legiones Astartes" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="6" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
+<catalogue library="true" id="9b32-f350-6aa9-9c09" name="Legiones Astartes" gameSystemId="sys-9fe4-1dc3-b7c2-73cf" gameSystemRevision="1" revision="7" authorName="The4D6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="https://github.com/BSData/horus-heresy-3rd-edition/issues" authorUrl="https://github.com/BSData/horus-heresy-3rd-edition/">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Rapier Battery" hidden="false" id="5e1a-86ac-b637-daf2" sortIndex="36">
       <profiles>
@@ -11022,6 +11022,129 @@
       <categoryLinks>
         <categoryLink targetId="cf96-8891-3f9a-8921" id="d57c-dca8-9b5c-b0ad" primary="true" name="Fast Attack"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Land Speeder" hidden="false" id="1be6-723f-6ea0-ae39">
+          <costs>
+            <cost name="Point(s)" typeId="9893-c379-920b-8982" value="50"/>
+            <cost name="Asset Point(s)" typeId="57e3-1031-7d4d-5ae3" value="0"/>
+            <cost name="Reaction Point(s)" typeId="c9ba-097e-c47f-ecc2" value="0"/>
+            <cost name="Auxilary Detachment(s)" typeId="3e8e-05ee-be52-12d6" value="0"/>
+            <cost name="Apex Detachment(s)" typeId="159d-855c-533d-f592" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Land Speeder" typeId="a76f-8e23-8c3e-166d" typeName="Profile" hidden="false" id="099a-1f6b-350f-6d93" publicationId="b905-0414-1057-bb34" page="102">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="50fc-9241-d4a2-045b">Cavalary</characteristic>
+                <characteristic name="M" typeId="a106-a779-d272-5e93">16</characteristic>
+                <characteristic name="WS" typeId="253c-d694-4695-c89e">4</characteristic>
+                <characteristic name="BS" typeId="0cd5-b269-e3bc-028b">4</characteristic>
+                <characteristic name="S" typeId="498f-dce1-59fd-d8d7">4</characteristic>
+                <characteristic name="T" typeId="3120-8275-e537-ecd2">5</characteristic>
+                <characteristic name="W" typeId="f5cc-79a3-d302-cc1d">3</characteristic>
+                <characteristic name="I" typeId="af9d-7db8-dc95-71c1">4</characteristic>
+                <characteristic name="A" typeId="024e-bdb1-7982-25a0">2</characteristic>
+                <characteristic name="LD" typeId="02ad-ebe6-86e7-9fd6">8</characteristic>
+                <characteristic name="CL" typeId="9cd1-0e7c-2cd6-5f2f">8</characteristic>
+                <characteristic name="WP" typeId="f714-1726-37d3-44df">7</characteristic>
+                <characteristic name="IN" typeId="29c5-925d-5b1d-1e77">7</characteristic>
+                <characteristic name="SAV" typeId="03bd-4ecb-351d-143b">3+</characteristic>
+                <characteristic name="INV" typeId="a951-a772-7ce0-0b64"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May exchange Heavy Bolter for:" id="f178-2e75-8b58-ffe0" hidden="false" sortIndex="1">
+              <entryLinks>
+                <entryLink import="true" name="Heavy flamer" hidden="false" id="650e-a983-0e50-ffa5" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="2"/>
+                <entryLink import="true" name="Heavy bolter" hidden="false" id="6d3d-7570-6f31-6363" type="selectionEntry" targetId="bc40-b14a-978e-0232" sortIndex="1"/>
+                <entryLink import="true" name="Havoc launcher" hidden="false" id="f147-a881-c7fe-b4e9" type="selectionEntry" targetId="0295-e35d-2ed6-f28a" sortIndex="3">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Multi-melta" hidden="false" id="4f14-1196-0c25-f857" type="selectionEntry" targetId="0135-12f0-d86f-ced9" sortIndex="4">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Volkite culverin" hidden="false" id="e64f-6247-8d7b-a533" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7" sortIndex="5">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Plasma cannon" hidden="false" id="dca2-31bc-ee7a-b035" type="selectionEntry" targetId="f8b8-96c8-ba31-faf8" sortIndex="6">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Graviton gun" hidden="false" id="dfc3-1cc0-62f2-da86" type="selectionEntry" targetId="4a06-c55e-a06f-bd0c">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May exchange augury scanner for:" id="ad2a-0ac1-cbe1-68f8" hidden="false" sortIndex="2">
+              <entryLinks>
+                <entryLink import="true" name="Augury scanner" hidden="false" id="7a44-5947-1766-4561" type="selectionEntry" targetId="fede-99f5-4c76-4659" sortIndex="1"/>
+                <entryLink import="true" name="Heavy flamer" hidden="false" id="c5cd-7321-9262-63b8" type="selectionEntry" targetId="4fa7-ea45-2a89-ad86" sortIndex="2">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Heavy bolter" hidden="false" id="a65e-c127-d77f-2b1c" type="selectionEntry" targetId="bc40-b14a-978e-0232" sortIndex="3"/>
+                <entryLink import="true" name="Havoc launcher" hidden="false" id="48a1-4b88-56a0-5da4" type="selectionEntry" targetId="0295-e35d-2ed6-f28a" sortIndex="4"/>
+                <entryLink import="true" name="Multi-melta" hidden="false" id="6682-e59c-dfa3-5a92" type="selectionEntry" targetId="0135-12f0-d86f-ced9" sortIndex="5">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Volkite culverin" hidden="false" id="b380-c9bd-f57d-7623" type="selectionEntry" targetId="fcf0-9c1b-d51e-6bc7" sortIndex="6">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Plasma cannon" hidden="false" id="0a19-b349-8e48-2669" type="selectionEntry" targetId="f8b8-96c8-ba31-faf8" sortIndex="7">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Graviton gun" hidden="false" id="ee2c-949a-c76b-da95" type="selectionEntry" targetId="4a06-c55e-a06f-bd0c">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Options" id="c9fa-e4a3-7c40-76d7" hidden="false" sortIndex="3">
+              <entryLinks>
+                <entryLink import="true" name="Hunter-killer missile" hidden="false" id="96b5-2d7d-7b44-d91d" type="selectionEntry" targetId="b9b7-8297-35b5-74ad">
+                  <costs>
+                    <cost name="Point(s)" typeId="9893-c379-920b-8982" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="46d1-12bb-80d4-00b2" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5826-6bbb-e2c4-4ac0" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="05d7-c915-67e1-6d61" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Point(s)" typeId="9893-c379-920b-8982" value="75"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="[Allegiance]" id="a36f-a208-5935-dac0" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
+        <infoLink name="[Legiones Astartes]" id="f780-dda7-83b9-3477" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
+        <infoLink name="Bulky (4)" id="f2e0-a73d-e200-e8d6" hidden="false" type="rule" targetId="50ad-a9a5-1f1d-9a25"/>
+        <infoLink name="Deep Strike" id="78dd-b38a-9cb1-f0ef" hidden="false" type="rule" targetId="0553-d06b-52b9-34db"/>
+        <infoLink name="Firing Protocols (2)" id="4bd2-ca62-44c8-b4f2" hidden="false" type="rule" targetId="84f2-5a93-c2eb-826f"/>
+      </infoLinks>
     </entryLink>
     <entryLink import="true" name="Sicaran" hidden="false" id="f28e-ef2e-f28c-5385" type="selectionEntry" targetId="4d65-cef9-42c6-dd2c" sortIndex="65">
       <categoryLinks>
