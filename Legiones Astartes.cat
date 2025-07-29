@@ -517,7 +517,6 @@
       <infoLinks>
         <infoLink name="[Allegiance]" id="0b5d-d2e7-1d99-e361" hidden="false" type="profile" targetId="bb66-f1f6-4d65-5a07"/>
         <infoLink name="[Legiones Astartes]" id="a930-fcce-8773-cea4" hidden="false" type="profile" targetId="641c-ca0a-7093-4525"/>
-        <infoLink name="Master of the Legion" id="cb32-9060-1eed-460f" hidden="false" type="profile" targetId="6cd2-96be-b703-6d57"/>
         <infoLink name="Bulky (X)" id="3d7f-7439-5265-2ded" hidden="true" type="rule" targetId="50ad-a9a5-1f1d-9a25">
           <comment>2</comment>
           <modifiers>
